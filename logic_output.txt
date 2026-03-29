@@ -1,0 +1,19 @@
+﻿Target: 8418 (40-49 age group)
+SSA 40-49 SR Prim: 2577
+SSA 40-49 SR Seg: 1088
+SSA 40-49 SRP Prim: 2911
+SSA 40-49 SRP Seg: 4330
+
+Combined:
+SR Prim + Seg: 3665
+SR Prim + SRP Prim: 5488
+All 4 types: 10906
+
+What about other age groups for 13-19 (Target 1308)?
+  SR 13 A 19 ANIOS PRIMERA: 349.0
+  SR 13 A 19 ANIOS SEGUNDA: 290.0
+  SRP 13 A 19 ANIOS PRIMERA: 505.0
+  SRP 13 A 19 ANIOS SEGUNDA: 803.0
+
+Could 1308 be a sum of multiple?
+  SR 13-19 Prim + SRP 13-19 Prim: 854.0

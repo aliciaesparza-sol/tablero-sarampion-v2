@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tríptico Renal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        .page {
+            width: 297mm;
+            height: 210mm;
+            padding: 0;
+            margin: 0 auto;
+            background: white;
+            display: flex;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            page-break-after: always;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .column {
+            flex: 1;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px dashed #ccc;
+            position: relative;
+        }
+
+        .column:last-child {
+            border-right: none;
+        }
+
+        h1 {
+            color: #004080;
+            font-size: 24px;
+            border-bottom: 2px solid #00a3a3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .content {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .image-container {
+            margin-top: auto;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Cover Specifics */
+        .cover {
+            background: linear-gradient(135deg, #004080 0%, #00a3a3 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .cover h1 {
+            color: white;
+            border-bottom: none;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .cover h2 {
+            font-weight: 300;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cover-img {
+            width: 100%;
+            height: 200px;
+            background: url('cover.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            backdrop-filter: blur(5px);
+        }
+
+        .footer-text {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-style: italic;
+            font-size: 12px;
+            color: #666;
+        }
+
+        @media print {
+            .page {
+                box-shadow: none;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Slide 1: Interior -->
+    <div class="page">
+        <div class="column">
+            <h1>¿QUÉ ES?</h1>
+            <div class="content">
+                <p>Es la pérdida progresiva e irreversible de la función renal, impidiendo eliminar desechos y líquidos
+                    adecuadamente.</p>
+                <h1 style="margin-top:40px">PRINCIPALES CAUSAS</h1>
+                <ul>
+                    <li>Diabetes</li>
+                    <li>Hipertensión</li>
+                    <li>Infecciones urinarias</li>
+                    <li>Medicamentos nefrotóxicos</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="lifestyle.png" alt="Lifestyle">
+            </div>
+        </div>
+        <div class="column">
+            <h1>SIGNOS Y SÍNTOMAS</h1>
+            <div class="content">
+                <ul>
+                    <li>Cansancio y debilidad</li>
+                    <li>Cambios en la orina</li>
+                    <li>Edema en pies o rostro</li>
+                    <li>Náuseas</li>
+                    <li>Comezón</li>
+                    <li>Palidez</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <h1>CUIDADOS DE ENFERMERÍA</h1>
+            <div class="content">
+                <ul>
+                    <li>Control de signos vitales</li>
+                    <li>Balance hídrico estricto</li>
+                    <li>Peso diario</li>
+                    <li>Administración correcta de medicamentos</li>
+                    <li>Vigilancia de complicaciones</li>
+                    <li>Prevención de infecciones</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="nursing.png" alt="Nursing">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Exterior -->
+    <div class="page">
+        <div class="column">
+            <h1>EDUCACIÓN AL PACIENTE</h1>
+            <div class="content">
+                <ul>
+                    <li>Apego al tratamiento</li>
+                    <li>Dieta baja en sal (según indicación médica)</li>
+                    <li>No automedicarse</li>
+                    <li>Asistir a consultas y laboratorios</li>
+                    <li>Reconocer signos de alarma</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <h1>¿CUÁNDO ACUDIR?</h1>
+            <div class="content">
+                <p>Acuda al servicio de salud si presenta:</p>
+                <ul>
+                    <li>Disminución importante de la orina</li>
+                    <li>Dificultad para respirar</li>
+                    <li>Hinchazón excesiva</li>
+                    <li>Dolor intenso</li>
+                    <li>Náuseas o vómitos persistentes</li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                "La atención oportuna mejora la calidad de vida."
+            </div>
+        </div>
+        <div class="column cover">
+            <div class="cover-img"></div>
+            <h1>ENFERMEDAD RENAL CRÓNICA</h1>
+            <h2>Cuidados de Enfermería</h2>
+            <div class="badge">
+                Prevención • Atención • Educación
+            </div>
+            <div style="margin-top: 30px; line-height: 1.4;">
+                <p style="font-size: 16px; font-weight: 600; margin-bottom: 5px;">Alumna:</p>
+                <p style="font-size: 18px; margin-top: 0;">Myriam Machado Arreola</p>
+            </div>
+            <p style="margin-top: 30px; font-size: 14px; opacity: 0.8;">Servicio de Enfermería</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

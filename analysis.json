@@ -1,0 +1,202 @@
+{
+  "JUR1": {
+    "label": "Jurisdicción No. 1 (Durango)",
+    "dias": 25,
+    "sr": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": -11740,
+      "stock_inicial": 350,
+      "stock_final": 12090,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": -11740,
+      "desfase_abs_medio": 988.8,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "03/03/2026",
+        "04/03/2026",
+        "05/03/2026",
+        "06/03/2026",
+        "09/03/2026",
+        "10/03/2026",
+        "11/03/2026"
+      ]
+    },
+    "srp": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 4712,
+      "stock_inicial": 5127,
+      "stock_final": 415,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 4712,
+      "desfase_abs_medio": 747.3,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "21/02/2026",
+        "22/02/2026",
+        "25/02/2026",
+        "27/02/2026",
+        "01/03/2026",
+        "02/03/2026",
+        "03/03/2026",
+        "04/03/2026",
+        "09/03/2026",
+        "10/03/2026",
+        "11/03/2026"
+      ]
+    }
+  },
+  "JUR2": {
+    "label": "Jurisdicción No. 2 (Santiago Papasquiaro)",
+    "dias": 25,
+    "sr": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": -5190,
+      "stock_inicial": 0,
+      "stock_final": 5190,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": -5190,
+      "desfase_abs_medio": 303.2,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "20/02/2026",
+        "21/02/2026",
+        "25/02/2026",
+        "02/03/2026",
+        "10/03/2026",
+        "11/03/2026",
+        "12/03/2026",
+        "13/03/2026"
+      ]
+    },
+    "srp": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 1025,
+      "stock_inicial": 2014,
+      "stock_final": 989,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 1025,
+      "desfase_abs_medio": 235.8,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "20/02/2026",
+        "21/02/2026",
+        "23/02/2026",
+        "24/02/2026",
+        "25/02/2026",
+        "27/02/2026",
+        "02/03/2026",
+        "03/03/2026",
+        "05/03/2026",
+        "06/03/2026",
+        "09/03/2026",
+        "10/03/2026",
+        "12/03/2026"
+      ]
+    }
+  },
+  "JUR3": {
+    "label": "Jurisdicción No. 3 (Rodeo)",
+    "dias": 25,
+    "sr": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 160,
+      "stock_inicial": 220,
+      "stock_final": 60,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 160,
+      "desfase_abs_medio": 45.6,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "25/02/2026",
+        "02/03/2026",
+        "03/03/2026"
+      ]
+    },
+    "srp": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 911,
+      "stock_inicial": 2211,
+      "stock_final": 1300,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 911,
+      "desfase_abs_medio": 264.6,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "20/02/2026",
+        "21/02/2026",
+        "25/02/2026",
+        "02/03/2026",
+        "03/03/2026",
+        "06/03/2026",
+        "09/03/2026"
+      ]
+    }
+  },
+  "JUR4": {
+    "label": "Jurisdicción No. 4",
+    "dias": 25,
+    "sr": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 712,
+      "stock_inicial": 1072,
+      "stock_final": 360,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 712,
+      "desfase_abs_medio": 168.2,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "20/02/2026",
+        "21/02/2026",
+        "25/02/2026",
+        "27/02/2026",
+        "02/03/2026",
+        "04/03/2026",
+        "05/03/2026",
+        "06/03/2026",
+        "09/03/2026"
+      ]
+    },
+    "srp": {
+      "total_aplicadas": 0,
+      "total_consumo_teorico": 235,
+      "stock_inicial": 1048,
+      "stock_final": 813,
+      "max_uno_dia": 0,
+      "fecha_max": "18/02/2026",
+      "dias_sin_aplicacion": 25,
+      "desfase_total": 235,
+      "desfase_abs_medio": 99.3,
+      "fechas_desfase_alto": [
+        "19/02/2026",
+        "23/02/2026",
+        "03/03/2026",
+        "04/03/2026",
+        "05/03/2026",
+        "06/03/2026",
+        "09/03/2026",
+        "11/03/2026"
+      ]
+    }
+  },
+  "TOTAL_ESTADO": {
+    "sr_total_aplicadas": 0,
+    "srp_total_aplicadas": 0,
+    "total_dosis": 0,
+    "periodo": "18/02/2026 - 14/03/2026",
+    "dias": 25
+  }
+}

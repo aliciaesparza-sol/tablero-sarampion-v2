@@ -1,0 +1,43 @@
+COBERTURA DE VACUNACIÓN SRP-SR SSA — DURANGO 2026,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10
+Fuente: SRP-SR-2025_22-02-2026 06-41-08.csv | Actualizado: 23/02/2026 08:14,,,,,,,,,,
+Grupo de Edad,Población 2026,Población Meta,Dosis Aplicadas (CSV),Población Susceptible,Cobertura (%),Avance Cobertura,Dosis CENSIA,Cobertura CENSIA (%),Avance CENSIA,"Susceptibles Reales
+(Metodología CENSIA)"
+6 a 11 meses,0,6335,6309,26,99.59,1,8226,129.85,1,0
+1 año,12669,12255,12335,0,100.65,1,1309,10.68,0.1068,671
+18 meses,0,12255,9107,3148,74.31,1,1050,8.57,0.0857,223
+Rezagados 2 a 12 años,0,38054,33451,4603,87.9,1,13759,36.16,0.3616,24295
+13 a 19 años,0,30841,3255,27586,10.55,0.1055,8423,27.31,0.2731,22418
+20 a 39 años,192899,96450,48603,47847,50.39,0.6964,31497,32.66,0.3265999999999999,64953
+40 a 49 años,80995,40498,18147,22351,44.81,0.6102000000000001,6083,15.02,0.1502,34415
+TOTAL DURANGO,286563,236688,131207,105481,55.43,0.937,70347,29.72,0.2972,146975
+,,,,,,,,,,
+Semaforización:,,,,,,,,,,
+Rojo: < 50% cobertura,,,,,,,,,,
+Naranja: 50% - 79%,,,,,,,,,,
+Verde: >= 80%,,,,,,,,,,
+Fuente SSA: SRP-SR-2025_22-02-2026 06-41-08.csv,,,,,,,,,,
+Fuente CENSIA: https://siscensia.salud.gob.mx/sarampion_2025/ssa/reporte.php,,,,,,,,,,
+Datos CENSIA: RDA 3er Trimestre 2025 + SIS CENSIA 1 Oct 2025 al 6 Feb 2026,,,,,,,,,,
+,,,,,,,,,,
+METODOLOGIA: Calculo de Poblacion Susceptible,,,,,,,,,,
+¿Que es la Poblacion Susceptible?,,,,,,,,,,
+"Se refiere a las personas que NO han recibido sus dosis de vacuna que les corresponde y que, por tanto, son susceptibles de contraer sarampion, rubola y parotiditis.",,,,,,,,,,
+,,,,,,,,,,
+Metodologia CENSIA (Anexo 1),,,,,,,,,,
+"Poblacion Susceptible = Poblacion META 2026  −  Dosis Aplicadas (1 enero 2025 al 6 febrero 2026)
+Cuando el resultado es negativo (mas dosis que poblacion meta), se registra como 0 (cero).",,,,,,,,,,
+,,,,,,,,,,
+Grupos de edad y sus metas,,,,,,,,,,
+"• 6 a 11 meses: 50% de los menores de 1 anio estimados para 2026 (6,335 personas)
+• 1 anio: Cohorte de nacidos en 2025 estimados para 2026 (12,255 personas)
+• 18 meses: Misma cohorte que 1 anio, para la segunda dosis (12,255 personas)
+• Rezagados 2 a 12 anios: Poblacion pendiente de esquema de 2 a 12 anios (38,054 personas)
+• 13 a 19 anios: Adolescentes susceptibles (30,841 personas)
+• 20 a 39 anios: Adultos jovenes (96,450 personas, 50% de la poblacion total del grupo)
+• 40 a 49 anios: Adultos (40,498 personas, 50% de la poblacion total del grupo)",,,,,,,,,,
+,,,,,,,,,,
+Fuentes,,,,,,,,,,
+"• Dosis SSA (linea verde/azul): SRP-SR-2025_22-02-2026 06-41-08.csv
+• Dosis CENSIA (linea vino): Anexo 1 - RDA 3er Trimestre 2025 + SIS CENSIA 1 Oct 2025 al 6 Feb 2026
+  https://siscensia.salud.gob.mx/sarampion_2025/ssa/reporte.php
+• Poblacion Susceptible Real: Hoja ""Susceptibles"" del Anexo 1, datos de Durango",,,,,,,,,,

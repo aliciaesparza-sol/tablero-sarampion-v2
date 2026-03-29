@@ -1,0 +1,138 @@
+--- S0 ---
+[CuadroTexto 11] SARAMPIÓN: CLÍNICA Y VACUNACIÓN PROGRAMA DE VACUNACIÓN UNIVERSAL Durango, Dgo., 17 de febrero del 2026
+
+--- S1 ---
+[CuadroTexto 11] Antecedentes  históricos  PROGRAMA DE VACUNACIÓN UNIVERSAL
+
+--- S2 ---
+[TextBox 3] Fuente: Material académico + OMS/OPS
+
+--- S3 ---
+[TextBox 3] Fuente: Material académico + OMS/OPS
+
+--- S4 ---
+[TextBox 3] Fuente: Material académico + OMS/OPS
+
+--- S5 ---
+[TextBox 3] Fuente: Material académico + OMS/OPS
+
+--- S6 ---
+
+--- S7 ---
+
+--- S8 ---
+[CuadroTexto 11] SARAMPIÓN, PRESENTACIÓN CLÍNICA  PROGRAMA DE VACUNACIÓN UNIVERSAL
+
+--- S9 ---
+[Título 1] Características generales
+[CuadroTexto 7] Naureckas C. Kaplan S, Edwards J. et al. Pediatrics 2025 Moss W, 
+[TextBox 8]  Fuente: OPS
+
+--- S10 ---
+[Título 6] Historia natural
+[CuadroTexto 11] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S11 ---
+[Título 1] Manchas de Koplik
+[Marcador de contenido 2] Pápulas blanco- azuladas sobre fondo eritematoso Se presentan 24 a 48 horas antes del exantema. Duración de 2 a 3 días Tradicionalmente se consideran patognomónicas. Presentes en 60-70%
+[CuadroTexto 5] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S12 ---
+[Título 1] Inicio y distribución del exantema
+[CuadroTexto 4] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S13 ---
+[CuadroTexto 8] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S14 ---
+[Título 1] Variantes Clínicas
+[CuadroTexto 4] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S15 ---
+[Título 1] Complicaciones
+[CuadroTexto 6] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S16 ---
+[Marcador de contenido 2] 
+[CuadroTexto 5] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S17 ---
+[Título 1] Mortalidad
+[CuadroTexto 10] Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+
+--- S18 ---
+[Título 3] DIAGNÓSTICO DIFERENCIAL
+
+--- S19 ---
+[Título 1] Rubeola
+
+--- S20 ---
+[Título 1] Escarlatina (S. pyogenes)
+
+--- S21 ---
+[Título 1] Adenovirus
+
+--- S22 ---
+[Título 1] Enfermedad de Kawasaki
+
+--- S23 ---
+[Título 1] Dengue
+
+--- S24 ---
+[Título 1] ¿Qué se hace al sospechar un caso?
+
+--- S25 ---
+[Título 1] Manejo de casos sospechosos¿Qué hacer en la consulta?
+[Rectángulo 6] Ambulatorio:  Egreso con recomendaciones de aislamiento (permanecer en el domicilio hasta cumplir 7 días del inicio del exantema  con ventilación  de espacios cerrados y uso de cubrebocas para mayores de 2 años.
+[Rectángulo 7] Hospitalización:  Traslado a ambiente aislado.
+
+--- S26 ---
+[Título 1] Importancia del algoritmo local
+
+--- S27 ---
+[CuadroTexto 11] VACUNACIÓN  PROGRAMA DE VACUNACIÓN UNIVERSAL
+
+--- S28 ---
+[Título 1] Esquema de acuerdo a los Lineamientos Generales del Programa de Vacunación Universal
+[CuadroTexto 5] PVU, 2025
+
+--- S29 ---
+
+--- S30 ---
+
+--- S31 ---
+[CuadroTexto 5] Contraindicaciones y precauciones | Vacunas e inmunizaciones | CDC
+
+--- S32 ---
+[CuadroTexto 3] Contraindicaciones y precauciones | Vacunas e inmunizaciones | CDC
+
+--- S33 ---
+[Título 1] Conclusiones:
+[Marcador de contenido 2] Identificación oportuna Aislamiento oportuno Notificación y seguimiento de contactos Educación continua al personal Vacunación
+[Flecha: a la derecha 3] 
+[CuadroTexto 4] Evita brotes
+
+--- S34 ---
+[Título 1] 
+[Marcador de contenido 2]      GRACIAS
+
+--- S35 ---
+[Título 1] Preguntas y respuestas
+[Marcador de contenido 2] ¿Se puede aplicar la vacuna durante la lactancia? Respuesta: Si 
+[Rectángulo 5] 
+
+--- S36 ---
+[Título 1] Preguntas y respuestas
+[Marcador de contenido 2] ¿Se puede aplicar la vacuna durante la lactancia?
+
+--- S37 ---
+[Título 1] Preguntas y respuestas
+[Marcador de contenido 2] ¿Riesgo de orquitis por vacuna SRP en varones?
+[CuadroTexto 4] Riesgo de Orquitis testicular por Parotiditis natural. Incidencia en hombres postpuberales: Aproximadamente 1 de cada 5 hombres (20%) que contraen paperas pueden desarrollar orquitis.  - Riesgo de infertilidad: Aunque la orquitis asociada a las paperas puede aumentar el riesgo de infertilidad, no todos los casos de orquitis llevan a infertilidad. CDC, 2024
+[CuadroTexto 6] La incidencia de orquitis asociada a la vacuna triple vírica (SRP) es de aproximadamente 0,1 a 0,2 casos por cada 1.000 dosis administradas. Esto sugiere que el riesgo de desarrollar orquitis después de recibir la vacuna SRP es muy bajo. La mayoría de las reacciones adversas asociadas a la vacuna SRP son leves y transitorias. CDC, 2024
+
+--- S38 ---
+[Título 1] Preguntas y respuestas
+[Marcador de contenido 2] Si mi hijo tiene 15 años y tiene esquema completo de SRP, ¿debo aplicarle dosis de SR? Respuesta: Si  “Si bien la vacuna SRP proporciona una protección eficaz contra Sarampión, Rubeola y Paperas para la mayoría de las personas, la inmunidad puede disminuir con el tiempo en algunas personas. Es posible que ya no estén protegidas contra esta enfermedad más adelante en la vida.”
+[CuadroTexto 3] CDC,2024
+

@@ -1,0 +1,69 @@
+{
+  "c:\\Users\\aicil\\OneDrive\\Escritorio\\PVU\\SARAMPIÓN\\EXISTENCIAS SRP Y SR\\EXISTENCIAS_SRP_SR_POR_DIA.xlsx": {
+    "Detalle por Jurisdicción": [
+      "FECHA",
+      "SECCIÓN",
+      "SR ALMACÉN",
+      "SR PUNTOS",
+      "SRP ALMACÉN",
+      "SRP PUNTOS",
+      "TOTAL SR",
+      "TOTAL SRP"
+    ],
+    "Resumen ": [
+      "FECHA",
+      "SR ALMACÉN",
+      "SR PUNTOS",
+      "TOTAL SR",
+      "SRP ALMACÉN",
+      "SRP PUNTOS",
+      "TOTAL SRP",
+      "GRAN TOTAL"
+    ],
+    "Análisis Almacenes": [
+      "ANÁLISIS DE CONSUMO EN ALMACENES ESTATALES",
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5"
+    ],
+    "Análisis Puntos": [
+      "ANÁLISIS DE CONSUMO EN PUNTOS DE VACUNACIÓN",
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5"
+    ]
+  },
+  "c:\\Users\\aicil\\OneDrive\\Escritorio\\PVU\\SARAMPIÓN\\INFORME\\INF MÓDULOS EXISTENCIAS DOSIS APLICADAS\\INF MÓDULOS EXISTENCIAS DOSIS APLICADAS 10.03.2026.xlsx": {
+    "Operación de puntos": [
+      "CLUES ",
+      "Nombre de la sede",
+      "Municipio",
+      "Colonia",
+      "Calle",
+      "Código Postal",
+      "Número exterior",
+      "Entre calles",
+      "Latitud",
+      "Longitud",
+      "Horario de atención (intervalo hh:mm)",
+      "Días de atención (selección múltiple)",
+      "Existencia de biológicos (selección múltiple)",
+      "Activo"
+    ],
+    "Existencias en puntos": [
+      "Tipo de biológico",
+      "Existencias de vacunas en almacenes",
+      "Existencias de vacunas en puntos de vacunación",
+      "Unnamed: 3"
+    ],
+    "Aplicación diaria": [
+      "Día de aplicación",
+      "Aplicaciones SR (Doble viral contra sarampión) el día reportado",
+      "Aplicaciones SRP (Triple viral contra sarampión) el día reportado"
+    ]
+  }
+}

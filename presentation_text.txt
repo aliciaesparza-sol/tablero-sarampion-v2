@@ -1,0 +1,3690 @@
+
+--- ppt/slides/slide1.xml ---
+HISTORIA CLÍNICA
+DRA. ALICIA ESPARZA ALDABA
+
+--- ppt/slides/slide2.xml ---
+Unidad 1
+UNIDAD
+ 
+TEMÁTICA
+1. Historia clínica
+ 
+pediátrica.
+UNIDAD 
+DE  
+C
+O
+M
+PE
+T
+E
+NC
+IA
+Identifica, y comprende las 
+características
+ 
+de  la Historia clínica
+ 
+pediátrica.
+Elabora la Historia clínica
+ 
+pediátrica.
+ACTITUDES
+ 
+Y  
+VALORES
+Respeto, 
+compromiso, 
+puntualidad,
+ 
+pulcritud,  responsabilidad, interés, 
+cooperación,  participación, honestidad, asertividad 
+y  creatividad.
+
+--- ppt/slides/slide3.xml ---
+Compilación de información obtenida de:
+11/02/2026
+
+--- ppt/slides/slide4.xml ---
+Conjunto único de información y datos personales de un paciente que se integra dentro de todo tipo de establecimiento médico, el cual consta de documentos escritos, gráficos, imagenológicos, electrónicos o cualquier otra índole, en los cuales el personal de salud deberá hacer los registros, anotaciones, constancias y certificaciones correspondientes a su intervención en la atención médica del paciente en apego a las disposiciones jurídicas aplicables.
+Definición de expediente clínico
+NORMA Oficial Mexicana NOM-004-SSA3-2012, Del expediente clínico.
+
+--- ppt/slides/slide5.xml ---
+Criterios de calidad y cumplimiento normativo
+NORMA Oficial Mexicana NOM-004-SSA3-2012, Del expediente clínico.
+
+--- ppt/slides/slide6.xml ---
+¿Cuál es la importancia de la Historia Clínica Pediátrica?
+
+--- ppt/slides/slide7.xml ---
+La historia clínica pediátrica difiere de la del adulto de los 0 a los 6 años.
+Interrogatorio mixto
+APNP
+Alimentación
+Edad de acuerdo al grupo etario
+Esta foto
+ de Autor desconocido está bajo licencia 
+CC BY-SA-NC
+Esta foto
+ de Autor desconocido está bajo licencia 
+CC BY-NC-ND
+
+--- ppt/slides/slide8.xml ---
+FICHA DE IDENTIFICACIÓN
+N
+ombre
+Edad
+Dentro del primer mes – días 7/30
+Primeros meses – meses y días (4/12, 4m 5/30
+Primero años – años y meses (2ª 5m)
+EDAD CRONOLÓGICA
+EDAD CORREGIDA
+
+--- ppt/slides/slide9.xml ---
+EDAD CRONOLÓGICA
+
+--- ppt/slides/slide10.xml ---
+EDAD CRONOLÓGICA
+11/02/2026
+
+--- ppt/slides/slide11.xml ---
+Fecha 
+nac
+: 31 de agosto del 2021
+Fecha de 
+eval
+: 1 de enero del 2023
+                                          año                 mes                  día
+Fecha de evaluación        2023          01-1=0+12          1+30=31
+Fecha de nacimiento        2021                08                   31   
+                                               1 a                 4m                     0 d     
+11/02/2026
+
+--- ppt/slides/slide12.xml ---
+EDAD CORREGIDA
+Niños menores de 2 años
+PREMATUROS (RN < 37 SDG)
+¿Cómo se calcula?
+Restar a 40 el núm. de SDG
+Multiplicar el resultado por 7 (núm. de días de la semana).
+Restar el núm. de días a la edad cronológica.
+
+--- ppt/slides/slide13.xml ---
+EDAD CORREGIDA
+Si el paciente del ejem 2, a quién se calculó una edad cronológica de 8 meses 6 días, nació a las 34 SDG, se hace de la siguiente forma: 
+40 - 34 = 6 semanas. 
+Para convertir las semanas resultantes a días, se multiplican por 7: 6 x 7 = 42 días. 
+Para corregir la edad, se deben restar los 42 días a la edad cronológica:
+
+--- ppt/slides/slide14.xml ---
+EJERCICIOS
+#1
+AÑO
+M
+E
+S
+DÍAS
+FECHA	
+DE
+EVALUACIÓN
+2017
+10
+25
+FECHA	
+DE
+NACIMIENTO
+2016
+8
+15
+EDAD
+CRONOLÓGICA
+1
+2
+10
+#2
+AÑO
+MES
+DÍAS
+FECHA	
+DE
+EVALUACIÓN
+2017
+10 
+– 
+1 =
+ 
+9
+25 
++ 30 =
+ 
+55
+FECHA	
+DE
+NACIMIENTO
+2016
+8
+30
+EDAD
+CRONOLÓGICA
+1
+1
+25
+# 3 
+Paciente 
+de 
+32
+ 
+SDG
+AÑO
+MES
+DÍAS
+FECHA	
+DE
+EVALUACIÓN
+2018 
+– 
+1
+ 
+=
+2017
+05 
+– 
+1 = 
+4 
++
+ 
+12
+=
+ 
+16
+5 
++ 30
+ 
+=35
+FECHA	
+DE
+NACIMIENTO
+2017
+8
+15
+EDAD
+CRONOLÓGICA
+8 
+- 2 =
+ 
+6
+20 
++ 60 =
+ 
+80
+56
+EDAD
+ 
+CORREGIDA
+6
+24
+
+--- ppt/slides/slide15.xml ---
+#4   
+Paciente
+ 
+de 
+36
+ 
+SDG
+AÑO
+MES
+DÍAS
+FECHA	
+DE
+EVALUACIÓN
+2019 
+– 
+1
+ 
+=
+2018
+05 
+– 
+1 = 4 +
+ 
+12
+=
+ 
+16
+5 
++ 30 =
+ 
+35
+FECHA	
+DE
+NACIMIENTO
+2017
+8
+15
+EDAD
+CRONOLÓGICA
+1
+8 
+– 
+1 =
+ 
+7
+20 
++ 30 =
+ 
+50
+28
+EDAD
+ 
+CORREGIDA
+1
+7
+22
+
+--- ppt/slides/slide16.xml ---
+#5   
+Paciente
+ 
+de 
+3
+1
+ 
+SDG
+AÑO
+MES
+DÍAS
+FECHA	
+DE
+EVALUACIÓN
+20
+23
+ 
+07
+ 
+– 1 =6
+27 
++30= 57
+FECHA	
+DE
+NACIMIENTO
+2023
+05
+30
+EDAD
+CRONOLÓGICA
+0
+1
+ 
+– 
+1 =
+ 
+0
+27
+ 
++ 30 =
+ 
+5
+7
+63
+EDAD
+ 
+CORREGIDA
+0
+0
+- 6 DÍAS
+
+--- ppt/slides/slide17.xml ---
+FICHA DE IDENTIFICACIÓN
+Interrogatorio: 
+directo, indirecto, mixto
+Nombre de quien responde y parentesco
+Fecha de nacimiento
+Lugar de nacimiento
+Residencia
+Religión
+Escolaridad
+
+--- ppt/slides/slide18.xml ---
+ANTECEDENTES HEREDO FAMILIARES
+*Son similares a los del adulto
+11/02/2026
+
+--- ppt/slides/slide19.xml ---
+ANTECEDENTES PRENATALES
+Control prenatal
+Infecciones prenatales
+IVU
+CV
+TORCH
+RPM
+Estado nutricional
+Número de gestas
+Enfermedades maternas
+DM
+HTA
+Epilepsia
+Medicamentos antes o durante el embarazo
+Gpo
+. Sanguíneo materno
+Inmunizaciones
+11/02/2026
+APNP
+
+--- ppt/slides/slide20.xml ---
+CONTROL PRENATAL
+11/02/2026
+
+--- ppt/slides/slide21.xml ---
+11/02/2026
+vs
+
+--- ppt/slides/slide22.xml ---
+11/02/2026
+CONTRO PRENATAL
+
+--- ppt/slides/slide23.xml ---
+INFECCIONES PRENATALES
+¿Por qué es importante?
+Porque son causa importante de 
+morbi
+ y mortalidad materna y fetal.
+11/02/2026
+
+--- ppt/slides/slide24.xml ---
+INMUNIZACIONES  EN EL EMBARAZO
+11/02/2026
+
+--- ppt/slides/slide25.xml ---
+Tdpa
+ 
+4ta 
+do
+ 
+al 
+año
+de 
+la
+ 
+3ra.
+ 
+5ta 
+do
+ 
+al 
+año  de 
+la
+ 
+4ta.
+*
+Si 
+durante 
+el 
+embarazo 
+se 
+produce 
+una 
+herida susceptible 
+de 
+recibir 
+una 
+dosis  
+de 
+vacuna 
+antitetánica, 
+se 
+administrará 
+la vacuna 
+Tdpa 
+y 
+la gammaglobulina  
+antitetánica 
+si 
+está
+ 
+indicada.
+Guía 
+de 
+Práctica 
+Clínica 
+GPC 
+Catálogo 
+maestro 
+de 
+guías 
+de 
+práctica 
+clínica:
+ 
+IMSS-580-12
+*A partir de la SDG 20
+
+--- ppt/slides/slide26.xml ---
+INFLUENZA
+Una 
+mujer 
+embarazada 
+con  
+Influenza 
+tiene 
+un 
+riesgo 
+de
+ 
+muerte:
+23.5 % 
+entre 
+el 
+1° 
+y 2°
+ 
+trimestre
+8.2% 
+entre 
+el 
+2° 
+y 3°
+ 
+trimestre
+Complicaciones
+ 
+fetales:
+Aborto
+Lesiones 
+hipóxico 
+–
+ 
+isquémicas
+Parto
+ pretérmino
+Actualmentre
+ hay dos tipos
+ 
+de  
+vacuna:
+TIV –
+ 
+IM
+LAIV -
+ 
+intranasal
+*En cualquier trimestre del embarazo
+
+--- ppt/slides/slide27.xml ---
+11/02/2026
+Vacuna 
+Hep
+ B 
+
+--- ppt/slides/slide28.xml ---
+11/02/2026
+COVID - 19
+Perinatal 
+SARS-CoV-2 Infection and Neonatal COVID-19: 
+Deepika 
+Sankaran, 
+et 
+al  
+NeoReviews 
+May 
+2021, 
+22 
+(5) 
+e284-e295; 
+DOI:
+ 
+https://doi.org/10.1542/neo.22-5-e1001
+
+--- ppt/slides/slide29.xml ---
+11/02/2026
+
+--- ppt/slides/slide30.xml ---
+11/02/2026
+La 
+vacuna 
+triple 
+vírica 
+(SRP) 
+o 
+aquellas 
+con 
+componentes 
+de  
+sarampión
+,
+NO 
+en
+ 
+embarazadas
+Se 
+recomienda 
+previa al 
+embarazo, 
+no 
+embarazarse 
+dentro 
+del 
+mes  
+siguiente.
+Si 
+quedara 
+embarazada 
+dentro 
+del 
+mes 
+posterior 
+a 
+la aplicación, 
+se 
+le  
+explican 
+los 
+motivos 
+de 
+explicación 
+pero 
+no 
+es
+ 
+una 
+indicación 
+de  
+interrupción 
+del
+ 
+embarazo.
+Vacuna 
+antirrábica: 
+solo 
+mujer 
+expuesta 
+al virus 
+de 
+la
+ 
+rabia
+VPH
+: 
+No 
+se
+ 
+recomienda
+VACUNACIÓN EN SITUACIONES 
+PARTICULARES
+
+--- ppt/slides/slide31.xml ---
+ANTECEDENTES PERSONALES NO PATOLÓGICOS 
+11/02/2026
+ANTECEDENTES NATALES 
+(INICIO DEL TRABAJO DE PARTO HASTA EL NACIMIENTO)
+
+--- ppt/slides/slide32.xml ---
+ANTECEDENTES PERSONALES NO PATOLÓGICOS 
+11/02/2026
+ANTECEDENTES POSNATALES 
+(DESDE EL NACIMIENTO HASTA LOS 7 DÍAS DE VIDA)
+
+--- ppt/slides/slide33.xml ---
+APGAR
+La puntuación se ve afectada por:
+Edad gestacional
+Medicamentos en la madre
+RCP del bebe
+Condición neurológica del bebe
+No predice daño neurológico
+
+--- ppt/slides/slide34.xml ---
+TAMICES NEONATALES
+11/02/2026
+NORMA 
+Oficial 
+Mexicana NOM-034-SSA2-2013, Para 
+la 
+prevención 
+y 
+control 
+de los 
+defectos 
+al
+ 
+nacimiento
+
+--- ppt/slides/slide35.xml ---
+11/02/2026
+NORMA 
+Oficial 
+Mexicana NOM-034-SSA2-2013, Para 
+la 
+prevención 
+y 
+control 
+de los 
+defectos 
+al 
+nacimiento  
+García
+ 
+Flores
+ 
+EP,
+ 
+et
+ 
+al.
+ 
+Avances
+ 
+y
+ 
+logros
+ 
+del
+ 
+programa
+ 
+de 
+tamiz
+ 
+metabólico
+ 
+neonatal
+ 
+en
+ 
+México
+ 
+(2012-2018)Acta
+ 
+Pediatrica
+ 
+Mex.
+ 
+2018
+TAMIZ METABOLICO
+ NEONATAL 
+ERRORES INNATOS 
+DEL METABOLISMO
+
+--- ppt/slides/slide36.xml ---
+11/02/2026
+
+--- ppt/slides/slide37.xml ---
+11/02/2026
+
+--- ppt/slides/slide38.xml ---
+ASPECTO NORMATIVO
+11/02/2026
+6 
+ENFERMEDADES
+
+--- ppt/slides/slide39.xml ---
+ASPECTOS IMPORTANTES A CONSIDERAR ANTES DE UNA TOMA DE MUESTRA - ALIMENTACIÓN
+11/02/2026
+Tamiz 
+Neonatal 
+Detección, Diagnóstico, 
+Tratamiento 
+y Seguimiento 
+de 
+los 
+Errores 
+Innatos 
+del Metabolismo
+ 
+Lineamiento
+Técnico
+ 
+2010
+
+--- ppt/slides/slide40.xml ---
+ASPECTOS IMPORTANTES A CONSIDERAR ANTES DE UNA TOMA DE MUESTRA – SITUACIONES ESPECIALES
+11/02/2026
+Tamiz 
+Neonatal 
+Detección, Diagnóstico, 
+Tratamiento 
+y Seguimiento 
+de 
+los 
+Errores 
+Innatos 
+del Metabolismo
+ 
+Lineamiento Técnico 2010
+
+--- ppt/slides/slide41.xml ---
+11/02/2026
+Tamiz 
+Neonatal 
+Detección, Diagnóstico, 
+Tratamiento 
+y Seguimiento 
+de 
+los 
+Errores 
+Innatos 
+del Metabolismo
+ 
+Lineamiento
+Técnico
+ 
+2010
+
+--- ppt/slides/slide42.xml ---
+TOMA DE LA MUESTRA
+11/02/2026
+Recomendaciones 
+de 
+Blumenfeld 
+para 
+realizar  
+la punción 
+del
+ 
+talón:
+La 
+punción 
+debe 
+hacerse 
+en 
+la 
+porción 
+más  
+lateral 
+de 
+la 
+superficie 
+plantar 
+del
+ 
+talón.
+No 
+debe 
+exceder 
+de 
+2.4 
+mm 
+de
+ 
+profundidad.
+No 
+debe 
+hacerse 
+en 
+la 
+curvatura 
+posterior  
+del
+ 
+talón.
+No 
+debe 
+hacerse 
+en 
+sitios previamente  
+puncionados, 
+pues 
+se 
+consideran  
+potencialmente
+ 
+infectados.
+
+--- ppt/slides/slide43.xml ---
+11/02/2026
+
+--- ppt/slides/slide44.xml ---
+PROGRAMA DE TAMIZ AUDITIVO
+11/02/2026
+
+--- ppt/slides/slide45.xml ---
+EPIDEMIOLOGÍA
+11/02/2026
+PROBLEMA DE 
+SALUD PÚBLICA
+
+--- ppt/slides/slide46.xml ---
+CONSIDERACIONES
+11/02/2026
+El desarrollo óptimo del lenguaje termina a los cinco años de edad 
+La hipoacusia tiene impacto negativo en el desarrollo del lenguaje oral y escrito.
+Un niño que no percibe sonidos padecerá consecuencias en su desarrollo e integración en las áreas: Familiar, intelectual, educativa, social, emocional y económica, durante toda su vida.
+El costo económico de una pérdida congénita de la audición a través de la vida está estimada sobre 1 millón de dólares.
+
+--- ppt/slides/slide47.xml ---
+
+--- ppt/slides/slide48.xml ---
+Objetivos 
+específicos
+
+--- ppt/slides/slide49.xml ---
+NIÑOS DE ALTO RIESGO
+Waardenburg
+
+--- ppt/slides/slide50.xml ---
+PROCEDIMIENTO
+Para 
+realizarlo 
+el 
+paciente  
+debe 
+estar  
+tranquilo, 
+de 
+preferencia
+ 
+dormido.
+La 
+duración 
+es 
+de 
+cinco 
+a 
+diez
+ 
+minutos.
+Se 
+coloca 
+una 
+sonda 
+en 
+el 
+oído 
+del 
+paciente  
+y 
+el 
+equipo 
+emite 
+unos 
+sonidos 
+y 
+mide 
+la  
+respuesta 
+del 
+oído
+ 
+interno.
+Puede 
+realizarse 
+desde 
+la 
+primer 
+semana 
+de  
+vida
+
+--- ppt/slides/slide51.xml ---
+Las 
+emisiones
+ otoacústicas 
+son 
+respuestas "pre 
+neurales", 
+es 
+decir, 
+de  células ciliadas que 
+están 
+ubicadas 
+"antes" 
+de 
+las 
+células 
+ganglionares. 
+Por 
+lo 
+tanto, 
+si 
+hay  
+lesiones 
+en el 
+tronco cerebral 
+o 
+en 
+la 
+corteza, 
+las 
+emisiones 
+serán 
+normales 
+aunque 
+el 
+paciente  
+no
+ 
+escuche.
+
+--- ppt/slides/slide52.xml ---
+11/02/2026
+Guía 
+de 
+práctica 
+clínica, 
+Hipoacusia 
+Neurosensorial 
+Bilateral 
+e 
+Implante
+ 
+Coclear
+ h
+ttp://www.imss.gob.mx
+Algoritmo de detección de hipoacusia neonatal
+
+--- ppt/slides/slide53.xml ---
+11/02/2026
+
+--- ppt/slides/slide54.xml ---
+TAMIZ NEONATAL CARDIACO
+11/02/2026
+
+--- ppt/slides/slide55.xml ---
+EPIDEMIOLOGÍA
+Principal padecimiento congénito registrado en el país.
+2° causa de mortalidad en pacientes de 1 a 12 meses en países con índice socio demográfico medio.
+El 1 de junio del 2021, en el Diario Oficial de la Federación se publicó la reforma al artículo 61 de la Ley General de Salud, en la cual se establece la obligatoriedad en México de la realización del tamiz neonatal cardiaco (TNC) a todos los recién nacidos, a fin de diagnosticar en forma oportuna cardiopatías congénitas críticas (CCC) en las primeras horas del nacimiento.
+Dirección general de información en salud 2023
+
+--- ppt/slides/slide56.xml ---
+TAMIZ NEONATAL CARDIACO
+11/02/2026
+Método no invasivo que puede 
+Dx
+ 92% CCC, reduce el 33% de muertes infantiles.
+Sensibilidad 70%, 
+Específicidad
+ 99.%
+
+--- ppt/slides/slide57.xml ---
+OXIMETRÍA DE PULSO
+11/02/2026
+*La proporción de falsos positivos se incrementa a mayor altitud
+TAMIZ NEONATAL CARDIACO
+DGO- 1980 M
+EL SALTO- 2580 M
+
+--- ppt/slides/slide58.xml ---
+RECOMENDACIONES
+11/02/2026
+
+--- ppt/slides/slide59.xml ---
+¿CÓMO SE REALIZA EL TAMIZ NEONATAL CARDIACO?
+11/02/2026
+
+--- ppt/slides/slide60.xml ---
+RESULTADO
+11/02/2026
+Jesús De Rubens-Figueroa, Tamiz Neonatal Cardiaco en México, 
+Gac
+ 
+Med
+ Mex. 2022;158:67-71
+
+--- ppt/slides/slide61.xml ---
+RESULTADO
+11/02/2026
+Jesús De Rubens-Figueroa, Tamiz Neonatal Cardiaco en México, 
+Gac
+ 
+Med
+ Mex. 2022;158:67-71
+
+--- ppt/slides/slide62.xml ---
+TAMIZ OFTALMOLOGICO
+11/02/2026
+El 24 de abril del 2013, en el Diario Oficial de la Federación, dentro de la Ley General de Salud, en el capítulo V: Atención Materno-Infantil, artículo 61, fracción IV, se publicó: "La aplicación del tamiz oftalmológico neonatal, a la cuarta semana del nacimiento, para la detección temprana de malformaciones que puedan causar ceguera, y su tratamiento, en todos sus grados"
+NOM-034-SSA2-2013, Para la prevención y control de los defectos al nacimiento
+
+--- ppt/slides/slide63.xml ---
+TAMIZ ORTOPÉDICO
+11/02/2026
+
+--- ppt/slides/slide64.xml ---
+EPIDEMIOLÓGIA
+11/02/2026
+?
+
+--- ppt/slides/slide65.xml ---
+Problemática actual
+11/02/2026
+Factores de riesgo
+Sexo femenino 1/35 nacimientos 5:1 M:H
+Historia familiar de DC incrementa el riesgo 10-25%
+Anormalidades músculo esqueléticas al nacimiento: 
+Torticulis
+ congénita, metatarso aducto, calcáneo valgo y pie 
+equinovaro
+ aducto congénito.
+Presentación pélvica al nacimiento
+Oligohidramnios
+Envolver al RN con las extremidades en extensión y aducción
+
+--- ppt/slides/slide66.xml ---
+11/02/2026
+
+--- ppt/slides/slide67.xml ---
+Proyecto en atención de Salud de la DC
+11/02/2026
+
+--- ppt/slides/slide68.xml ---
+PROPUESTA:
+El 
+Dx
+ oportuno y atención temprana de la DDC se debe realizar en la 1ra semana del nacimiento mediante EF dirigida, con revisiones posteriores a los 2, 4, 6 y 12 meses. 
+Tomando en cuenta la EF y factores de riesgo asociados se tiene que realizar USG de cadera previo a los 2 meses de edad, considerando la edad máxima para dicho estudio los 4 meses. En los pacientes mayores de 4 meses se debe tomar una 
+Rx
+ anteroposterior de pelvis. 
+11/02/2026
+
+--- ppt/slides/slide69.xml ---
+ALGORITMO
+11/02/2026
+
+--- ppt/slides/slide70.xml ---
+11/02/2026
+
+--- ppt/slides/slide71.xml ---
+ESQUEMA DE VACUNACIÓN
+11/02/2026
+
+--- ppt/slides/slide72.xml ---
+11/02/2026
+EVALUACIÓN DEL NEURODESARROLLO
+
+--- ppt/slides/slide73.xml ---
+11/02/2026
+
+--- ppt/slides/slide74.xml ---
+CARACTERISTICAS DEL NEURODESARROLLO
+11/02/2026
+García 
+Pérez 
+MA, 
+Martínez 
+Granero 
+MA. 
+Desarrollo 
+piscomotor 
+y 
+signos 
+de 
+alarma. 
+En: 
+AEPap 
+(ed.). 
+Curso 
+de  
+Actualización 
+Pediatría 2016. 
+Madrid: 
+Lúa 
+Ediciones 
+3.0; 
+2016. 
+p.
+ 
+81-93.
+
+--- ppt/slides/slide75.xml ---
+11/02/2026
+¿PORQUÉ EVALUAR EL NEURODESARROLLO?
+HABILITACIÓN
+En el programa de habilitación intentarán no recuperar la capacidad pérdida, si no habilitar al niño en las actividades que no ha podido conseguir en lenguaje, cognitivo y social
+
+--- ppt/slides/slide76.xml ---
+11/02/2026
+INMADUREZ SNC, FALLA EN EL DESARROLLO
+DEFINICIÓN
+ADQUISICIÓN DE HABILIDAD FISICA, COGNITIVA, EMOCIONAL Y CONDUCTUAL
+REFLEJOS 
+POSTURALES
+
+--- ppt/slides/slide77.xml ---
+EVOLUCIÓN DE LOS REFLEJOS
+11/02/2026
+RESPUESTA
+ 
+ADAPTATIVA
+CONTROL 
+MOTOR
+ 
+VOLUNTARIO
+ACTIVIDADES
+ 
+ESPECÍFICAS
+Reacciones 
+de  
+en
+d
+e
+r
+e
+za
+mi
+e
+n
+t
+o
+R.
+ Equilibrio
+Respuesta
+postural
+automática
+
+--- ppt/slides/slide78.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. HOCIQUEO O BUSQUEDA
+R. SUCCIÓN
+DESDE 34 SDG
+
+--- ppt/slides/slide79.xml ---
+11/02/2026
+
+--- ppt/slides/slide80.xml ---
+11/02/2026
+REFLEJOS PRIMITIVOS
+Aparece 12 SDG 
+Se activa cuando el bebe siente que cae de espaldas o con un ruido fuerte hay una sacudida y extensión de los brazos.
+Se integra a los 4 m 
+X 
+Lesión de plexo braquial,
+
+--- ppt/slides/slide81.xml ---
+11/02/2026
+
+--- ppt/slides/slide82.xml ---
+PARÁLISIS DEL PLEXO BRAQUIAL
+11/02/2026
+
+--- ppt/slides/slide83.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+REFLEJO  
+PALMAR
+
+--- ppt/slides/slide84.xml ---
+11/02/2026
+
+--- ppt/slides/slide85.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. BABKIN
+
+--- ppt/slides/slide86.xml ---
+11/02/2026
+
+--- ppt/slides/slide87.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. HANS PULLING
+
+--- ppt/slides/slide88.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. TÓNICO AS
+ÍMÉTRICO
+CERVICAL
+
+--- ppt/slides/slide89.xml ---
+11/02/2026
+
+--- ppt/slides/slide90.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. GALANT
+
+--- ppt/slides/slide91.xml ---
+11/02/2026
+
+--- ppt/slides/slide92.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. TONICO LABERINTICO
+
+--- ppt/slides/slide93.xml ---
+11/02/2026
+
+--- ppt/slides/slide94.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. DE LANDAU
+
+--- ppt/slides/slide95.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. DE ANFIBIO
+
+--- ppt/slides/slide96.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. DE BABINSKY
+
+--- ppt/slides/slide97.xml ---
+11/02/2026
+
+--- ppt/slides/slide98.xml ---
+REFLEJOS PRIMITIVOS
+11/02/2026
+R. MARCHA AUTOMATICA
+
+--- ppt/slides/slide99.xml ---
+11/02/2026
+
+--- ppt/slides/slide100.xml ---
+11/02/2026
+
+--- ppt/slides/slide101.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+
+--- ppt/slides/slide102.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+RECIÉN NACIDO
+
+--- ppt/slides/slide103.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+PRIMER MES
+
+--- ppt/slides/slide104.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+PRIMER MES
+
+--- ppt/slides/slide105.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+SEGUNDO
+ MES
+
+--- ppt/slides/slide106.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+TERCER 
+ MES
+
+--- ppt/slides/slide107.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+CUARTO
+ MES
+
+--- ppt/slides/slide108.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+SEXTO
+ MES
+
+--- ppt/slides/slide109.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+7-8 MESES
+
+--- ppt/slides/slide110.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+9-10° MES
+
+--- ppt/slides/slide111.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+12° MES
+
+--- ppt/slides/slide112.xml ---
+HITOS DEL DESARROLLO PSICOMOTOR
+11/02/2026
+24° MES
+
+--- ppt/slides/slide113.xml ---
+11/02/2026
+
+--- ppt/slides/slide114.xml ---
+11/02/2026
+
+--- ppt/slides/slide115.xml ---
+11/02/2026
+
+--- ppt/slides/slide116.xml ---
+ESCALAS PARA EVALUAR NEURODESARROLLO
+11/02/2026
+
+--- ppt/slides/slide117.xml ---
+PRUEBA DE EVALUACIÓN DEL DESARROLLO INFANTIL
+11/02/2026
+
+--- ppt/slides/slide118.xml ---
+11/02/2026
+
+--- ppt/slides/slide119.xml ---
+11/02/2026
+NO!!!
+
+--- ppt/slides/slide120.xml ---
+11/02/2026
+
+--- ppt/slides/slide121.xml ---
+11/02/2026
+Favorece la percepción  Postural y espacial gracias a la estimulación vestibular
+Estimulación multisensorial
+Potencia el desarrollo motor global.
+
+--- ppt/slides/slide122.xml ---
+11/02/2026
+
+--- ppt/slides/slide123.xml ---
+ANTECEDENTES PERSONALES NO PATOLÓGICOS
+Alimentación:
+Seno materno, ¿por cuánto tiempo?
+Alimentación complementaria
+Integración a la dieta familiar
+Grupos de alimentos en cantidad y calidad
+11/02/2026
+
+--- ppt/slides/slide124.xml ---
+LACTANCIA MATERNA
+11/02/2026
+
+--- ppt/slides/slide125.xml ---
+“DIEZ PASOS HACIA UNA FELIZ LACTANCIA”. OMS/UNICEF
+11/02/2026
+
+--- ppt/slides/slide126.xml ---
+11/02/2026
+CONDICIONES PARA EL ÉXITO DE LA LACTANCIA MATERNA
+1. Contacto piel con piel y toma precoz
+PARTO
+CESÁREA
+
+--- ppt/slides/slide127.xml ---
+11/02/2026
+PRIMERA LECHE MATERNA
+
+--- ppt/slides/slide128.xml ---
+CONDICIONES PARA EL ÉXITO DE LA LACTANCIA MATERNA
+3. Importancia de la posición correcta del lactante durante la toma
+
+--- ppt/slides/slide129.xml ---
+CONDICIONES PARA EL ÉXITO DE LA LACTANCIA MATERNA
+2. 
+ Cohabitación de la madre con su bebe
+
+--- ppt/slides/slide130.xml ---
+11/02/2026
+
+--- ppt/slides/slide131.xml ---
+CONDICIONES PARA EL ÉXITO DE LA LACTANCIA MATERNA
+4. Frecuencia y duración de las tomas
+La frecuencia de 
+las 
+tomas 
+dependerá 
+de 
+la 
+capacidad 
+de 
+almacenamiento  
+de la
+ 
+madre.
+Entre 
+los 
+1 y 6 
+meses, la frecuencia media 
+es 
+de 
+6-8 
+tomas 
+cada  
+24 horas.
+Todos
+ 
+los
+ 
+bebés
+ 
+menores
+ 
+de
+ 
+2
+ 
+meses
+ 
+realizan
+ 
+tomas
+ 
+nocturnas,
+ 
+al
+ 
+igual
+ 
+que dos 
+tercios 
+de los niños de 2-6
+ 
+meses.
+La supresión de 
+la 
+leche rica 
+en 
+lípidos del 
+final de 
+la 
+toma favorecería la  
+aparición 
+de cólicos 
+e 
+incluso una 
+ganancia 
+de peso insuficiente. 
+Por 
+tanto,  
+salvo 
+al 
+comienzo 
+de la 
+lactación, donde 
+es 
+preferible 
+que 
+las 
+tomas  incluyan 
+todas 
+las 
+veces 
+ambas mamas 
+para 
+estimular 
+la 
+subida de 
+la 
+leche  
+y 
+evitar la ingurgitación, se aconseja dejar que 
+el 
+bebé realice 
+la 
+toma de  
+una 
+mama 
+hasta que 
+él 
+mismo 
+pare, 
+antes 
+de 
+proponerle 
+la 
+segunda 
+sin  
+forzar
+
+--- ppt/slides/slide132.xml ---
+11/02/2026
+Acta 
+Pediatr 
+Mex. 
+2017
+ 
+may;38(3):182-201.
+
+--- ppt/slides/slide133.xml ---
+11/02/2026
+TENDENCIAS SOBRE 
+PRÁCTICAS
+ 
+DE
+LACTANCIA 
+EN
+ 
+MÉXICO
+9° Foro Nacional de Lactancia Materna 2024#Cerrando Brechas en Lactancia)
+(9FNLM-2024)
+
+--- ppt/slides/slide134.xml ---
+11/02/2026
+9° Foro Nacional de Lactancia Materna 2024#Cerrando Brechas en Lactancia)
+
+--- ppt/slides/slide135.xml ---
+11/02/2026
+9° Foro Nacional de Lactancia Materna 2024#Cerrando Brechas en Lactancia)
+
+--- ppt/slides/slide136.xml ---
+11/02/2026
+Retos identificados en el  Índice País Amigo de la Lactancia Materna
+
+--- ppt/slides/slide137.xml ---
+11/02/2026
+
+--- ppt/slides/slide138.xml ---
+11/02/2026
+
+--- ppt/slides/slide139.xml ---
+11/02/2026
+Riesgos de la NO lactancia materna en la salud y en la economía
+González 
+de 
+Cosío 
+Martínez 
+Teresita, Hernández 
+Cordero 
+Sonia. 
+Lactancia 
+Materna 
+en 
+México, 
+Academia 
+Nacional de 
+Medicina
+ 
+de
+ 
+México 
+(ANMM)
+ 
+2016
+
+--- ppt/slides/slide140.xml ---
+11/02/2026
+Beneficios de la lactancia materna en la salud y la economía
+González 
+de 
+Cosío 
+Martínez 
+Teresita, Hernández 
+Cordero 
+Sonia. 
+Lactancia 
+Materna 
+en 
+México, 
+Academia 
+Nacional de 
+Medicina
+ 
+de
+ 
+México 
+(ANMM)
+ 
+2016
+
+--- ppt/slides/slide141.xml ---
+11/02/2026
+González 
+de 
+Cosío 
+Martínez 
+Teresita, Hernández 
+Cordero 
+Sonia. 
+Lactancia 
+Materna 
+en 
+México, 
+Academia 
+Nacional de 
+Medicina
+ 
+de
+ 
+México 
+(ANMM)
+ 
+2016
+
+--- ppt/slides/slide142.xml ---
+11/02/2026
+ABLACTACIÓN
+Prefijo latino Ab – separación,  privación
+Lactis
+ genitivo de Lac, Leche
+Sufijo – Qué indica acción y efecto
+“LA ACCIÓN DE PRIVAR, SEPARAR O QUITAR
+AL  HIJO PEQUEÑO DE LA ALIMENTACIÓN 
+LACTEA MATERNA”
+
+--- ppt/slides/slide143.xml ---
+11/02/2026
+ALIMENTACIÓN COMPLEMENTARIA
+DEFINICIÓN
+Proceso que inicia con la introducción gradual y paulatina de alimentos diferentes a la leche humana, para satisfacer las necesidades nutrimentales del niño, se recomienda después de los 6 meses. 
+ESPGHAN
+ 
+2017
+NOM-043-SSA2-2012. Servicios Básicos de salud. Promoción y educación para la salud en materia alimentaria. Criterios para brindar orientación
+,
+
+--- ppt/slides/slide144.xml ---
+¿Cuál es el mejor método para iniciar la alimentación complementaria?
+11/02/2026
+
+--- ppt/slides/slide145.xml ---
+11/02/2026
+Consenso de alimentación complementaria de la Sociedad Latinoamericana de Gastroenterología, Hepatología y Nutrición Pediátrica: 
+COCO 2023
+En este consenso participaron 21 representantes de miembros de LASPGHNP
+Más de la mitad fueron gastroenterólogos pediatras, además de nutriólogos pediatras y
+Pediatras expertos en nutrición.
+Se obtuvieron 33 declaraciones, todas con porcentaje mayor a 75% de consenso
+
+--- ppt/slides/slide146.xml ---
+11/02/2026
+Definición
+Alimentación de los lactantes que complementa a la lactancia materna o en su defecto, a la lactancia con un sucedáneo de la leche materna.
+Es un proceso que va más allá de simplemente una guía sobre qué y cómo introducir los alimentos.
+COCO 2023
+
+--- ppt/slides/slide147.xml ---
+11/02/2026
+COCO 2023
+
+--- ppt/slides/slide148.xml ---
+11/02/2026
+COCO 2023
+¿Cuándo iniciar la AC?
+
+--- ppt/slides/slide149.xml ---
+11/02/2026
+Acta 
+Pediatr 
+Mex. 
+2017
+ 
+may;38(3):182-201.
+
+--- ppt/slides/slide150.xml ---
+OBJETIVOS DE LA ALIMENTACIÓN COMPLEMENTARIA
+11/02/2026
+
+--- ppt/slides/slide151.xml ---
+11/02/2026
+Acta 
+Pediatr 
+Mex. 
+2017
+ 
+may;38(3):182-201.
+
+--- ppt/slides/slide152.xml ---
+11/02/2026
+Acta 
+Pediatr 
+Mex. 
+2017
+ 
+may;38(3):182-201.
+TRACTO GASTROINTESTINAL Y RENAL
+Filtración
+ 
+glomerular
+RN
+ 
+25%
+3-4 
+meses 
+–
+ 
+50%
+6 
+meses 
+–
+ 
+75-80%
+
+--- ppt/slides/slide153.xml ---
+11/02/2026
+COCO 2023
+ESPGHN 2008
+
+--- ppt/slides/slide154.xml ---
+11/02/2026
+COCO 2023
+¿Prematuros ?
+Se aconseja esperar a los 6 meses corregidos
+Nunca antes de los 4 meses corregidos
+Pérdida del reflejo de extrusión y disminución de la hipersensibilidad oral.
+
+--- ppt/slides/slide155.xml ---
+11/02/2026
+COCO 2023
+Elección de los alimentos
+Se recomienda 0.9 y 1.3 mg/kg/día He con alimentos fuente y de no ser posible alimentos fortificados, especialmente entre los 6 y 12 m.
+OMS- Buen alimento es aquel que es buena fuente de energía, proteína y micro nutrimentos
+
+--- ppt/slides/slide156.xml ---
+Suplementación con He
+Hay posibles daños con la suplementación de He, especialmente en la función inmune  y posiblemente disminuyendo la biodisponibilidad del hierro contenido en la leche humana.
+11/02/2026
+Hay daño potencial en crecimiento y la morbilidad infantil cuando se proporciona suplementación con hierro a los lactantes con suficiente hierro.
+En quién si? Prematuros, PEG. 1 mg/kg/día hasta que inicie alimentos ricos en he o fortificados con he
+
+--- ppt/slides/slide157.xml ---
+11/02/2026
+
+--- ppt/slides/slide158.xml ---
+11/02/2026
+COCO 2023
+Elección de los alimentos
+Los nuevos alimentos deben introducirse solos y durante varios días para identificar reacciones adversas.
+
+--- ppt/slides/slide159.xml ---
+11/02/2026
+Cuatro semanas después del inicio de la AC deberán haberse incorporado al menos 2 alimentos de cada grupo 
+
+--- ppt/slides/slide160.xml ---
+11/02/2026
+
+--- ppt/slides/slide161.xml ---
+11/02/2026
+El número de comidas ocurre de forma gradual
+Dependerá del apetito del niño, del requerimiento energético y la densidad energética
+Considerar que la capacidad gástrica es de 30 g/kg de peso corporal/día.
+La densidad energética se alcanza  cuando se incluye  mayor diversidad de alimentos (0.8 – 1 kcal/g).
+
+--- ppt/slides/slide162.xml ---
+11/02/2026
+COCO 2023
+Elección de los alimentos
+PROGRAMACIÓN DEL SABOR
+*Preferencia por sabor dulce - 
+innnata
+El desarrollo dela preferencia alimentaria inicia con los primeros sólidos.
+
+--- ppt/slides/slide163.xml ---
+11/02/2026
+COCO 2023
+Comidas al día y Frecuencia 
+de exposición
+El 
+núm
+ de comidas depende del apetito del niño, cantidad de alimentos consumidos , requerimiento energético y densidad energética
+Interacción de estímulos (visual, olfativo, táctil, gusto)
+
+--- ppt/slides/slide164.xml ---
+11/02/2026
+COCO 2023
+Cantidad de comida
+EDAD
+CUCHARADA (15 gr)
+6 a 8 meses
+3 a 4
+9 a 11 meses
+4 a 8
+12 a 23 meses
+8 a 12
+
+--- ppt/slides/slide165.xml ---
+11/02/2026
+COCO 2023
+Métodos de alimentación
+Hay una ventana crítica de tiempo antes de los 10 meses para la introducción de texturas grumosas.
+Los lactantes con introducción de textura grumosa después de los 9 meses presentan problemas de alimentación, menos ingesta de frutas y verduras, más selectividad y problemas de alimentación a los 7 años.
+
+--- ppt/slides/slide166.xml ---
+METODOS DE ALIMENTACIÓN
+11/02/2026
+METODO TRADICIONAL
+METODO BLW Baby led 
+weaning
+ 2008
+METODO BLISS Baby led 
+introduction
+ 
+to
+ 
+the
+ 
+solids
+ 2015
+Declaración 18. 
+Los enfoques de introducción de texturas BLW o BLISS deben ser asesorados por un profesional de la nutrición o médico pediatra capacitado. Los padres deberán tener pleno conocimiento de los riesgos que pueden conllevar (acuerdo 95.2% abstención 4.7%) 
+COCO 2023
+
+--- ppt/slides/slide167.xml ---
+11/02/2026
+METODO BLW Baby led 
+weaning
+ 2008
+VENTAJAS
+DESVENTAJAS
+
+--- ppt/slides/slide168.xml ---
+11/02/2026
+METODO BLISS Baby led 
+introduction
+ 
+to
+ 
+the
+ 
+solids
+ 2015
+
+--- ppt/slides/slide169.xml ---
+11/02/2026
+
+--- ppt/slides/slide170.xml ---
+ALIMENTOS POTENCIALMENTE ALERGÉNICOS
+11/02/2026
+Declaración 19
+. Una vez iniciada la AC, se deben introducir todos los alimentos, incluidos los considerados potencialmente alergénicos como son: huevo, pescado, trigo, maní o cacahuate, soya, maíz, mariscos y los derivados de lácteos, independientemente de la historia de atopia familiar. (acuerdo 87.7%, desacuerdo 4.5%, abstención 9.5%) 
+COCO 2023
+
+--- ppt/slides/slide171.xml ---
+ALIMENTOS POTENCIALMENTE ALERGÉNICOS
+11/02/2026
+COCO 2023
+Declaración 20
+. La declaración de huevo cocido (sin necesidad de separar clara y yema, pescado y maní, puede realizarse a partir de los 4 meses de edad en aquellos lactantes en los cuales se haya considerado el inicio de la AC. (acuerdo 76.2%, desacuerdo 14.3%, abstención 9.5%) 
+
+--- ppt/slides/slide172.xml ---
+ALIMENTACIÓN VEGANA
+11/02/2026
+Declaración 23
+. Se desaconseja la AC bajo los esquemas vega 
+crudivegano
+ y macrobiótico (acuerdo 100%)
+Declaración 24. 
+En la situación de que los cuidadores soliciten asesoría para implementar un esquema de AC vegana debe ser estrictamente supervisada (acuerdo 100)
+Los lactantes deben recibir suministro de 
+vit
+ B12, Vit D, He, Zn, 
+Ác
+ fólico, omega 3, ácidos grasos de cadena larga poliinsaturados, proteínas y calcio.
+AAP 2019
+
+--- ppt/slides/slide173.xml ---
+11/02/2026
+COCO 2023
+Ingesta de agua
+EDAD
+CUCHARADA (15 gr)
+6-8 meses
+60 -150 ml
+9 a 11 meses
+240-300 m
+12 a 23 meses
+450-600 ml
+Lactantes alimentados con SM no requieren aporte adicional.
+Lactantes alimentados con fórmula si requieren por la carga renal de solutos.
+Formación de hábitos
+.
+
+--- ppt/slides/slide174.xml ---
+11/02/2026
+COCO 2023
+Azúcar
+
+--- ppt/slides/slide175.xml ---
+CAFÉ, 
+TÉ, 
+AGUAS  
+AROMÁTICAS.
+Contienen 
+alcaloides 
+que 
+producen cólico
+ 
+y  
+carecen 
+de 
+valor
+ 
+energético
+.
+ Polifenoles inhiben la absorción de He.
+Disminuyen 
+absorción 
+de 
+calcio,
+ 
+disminuyen  
+el 
+apetito 
+y 
+aceptación 
+de 
+otros
+ 
+nutrientes.
+
+--- ppt/slides/slide176.xml ---
+11/02/2026
+COCO 2023
+Sal
+
+--- ppt/slides/slide177.xml ---
+11/02/2026
+COCO 2023
+Especies
+
+--- ppt/slides/slide178.xml ---
+11/02/2026
+COCO 2023
+Vitaminas
+
+--- ppt/slides/slide179.xml ---
+ANTECEDENTES PERSONALES 
+11/02/2026
+Dentición:
+Inicio de la dentición
+Cuantas piezas dentarias tiene?
+Temporales 20, permanentes 32
+
+--- ppt/slides/slide180.xml ---
+La       
+importancia 
+de 
+la
+    
+dentición  
+temporal 
+11/02/2026
+Funciones de los 
+dientes
+ 
+temporales:
+Guía 
+de 
+erupción 
+de 
+los 
+dientes 
+permanentes 
+(La 
+raíz 
+de los 
+dientes  temporales 
+va 
+guiando 
+a 
+los 
+dientes 
+permanentes 
+hasta 
+su 
+correcta  posición).
+Mantenimiento 
+del 
+espacio 
+necesario para 
+los 
+dientes
+ 
+permanentes.
+Correcto 
+desarrollo 
+del
+ 
+habla.
+Desarrollo 
+de 
+la 
+masticación 
+de los
+ 
+alimentos.
+Estimulación 
+del crecimiento 
+de los 
+maxilares con 
+la
+ 
+masticación.
+
+--- ppt/slides/slide181.xml ---
+RETRASO DE LA ERUPCIÓN DENTARIA
+11/02/2026
+Falta de espacio
+Perdida prematura del predecesor
+Obstáculos físicos interpuestos: dientes supernumerarios, alteraciones morfológicas (dientes dobles, 
+macrodoncia
+), quistes.
+Secuelas de traumatismos
+
+--- ppt/slides/slide182.xml ---
+11/02/2026
+
+--- ppt/slides/slide183.xml ---
+ANTECEDENTES PERSONALES NO PATOLOGÍCOS 
+11/02/2026
+Hábitat
+Condiciones 
+de la
+ 
+habitación
+Tipo 
+de 
+construcción, cu
+á
+ntos
+  cuarto
+Cuenta	con	
+s
+e
+r
+v
+i
+cios?,	
+en  
+donde 
+esta
+ 
+localizada
+?
+Cuantas 
+personas 
+viven 
+ahí
+ 
+?
+Convivencia 
+con
+ 
+animales?
+Higiene
+Cada cuándo se baña?
+Cada cuando se cambia de ropa?
+Lavado de dientes
+
+--- ppt/slides/slide184.xml ---
+ANTECEDENTES PERSONALES PATOLÓGICOS
+11/02/2026
+
+--- ppt/slides/slide185.xml ---
+PADECIMIENTO ACTUAL
+11/02/2026
+
+--- ppt/slides/slide186.xml ---
+PADECIMIENTO ACTUAL
+11/02/2026
+Fiebre 
+............................................. 3
+ 
+días
+Tos
+.............................................
+.......
+	
+2
+ 
+días
+Dificultad
+ 
+para 
+respirar.............. 
+6 
+horas  
+Cianosis
+......................................... 
+1
+ hora
+Fiebre
+ 
+de 
+tres 
+días 
+de 
+evolución, 
+no 
+cuantificada, 
+sin 
+predominio
+ 
+horario
+Tos
+ 
+desde
+ 
+hace
+ dos 
+días
+, 
+inicialmente
+ 
+seca
+ 
+que 
+progreso
+ 
+a 
+productiva
+, 
+en
+ 
+accesos
+ 
+cortos
+, no  
+cianosante
+, 
+disneisante
+, 
+emetizante
+, 
+de 
+predominio
+ 
+nocturno
+ 
+y 
+que 
+se
+ 
+acompaña
+ 
+de  
+sibilancias
+ 
+audibles
+ 
+a
+ 
+distancia
+Dificultad
+ 
+para
+ 
+respirar
+ 
+desde
+ 
+hace
+ 
+6
+ 
+horas,
+ 
+caracterizada
+ 
+por
+ 
+polipnea,
+ 
+retracción
+ 
+costal
+baja.
+Acrocianosis
+ 
+en
+ 
+miembros
+ 
+superiores
+ 
+de
+ 
+una
+ 
+hora
+ 
+de
+ 
+evolución,
+Es
+ 
+visto
+ 
+por
+ 
+medico 
+particular 
+quien
+ 
+le 
+diagnostica
+ 
+bronquitis
+, 
+manejo
+ 
+a 
+base 
+de 
+ambroxol
+.  
+solución
+ 
+oral 
+5 
+ml 
+cada
+ 
+8 
+hr
+ 
+por
+ 
+5 
+días
+ 
+y 
+paracetamol 
+oral 
+5 
+ml 
+cada
+ 
+8 
+hr
+, 
+sin 
+respuesta
+ 
+al  
+tratamiento
+
+--- ppt/slides/slide187.xml ---
+PADECIMIENTO ACTUAL
+11/02/2026
+Paciente con antecedente de asma mal controlado, inicia su padecimiento actual hace 4 días con cuadro clínico caracterizado por fiebre de hasta 39°C, 3 registros por día, sin predominio de horario, tos inicialmente seca que progresa a productiva, sin predominio de horario, no 
+cianosante
+, no 
+disneisante
+, no emetizante. Consulta en este hospital donde se diagnostica infección de vías respiratorias superiores e inicia tratamiento con paracetamol 10 mg/kg/dosis. El paciente presenta evolución tórpida: persiste con fiebre, la tos productiva es 
+cianosante
+, 
+disneisante
+ y emetizante, desde hace 12 
+hr
+, además presenta dificultad respiratoria caracterizada por aleteo nasal, tiraje costal bajo, disociación toraco abdominal, por lo que consulta nuevamente. A su llegada reporta una 
+sat
+ O2 de 85% , por clínica y radiológicamente se diagnostica Neumonía adquirida en la comunidad, se decide su internamiento para tratamiento antibiótico parenteral.
+
+--- ppt/slides/slide188.xml ---
+EXPLORACIÓN FÍSICA
+SIGNOS VITALES
+11/02/2026
+Frecuencia
+ 
+cardiaca
+Frecuencia 
+respiratoria  
+Presión
+ 
+Arterial
+Diastólica 
+(Curvas
+ 
+percentilares)
+Sistólica	
+(Curvas
+ 
+percentilares)
+Temperatura
+ 
+corporal
+Rectal
+Oral
+Ótica
+Temporal
+Sat
+ 
+O2
+varían según la edad, talla y sexo, condición física e incluso patología de base
+
+--- ppt/slides/slide189.xml ---
+FRECUENCIA 
+RESPIRATORIA
+11/02/2026
+Taquipnea
+: FR > 2DE arriba de lo normal para edad
+Apnea
+: Ausencia de flujo respiratorio con duración > 20 
+seg
+. Independientemente de la repercusión clínica o ausencia del respiratorio de < duración acompañado de repercusión cardiocirculatoria (bradicardia y/o hipoxemia).
+	- 
+Disnea
+: sensación subjetiva de  dificultad en la respiración, de origen multifactorial (factores fisiológicos, psíquicos, sociales y medioambientales)
+
+--- ppt/slides/slide190.xml ---
+FRECUENCIA 
+RESPIRATORIA
+11/02/2026
+Ortopnea
+: Disnea en posición supina, se acompaña de tos nocturna, puede ser manifestación tardía de cardiopatías como IC.
+Respiración de 
+Cheyne
+-Stokes
+: después de apneas de 20 a 30 segundos de duración, la amplitud de la respiración va aumentando progresivamente y, después de llegar a un máximo, disminuye hasta llegar a un nuevo período de apnea. Esta secuencia se repite sucesivamente. Se observa en insuficiencia 
+cardiaca y algunas lesiones del sistema nervioso central.
+Respiración de Biot: 
+Respiración que mantiene alguna 
+ritmicidad
+,  interrumpida por períodos de apnea. Cuando la alteración es más extrema, comprometiendo la 
+ritmicidad
+ y la amplitud, se llama respiración atáxica. Ambas formas se observan 
+en lesiones graves del sistema nervioso central
+.
+
+--- ppt/slides/slide191.xml ---
+11/02/2026
+
+--- ppt/slides/slide192.xml ---
+11/02/2026
+FRECUENCIA CARDIACA
+Taquicardia: 
+FC > 2DE arriba de lo normal para edad
+Bradicardia
+: FC < 2DE debajo de lo normal para la edad. 
+
+--- ppt/slides/slide193.xml ---
+11/02/2026
+PRESIÓN 
+ARTERIAL
+La forma más fácil de memorizarla es: 
+Niños de 1-10 años (percentil 50) 
+	Presión arterial sistólica = 90 
+mmHg
+ + (edad en años x 2) 
+mmHg
+ 
+Niños de 1-10 años (percentil 5) 
+	Presión arterial sistólica = 70 
+mmHg
+ + (edad en años x 2) 
+mmHg
+
+--- ppt/slides/slide194.xml ---
+FIEBRE
+11/02/2026
+
+--- ppt/slides/slide195.xml ---
+FIEBRE
+11/02/2026
+Fiebre: 
+Temperatura >38.0°C  por lo menos con 1 hora de duración o una toma aislada >38.3°C, axilar.
+Febrícula: 
+Temperatura de 37.5°C a 37.9°C. 
+Hipotermia: 
+Temperatura por debajo del límite inferior normal
+
+--- ppt/slides/slide196.xml ---
+11/02/2026
+
+--- ppt/slides/slide197.xml ---
+SATURACIÓN DE OXÍGENO
+11/02/2026
+RN
+
+--- ppt/slides/slide198.xml ---
+EXPLORACIÓN FÍSICA
+SOMATOMETRÍA
+Peso
+Talla o longitud
+PC
+PT
+PA
+Pie
+Segmento superior
+Segmento inferior
+Relación de segmentos
+Medición de pliegues
+IMC
+11/02/2026
+Conjunto de técnicas utilizadas para obtener medidas precisas de las dimensiones corporales de una persona.
+Pozo Román J. et al. Valoración auxológica básica en el adolescente. 
+Adolescere
+ 2017
+
+--- ppt/slides/slide199.xml ---
+EXPLORACIÓN FÍSICA
+ANTROPOMETRÍA
+11/02/2026
+Métodos antropométricos
+Parámetros que valoran el aumento de tamaño
+Parámetros que reflejan estado  de nutrición y composición corporal.
+Parámetros que valoran maduración y desarrollo
+Peso/Edad
+Talla/Edad
+Peso/Talla
+IMC
+Calcular TBF  -  Velocidad de crecimiento
+Relación cintura/cintura
+
+--- ppt/slides/slide200.xml ---
+11/02/2026
+
+--- ppt/slides/slide201.xml ---
+TALLA O LONGITUD
+11/02/2026
+TALLA BAJA 
+DEFINICIÓN
+Estatura 
+<2 
+DE 
+por 
+debajo 
+de  
+la 
+media
+ 
+poblacional
+Estatura 
+< 
+p3 
+para 
+edad
+Más 
+de 
+4 
+cm 
+debajo 
+de
+ 
+la
+ 
+TBF
+Motivo de consulta 
+frecuente
+ 
+(25%
+)
+.
+Pregunta
+ 
+obligada en
+ 
+toda
+consulta
+ 
+pediátrica
+.
+T
+e
+r
+ce
+r
+a
+	
+c
+ausa
+	
+de
+ 
+seg
+u
+n
+d
+a
+  
+opinión
+ 
+pediátrica
+.
+Pombo M, et 
+al. El niño de 
+talla 
+baja. 
+Protoc 
+diagn 
+ter 
+pediatr
+ 
+2011
+
+--- ppt/slides/slide202.xml ---
+SOMATOMETRÍA EN NIÑOS < 2 AÑOS O < 100 CM
+11/02/2026
+Infantómetro
+Superficie 
+firme, 
+plana 
+y
+ 
+horizontal
+Tope 
+cefálico 
+fijo 
+a 
+un 
+ángulo 
+de 
+90 
+grados 
+de 
+la  superficie
+ 
+horizontal
+Un 
+tope 
+de 
+pie 
+móvil 
+a 
+90 
+grados 
+de 
+la
+ 
+superficie  
+horizontal
+Una 
+regla 
+fija
+ 
+unida
+Pozo Román J. et al. Valoración auxológica básica en el adolescente. 
+Adolescere
+ 2017
+
+--- ppt/slides/slide203.xml ---
+SOMATOMETRÍA EN NIÑOS > 2 AÑOS O >100 CM
+11/02/2026
+Superficie 
+vertical 
+para 
+apoyo
+ 
+(pared)
+Tope 
+cefálico 
+móvil 
+horizontal 
+a 
+90 
+grados 
+de 
+la 
+superficie
+ 
+vertical
+Una 
+regla
+ 
+fija
+Pozo Román J. et al. Valoración auxológica básica en el adolescente. 
+Adolescere
+ 2017
+
+--- ppt/slides/slide204.xml ---
+INDICADOR DE TALLA/EDAD
+11/02/2026
+
+--- ppt/slides/slide205.xml ---
+11/02/2026
+
+--- ppt/slides/slide206.xml ---
+TALLA / EDAD
+11/02/2026
+Lancet 
+series 
+on 
+child development, 
+January
+ 
+2016
+
+--- ppt/slides/slide207.xml ---
+PESO
+11/02/2026
+Niño desnudo o la menor cantidad de ropa posible
+Vejiga y rectos vacíos
+Colocado en el centro de la báscula
+En ayuno o una 
+hr
+ similar
+El margen de error aceptable es de 10 gr en los menores de 10 kg y 100 gr para los mayores
+
+--- ppt/slides/slide208.xml ---
+11/02/2026
+Lancet 
+series 
+on 
+child development, 
+January
+ 
+2016
+
+--- ppt/slides/slide209.xml ---
+PESO/TALLA
+11/02/2026
+R
+e
+fleja desnutrición aguda o emaciación. 
+Útil para evaluar la respuesta al tratamiento.
+Los niños con peso muy bajo para la talla tienen elevado riesgo de morir.
+Lancet 
+series 
+on 
+child development, 
+January
+ 
+2016
+
+--- ppt/slides/slide210.xml ---
+11/02/2026
+
+--- ppt/slides/slide211.xml ---
+11/02/2026
+
+--- ppt/slides/slide212.xml ---
+PC
+11/02/2026
+En 
+todos 
+los 
+niños 
+< 
+3
+ 
+años
+I
+n
+di
+c
+a
+	
+e
+l
+	
+g
+r
+a
+d
+o
+	
+de
+ 
+n
+u
+tr
+i
+ción
+ 
+intrauterina
+.
+L
+a
+	
+per
+i
+odicida
+d
+	
+de
+	
+l
+a
+ 
+m
+e
+dición
+  
+abarca 
+entre 
+uno 
+y 
+dos
+ 
+meses.
+Técnica: 
+Se 
+rodea 
+la 
+cabeza 
+con una  
+cinta 
+métrica 
+tomando 
+como 
+puntos
+ 
+de  
+referencia 
+el 
+occipucio 
+y 
+la 
+glabela,  
+manteniendo 
+la 
+cinta 
+tensa 
+para  
+comprimir 
+el 
+cabello 
+sobre 
+el
+ 
+cráneo
+.
+
+--- ppt/slides/slide213.xml ---
+PC
+11/02/2026
+Al 
+nacimiento 
+es 
+de 
+35
+ 
+cm
+Aumenta 
+en 
+promedio 
+1 
+cm 
+por 
+mes 
+el 
+1er 
+año de  
+Vida
+. 
+El > 
+crecimiento ocurre 
+hasta 
+los 
+3 
+a 
+(15
+ 
+cm).
+Crece 
+5-7 
+cm 
+de los 
+3 
+a 
+la 
+edad
+ 
+adulta
+A
+. 
+Donzeau, 
+et 
+al, 
+Crecimiento 
+pondoestatural 
+normal. 
+EMC 
+– 
+Pediatría. 
+Vol. 
+51, 
+Num. 
+4, 
+Diciembre
+ 
+2016
+
+--- ppt/slides/slide214.xml ---
+IMC
+11/02/2026
+ 
+Índice de Quetelet se recomienda calcular en todo niño mayor de 2 años durante el control pediátrico.
+Sensibilidad:
+  70-80% para diagnosticar como verdadera obesidad.
+Especificidad: 
+95% para diagnosticar como no obeso cuando el paciente no lo es. 
+Actualmente se considera como el indicador de elección para el diagnóstico de sobrepeso y obesidad en niños y adolescentes.
+
+--- ppt/slides/slide215.xml ---
+IMC
+11/02/2026
+
+--- ppt/slides/slide216.xml ---
+ÍNDICE CINTURA/ESTATURA
+Herramienta sencilla , rápida y barata, cuya sensibilidad es más alta que el IMC para detectar riesgo de síndrome metabólico de manera más temprana y predecir morbilidad y mortalidad
+Cintura en cm/talla en cm
+Un valor = o > 0.50 significa un aumento del riesgo 
+cardiometabólico
+Medición:
+Paciente de pie, sin zapatos con el torso desnudo y talones juntos. 
+Se coloca la cinta perpendicular al eje longitudinal del cuerpo y horizontal al piso.
+La medición es en la parte media entre el borde inferior de la caja torácica o borde costal y el borde superior de la cresta iliaca.
+Se divide la medición de cintura/talla
+11/02/2026
+
+--- ppt/slides/slide217.xml ---
+VALORACIÓN DE SEGMENTOS Y BRAZADA
+11/02/2026
+¿En quién? – Talla baja
+Displasia Esquelética
+Sd
+. Turner
+SI: De la sínfisis del pubis al piso
+SS: Talla - SI
+Brazada: 
+De la punta del dedo medio a la punta del dedo medio de la otra mano.
+Lactantes: 
+Brazada es menor que la talla o longitud.
+7-10 años: 
+ Brazada = talla
+Adolescente: 
+brazada +4 en relación a la talla en H y +2 en M
+
+--- ppt/slides/slide218.xml ---
+VALORACIÓN DE LOS SEGMENTOS
+11/02/2026
+La diferencia entre la talla y la brazada (talla menos la brazada) establece un indicador de proporcionalidad. Una diferencia mayor  de 4 cm habla de desproporción de los segmentos.
+
+--- ppt/slides/slide219.xml ---
+GRAFICAS DE CRECIMIENTO
+11/02/2026
+
+--- ppt/slides/slide220.xml ---
+GRÁFICAS DE PATRONES DE CRECIMIENTO EN PEDIATRÍA
+11/02/2026
+Herramienta para vigilancia y seguimiento nutricional
+Antes de hacer un 
+Dx
+ se debe analizar los factores genéticos, antecedentes gestacionales, situación de salud. 
+Establecer edad, peso y estatura del niño.
+Las graficas permiten graficar la velocidad de crecimiento y detectar desviaciones del mismo.
+
+--- ppt/slides/slide221.xml ---
+ESTÁNDARES DE CRECIMIENTO DE LA OMS
+11/02/2026
+
+--- ppt/slides/slide222.xml ---
+GRAFICAS DE CRECIMIENTO DE CDC
+11/02/2026
+
+--- ppt/slides/slide223.xml ---
+CÁLCULO DE TALLA BLANCO FAMILIAR Y VELOCIDAD DE CRECIMIENTO
+ 70% de la talla de una persona depende de la talla de ambos padres.
+30% restante está condicionado por factores moduladores, permisivos y realizadores de crecimiento (hormonas, nutrición, hueso y cartílago de crecimiento.
+11/02/2026
+
+--- ppt/slides/slide224.xml ---
+VELOCIDAD
+ 
+DE
+C
+ 
+R
+E
+ 
+C
+  
+I
+M
+I
+E
+  
+N
+T
+O
+FETAL
+- 
+50 
+cm 
+en 
+9
+ 
+m
+- 
+F. 
+genéticos,  
+nutricionales 
+y  
+hormonales
+ 
+IGF-2
+POSNATAL 
+0-4
+ 
+A
+Crec 
+rápido 
+y
+ 
+después  
+lento.
+24 
+cm 
+el 
+1er
+ 
+año
+12 
+cm 
+en 
+2do
+ 
+año
+6 
+cm 
+en 
+4to
+ 
+año
+Factores 
+genéticos,  
+nutrición 
+y
+ 
+hormonas  
+tiroideas,
+ 
+GH
+INFANCIA 
+4ª
+ 
+-
+PUBERTAD
+Crec 
++
+ 
+lento
+7 
+cm/año 
+a 
+los 
+4
+ a
+4.5 
+cm/año 
+hasta 
+12 
+a 
+en  
+varones 
+y 
+5.5 
+cm/año 
+en  
+las 
+niñas 
+entre 
+9-10
+ 
+años
+- 
+F. 
+genéticos, 
+horm  
+tiroideas 
+y 
+eje  
+somatótropo
+e
+d
+ad
+-	
+T	
+p
+r
+o
+m
+=  (años)x5+85
+PUBERTAD
+Crec. 
+Rápido  
+inhomogéneo:
+ 
+primero  
+manos 
+y 
+pies, 
+después  
+miembros 
+y 
+al 
+final  
+columna
+ 
+vertebral.
+Comienza 
+10.5 -11 
+a 
+en  
+niña 
+y 
+11.5 
+– 
+13 
+a 
+en  
+varones
+8 
+cm/año
+el 
+aumento estatural  
+20- 
+25 
+cm 
+total 
+(12%
+ 
+de  
+estatura
+ 
+adulta.
+
+--- ppt/slides/slide225.xml ---
+CASO  
+C
+L
+Í
+N
+I
+C
+O
+TBF 179.5 (P50-75)
+
+--- ppt/slides/slide226.xml ---
+CASO
+ 
+CLÍNICO
+
+--- ppt/slides/slide227.xml ---
+*
+CASO
+ 
+ 
+CLÍNICO
+
+--- ppt/slides/slide228.xml ---
+CASO
+ 
+CLÍNICO
+En 
+su 
+2da 
+valoración, 
+Juan 
+tiene  
+las 
+siguientes
+ 
+medidas:
+o
+Talla: 
+1.25
+ 
+m
+o
+Peso: 
+22.9
+ 
+kg
+o
+¿Cómo 
+se 
+calcula la 
+velocidad  
+de
+ 
+crecimiento?
+Velocidad
+ 
+de  
+crecimiento
+6 
+cm 
+/año 
+en 
+un 
+periodo 
+de 
+4
+ 
+m
+4 meses después
+Talla: 1.23 m
+Peso: g 22 k
+VC: (125-123)/4x12=6
+
+--- ppt/slides/slide229.xml ---
+VELOCIDAD 
+DE
+ 
+CRECIMIENTO
+x
+GPC, 
+Abordaje Diagnóstico y Seguimiento del Paciente Pediátrico con Talla Baja 
+
+--- ppt/slides/slide230.xml ---
+SEGUIMIENTO
+
+--- ppt/slides/slide231.xml ---
+DESNUTRICIÓN Y OBESIDAD
+DESNUTRICIÓN
+Estado patológico, inespecífico, sistémico y potencialmente reversible por deficiente utilización por las células con varias manifestaciones clínicas.
+Signos universales:
+Dilución bioquímica
+Hipofunción
+Hipotrofia
+OBESIDAD
+La obesidad se define como un exceso de grasa corporal y se suele valorar utilizando indicadores indirectos de la 
+gra
+sa
+.
+2/11/2026
+SALUD
+EDUCACIÓN
+PRODUCTIVIDA
+FACTORES QUE AFECTAN LA NUTRICIÓN
+Excreción, ingesta, metabolismo, necesidades, digestión y absorción.
+
+--- ppt/slides/slide232.xml ---
+DESNUTRICIÓN
+CLASIFICACIÓN
+ Etiología
+Clínica (Marasmo y 
+kwashiorkor
+Grado y tiempo (evolución).
+ETIOLOGÍA
+ PRIMARIA
+Ingestión insuficiente
+Ingestión inadecuada
+Ingestión desequilibrada
+SECUNDARIA
+Alt fisiopatológicas
+Alt ingesta
+Alt digestiva
+Alt absorción
+Alt 
+excresión
+11/02/2026
+
+--- ppt/slides/slide233.xml ---
+GRADO Y TIEMPO DE EVOLUCIÓN (AGUDA O CRÓNICA)
+FEDERICO GÓMEZ
+Utiliza P/E
+No sabemos si es D. Aguda o Crónica
+%P/E
+= 
+Peso Real x 
+100
+ Peso que corresponde para edad
+Clasifica:
+0-10% = Normal
+11-24% = Leve
+25-40% = Moderada
+>41% = Severa
+11/02/2026
+
+--- ppt/slides/slide234.xml ---
+GRADO Y TIEMPO DE EVOLUCIÓN (AGUDA O CRÓNICA)
+WATERLOW
+Mide P/T o L y T/E
+Permite saber la intensidad y la cronología
+%P/T
+= 
+Peso Real x 
+100
+ Peso que corresponde para  la talla
+%T/E
+= 
+Talla Real x 
+100
+ Talla que corresponde para  la edad
+11/02/2026
+
+--- ppt/slides/slide235.xml ---
+Kevin de 4 años, peso 10 kg, Talla 90 cm
+P50: peso 12.9kg, talla 103 cm
+%P/T
+= 
+10_
+ X 100 =  77.5 %
+              12.9
+%T/E
+= 
+90_
+ X 100 =  87%
+              103
+11/02/2026
+.
+DX: DESNUTRICIÓN CRÓNICA AGUDIZADA
+
+--- ppt/slides/slide236.xml ---
+CLASIFICACIÓN DE WATERLO POR INTENSIDAD
+11/02/2026
+Clasifica:
+Normal = Eutrófico
+Emaciación = Adelgazamiento extremo y < grasa
+Desmedro = Talla baja y peso normal
+%PT: 100 – 77.5 = 22.5 % DEFICIT
+%TE= 100-87% = 13% DEFICIT 
+DX: DESNUTRICIÓN CRÓNICA AGUDIZADA MODERADA
+
+--- ppt/slides/slide237.xml ---
+RECUPERACIÓN DEL PESO
+11/02/2026
+La recuperación tarda 3 meses
+
+--- ppt/slides/slide238.xml ---
+CONSULTAS
+11/02/2026
+El 
+menor 
+de 
+28 
+días 
+debe 
+recibir 
+dos 
+consultas; 
+la 
+primera 
+de 
+ellas 
+a 
+los
+ 
+siete
+días 
+y 
+la 
+segunda 
+a 
+los
+ 
+28.
+•
+El 
+menor 
+de 
+un 
+año debe 
+recibir 
+cinco 
+consultas 
+como 
+mínimo, durante 
+los  
+subsiguientes 
+11 
+meses, 
+otorgadas 
+a 
+los 
+dos, 
+cuatro, 
+seis, 
+nueve y 
+12 
+meses  
+de 
+edad.
+El 
+de 
+uno 
+a 
+cuatro 
+años 
+debe 
+recibir 
+una 
+consulta 
+cada seis
+ 
+meses.
+El 
+de 
+cinco 
+a 
+nueve 
+años 
+y 
+el 
+de 
+diez 
+a 
+diecinueve 
+años, 
+deben  
+consulta
+ 
+anual.
+NORMA Oficial 
+Mexicana 
+NOM-008-SSA3-2010, 
+Para 
+el 
+tratamiento integral 
+del sobrepeso 
+y la
+ 
+obesidad
+.
+
+--- ppt/slides/slide239.xml ---
+INSPECCIÓN GENERAL
+11/02/2026
+¿Cómo realizarla? 
+Medio ambiente con adecuada iluminación
+La región a explorar debe de estar descubierta, bien iluminada, simétrica
+El explorador debe observar el campo de frente y tangencialmente y la inspección deberá ser comparativa y simétrica
+Datos obtenidos sobre la actitud, forma, volumen, coloración, movimientos y estado de superficie. 
+
+--- ppt/slides/slide240.xml ---
+HABITUS EXTERNO O INSPECCIÓN GENERAL
+11/02/2026
+
+--- ppt/slides/slide241.xml ---
+
+--- ppt/slides/slide242.xml ---
+CUELLO
+Simetría, movilidad, corto, quistes, clavículas, forma, tamaño, edema, dolor a la palpación, posición de la tráquea, tiroides.
+2/11/2026
+
+--- ppt/slides/slide243.xml ---
+SISTEMA LINFÁTICO
+Normal encontrar ganglios occipitales palpables hasta los años de edad.
+Ganglios menores a 0.5 cm de cualquier lugar y ganglios menores de 1 cm de las cadenas cervical e inguinal son normales.
+Amígdalas palatinas pueden ser hipertróficas sin representar patología.
+
+--- ppt/slides/slide244.xml ---
+T
+ór
+ax
+Tamaño, 
+forma,  
+simetria,
+ 
+movimientos
+Patrón  
+r
+espi
+r
+a
+t
+o
+r
+io:
+Respiración
+ 
+periódica:  
+apnea 
+5-20 
+seg 
+sin  
+bradicardia
+Apnea: 
+falta 
+de  
+respiración 
+mas
+ 
+de  
+20s 
+y
+ 
+bradicardia
+No 
+se 
+ve 
+pectus  
+excavatum 
+o  
+carinatum
+
+--- ppt/slides/slide245.xml ---
+CORAZÓN
+11/02/2026
+HISTORIA PERSONAL
+Dolor o malestar precordial de esfuerzo
+2. Síncope o pre-síncope (no vaso-
+vagal
+) y particularmente relacionado al esfuerzo.
+3. Disnea o fatiga excesiva o inexplicable asociada al ejercicio.
+4. Antecedente de soplo cardíaco.
+5. Antecedente de hipertensión arterial sistémica.
+6. Restricción previa en la participación en deportes.
+7. Estudios cardiológicos previos solicitados por un médico.
+
+--- ppt/slides/slide246.xml ---
+CORAZÓN
+HISTORIA FAMILIAR
+8. Muerte prematura (súbita o inexplicable u otras) antes de los 50 años de edad, de causa cardiaca en uno o más familiares.
+9. Discapacidad por enfermedad cardiaca en parientes cercanos < 50 años de edad.
+10. Antecedentes familiares de enfermedad cardiaca como: miocardiopatía hipertrófica, miocardiopatía dilatada, síndrome de QTC largo u otras 
+canalopatías
+, síndrome de 
+Marfán
+ u otras arritmias clínicamente significativas.
+EXÁMEN FÍSICO
+11. Auscultar un soplo cardiaco en posición supina y de pie (o luego de realizar una maniobra de 
+Valsalva
+).
+12. Examinar ambos pulsos femorales para descartar coartación de aorta.
+13. Observar estigmas de síndrome de 
+Marfan
+.
+14. Medición de la presión arterial de la arteria humeral (posición sentada).
+
+--- ppt/slides/slide247.xml ---
+11/02/2026
+PULSOS:
+Femoral –
+Descartar coartación de la aorta
+
+--- ppt/slides/slide248.xml ---
+A
+bdo
+m
+e
+n
+ABDOMEN  DISTENDIDO,
+ 
+GLOBOSO  
+FALTA 
+FUERZA 
+DE 
+LA  
+PARED
+ESCAFOIDES 
+SOSPECHA  
+DE
+ 
+HERNIA
+DIAFRAGMÁTICA
+HERNIA 
+UMBILICAL  
+COMÚN 
+EN  
+AFROAMERICANOS 
+Y  
+SÍNDROME 
+DE
+ 
+DOWN
+ONFALOCELE  
+G
+A
+STROSQUI
+SI
+S
+DIÁSTASIS 
+DE 
+RECTOS  
+ABDOMINALES  
+ANTERIORES
+CORDÓN
+ 
+UMBILICAL:
+HÍGADO 
+PALPABLE 
+2-3  
+CM 
+POR 
+DEBAJO 
+DE  
+REBORDE
+ 
+COSTAL
+
+--- ppt/slides/slide249.xml ---
+Abdomen
+Peristalsis 
+cada
+ 
+15-20s
+Dolor 
+a 
+la 
+palpación 
+profunda o
+ 
+superficial
+Mas 
+de 
+3cm 
+sugiere
+ 
+hepatomegalia
+Dolor
+consistencia
+Borde 
+hepático 
+2cm 
+debajo 
+de
+ 
+reborde
+Puede 
+palpar la 
+punta 
+del 
+bazo
+ 
+10%
+En 
+niñas 
+fistula 
+rectovaginal 
+puede 
+pasar 
+contenido 
+fecal  
+por
+ 
+vagina
+Ano
+ 
+inperforado
+
+--- ppt/slides/slide250.xml ---
+Genitales
+Deformidades, 
+color 
+y
+ 
+tamaño
+hernias
+Pene: 
+fimosis, 
+adherencias prepuciales  
+hipospadias),
+ 
+meato
+t
+a
+m
+a
+ñ
+o
+,
+	
+h
+i
+d
+r
+o
+c
+e
+l
+e
+,
+t
+ra
+n
+si
+l
+um
+i
+n
+a
+c
+i
+ó
+n
+	
+,
+Testículos:  
+c
+r
+i
+p
+t
+o
+r
+q
+u
+í
+dea
+,  
+tumores.
+Vulva: 
+himen, 
+adherencias, 
+secreción,  
+clitóris, 
+integridad,
+ 
+meato
+Evaluar 
+Tanner  
+Ambigüedad
+ 
+genital
+
+--- ppt/slides/slide251.xml ---
+
+--- ppt/slides/slide252.xml ---
+
+--- ppt/slides/slide253.xml ---
+
+--- ppt/slides/slide254.xml ---
+Musculo
+esquelético
+Apariencia 
+resultado del  empaquetamiento
+ 
+inutero
+20
+ 
+dedos?
+Clavículas
+Parálisis 
+de 
+miembros  
+superiores
+Barlow 
+&
+ 
+Ortolani  
+Pie
+ 
+equino/varo
+Metatarso
+ 
+aducido  
+Pie 
+talo
+ calcáneo
+
+--- ppt/slides/slide255.xml ---
+2/11/2026
+
+--- ppt/slides/slide256.xml ---
+2/11/2026
+
+--- ppt/slides/slide257.xml ---

@@ -1,0 +1,112 @@
+INFORME SEMANAL SEGUIMIENTO OPERATIVO, PLATAFORMA SIS-CeNSIA SARAMPIÓN 
+Corte: 27 de febrero de 2026
+Entidad Federativa: Durango 
+Responsable: Dra. Alicia J. Esparza Aldaba 
+  I. Fundamentación Técnica
+En cumplimiento de los acuerdos establecidos en la sesión de CONASABI y conforme al seguimiento operativo registrado en la plataforma SIS-CeNSIA, se presenta el siguiente informe técnico que da respuesta puntual al Acuerdo 3, en el marco de las acciones intensivas ante el brote de sarampión en la entidad. 
+II. Objetivo
+Interrumpir la cadena de transmisión del virus mediante estrategias integradas de vacunación intensiva, vigilancia epidemiológica, fortalecimiento logístico y comunicación de riesgos, priorizando territorios con alta vulnerabilidad operativa y social.
+III. Acciones Institucionales en Apego a CONASABI
+Acuerdo 03/II/CONASABI/2025 – Vacunación masiva selectiva e indiscriminada
+Descripción del acuerdo. Todos los estados en la vacunación masiva selectiva deberán iniciar o completar esquemas en la población de 1 año, 2 a 9 años y de 10 a 49 años, previa revisión de cartilla nacional de salud, iniciar o completar esquemas de dos dosis. En la vacunación masiva indiscriminada, se mantiene el esquema de la vacunación masiva selectiva para el grupo de población de 1 a 9 años, y una dosis adicional a la población de 10 a 49 años.
+Pautas de vacunación selectiva e indiscriminada aplicadas:
+Vacunación prioritaria a población de 10 a 49 años, para iniciar o completar esquemas con SR o SRP.
+Aplicación de la “dosis cero” de SR o SRP a niñas y niños de 6 a 11 meses, seguida de la dosis 1 a los 12 meses, respetando un intervalo mínimo de 1 mes.
+Vacunación de una dosis adicional con SR al personal de salud, así como al personal de guarderías y educación entre 20 y 49 años, independientemente de su estado vacunal. 
+Criterios operativos:
+Revisión de cartilla nacional de salud
+Aplicación de dos dosis SRP en menores de 1 a 9 años
+Dosis adicional SR en adultos de 10 a 49 años
+Registro en SIS-CeNSIA
+Consolidado semanal por jurisdicción
+Vacunación masiva indiscriminada.
+Vacunación masiva selectiva.
+(1 año, 2 a 9 años y de 10 a 49 años)
+IV. Vacunación Masiva Selectiva e Indiscriminada – Población de 10 a 49 años.
+En seguimiento a las disposiciones nacionales y derivado de la actualización de lineamientos técnicos, se informa que los criterios de vacunación contra sarampión han sido modificados de la siguiente manera:
+II. Grupos a vacunar contra sarampión (actualización vigente)
+Personas que ya cuentan con 2 dosis documentadas:No requieren vacunarse nuevamente.
+Población de 6 meses a 12 años:
+Aplicación de dosis cero en niñas y niños de 6 a 11 meses.
+Primera dosis a los 12 meses.
+Segunda dosis a los 18 meses.
+En población rezagada de 1 a 12 años, iniciar o completar esquema conforme a edad.
+Población de 13 a 49 años:
+En personas sin esquema completo (de acuerdo con el escenario epidemiológico vigente), aplicar una dosis de SR o SRP.
+Personal de salud:
+Aplicar una dosis adicional de SR, independientemente del esquema previo documentado.
+Personal docente y jornaleros agrícolas hasta 49 años:
+Iniciar o completar esquema en caso de estar incompleto.
+El crecimiento en población institucional continúa con incremento moderado respecto a la semana anterior. Se observa avance en personal de salud y educativo; sin embargo, el grupo de jornaleros agrícolas presenta incremento mínimo, lo que sugiere necesidad de reforzar brigadas móviles en zonas agrícolas.
+Tabla 1. Vacunación Masiva Selectiva e Indiscriminada – Población de 10 a 49 años
+Grupo prioritario
+Corte 20/feb
+Corte 27/feb
+Variación
+Personal de salud
+2,625
+2,780
+↑ 155
+Personal educativo
+606
+645
+↑ 39
+Jornaleros agrícolas
+301
+320
+↑ 19
+Total estatal
+3,532
+3,745
+↑ 213
+Referencia: Secretaría de Salud – CeNSIA. Informe de avance sectorial de dosis aplicadas durante las acciones intensivas de vacunación contra sarampión 2025. Plataforma SIS-CeNSIA. Corte de información del 01 de abril al 27 de febrero de 2026, 13:00 hrs. Disponible en: SRP-SR | CeNSIA.
+El incremento intersemanal fue de 6.0%. Se identifica mejoría en personal de salud; el crecimiento en jornaleros continúa siendo bajo en proporción.
+V. Cobertura en Población Prioritaria Institucional
+Se mantiene captación en grupo 20–29 años; el grupo 30–39 años presenta recuperación respecto a semana previa, indicando regularización en captura.
+Tabla 2. Vacunación en Población Prioritaria 
+Grupo etario
+Corte 20/feb
+Corte 27/feb
+Variación
+20–29 años
+7,455
+7,866
+↑ 411
+30–39 años
+7,061
+7,587
+↑ 526
+Total
+14,516
+15,453
+↑ 937
+Referencia: Secretaría de Salud – CeNSIA. Informe de avance sectorial de dosis aplicadas durante las acciones intensivas de vacunación contra sarampión 2025. Plataforma SIS-CeNSIA. Corte de información del 01 de abril al 27 de febrero de 2026, 13:00 hrs. Disponible en: SRP-SR | CeNSIA.
+El crecimiento acumulado refleja fortalecimiento en población económicamente activa. Se corrige tendencia descendente observada previamente en 30–39 años.
+VI. Análisis Comparativo Intersemanal (Vacunación General)
+Se mantiene captación en el grupo 20–29 años; sin embargo, se observa ajuste en 30–39 años, posiblemente asociado a depuración o reclasificación de registros. 
+Tabla 3. Comparación intersemanal – Rubros clave de vacunación general 
+Rubro
+Corte 20/feb
+Corte 27/feb
+Variación
+Incremento %
+SRP 6–11 meses (dosis cero)
+7,992
+8,764
+↑ 772
+↑ 9.6%
+SRP 18 meses (2ª dosis)
+15,495
+16,382
+↑ 887
+↑ 5.7%
+Referencia: Secretaría de Salud – CeNSIA. Informe de avance sectorial de dosis aplicadas durante las acciones intensivas de vacunación contra sarampión 2025. Plataforma SIS-CeNSIA. Corte de información del 01 de abril al 20 de febrero de 2026, 13:00 hrs. Disponible en: SRP-SR | CeNSIA.
+Dosis cero mantiene crecimiento sostenido.
+Segunda dosis presenta incremento estable.
+Se consolida fase de estabilización operativa con crecimiento continuo.
+VII. Conclusiones y recomendaciones
+Reforzar brigadas móviles en jornaleros agrícolas.
+Supervisión específica en Jurisdicciones con menor captación.
+Auditoría de captura para evitar reclasificaciones.
+Mantener monitoreo semanal en dosis cero y 18 meses.
+Garantizar disponibilidad diaria en unidades fijas.

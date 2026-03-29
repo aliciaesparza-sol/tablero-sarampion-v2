@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import json
 
-csv_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\CAMPAÑA SARAMPIÓN 10 SEMANAS\SRP-SR-2025_22-02-2026 06-41-08.csv"
+csv_path = r"C:\Users\aicil\.gemini\antigravity\scratch\SRP-SR-2028.csv"
 excel_adult_path = r"C:\Users\aicil\.gemini\antigravity\scratch\COBERTURAS_UPDATED_2025.xlsx"
 excel_infant_path = r"C:\Users\aicil\.gemini\antigravity\scratch\coverage_infants_copy.xlsx"
 output_dir = r"C:\Users\aicil\.gemini\antigravity\scratch\charts"

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sarampión: Clínica y Vacunación</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/black.min.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- 1. Portada -->
+            <section class="title-slide center" data-transition="zoom"
+                data-background-image="https://source.unsplash.com/1600x900/?virus,medical,dark"
+                data-background-opacity="0.15">
+                <div class="glass-panel main-title">
+                    <i class="fa-solid fa-virus-covid title-icon fade-in glowing-icon"></i>
+                    <h1 class="gradient-text">SARAMPIÓN</h1>
+                    <h2>Clínica y Vacunación</h2>
+                    <hr class="fancy-hr">
+                    <p class="subtitle">PROGRAMA DE VACUNACIÓN UNIVERSAL</p>
+                </div>
+            </section>
+
+            <!-- 2. Agenda del Día -->
+            <section data-transition="slide">
+                <h2 class="section-header"><i class="fa-solid fa-list-check"></i> Agenda del Día</h2>
+                <div class="glass-panel agenda-container">
+                    <ol class="custom-counter">
+                        <li class="fragment slide-up">Histórico de Vacunación</li>
+                        <li class="fragment slide-up">Biología del Virus e Inmunidad (R0, Mutación)</li>
+                        <li class="fragment slide-up">Historia Clínica y Transmisión</li>
+                        <li class="fragment slide-up">Historia Natural de la Enfermedad</li>
+                        <li class="fragment slide-up">Manifestaciones Clínicas (Koplik y Exantema)</li>
+                        <li class="fragment slide-up">Variantes Clínicas y Complicaciones</li>
+                        <li class="fragment slide-up">Diagnóstico Diferencial</li>
+                        <li class="fragment slide-up">Manejo y Vacunación</li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section data-transition="slide">
+                <h2 class="section-header"><i class="fa-solid fa-clock-rotate-left"></i> Histórico de Vacunación</h2>
+                <div class="glass-panel timeline-wrapper">
+                    <div class="css-timeline">
+                        <div class="timeline-item fragment">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>1954</h4>
+                                <p>Aislamiento del virus (Cepa Edmonston-Enders).</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fragment">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>1963</h4>
+                                <p>Primera vacuna autorizada (Cepa inactivada y viva atenuada).</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fragment">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>1968</h4>
+                                <p>Vacuna viva más atenuada (Edmonston-Enders modificada).</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fragment">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>1971</h4>
+                                <p>Introducción de la vacuna combinada SRP (Triple Viral).</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item fragment highlight-item">
+                            <div class="timeline-dot accent-dot"></div>
+                            <div class="timeline-content glass-card">
+                                <h4 class="text-accent">1998</h4>
+                                <p>Último caso endémico de sarampión registrado en México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. Características del Virus e Inmunidad -->
+            <section>
+                <section data-transition="convex">
+                    <h2 class="section-header">Características del Virus</h2>
+                    <div class="flex-container align-center">
+                        <div class="glass-card w-40 text-center virus-showcase fragment">
+                            <i class="fa-solid fa-viruses huge-icon glowing-icon text-accent"></i>
+                            <h3 class="mt-4">Paramyxovirus</h3>
+                            <p class="subtext">Género Morbillivirus</p>
+                            <div class="r0-badge mt-3">R0: 12 - 18</div>
+                            <p class="small-text mt-2 mx-3">Uno de los patógenos humanos más contagiosos conocidos.</p>
+                        </div>
+                        <div class="glass-card w-60 fragment">
+                            <ul class="large-list compact-list">
+                                <li><i class="fa-solid fa-dna text-blue"></i> Virus ARN de cadena sencilla.</li>
+                                <li><i class="fa-solid fa-shield-virus text-blue"></i> Posee envoltura lipídica.</li>
+                                <li><i class="fa-solid fa-vial-virus text-blue"></i> Proteínas clave:
+                                    <strong>Hemaglutinina (H)</strong> y <strong>Fusión (F)</strong>.
+                                </li>
+                                <li><i class="fa-solid fa-wind text-blue"></i> Transmisión aérea por aerosoles/gotas.
+                                </li>
+                                <li><i class="fa-solid fa-globe text-blue"></i> El ser humano es el único huésped
+                                    natural.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section data-transition="slide" class="full-screen-slide">
+                    <h2 class="section-header"><i class="fa-solid fa-shield-virus"></i> ¿Por qué "no muta" de forma
+                        relevante?</h2>
+                    <div class="grid-table">
+                        <div class="glass-card fragment fade-up">
+                            <h4 class="text-blue"><i class="fa-solid fa-microscope"></i> A) Un solo serotipo</h4>
+                            <ul class="compact-list mt-2">
+                                <li>Aunque tiene genotipos, es <strong>antigénicamente estable</strong>.</li>
+                                <li>Anticuerpos neutralizantes de hace décadas siguen siendo eficaces.</li>
+                                <li><span class="danger-text">Diferencia:</span> No hay "deriva antigénica"
+                                    significativa que escape a la inmunidad como en influenza.</li>
+                            </ul>
+                        </div>
+                        <div class="glass-card fragment fade-up delay-1">
+                            <h4 class="text-blue"><i class="fa-solid fa-dna"></i> B) Proteínas críticas muy conservadas
+                            </h4>
+                            <ul class="compact-list mt-2">
+                                <li>Proteína <strong>H</strong> (blanco de Ac) y <strong>F</strong> (entrada celular).
+                                </li>
+                                <li>Son estructuralmente esenciales para la infectividad.</li>
+                                <li>No toleran cambios importantes sin perder viabilidad viral.</li>
+                            </ul>
+                        </div>
+                        <div class="glass-card fragment fade-up delay-2 w-100 grid-col-span-2 text-center"
+                            style="grid-column: span 2;">
+                            <h4 class="text-blue"><i class="fa-solid fa-flask"></i> C) Baja presión selectiva</h4>
+                            <p class="mt-2 text-small mx-4">No existe inmunidad poblacional parcial (como influenza), la
+                                vacuna induce respuesta robusta, y al no haber reservorio animal, la presión evolutiva
+                                para escapar o mutar es mínima.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section data-transition="convex">
+                    <h2 class="section-header"><i class="fa-solid fa-shield-halved"></i> ¿Por qué confiere inmunidad de
+                        por vida?</h2>
+                    <div class="flex-container">
+                        <div class="glass-card w-50 fragment">
+                            <h4 class="text-accent"><i class="fa-solid fa-droplet"></i> Respuesta Humoral Potente</h4>
+                            <ul class="compact-list mt-3">
+                                <li>Altos títulos de IgG neutralizantes.</li>
+                                <li>Acción contra múltiples epítopos (H y F).</li>
+                                <li>Formación de células B de memoria de larga duración (<span
+                                        class="text-blue fw-bold">décadas</span>).</li>
+                            </ul>
+                            <h4 class="text-accent mt-4"><i class="fa-solid fa-network-wired"></i> Inmunidad Celular
+                                Robusta</h4>
+                            <ul class="compact-list mt-2">
+                                <li>Activación fuerte de linfocitos T CD4+ y CD8+.</li>
+                                <li>Eliminación total del virus y memoria a largo plazo.</li>
+                            </ul>
+                        </div>
+                        <div class="glass-card w-50 fragment">
+                            <h4 class="text-accent"><i class="fa-solid fa-chart-line"></i> Replicación Sistémica Intensa
+                            </h4>
+                            <div class="text-center mt-3">
+                                <i class="fa-solid fa-lungs-virus huge-icon text-red glowing-icon"></i>
+                            </div>
+                            <p class="mt-2 text-small">El virus produce <strong>viremia amplia</strong> e infección
+                                sistémica de tejido linfoide. Esta exposición inmunológica masiva es lo que garantiza la
+                                consolidación de la memoria celular de por vida.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Comparative Virus & Amnesia -->
+                <section data-transition="slide" class="full-screen-slide">
+                    <h2 class="section-header">Inmunobiología Comparada y Secuelas</h2>
+                    <div class="flex-container align-center">
+                        <div class="w-50 fragment fade-right">
+                            <table class="modern-table text-small">
+                                <thead>
+                                    <tr>
+                                        <th>Virus</th>
+                                        <th>¿Muta mucho?</th>
+                                        <th>Inmunidad de x Vida</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Influenza</td>
+                                        <td>Sí (deriva y cambio)</td>
+                                        <td class="danger-text fw-bold">No</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SARS-CoV-2</td>
+                                        <td>Sí</td>
+                                        <td class="danger-text fw-bold">No completam.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Varicela</td>
+                                        <td>No mucho</td>
+                                        <td class="success-text fw-bold">Sí</td>
+                                    </tr>
+                                    <tr class="highlight-row">
+                                        <td><strong>Sarampión</strong></td>
+                                        <td><strong>Muy estable</strong></td>
+                                        <td class="success-text fw-bold">Sí</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="w-50 fragment fade-left">
+                            <div class="glass-card danger-border mb-3">
+                                <h3><i class="fa-solid fa-brain danger-text"></i> Amnesia Inmunológica</h3>
+                                <p class="text-small mt-2">Durante semanas/meses posteriores a la infección natural:</p>
+                                <ul class="compact-list mt-2">
+                                    <li>El virus <span class="danger-text fw-bold">elimina la memoria inmunológica
+                                            previa</span> que el paciente tenía contra otros patógenos.</li>
+                                    <li>Aumenta drásticamente la susceptibilidad a infecciones secundarias.</li>
+                                </ul>
+                            </div>
+
+                            <div class="glass-card">
+                                <h4><i class="fa-solid fa-thumbtack text-accent"></i> Conclusión Técnica</h4>
+                                <p class="text-small mt-2">Al tener un solo serotipo estable sin reservorio animal, y
+                                    generar una respuesta intensa, <strong>no requiere actualización anual de
+                                        vacuna</strong>, y la infección natural otorga protección permanente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!-- 5. Historia Clínica (Pródromos y Transmisión) -->
+            <section data-transition="slide">
+                <h2 class="section-header"><i class="fa-solid fa-file-medical"></i> Historia Clínica</h2>
+                <div class="flex-container">
+                    <div class="glass-card w-50 fragment fade-right">
+                        <h3><i class="fa-solid fa-head-side-cough text-blue"></i> Pródromos</h3>
+                        <p class="subtext">Fase inicial intensamente sintomática (2-4 días):</p>
+                        <ul class="compact-list">
+                            <li><strong>Fiebre alta</strong> (puede superar los 40°C).</li>
+                            <li><strong>Coriza</strong> (escurrimiento nasal abundante).</li>
+                            <li><strong>Tos</strong> seca y persistente.</li>
+                            <li><strong>Conjuntivitis</strong> intensa (fotofobia).</li>
+                            <li>Malestar general severo.</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card w-50 fragment fade-left">
+                        <h3><i class="fa-solid fa-people-arrows text-red"></i> Periodo de Transmisión</h3>
+                        <div class="transmission-box mt-3 text-center">
+                            <h4 class="danger-text">Altamente Infeccioso</h4>
+                            <p class="large-text">Desde <strong>4 días antes</strong><br>hasta <strong>4 días
+                                    después</strong><br>de la aparición del exantema.</p>
+                            <i class="fa-solid fa-arrow-right-arrow-left fa-2x mt-2 text-blue"></i>
+                        </div>
+                        <p class="small-text text-center mt-3">Tasa de ataque secundario >90% en contactos susceptibles.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Historia Natural y Definición Operacional -->
+            <section data-transition="zoom" class="full-screen-slide">
+                <section>
+                    <h2 class="section-header"><i class="fa-solid fa-chart-line"></i> Historia Natural de la Enfermedad
+                    </h2>
+                    <div class="natural-history-diagram fragment">
+                        <img src="assets/images/historia_natural_esquema.png" class="clinical-img"
+                            style="width:100%; max-height: 450px;">
+                    </div>
+                    <div class="bibliography-footer">Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025</div>
+                </section>
+
+                <section>
+                    <h2 class="section-header">Definición Operacional</h2>
+                    <div class="case-def-box glass-panel fragment">
+                        <h3 class="text-red">1️⃣ Caso Sospechoso</h3>
+                        <p><strong>Toda persona de cualquier edad que presente:</strong></p>
+                        <div class="flex-container mt-3">
+                            <div class="glass-card w-50">
+                                <ul class="large-list no-bullets">
+                                    <li><i class="fa-solid fa-temperature-high text-red"></i> Fiebre</li>
+                                    <li><i class="fa-solid fa-braille text-red"></i> Exantema maculopapular generalizado
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="glass-card w-50">
+                                <p class="small-text">Y uno o más de los siguientes:</p>
+                                <ul class="compact-list">
+                                    <li>Tos</li>
+                                    <li>Coriza</li>
+                                    <li>Conjuntivitis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bibliography-footer">Normatividad Vigente / Naureckas et al. Pediatrics. 2025</div>
+                </section>
+            </section>
+
+            <!-- 7. Manchas de Koplik -->
+            <section data-transition="fade">
+                <h2 class="section-header">Manchas de Koplik</h2>
+                <div class="flex-container">
+                    <div class="glass-card w-40 fragment fade-right">
+                        <i class="fa-solid fa-tooth huge-icon text-accent glowing-icon"></i>
+                        <h3>Signo Patognomónico</h3>
+                        <p><strong>Pápulas blanco-azuladas</strong> ("granos de sal") sobre base eritematosa.</p>
+                        <ul class="compact-list mt-2">
+                            <li>Aparición: 24 a 48 horas <strong>antes</strong> del exantema.</li>
+                            <li>Ubicación: Mucosa oral (carrillos), frente a molares.</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card w-60 fragment fade-left flex-center bg-mockup">
+                        <div class="flex-container gap-2" style="gap:10px">
+                            <img src="assets/images/koplik_1.png" class="clinical-img" style="max-height: 180px;">
+                            <img src="assets/images/koplik_2.png" class="clinical-img" style="max-height: 180px;">
+                        </div>
+                        <p class="small-text mt-2">Observar lesiones blanquecinas en mucosa yugal (Flechas).</p>
+                    </div>
+                </div>
+                <div class="bibliography-footer">Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025</div>
+            </section>
+
+            <!-- 8. Distribución del Exantema -->
+            <section data-transition="fade">
+                <h2 class="section-header">Distribución y Características del Exantema</h2>
+                <div class="flex-container">
+                    <div class="glass-card w-40 fragment">
+                        <h3>Evolución Cefalocaudal</h3>
+                        <ul class="compact-list mt-3">
+                            <li><i class="fa-solid fa-caret-right text-accent"></i> <strong>Inicia:</strong>
+                                Retroauricular y línea del cabello.</li>
+                            <li><i class="fa-solid fa-caret-right text-accent"></i> <strong>Progresión:</strong>
+                                Cefalocaudal y centrífugo (Tronco -> Extremidades).</li>
+                            <li><i class="fa-solid fa-caret-right text-accent"></i> <strong>3-4º día:</strong> Afecta
+                                todo el cuerpo (Respeta palmas y plantas).</li>
+                        </ul>
+                        <div class="mt-4">
+                            <img src="assets/images/exantema_real_1.png" class="clinical-img" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="glass-card w-60 fragment flex-center text-center">
+                        <img src="assets/images/exantema_distribucion.png" class="clinical-img" style="width:100%">
+                        <p class="small-text mt-3">Progresión típica del exantema maculopapular (Naureckas et al, 2025).
+                        </p>
+                    </div>
+                </div>
+                <div class="bibliography-footer">Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025</div>
+            </section>
+
+            <!-- 9. Variantes Clínicas -->
+            <section data-transition="convex">
+                <h2 class="section-header">Variantes Clínicas</h2>
+                <div class="grid-table">
+                    <div class="grid-col glass-card fragment">
+                        <h3><i class="fa-solid fa-shield-halved text-blue"></i> Sarampión Modificado</h3>
+                        <p class="subtext">Pacientes con inmunidad parcial (vacunación previa, gammaglobulina o Ac
+                            maternos).</p>
+                        <ul class="compact-list">
+                            <li>Infección atenuada (menor gravedad).</li>
+                            <li>Pródromo corto (1-2 días).</li>
+                            <li>Exantema escaso, no característico y rara vez confluyente.</li>
+                            <li>Complicaciones infrecuentes.</li>
+                        </ul>
+                    </div>
+                    <div class="grid-col glass-card fragment">
+                        <h3><i class="fa-solid fa-triangle-exclamation text-red"></i> Sarampión Atípico</h3>
+                        <p class="subtext">Historia de vacuna inactivada (1963-1968) y exposición posterior al virus
+                            salvaje.</p>
+                        <ul class="compact-list">
+                            <li>Presentación grave.</li>
+                            <li>Pródromo de cefalea intensa y fiebre alta.</li>
+                            <li>Exantema que inicia en extremidades (afecta palmas/plantas).</li>
+                            <li>Lesiones pueden ser petequiales, purpúricas o vesiculares.</li>
+                            <li>Neumonía frecuente y derrame pleural.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 10. Complicaciones y Grupos de Riesgo -->
+            <section data-transition="slide">
+                <h2 class="section-header"><i class="fa-solid fa-heart-crack"></i> Morbilidad y Complicaciones</h2>
+
+                <div class="glass-panel text-center fragment mb-4">
+                    <h3 class="danger-text fw-bold">1 de cada 5 personas infectadas requiere hospitalización</h3>
+                </div>
+
+                <div class="flex-container">
+                    <div class="glass-card w-50 fragment">
+                        <h3>Grupos de Alto Riesgo</h3>
+                        <p class="subtext">Mayor probabilidad de complicaciones y muerte:</p>
+                        <ul class="compact-list">
+                            <li>Lactantes y niños menores de 5 años.</li>
+                            <li>Adultos mayores de 20 años.</li>
+                            <li>Mujeres embarazadas (riesgo de parto prematuro o bajo peso).</li>
+                            <li>Personas con inmunocompromiso (ej. leucemia, VIH).</li>
+                            <li>Individuos con desnutrición (especialmente deficiencia de Vitamina A).</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card w-50 fragment">
+                        <h3>Complicaciones Severas</h3>
+                        <table class="modern-table text-small left-align">
+                            <tbody>
+                                <tr>
+                                    <td><strong>Diarrea</strong></td>
+                                    <td>Frecuente, riesgo de deshidratación grave.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Otitis Media</strong></td>
+                                    <td>1 en 10 niños (riesgo de sordera).</td>
+                                </tr>
+                                <tr class="danger-row">
+                                    <td><strong>Neumonía</strong></td>
+                                    <td>1 en 20 casos. Causa más común de muerte.</td>
+                                </tr>
+                                <tr class="danger-row">
+                                    <td><strong>Encefalitis</strong></td>
+                                    <td>1 en 1,000 casos. (Daño cerebral permanente).</td>
+                                </tr>
+                                <tr class="highlight-row">
+                                    <td><strong>SSPE*</strong></td>
+                                    <td>Panencefalitis Esclerosante Subaguda (fatal a largo plazo).</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 11. Custom Differential Table (Requested by User) -->
+            <section data-transition="zoom" class="full-screen-slide">
+                <h2 class="section-header"><i class="fa-solid fa-scale-balanced"></i> Cuadro Diagnóstico Diferencial
+                </h2>
+                <div class="table-zoom-wrapper full-width">
+                    <table class="differential-table exact-table glass-panel">
+                        <thead>
+                            <tr>
+                                <th style="width:12%">Enfermedad</th>
+                                <th style="width:20%">Hallazgos clínicos</th>
+                                <th style="width:25%">Características del exantema</th>
+                                <th style="width:18%">Laboratorio</th>
+                                <th style="width:25%">Puntos clave para diferenciar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="highlight-row">
+                                <td><i class="fa-solid fa-virus"></i> <strong>Sarampión</strong></td>
+                                <td>Fiebre alta (>38.5°C), tos, coriza, conjuntivitis, manchas de Koplik</td>
+                                <td>Maculopapular, inicia retroauricular y en línea de implantación del cabello,
+                                    progresa cefalocaudal, confluente</td>
+                                <td>IgM positiva a sarampión, PCR positiva, leucopenia</td>
+                                <td>Triada clásica + Koplik patognomónicas, fiebre persiste tras aparición del exantema
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rubéola</strong></td>
+                                <td>Fiebre baja, adenopatías retroauriculares y suboccipitales</td>
+                                <td>Maculopapular fino, rosado, no confluente, inicio facial, duración 3 días</td>
+                                <td>IgM rubéola positiva</td>
+                                <td>Adenopatías prominentes, cuadro más leve, exantema no confluente</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Exantema súbito (Roséola)</strong></td>
+                                <td>Fiebre alta súbita 3–5 días, al desaparecer aparece exantema</td>
+                                <td>Máculo-papular rosado, inicia en tronco, no confluente</td>
+                                <td>Leucocitos normales o linfocitosis</td>
+                                <td><strong>Exantema aparece cuando cede la fiebre</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Eritema infeccioso (Parvovirus B19)</strong></td>
+                                <td>Fiebre leve, artralgias</td>
+                                <td>“Mejillas abofeteadas”, luego patrón reticular en extremidades</td>
+                                <td>IgM Parvovirus B19</td>
+                                <td>Exantema reticulado típico, sin fase catarral intensa</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Escarlatina</strong></td>
+                                <td>Fiebre, odinofagia, lengua en fresa, faringitis</td>
+                                <td>Exantema puntiforme, áspero al tacto (tipo lija), pliegues de Pastia</td>
+                                <td>Exudado faríngeo positivo para <em>Streptococcus pyogenes</em></td>
+                                <td>Asociado a faringitis bacteriana</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dengue</strong></td>
+                                <td>Fiebre alta, mialgias intensas, cefalea retroocular</td>
+                                <td>Exantema macular o petequial, puede haber islas blancas en mar rojo</td>
+                                <td>NS1, IgM dengue, trombocitopenia</td>
+                                <td>Dolor intenso + datos de fuga capilar</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Varicela</strong></td>
+                                <td>Fiebre moderada, malestar</td>
+                                <td>Lesiones en diferentes etapas: mácula–pápula–vesícula–costra</td>
+                                <td>Diagnóstico clínico, PCR VZV</td>
+                                <td>Lesiones vesiculares pruriginosas en distintos estadios simultáneos</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 12. Manejo de Casos -->
+            <section>
+                <section data-transition="slide">
+                    <h2 class="section-header"><i class="fa-solid fa-user-doctor"></i> Manejo de Casos Sospechosos</h2>
+                    <h3 class="subtitle-slide">¿Qué hacer en la consulta?</h3>
+                    <div class="cards-container">
+                        <div class="glass-card fragment fade-up hover-tilt w-50">
+                            <i class="fa-solid fa-house-chimney-medical huge-icon text-blue"></i>
+                            <h3 class="mt-2 text-center">Manejo Ambulatorio</h3>
+                            <p class="mt-3">Egreso con recomendaciones de aislamiento:</p>
+                            <ul class="compact-list mt-2">
+                                <li>Permanecer en el domicilio hasta cumplir <strong>7 días</strong> del inicio del
+                                    exantema.</li>
+                                <li>Ventilación de espacios cerrados.</li>
+                                <li>Uso de cubrebocas (>2 años).</li>
+                            </ul>
+                        </div>
+                        <div class="glass-card fragment fade-up hover-tilt w-50" data-fragment-index="1">
+                            <i class="fa-solid fa-hospital huge-icon text-red"></i>
+                            <h3 class="mt-2 text-center">Hospitalización</h3>
+                            <p class="mt-3">Indicado ante complicaciones o pacientes vulnerables (1 de cada 5).</p>
+                            <ul class="compact-list mt-2">
+                                <li>Traslado a ambiente aislado por aerosoles.</li>
+                                <li>Notificación inmediata a epidemiología.</li>
+                                <li>Manejo de soporte invasivo si se requiere (ej. Neumonía).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section data-transition="fade">
+                    <h2 class="section-header">Conclusiones de Control</h2>
+                    <div class="glass-panel text-center w-80">
+                        <ul class="large-list no-bullets">
+                            <li class="fragment"><i class="fa-solid fa-magnifying-glass-arrow-right text-accent"></i>
+                                Identificación oportuna de casos exantemáticos</li>
+                            <li class="fragment"><i class="fa-solid fa-door-closed text-accent"></i> Aislamiento
+                                estricto de casos sospechosos</li>
+                            <li class="fragment"><i class="fa-solid fa-users-viewfinder text-accent"></i> Notificación y
+                                seguimiento de contactos</li>
+                            <li class="fragment"><i class="fa-solid fa-pills text-accent"></i> Administración de
+                                Vitamina A en casos severos</li>
+                            <li class="fragment bold-highlight scale-120"><i class="fa-solid fa-syringe text-blue"></i>
+                                <strong>VACUNACIÓN UNIVERSAL</strong>
+                            </li>
+                        </ul>
+                        <h3 class="fragment final-message glowing-text mt-4 text-gradient">¡LA VACUNACIÓN EVITA BROTES!
+                        </h3>
+                    </div>
+                </section>
+            </section>
+
+            <!-- 13. Vacunación (Esquemas) -->
+            <section>
+                <section data-transition="slide"
+                    data-background-gradient="linear-gradient(to right, #1a2a6c, #11998e, #38ef7d)">
+                    <div class="glass-panel main-title">
+                        <i class="fa-solid fa-syringe title-icon shrink-grow"></i>
+                        <h1>VACUNACIÓN</h1>
+                        <p class="subtitle">Lineamientos Generales del PVU 2025</p>
+                    </div>
+                </section>
+
+                <section data-transition="fade">
+                    <h2 class="section-header">Esquema SRP (Triple Viral)</h2>
+                    <div class="glass-panel w-90">
+                        <table class="modern-table left-align">
+                            <thead>
+                                <tr>
+                                    <th>Dosis SRP</th>
+                                    <th>Edad de Aplicación</th>
+                                    <th>Notas Epidemiológicas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="fragment">
+                                    <td>Primera Dosis</td>
+                                    <td><strong class="text-accent">12 meses</strong></td>
+                                    <td>Protección inicial.</td>
+                                </tr>
+                                <tr class="fragment highlight-row">
+                                    <td>Segunda Dosis</td>
+                                    <td><strong class="text-accent">18 meses</strong></td>
+                                    <td>Pacientes nacidos <strong>después</strong> de julio 2020. <br><em>(6 años si
+                                            nacieron antes de julio 2020)</em></td>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>Menor de 10 años (sin vacuna)</td>
+                                    <td>Aplicar Dosis 1 y 2</td>
+                                    <td>Intervalo de 4 semanas (1-10 años) para iniciar o completar esquema.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section data-transition="fade">
+                    <h2 class="section-header">Esquema SR (Doble Viral)</h2>
+                    <div class="glass-panel w-90">
+                        <table class="modern-table left-align">
+                            <thead>
+                                <tr>
+                                    <th>Población Diana (>10 años o adultos)</th>
+                                    <th>Acción Indicada</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="fragment">
+                                    <td>Personas de 10 años o más <strong>con una dosis previa</strong> de SR o SRP</td>
+                                    <td>Aplicar <strong>una dosis</strong> (Refuerzo)</td>
+                                </tr>
+                                <tr class="fragment">
+                                    <td>Personas de 10 años o más <strong>sin esquema previo</strong> o no documentado
+                                    </td>
+                                    <td>Aplicar <strong>dos dosis</strong> (Intervalo de 4 semanas entre dosis)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="small-text mt-3 text-center">* En situaciones de brote, la vacunación se intensifica
+                            según algoritmo epidemiológico.</p>
+                    </div>
+                </section>
+            </section>
+
+            <!-- 14. Preguntas Frecuentes -->
+            <section data-transition="zoom"
+                data-background-gradient="linear-gradient(to top, #0f2027, #203a43, #2c5364)">
+                <h2 class="section-header"><i class="fa-solid fa-clipboard-question"></i> Preguntas Frecuentes</h2>
+                <div class="qa-container">
+
+                    <div class="qa-item glass-card fragment">
+                        <h4 class="q-text"><i class="fa-solid fa-circle-question text-accent"></i> ¿Se puede aplicar la
+                            vacuna durante la lactancia?</h4>
+                        <p class="a-text"><i class="fa-solid fa-check text-blue"></i> <strong>Sí.</strong> No existe
+                            contraindicación infecciosa reportada para el bebé.</p>
+                    </div>
+
+                    <div class="qa-item glass-card fragment mt-10">
+                        <h4 class="q-text"><i class="fa-solid fa-circle-question text-accent"></i> ¿Riesgo de orquitis
+                            por vacuna SRP en varones?</h4>
+                        <p class="a-text">Es sumamente bajo (0.1 a 0.2 casos por 1000 dosis). En contraste, el riesgo
+                            por infección natural es del <strong>20% (1 de cada 5)</strong> que podría progresar a
+                            infertilidad secundaria.</p>
+                    </div>
+
+                    <div class="qa-item glass-card fragment mt-10">
+                        <h4 class="q-text"><i class="fa-solid fa-circle-question text-accent"></i> Hijo de 15 años con
+                            esquema SRP completo, ¿debo aplicar SR?</h4>
+                        <p class="a-text"><i class="fa-solid fa-check text-blue"></i> <strong>Sí.</strong> La inmunidad
+                            inducida por vacuna puede disminuir (waning immunity). El refuerzo SR asegura protección en
+                            adolescentes y adultos jóvenes.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 15. Closing -->
+            <section data-transition="zoom" data-background-gradient="linear-gradient(to right, #00c6ff, #0072ff)">
+                <div class="glass-panel main-title blur-heavy text-center">
+                    <h1 class="bounce-in">GRACIAS</h1>
+                    <p class="subtitle mb-4">Por su compromiso continuo con la salud de nuestra población.</p>
+                    <div class="icon-row mt-4 flex-center gap-4">
+                        <i class="fa-solid fa-hands-holding-child fa-4x glowing-icon text-white"></i>
+                        <i class="fa-solid fa-shield-virus fa-4x mx-4 glowing-icon text-white"></i>
+                        <i class="fa-solid fa-heart-circle-check fa-4x glowing-icon text-white"></i>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

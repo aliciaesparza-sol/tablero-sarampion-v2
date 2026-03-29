@@ -1,0 +1,515 @@
+{
+  "RESUMEN MUNICIPIOS": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nom. 2025*",
+      "Nom. 2026",
+      "Total Dosis",
+      "Pendientes vs Meta",
+      "% Cob vs Meta",
+      "% Cob vs Univ",
+      "Semáforo"
+    ],
+    "header_row": 7,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "8,554",
+        "4,451",
+        "98",
+        "0",
+        "0",
+        "98",
+        "4,353",
+        "2.2%",
+        "1.1%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "40,327",
+        "20,910",
+        "421",
+        "559",
+        "224",
+        "1,204",
+        "19,706",
+        "5.8%",
+        "3.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Topia",
+        "19,989",
+        "10,378",
+        "214",
+        "331",
+        "267",
+        "812",
+        "9,566",
+        "7.8%",
+        "4.1%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "6-11 Meses": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "170",
+        "50%",
+        "85",
+        "0",
+        "0",
+        "0",
+        "85",
+        "0.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "730",
+        "50%",
+        "365",
+        "0",
+        "6",
+        "6",
+        "359",
+        "1.6%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Guanaceví",
+        "155",
+        "50%",
+        "78",
+        "0",
+        "4",
+        "4",
+        "74",
+        "5.1%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "1 Año": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "174",
+        "100%",
+        "174",
+        "29",
+        "0",
+        "29",
+        "145",
+        "16.7%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "746",
+        "100%",
+        "746",
+        "124",
+        "43",
+        "167",
+        "579",
+        "22.4%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Súchil",
+        "496",
+        "100%",
+        "496",
+        "83",
+        "63",
+        "146",
+        "350",
+        "29.4%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "18 Meses": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "174",
+        "100%",
+        "174",
+        "25",
+        "0",
+        "25",
+        "149",
+        "14.4%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "746",
+        "100%",
+        "746",
+        "105",
+        "59",
+        "164",
+        "582",
+        "22.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "San Bernardo",
+        "26",
+        "100%",
+        "26",
+        "4",
+        "3",
+        "7",
+        "19",
+        "26.9%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "Rezag 2-12 Años": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "2,161",
+        "50%",
+        "1,080",
+        "44",
+        "0",
+        "44",
+        "1,036",
+        "4.1%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "9,370",
+        "50%",
+        "4,685",
+        "192",
+        "218",
+        "410",
+        "4,275",
+        "8.8%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "San Pedro del Gallo",
+        "1,184",
+        "50%",
+        "592",
+        "24",
+        "80",
+        "104",
+        "488",
+        "17.6%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "13-19 Años": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "1,418",
+        "50%",
+        "709",
+        "0",
+        "0",
+        "0",
+        "709",
+        "0.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "San Bernardo",
+        "226",
+        "50%",
+        "113",
+        "0",
+        "2",
+        "2",
+        "111",
+        "1.8%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Súchil",
+        "3,983",
+        "50%",
+        "1,992",
+        "0",
+        "41",
+        "41",
+        "1,951",
+        "2.1%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "20-39 Años": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "3,251",
+        "50%",
+        "1,626",
+        "0",
+        "0",
+        "0",
+        "1,626",
+        "0.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Topia",
+        "8,096",
+        "50%",
+        "4,048",
+        "0",
+        "25",
+        "25",
+        "4,023",
+        "0.6%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "San Bernardo",
+        "547",
+        "50%",
+        "274",
+        "0",
+        "4",
+        "4",
+        "270",
+        "1.5%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "40-49 Años": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Universo 2026",
+      "% Meta",
+      "Meta Sect.",
+      "Cubos Ene-May 25",
+      "Nominal Jun-Mar",
+      "Total Dosis",
+      "Pendientes",
+      "Cob. vs Meta (%)",
+      "Semáforo"
+    ],
+    "header_row": 3,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "1,206",
+        "50%",
+        "603",
+        "0",
+        "0",
+        "0",
+        "603",
+        "0.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "San Pedro del Gallo",
+        "709",
+        "50%",
+        "354",
+        "0",
+        "0",
+        "0",
+        "354",
+        "0.0%",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Pánuco de Coronado",
+        "1,557",
+        "50%",
+        "778",
+        "0",
+        "4",
+        "4",
+        "774",
+        "0.5%",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  },
+  "COMPARATIVA AJUSTE": {
+    "columns": [
+      "nan",
+      "Municipio",
+      "Meta Sect.",
+      "Dosis Sin Cubos",
+      "Cob. Sin Cubos",
+      "Dosis Cubos Asign.",
+      "Total Con Cubos",
+      "Cob. Con Cubos",
+      "Diferencia (pp)",
+      "Semáforo Actual"
+    ],
+    "header_row": 4,
+    "sample": [
+      [
+        NaN,
+        "Peñón Blanco",
+        "4,451",
+        "0",
+        "0.0%",
+        "98",
+        "98",
+        "2.2%",
+        "+2.2pp",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Santa Clara",
+        "20,910",
+        "783",
+        "3.7%",
+        "421",
+        "1,204",
+        "5.8%",
+        "+2.1pp",
+        "🔴 CRÍTICO"
+      ],
+      [
+        NaN,
+        "Topia",
+        "10,378",
+        "598",
+        "5.8%",
+        "214",
+        "812",
+        "7.8%",
+        "+2.0pp",
+        "🔴 CRÍTICO"
+      ]
+    ]
+  }
+}

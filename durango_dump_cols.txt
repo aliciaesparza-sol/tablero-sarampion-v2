@@ -1,0 +1,25 @@
+=== File: c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\REPORTE_SRP-SR-CENSIA\10. DURANGO.xlsx ===
+Sheet names: ['Instrucciones', 'Operación de puntos', 'Existencias en puntos', 'Aplicación diaria', 'SECTORIAL - EXISTENCIAS', 'SECTORIAL - APLICACIÓN DIARIA', 'SECTORIAL - ENTREGAS']
+
+--- Sheet: Instrucciones ---
+Columns: ['INSTRUCCIONES']
+
+--- Sheet: Operación de puntos ---
+Columns: ['CLUES ', 'Nombre de la sede', 'Municipio', 'Colonia', 'Calle', 'Código Postal', 'Número exterior', 'Entre calles', 'Latitud', 'Longitud', 'Horario de atención (intervalo hh:mm)', 'Días de atención (selección múltiple)', 'Existencia de biológicos (selección múltiple)', 'Activo']
+
+--- Sheet: Existencias en puntos ---
+Columns: ['Tipo de biológico', 'Existencias de vacunas en almacenes', 'Existencias de vacunas en puntos de vacunación']
+
+--- Sheet: Aplicación diaria ---
+Columns: ['Día de aplicación', 'Aplicaciones SR (Doble viral contra sarampión) el día reportado', 'Aplicaciones SRP (Triple viral contra sarampión) el día reportado']
+
+--- Sheet: SECTORIAL - EXISTENCIAS ---
+Columns: ['Fuente', 'Existencias de vacunas en almacenes', 'Unnamed: 2', 'Existencias de vacunas en puntos de vacunación', 'Unnamed: 4']
+
+--- Sheet: SECTORIAL - APLICACIÓN DIARIA ---
+Columns: ['Día de aplicación', 'Sectorial', 'Unnamed: 2', 'SSA estatal', 'Unnamed: 4', 'IMSS', 'Unnamed: 6', 'ISSSTE', 'Unnamed: 8']
+
+--- Sheet: SECTORIAL - ENTREGAS ---
+Columns: ['Unnamed: 0', 'Unnamed: 1', 'Totales', 11.145, 90.36, 'Unnamed: 5', 'Unnamed: 6', 'Unnamed: 7', 'Unnamed: 8']
+
+

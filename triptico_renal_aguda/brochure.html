@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tríptico Lesión Renal Aguda - Final</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+
+        .page {
+            width: 297mm;
+            height: 210mm;
+            display: flex;
+            background: white;
+            margin: 0 auto;
+            page-break-after: always;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .column {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px dashed #ccc;
+            position: relative;
+        }
+
+        .column:last-child {
+            border-right: none;
+        }
+
+        /* HIGH IMPACT TITLES */
+        .title-banner {
+            background: #b71c1c;
+            color: white;
+            padding: 15px;
+            margin: -30px -30px 25px -30px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-header {
+            color: #b71c1c;
+            font-size: 22px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin: 30px 0 15px 0;
+            border-bottom: 4px solid #b71c1c;
+            display: block;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+            font-weight: 600;
+            color: #111;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: "•";
+            color: #b71c1c;
+            font-size: 24px;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        .image-container {
+            margin-top: auto;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 95%;
+            border-radius: 15px;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        /* COVER STYLING */
+        .cover {
+            background: #b71c1c;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+            border-right: none;
+        }
+
+        .cover h1 {
+            font-size: 42px;
+            margin: 0;
+            font-weight: 800;
+            line-height: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .cover h2 {
+            font-size: 24px;
+            margin: 15px 0 30px 0;
+            font-weight: 400;
+            color: #ffcdd2;
+        }
+
+        .cover-img {
+            width: 100%;
+            height: 240px;
+            background: url('cover.png') no-repeat center center;
+            background-size: cover;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            border: 4px solid white;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 15px 25px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .student-box {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;
+        }
+
+        .student-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #ffcdd2;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .student-name {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .serv-enf {
+            margin-top: auto;
+            font-weight: 800;
+            color: #b71c1c;
+            text-align: center;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .serv-enf-white {
+            margin-top: 40px;
+            font-weight: 800;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .notice-box {
+            border: 3px solid #b71c1c;
+            padding: 15px;
+            text-align: center;
+            font-weight: 800;
+            color: #b71c1c;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Slide 1: INTERIOR -->
+    <div class="page">
+        <!-- Col 1 -->
+        <div class="column">
+            <div class="title-banner">¿QUÉ ES?</div>
+            <div class="content">
+                <p>La Lesión Renal Aguda (LRA) es la disminución súbita de la función renal, ocurre en horas o días y
+                    puede ser reversible si se trata a tiempo.</p>
+
+                <div class="section-header">PRINCIPALES CAUSAS</div>
+                <ul>
+                    <li>Deshidratación</li>
+                    <li>Sepsis</li>
+                    <li>Choque</li>
+                    <li>Medicamentos nefrotóxicos</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="column">
+            <div class="title-banner">SIGNOS Y SÍNTOMAS</div>
+            <div class="content">
+                <ul>
+                    <li>Oliguria o anuria</li>
+                    <li>Aumento rápido de peso</li>
+                    <li>Edema generalizado</li>
+                    <li>Fatiga</li>
+                    <li>Confusión</li>
+                    <li>Alteraciones electrolíticas</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="column">
+            <div class="title-banner">CUIDADOS DE ENFERMERÍA</div>
+            <div class="content">
+                <ul>
+                    <li>Control estricto de signos vitales</li>
+                    <li>Balance hídrico horario</li>
+                    <li>Monitorización de diuresis</li>
+                    <li>Administración segura de líquidos y fármacos</li>
+                    <li>Prevención de infecciones</li>
+                    <li>Vigilancia de electrolitos</li>
+                </ul>
+            </div>
+            <div class="image-container">
+                <img src="nursing.png" alt="Cuidados">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: EXTERIOR -->
+    <div class="page">
+        <!-- Col 4 (Left) -->
+        <div class="column">
+            <div class="title-banner">EDUCACIÓN AL PACIENTE</div>
+            <div class="content">
+                <ul>
+                    <li>No automedicarse</li>
+                    <li>Mantener hidratación adecuada</li>
+                    <li>Reportar cambios en la orina</li>
+                    <li>Cumplir indicaciones médicas</li>
+                    <li>Asistir a seguimiento clínico</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Col 5 (Center) -->
+        <div class="column">
+            <div class="title-banner">¿CUÁNDO ACUDIR?</div>
+            <div class="content">
+                <div class="notice-box">LA ATENCIÓN INMEDIATA ES VITAL.</div>
+                <p style="text-align: center; color: #b71c1c; font-weight: 700;">Acuda al servicio de salud si presenta:
+                </p>
+                <ul>
+                    <li>Disminución o ausencia de orina</li>
+                    <li>Edema súbito</li>
+                    <li>Dificultad respiratoria</li>
+                    <li>Confusión</li>
+                    <li>Náuseas o vómitos persistentes</li>
+                </ul>
+            </div>
+            <div class="serv-enf">SERVICIO DE ENFERMERÍA</div>
+        </div>
+
+        <!-- Col 6 (Cover) -->
+        <div class="column cover">
+            <div class="cover-img"></div>
+            <h1>LESIÓN RENAL AGUDA</h1>
+            <h2>Cuidados de Enfermería</h2>
+            <div class="badge">Atención oportuna • Vigilancia • Prevención</div>
+            <div class="student-box">
+                <div class="student-label">Alumna:</div>
+                <div class="student-name">Myriam Machado Arreola</div>
+            </div>
+            <div class="serv-enf-white">Servicio de Enfermería</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

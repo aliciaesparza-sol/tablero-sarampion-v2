@@ -1,0 +1,47 @@
+{
+  "unmatched_nom": [
+    "PEÃON BLANCO",
+    "PUEBLO NUEVO DGO",
+    "DURANGO",
+    "HIDALGO DGO",
+    "ORO EL",
+    "GUADALUPE VICTORIA DGO",
+    "OCAMPO DGO",
+    "SAN JUAN DEL RIO DGO"
+  ],
+  "unmatched_pop": [
+    "El Oro",
+    "Guadalupe Victoria",
+    "Hidalgo",
+    "Ocampo",
+    "Peñón Blanco",
+    "Pueblo Nuevo",
+    "San Juan del Río",
+    "Poblacion Total H y M"
+  ],
+  "ref_sheets": [
+    "RESUMEN MUNICIPIOS",
+    "6-11 Meses",
+    "1 Año",
+    "18 Meses",
+    "Rezag 2-12 Años",
+    "13-19 Años",
+    "20-39 Años",
+    "40-49 Años",
+    "COMPARATIVA AJUSTE",
+    "Hoja1"
+  ],
+  "ref_1year_cols": [
+    "nan",
+    "Municipio",
+    "Universo\n2026",
+    "% Meta",
+    "Meta\nSect.",
+    "Cubos\nEne-May 25",
+    "Nominal\nJun-Mar",
+    "Total\nDosis",
+    "Pendientes",
+    "Cob. vs\nMeta (%)",
+    "Semáforo"
+  ]
+}
