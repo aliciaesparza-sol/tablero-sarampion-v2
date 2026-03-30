@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import os
 import json
 
-csv_path = r"C:\Users\aicil\.gemini\antigravity\scratch\SRP-SR-2028.csv"
+import glob as _glob
+_csvs = sorted(_glob.glob(r"c:\Users\aicil\Downloads\SRP-SR-2025_*.csv"), reverse=True)
+csv_path = _csvs[0] if _csvs else r"C:\Users\aicil\.gemini\antigravity\scratch\SRP-SR-2028.csv"
 excel_adult_path = r"C:\Users\aicil\.gemini\antigravity\scratch\COBERTURAS_UPDATED_2025.xlsx"
 excel_infant_path = r"C:\Users\aicil\.gemini\antigravity\scratch\coverage_infants_copy.xlsx"
 output_dir = r"C:\Users\aicil\.gemini\antigravity\scratch\charts"
