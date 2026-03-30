@@ -1,41 +1,41 @@
 {
     "peak_week": "SE42",
-    "peak_doses": 11654,
-    "avg_weekly_doses": 1449.68,
-    "total_doses": 36242,
-    "final_coverage": 35.19255792274378,
+    "peak_doses": 21348,
+    "avg_weekly_doses": 2487.9767441860463,
+    "total_doses": 106983,
+    "final_coverage": 103.88514497679206,
     "meta_total": 102982,
     "top_municipalities": [
         {
             "Municipio": "TEPEHUANES",
-            "Coverage": 153.16535433070865
+            "Coverage": 270.2007874015748
         },
         {
-            "Municipio": "CANELAS",
-            "Coverage": 74.73638344226579
-        },
-        {
-            "Municipio": "PANUCO DE CORONADO",
-            "Coverage": 72.33483980011758
+            "Municipio": "VICENTE GUERRERO",
+            "Coverage": 146.29917538223356
         },
         {
             "Municipio": "SAN LUIS DEL CORDERO",
-            "Coverage": 70.6140350877193
+            "Coverage": 133.53269537480062
+        },
+        {
+            "Municipio": "CANELAS",
+            "Coverage": 133.4575163398693
         },
         {
             "Municipio": "NAZAS",
-            "Coverage": 67.68804315253222
+            "Coverage": 130.9063155528918
         }
     ],
     "coverage_by_indicator": {
-        "12 Meses": 1276.9539078156313,
-        "18 Meses": 934.2685370741483,
-        "6 A\u00f1os": 1383.5714285714284,
-        "10-49 A\u00f1os": 4157.142857142857
+        "12 Meses": 4424.448897795591,
+        "18 Meses": 3085.370741482966,
+        "6 A\u00f1os": 4555.714285714285,
+        "10-49 A\u00f1os": 10475.47619047619
     },
     "semaforo_summary": {
-        "green_count": 18,
-        "yellow_count": 6,
-        "red_count": 132
+        "green_count": 51,
+        "yellow_count": 21,
+        "red_count": 84
     }
 }
