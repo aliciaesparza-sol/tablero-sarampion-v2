@@ -1,7 +1,7 @@
 {
   "corte": "01 de abril 2026",
   "semana": 14,
-  "generado": "2026-04-01 10:26",
+  "generado": "2026-04-01 11:18",
   "municipios": [
     {
       "MUNICIPIO": "CANATLAN",
@@ -82,15 +82,15 @@
       "MUNICIPIO": "GENERAL SIMON BOLIVAR",
       "DOSIS_12M": 132,
       "DOSIS_18M": 155,
-      "DOSIS_6A": 208,
-      "DOSIS_10_49": 230.0,
-      "TOTAL": 725.0,
+      "DOSIS_6A": 211,
+      "DOSIS_10_49": 231.0,
+      "TOTAL": 729.0,
       "META_TOTAL": 815.0,
       "COB_12M": 55.9,
       "COB_18M": 65.7,
-      "COB_6A": 90.0,
-      "COB_ADULT": 205.4,
-      "COBERTURA": 89.0,
+      "COB_6A": 91.3,
+      "COB_ADULT": 206.2,
+      "COBERTURA": 89.4,
       "SEMAFORO": "🟢"
     },
     {
