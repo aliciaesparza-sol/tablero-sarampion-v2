@@ -1,0 +1,14 @@
+--- Selects ---
+--- Buttons ---
+Text: Perfil Value: None ID: None Class: btn btn-default btn-flat
+Text: Salir Value: None ID: None Class: btn btn-default btn-flat
+Text: TODOS LOS REGISTROSArchivo CSV Value: None ID: descarga_todos Class: btn btn-block btn-success
+Text: SECTORIAL Value: None ID: resumen_sector Class: btn btn-block btn-success
+Text: SSA Value: None ID: resumen_ssa Class: btn btn-block btn-success
+Text: IMSS Value: None ID: resumen_imss Class: btn btn-block btn-success
+Text: ISSSTE Value: None ID: resumen_issste Class: btn btn-block btn-success
+Text: IMSS Bienestar Value: None ID: resumen_imssb Class: btn btn-block btn-success
+Text: PEMEX Value: None ID: resumen_pemex Class: btn btn-block btn-success
+Text: SEDENA Value: None ID: resumen_sedena Class: btn btn-block btn-success
+Text: SEMAR Value: None ID: resumen_semar Class: btn btn-block btn-success
+Text: POR INSTITUCION Value: None ID: resumen_semar Class: btn btn-block btn-success

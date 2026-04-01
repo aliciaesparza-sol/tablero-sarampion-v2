@@ -10,12 +10,15 @@ from datetime import datetime
 downloads = r"c:\Users\aicil\Downloads"
 scratch   = r"C:\Users\aicil\.gemini\antigravity\scratch"
 
-# Buscar el CSV mas reciente de SRP en Downloads
-csv_files = sorted(glob.glob(os.path.join(downloads, "SRP-SR-2025_*.csv")), reverse=True)
-if not csv_files:
-    raise FileNotFoundError("No se encontro ningun CSV de SRP-SR en Descargas.")
-
-csv_path = csv_files[0]
+local_csv = os.path.join(scratch, "censia_latest.csv")
+if os.path.exists(local_csv):
+    csv_path = local_csv
+else:
+    # Buscar el CSV mas reciente de SRP en Downloads
+    csv_files = sorted(glob.glob(os.path.join(downloads, "SRP-SR-2025_*.csv")), reverse=True)
+    if not csv_files:
+        raise FileNotFoundError("No se encontro ningun CSV local ni en Descargas.")
+    csv_path = csv_files[0]
 print(f"Usando CSV: {csv_path}")
 
 # Leer CSV
@@ -115,14 +118,21 @@ def calcular_coberturas(row):
 df_cob = df_muni.join(df_muni.apply(calcular_coberturas, axis=1))
 
 # --- Guardar resultados ---
-out_json = os.path.join(scratch, "charts", "cobertura_municipal_v29mar.json")
+out_json = os.path.join(scratch, "charts", "cobertura_municipal_latest.json")
 os.makedirs(os.path.dirname(out_json), exist_ok=True)
 
 records = df_cob.to_dict(orient="records")
+
+from datetime import datetime
+import locale
+try: locale.setlocale(locale.LC_TIME, 'es_MX.UTF-8')
+except: pass
+corte_str = datetime.now().strftime("%d de %B %Y").lower()
+
 with open(out_json, "w", encoding="utf-8") as f:
     json.dump({
-        "corte": "29 de marzo 2026",
-        "semana": 13,
+        "corte": corte_str,
+        "semana": datetime.now().isocalendar()[1],
         "generado": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "municipios": records
     }, f, ensure_ascii=False, indent=2)
