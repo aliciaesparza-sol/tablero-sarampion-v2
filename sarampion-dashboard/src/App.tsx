@@ -72,7 +72,7 @@ function Tabla({muns, dk, ck, pct}: TablaProps) {
 const App=()=>{
   const [data,setData]=useState<DashData|null>(null);
   const [tab,setTab]=useState("res");
-  useEffect(()=>{fetch("/data.json").then(r=>r.json()).then(setData);},[]);
+  useEffect(()=>{fetch("./data.json").then(r=>r.json()).then(setData);},[]);
   if(!data) return <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh",fontSize:18,color:"#6c757d"}}>Cargando...</div>;
   const M=data.municipios;
   const td=M.reduce((x,m)=>x+m.TOTAL,0),tm=M.reduce((x,m)=>x+m.META_TOTAL,0),ct=tm>0?td/tm*100:0,sc=sem(ct);
