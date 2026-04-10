@@ -1,0 +1,22 @@
+
+
+
+VACUNACIÓN EN HUAZAMOTITA
+
+
+--- Table ---
+Biológico | Dosis aplicadas
+SR (Doble viral) | 132
+BCG | 20
+Hexavalente acelular | 16
+DPT | 13
+Rotavirus | 7
+Neumocócica conjugada | 11
+Neumocócica polisacárida | 8
+SRP (Triple viral) | 0
+VPH | 5
+Influenza | 74
+Td (Tétanos-Difteria) | 3
+Tdpa | 3
+TOTAL GENERAL | 292
+-------------
