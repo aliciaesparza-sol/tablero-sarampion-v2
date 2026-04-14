@@ -72,4 +72,27 @@ KeyboardInterrupt
   File "<frozen importlib._bootstrap>", line 132, in setdefault
   File "<frozen importlib._bootstrap>", line 75, in __new__
 KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 56, in <module>
+    import pandas.core.config_init  # pyright: ignore[reportUnusedImport] # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\config_init.py", line 31, in <module>
+    from pandas.errors import Pandas4Warning
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\errors\__init__.py", line 12, in <module>
+    from pandas._libs.tslibs import (
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\__init__.py", line 18, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\tslibs\__init__.py", line 41, in <module>
+    from pandas._libs.tslibs.conversion import localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 1, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 1, in init pandas._libs.tslibs.timestamps
+  File "pandas/_libs/tslibs/nattype.pyx", line 1, in init pandas._libs.tslibs.nattype
+  File "<frozen importlib._bootstrap>", line 463, in _lock_unlock_module
+KeyboardInterrupt
 ^C

@@ -1,29 +1,26 @@
 import pandas as pd
 import os
 
-files = {
-    'csv': r'c:\Descargas_SRP\SRP-SR-2025_10-04-2026 09-26-01.csv',
-    'poblacion': r'c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\COBERTURA DE VACUNACIÓN\TABLERO SARAMPION V2\Poblacion municipio edad simple y sexo Mexico 2026 CENJSIA EGM.xlsx',
-    'cubo': r'c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\cubo_sis_consolidado-1.xlsx'
-}
+path = r'c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\CRONOGRAMAS DE VISITAS ESCUELAS'
+files = os.listdir(path)
 
-print("--- CSV HEADER ---")
-try:
-    df_csv_head = pd.read_csv(files['csv'], encoding='latin-1', sep=None, engine='python', nrows=0)
-    print(df_csv_head.columns.tolist())
-except Exception as e:
-    print(f"Error reading CSV: {e}")
+print(f"Found {len(files)} files.")
 
-print("\n--- POBLACION SHEETS ---")
-try:
-    xl_pob = pd.ExcelFile(files['poblacion'])
-    print(xl_pob.sheet_names)
-except Exception as e:
-    print(f"Error reading Poblacion: {e}")
-
-print("\n--- CUBO SHEETS ---")
-try:
-    xl_cubo = pd.ExcelFile(files['cubo'])
-    print(xl_cubo.sheet_names)
-except Exception as e:
-    print(f"Error reading Cubo: {e}")
+for f in files:
+    if not f.endswith(('.xlsx', '.xls', '.csv')):
+        continue
+    
+    file_path = os.path.join(path, f)
+    print(f"\n{'='*50}")
+    print(f"FILE: {f}")
+    try:
+        if f.endswith('.csv'):
+            df = pd.read_csv(file_path, encoding='latin1', nrows=5)
+        else:
+            df = pd.read_excel(file_path, nrows=5)
+        
+        print("Columns:", df.columns.tolist())
+        print("\nFirst 2 rows:")
+        print(df.head(2).to_string())
+    except Exception as e:
+        print(f"Error reading {f}: {e}")

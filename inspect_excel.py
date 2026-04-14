@@ -1,30 +1,18 @@
 import pandas as pd
-import sys
 
-file_path = r'c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\CAMPAÑA SARAMPIÓN 10 SEMANAS\Cobertura_SRP-SR_SSA_Durango_2026.xlsx'
+file1 = r"c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\ESCUELAS\VPH25-26_TOP100PTES.xlsx"
+file2 = r"c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\ESCUELAS\CRONOGRAMA_INTEGRADO_VPH_2025_12abril2026.xlsx"
 
+print("Columns in TOP100PTES:")
 try:
-    # Read all sheets (if there are multiple)
-    xl = pd.ExcelFile(file_path)
-    print(f"Sheet names: {xl.sheet_names}")
-    
-    for sheet_name in xl.sheet_names:
-        print(f"\n--- Sheet: {sheet_name} ---")
-        df = xl.parse(sheet_name, header=None)
-        
-        # Look for the first row that has 'MUNICIPIO' or similar terms
-        for r_idx, row in df.iterrows():
-            row_values = [str(v).strip() for v in row if pd.notna(v)]
-            if any('MUNICIPIO' in str(v).upper() for v in row_values):
-                print(f"Found potential header at row {r_idx}: {row_values}")
-                # Print a few rows after this
-                print("\nNext 5 rows:")
-                print(df.iloc[r_idx:r_idx+6, :15].to_string())
-                break
-        else:
-            # If no header found, print first 10 rows
-            print("No 'MUNICIPIO' found. Printing first 10 rows:")
-            print(df.head(10).iloc[:, :15].to_string())
-
+    df1 = pd.read_excel(file1)
+    print(df1.columns.tolist())
 except Exception as e:
-    print(f"Error: {e}")
+    print("Error reading file1:", e)
+
+print("\nColumns in CRONOGRAMA_INTEGRADO:")
+try:
+    df2 = pd.read_excel(file2)
+    print(df2.columns.tolist())
+except Exception as e:
+    print("Error reading file2:", e)

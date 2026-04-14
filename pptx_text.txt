@@ -1,202 +1,1193 @@
---- Slide 1 ---
-SARAMPIÓN: CLÍNICA Y VACUNACIÓN
-PROGRAMA DE VACUNACIÓN UNIVERSAL
-Durango, Dgo., 17 de febrero del 2026
+﻿Slide: slide1.xml 
+Segunda ReuniÃ³n Ordinaria del COEVA 
+CAMPAÃ‘AS DE VACUNACIÃ“N, COBERTURAS, ESTRATEGIAS DE FORTALECIMIENTO. 
+SEMANA NACIONAL DE VACUNACIÃ“N.
+VACUNA VSR
+MICROREGIONALIZACIÃ“N 
+PresentaciÃ³n COEVA - Lunes
+ 13 de abril 2026
 
---- Slide 2 ---
-Antecedentes  históricos
+---
+Slide: slide10.xml 
+Cobertura
+  SSA â€” Por JurisdicciÃ³n
+Meta SSA estatal: 16,860 Â· Cob. vs Meta Propia Â· Escuelas visitadas Â· CSV 12/04/2026
+SSA TOTAL â€” DURANGO
+ðŸŸ¡  SSA TOTAL
+69%
+Dosis: 11,069  |  Meta: 16,860  |  Esc: 382/1428 visitadas
+EN PROCESO â€” brecha de 1,46 dosis
+ðŸ”´  JUR. 1 â€” DURANGO
+44%
+Dosis: 3,938  |  Meta: 8,936  |  Esc: 191/766 visitadas
+CRÃTICO â€” mayor brecha absoluta SSA: 5,078 dosis faltantes
+ðŸŸ¢  JUR. 2 â€” GÃ“MEZ PALACIO
+96.7%
+Dosis: 5,074  |  Meta: 5,564  |  Esc: 98/337 visitadas
+EXCELENTE â€” modelo a replicar
+ðŸŸ¢  JUR. 3 â€” SGO. PAPASQUIARO
+84%
+Dosis: 1,425  |  Meta: 1,686  |  Esc: 75/252 visitadas
+EN META â€” continuar ritmo
+ðŸŸ¢  JUR. 4 â€” RODEO
+93.7%
+Dosis: 632  |  Meta: 674  |  Esc: 18/73 visitadas
+EXCELENTE
+COBERTURA vs META PROPIA â€” GRÃFICO
+âš   Cob. vs Meta SSA compara cada jurisdicciÃ³n vs la meta estatal completa (16,860).
+SemÃ¡foro basado en Cob. vs Meta Propia.  ðŸ”´&lt;50%  ðŸŸ¡50-74%  ðŸŸ¢â‰¥75%  ðŸŸ¢â‰¥95%=EXCELENTE
 
-PROGRAMA DE VACUNACIÓN UNIVERSAL
+---
+Slide: slide11.xml 
+Cobertura por InstituciÃ³n â€” IMSS, IMSS Bienestar e ISSSTE
+Avance vs meta de campaÃ±a propia Â· Escuelas visitadas vs padrÃ³n Â· CSV 12/04/2026 + Reporte EstratÃ©gico
+ðŸ”´  IMSS
+45%
+Dosis: 6,857
+Faltantes: 8,285
+Meta: 15,139
+Esc. padrÃ³n: 297  |  Visitadas: 35  |  Sin visita: 262
+ðŸ”´  IMSS BIENESTAR
+47%
+Dosis: 3,353
+Faltantes: 3,667
+Meta: 7,020
+Esc. padrÃ³n: 641  |  Visitadas: 195  |  Sin 
+visita
+: 446 
+ðŸ”´  ISSSTE
+49%
+Dosis: 1,647
+Faltantes: 1,693
+Meta: 3,340
+Esc. padrÃ³n: 100  |  Visitadas: 11  |  Sin visita: 89
+ðŸŸ¢  SEDENA
+100%
+Dosis: 15
+Faltantes: 0
+Meta: 15
+Esc. padrÃ³n: 6  |  Visitadas: 6  |  Sin visita: 0
+Meta cumplida
 
---- Slide 3 ---
-Fuente: Material académico + OMS/OPS
+---
+Slide: slide12.xml 
+Top 15 Unidades Vacunadoras + Contraste OLAP vs Nominal
+Fuente: Nominal CENSIA CSV 02/04/2026 Â· El nominal registra hasta 3x mÃ¡s dosis que el OLAP/SIS
+TOP 15 UNIDADES DE SALUD MÃS VACUNADORAS
+#
+Unidad de Salud
+Inst.
+Municipio
+Dosis
+1
+CMF DURANGO
+ISSSTE
+Durango
+1,645
+2
+CESSA DR. ISAURO VENZOR
+SSA
+GÃ³mez Palacio
+1,554
+3
+UMF 10 GÃ“MEZ PALACIO
+IMSS
+GÃ³mez Palacio
+1,178
+4
+CESSA DR. CARLOS STA. MARÃA
+SSA
+Durango
+1,126
+5
+UMF 49 DURANGO
+IMSS
+Durango
+1,044
+6
+UMF 43 GÃ“MEZ PALACIO
+IMSS
+GÃ³mez Palacio
+975
+7
+UMF 50 DURANGO
+IMSS
+Durango
+945
+8
+UMF 44 DURANGO
+IMSS
+Durango
+835
+9
+UMF 1 DURANGO
+IMSS
+Durango
+762
+10
+DR. ROBERTO GARCÃA SOSA
+SSA
+Lerdo
+598
+11
+UMF 11 CD. LERDO
+IMSS
+Lerdo
+581
+12
+VICENTE GUERRERO
+IMSS Bienestar
+Vte. Guerrero
+511
+13
+UMF-UMAA 53 GÃ“MEZ PALACIO
+IMSS
+GÃ³mez Palacio
+482
+14
+HGSZMF 2 EL SALTO
+IMSS
+Pueblo Nuevo
+378
+15
+DR. TOMÃS BERMÃšDEZ GONZÃLEZ
+SSA
+Sgo. Papasquiaro
+355
+CONTRASTE OLAP vs NOMINAL (CENSIA) â€” Sep 2025 a Mar 2026
+Mes
+OLAP/SIS
+Nominal CENSIA
+Ratio
+Sep 2025
+2,389
+4,880
+2.04x
+Oct 2025
+7,483
+13,484
+1.80x
+Nov 2025
+1,042
+1,752
+1.68x
+Dic 2025
+594
+1,152
+1.94x
+Ene 2026
+222
+695
+3.13x âš 
+Feb 2026
+663
+711
+1.07x
+Mar 2026
+â€”
+334
+â€”
+TOTAL
+12,393
+22,674
++83%
+âš   CONCLUSIÃ“N: 
+El OLAP subreporta hasta 3x menos dosis (ej. enero: solo capturÃ³ el 32% real). Todos los indicadores de este reporte usan ÃšNICAMENTE el Nominal CENSIA como fuente primaria operativa.
 
---- Slide 4 ---
-Fuente: Material académico + OMS/OPS
+---
+Slide: slide13.xml 
+IMSS â€” Top 10 Escuelas Prioritarias VPH
+15,139
+Meta CampaÃ±a
+6,858
+Dosis Aplicadas
+8,258
+Dosis Faltantes
+45%
+Cobertura Actual
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+Prim. Humanista Carl Rogers
+Durango
+530
+66
+464
+2
+Anexa a la Normal
+Durango
+131
+43
+88
+3
+JosÃ© Santos ValdÃ©z
+GÃ³mez Palacio
+102
+28
+74
+4
+Leona Vicario âš SIN DOSIS
+Pueblo Nuevo
+70
+0
+70
+5
+Instituto 18 de Marzo A
+GÃ³mez Palacio
+69
+3
+66
+6
+JosÃ© Vasconcelos
+GÃ³mez Palacio
+68
+4
+64
+7
+Centenario de Bermejillo âš SIN DOSIS
+MapimÃ­
+61
+0
+61
+8
+Miguel Hidalgo âš SIN DOSIS
+Durango
+61
+0
+61
+9
+Colegio InglÃ©s de Durango
+Durango
+82
+23
+59
+10
+Gral. Domingo Arrieta âš SIN DOSIS
+MapimÃ­
+56
+0
+56
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 5 ---
-Fuente: Material académico + OMS/OPS
+---
+Slide: slide14.xml 
+Jur. 1 SSA Durango â€” Top 10 Escuelas Prioritarias VPH
+8,936
+Meta CampaÃ±a
+4,128
+Dosis Aplicadas
+4,808
+Dosis Faltantes
+46.2%
+Cobertura Actual
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+Luis Donaldo Colosio
+Durango
+76
+2
+74
+2
+NÃºm. 21 NiÃ±os HÃ©roes âš SIN DOSIS
+Durango
+64
+0
+64
+3
+JosÃ© MarÃ­a Pino SuÃ¡rez âš SIN DOSIS
+Durango
+59
+0
+59
+4
+Doce de Octubre
+Durango
+57
+1
+56
+5
+Ing. Jorge Herrera Delgado âš SIN DOSIS
+Durango
+55
+0
+55
+6
+17 de Julio
+Durango
+57
+2
+55
+7
+JosÃ© Loreto Barraza
+Durango
+58
+5
+53
+8
+Ing. Jorge Herrera Delgado
+Durango
+56
+4
+52
+9
+NiÃ±os HÃ©roes âš SIN DOSIS
+Durango
+50
+0
+50
+10
+Profr. Othon Galindo PÃ©rez
+Durango
+55
+5
+50
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 6 ---
-Fuente: Material académico + OMS/OPS
+---
+Slide: slide15.xml 
+Jur. 2 SSA GÃ³mez Palacio â€” Top 10 Escuelas Prioritarias VPH
+5,564
+Meta CampaÃ±a
+5,074
+Dosis Aplicadas
+490
+Dosis Faltantes
+91%
+Cobertura Actual
+â–¸ âœ… JURISDICCIÃ“N MODELO â€” 96.7% de cobertura. Estrategia de mantenimiento: visitar las 31 escuelas con pendientes menores, captaciÃ³n de alumnos con inasistencias y sesiones de recuperaciÃ³n en fin de semana. Objetivo: 100%.
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+Instituto FrancÃ©s La Salle
+GÃ³mez Palacio
+74
+2
+72
+2
+Club de Leones
+GÃ³mez Palacio
+56
+2
+54
+3
+Benito JuÃ¡rez
+Lerdo
+53
+2
+51
+4
+Francisco Sarabia
+GÃ³mez Palacio
+52
+4
+48
+5
+Francisco Zarco
+GÃ³mez Palacio
+50
+5
+45
+6
+Gral. Francisco Villa âš SIN DOSIS
+Lerdo
+40
+0
+40
+7
+Gral. LÃ¡zaro CÃ¡rdenas âš SIN DOSIS
+GÃ³mez Palacio
+37
+0
+37
+8
+Colegio InglÃ©s GP âš SIN DOSIS
+GÃ³mez Palacio
+33
+0
+33
+9
+Gral. Francisco Villa
+GÃ³mez Palacio
+41
+8
+33
+10
+Profa. Mariana LeÃ³n de ChÃ¡vez
+GÃ³mez Palacio
+82
+51
+31
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 7 ---
+---
+Slide: slide16.xml 
+Jur. 3 SSA Stgo. Papasquiaro â€” Top 10 Escuelas Prioritarias VPH
+1,686
+Meta CampaÃ±a
+1,425
+Dosis Aplicadas
+261
+Dosis Faltantes
+84%
+Cobertura Actual
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+NiÃ±os HÃ©roes âš SIN DOSIS
+CanatlÃ¡n
+48
+0
+48
+2
+Guadalupe Victoria
+Stgo. Papasquiaro
+59
+13
+46
+3
+Lic. Benito JuÃ¡rez
+Topia
+58
+28
+30
+4
+NiÃ±os HÃ©roes
+Nuevo Ideal
+55
+29
+26
+5
+Veinte de Noviembre
+CanatlÃ¡n
+35
+9
+26
+6
+Benito JuÃ¡rez
+Stgo. Papasquiaro
+38
+17
+21
+7
+Gral. Francisco Villa
+Stgo. Papasquiaro
+50
+30
+20
+8
+Tierra y Libertad
+CanatlÃ¡n
+39
+23
+16
+9
+Margarita Maza de JuÃ¡rez
+Tepehuanes
+26
+10
+16
+10
+Silvestre Revueltas
+Stgo. Papasquiaro
+71
+58
+13
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 8 ---
+---
+Slide: slide17.xml 
+Jur. 4 SSA Rodeo â€” Top 10 Escuelas Prioritarias VPH
+674
+Meta CampaÃ±a
+632
+Dosis Aplicadas
+42
+Dosis Faltantes
+93%
+Cobertura Actual
+â–¸ âœ… JURISDICCIÃ“N MODELO â€” 96.0% de cobertura. Requiere visita puntual a 9 escuelas con pendientes menores. Una jornada intensiva final en El Oro y San Juan del RÃ­o para alcanzar cobertura universal en el territorio.
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+Club Activo 20-30
+El Oro
+48
+20
+28
+2
+Magisterial
+El Oro
+57
+42
+15
+3
+Melchor Ocampo
+San Juan del RÃ­o
+36
+25
+11
+4
+Gral. Guadalupe Victoria NÃºm. 1
+El Oro
+27
+21
+6
+5
+Prof. Benito Acosta
+San Juan del RÃ­o
+36
+32
+4
+6
+Francisco Sarabia
+San Juan del RÃ­o
+29
+25
+4
+7
+Colegio Fray BartolomÃ© de las Casas
+Rodeo
+14
+12
+2
+8
+Ing. Enrique NÃ¡jera
+San Juan del RÃ­o
+61
+59
+2
+9
+Primaria Comunitaria âš SIN DOSIS
+Rodeo
+1
+0
+1
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 9 ---
-SARAMPIÓN, PRESENTACIÓN CLÍNICA
+---
+Slide: slide18.xml 
+ISSSTE â€” Top 10 Escuelas Prioritarias VPH
+3,340
+Meta CampaÃ±a
+1,647
+Dosis Aplicadas
+1,693
+Dosis Faltantes
+49.3%
+Cobertura Actual
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+Justo Sierra âš SIN DOSIS
+Lerdo
+79
+0
+79
+2
+CuauhtÃ©moc âš SIN DOSIS
+Durango
+75
+0
+75
+3
+Gral. Francisco Villa âš SIN DOSIS
+Durango
+67
+0
+67
+4
+UniÃ³n, Fraternidad y Lucha
+Durango
+67
+1
+66
+5
+AndrÃ©s Quintana Roo
+GÃ³mez Palacio
+65
+1
+64
+6
+Gral. Ignacio Zaragoza
+Poanas
+75
+12
+63
+7
+Paulo Freire
+Durango
+65
+6
+59
+8
+Justo Sierra âš SIN DOSIS
+Lerdo
+56
+0
+56
+9
+Tizoc
+Durango
+60
+4
+56
+10
+Nueva Reforma Educativa
+Durango
+66
+14
+52
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
-PROGRAMA DE VACUNACIÓN UNIVERSAL
+---
+Slide: slide19.xml 
+IMSS Bienestar â€” Top 10 Escuelas Prioritarias VPH
+7,020
+Meta CampaÃ±a
+3,353
+Dosis Aplicadas
+3,667
+Dosis Faltantes
+47%
+Cobertura Actual
+#
+Escuela
+Municipio
+Alumnos
+Dosis Aplic.
+Dosis Falt.
+1
+JoaquÃ­n Amaro
+Guadalupe Victoria
+47
+1
+46
+2
+Benito JuÃ¡rez
+Ocampo
+37
+3
+34
+3
+Ignacio M. Altamirano âš SIN DOSIS
+Guadalupe Victoria
+33
+0
+33
+4
+Francisco Sarabia
+Durango
+33
+2
+31
+5
+Lic. Gustavo DÃ­az Ordaz âš SIN DOSIS
+Mezquital
+29
+0
+29
+6
+JesÃºs AgustÃ­n Castro
+GÃ³mez Palacio
+28
+2
+26
+7
+CuauhtÃ©moc
+CuencamÃ©
+35
+9
+26
+8
+Guadalupe Victoria
+CuencamÃ©
+26
+1
+25
+9
+Fray Pedro de Gante âš SIN DOSIS
+Mezquital
+24
+0
+24
+10
+Francisco MurguÃ­a âš SIN DOSIS
+Nombre de Dios
+24
+0
+24
+âš  Fondo rojo = escuela SIN DOSIS â€” mÃ¡xima prioridad.  Fuente: Nominal CENSIA 02/04/2026
 
---- Slide 10 ---
-Características generales
-Naureckas C. Kaplan S, Edwards J. et al. Pediatrics 2025
-Moss W, 
+---
+Slide: slide2.xml 
+PropÃ³sito de la reuniÃ³n
+Analizar la situaciÃ³n actual de las campaÃ±as de vacunaciÃ³n, las coberturas alcanzadas y las estrategias de fortalecimiento implementadas, asÃ­ como coordinar acciones para la 
+Semana Nacional de VacunaciÃ³n
+, la incorporaciÃ³n de la 
+vacuna contra VSR
+ y el avance en la 
+microregionalizaciÃ³n
+, con el fin de optimizar el desempeÃ±o operativo del COEVA.
 
---- Slide 11 ---
-Historia natural
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide20.xml 
+Corte: 4 de abril de 2026  Â·  Semana 7 de CampaÃ±a
 
---- Slide 12 ---
-Manchas de Koplik
-Pápulas blanco- azuladas sobre fondo eritematoso
-Se presentan 24 a 48 horas antes del exantema.
-Duración de 2 a 3 días
-Tradicionalmente se consideran patognomónicas.
-Presentes en 60-70%
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide21.xml 
+AVANCE ESTRATEGIA NACIONAL â€” DURANGO Â· 12 feb â€“ 08 abr 2026
+Fuente: SaramÃ³n 2026, Drive SubsecretarÃ­a de IntegraciÃ³n Sectorial Â· CoordinaciÃ³n de Servicios de AtenciÃ³n MÃ©dica
+  |  Corte: 10 de abril de 2026, 13:00 h
+  |  Informe Semanal CENSIA  |  Del 4 al 10 de abril de 2026
+DURANGO
+Avance de la Estrategia Nacional
+85%
+Pendiente: 15 pp para alcanzar meta
+591,865 dosis aplicadas
+Acumuladas 2025-2026 Â· Ranking #22 nacional
+Meta equivalente: 9 semanas de esfuerzo
+POSICIÃ“N EN EL RANKING NACIONAL (% avance)
+Nuevo LeÃ³n
+                                                                              142%
+Veracruz
+                                                                                133%
+Ciudad de MÃ©xico
+                                                                          120%
+Tamaulipas
+                                                                            117%
+MÃ©xico
+                                                                                  105%
+â–º DURANGO
+                                                                            85%
+Puebla
+                                                                                    78%
+Guanajuato
+                                                                                     73%
+Chihuahua
+                                                                                       35%
+â–  Verde = â‰¥100% meta cumplida  â–  Naranja = 80-99%  â–  Rojo = &lt;80%  |  Meta equivalente: 9 semanas
+Fuente: SaramÃ³n 2026, Drive SubsecretarÃ­a de IntegraciÃ³n Sectorial Â· Denominador: Meta equivalente a 9 semanas Â· Corte: 10 abr 2026
 
---- Slide 13 ---
-Inicio y distribución del exantema
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide22.xml 
+COBERTURA DE VACUNACIÃ“N â€” DURANGO 2026 Â· Por Entidad Federativa, Sectorial
+Fuente: Plataforma SIS-CENSIA, con corte al 10 de abril de 2026
+  |  Corte: 10 de abril de 2026, 13:00 h
+  |  Informe Semanal CENSIA  |  Del 4 al 10 de abril de 2026
+1RA DOSIS (1 AÃ‘O) â€” COBERTURA SECTORIAL 2026
+2DA DOSIS (18 MESES) â€” COBERTURA SECTORIAL 2026
+Indicador
+Pob.
+Dosis
+Cobertura
+NACIONAL
+662,448
+824,236
+124%
+â–º DURANGO
+9,411
+10,029
+107% âœ“
+Indicador
+Pob.
+Dosis
+Cobertura
+NACIONAL
+662,448
+803,163
+121%
+â–º DURANGO
+9,411
+8,605
+91% âš 
+Fuente: Plataforma SIS-CENSIA Â· Denominador: Pob. de 4 meses (1 ene - 30 abr 2026) Â· Corte: 10 de abril de 2026
 
---- Slide 14 ---
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide23.xml 
+ðŸ‘¥  COBERTURA POR GRUPO ETARIO
+Meta sectorial Â· Dosis aplicadas Â· % de cobertura Â· Corte: 4 de abril de 2026
+Grupo
+Meta
+Aplicadas
+Progreso vs Meta
+ðŸ¼
+6-11 Meses
+%Meta:50% Â· Univ:27,794
+13,899
+11,699
+84.2%
+ðŸ‘¶
+1 AÃ±o
+%Meta:100% Â· Univ:28,379
+28,379
+30,239
+106.6%
+ðŸ§’
+18 Meses
+%Meta:100% Â· Univ:28,379
+28,379
+22,989
+81.0%
+ðŸ“š
+Rezago 2-12
+%Meta:50% Â· Univ:359,402
+179,702
+127,663
+71.0%
+ðŸŽ“
+13-19 AÃ±os
+%Meta:50% Â· Univ:246,334
+123,168
+33,290
+26.9%
+ðŸ§‘
+20-39 AÃ±os
+%Meta:50% Â· Univ:608,811
+304,407
+54,610
+17.9%
+ðŸ‘©
+40-49 AÃ±os
+%Meta:50% Â· Univ:224,216
+112,107
+19,735
+17.6%
+â–  â‰¥80% Meta
+â–  50-79%
+â–  &lt;50% CrÃ­tico
+* SR doble viral distribuida: 13-19 +202 Â· 20-39 +500 Â· 40-49 +185 dosis
 
---- Slide 15 ---
-Variantes Clínicas
-Sarampión modificado | Sarampión Atípico
-Personas con antecedentes de vacuna, gammaglobulina, Ac maternos (<9 meses). | Personas que recibieron la vacuna inactivada entre 1963 y 1968
-Infección atenuada  Cuadro clínico con menor intensidad. Pródromo corto (1-2 días). Exantema con pocas lesiones no característico.  Presencia de pápulas. | Fiebre y cefalea 7 – 14 días de contacto. Exantema de predominio en extremidades, involucra palmas y plantas. Puede ser petequial, purpúrico o urticariforme, con tos seca, dolor pleurítico.
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide24.xml 
 
---- Slide 16 ---
-Complicaciones
-Complicación | Incidencia
-Diarrea | 1/12
-Otitis media | 1/14
-Neumonía | 1/20
-Crisis convulsivas | 6-7/1000
-Encefalitis | 1-3/1000
-Encefalomielitis posinfecciosa (aguda diseminada) | 1/1000
-Panencefalitis esclerosante subaguda | 4-11/100 000 1/600 (<1 año)
-Otras: Miocarditis, pericarditis, laringotraqueitis, apendicitis, ceguera, púrpura trombocitopénica. | 
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide25.xml 
 
---- Slide 17 ---
+---
+Slide: slide26.xml 
 
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide27.xml 
 
---- Slide 18 ---
-Mortalidad
-Naureckas C, Kaplan S, Edwards J., et al. Pediatrics. 2025
+---
+Slide: slide28.xml 
 
---- Slide 19 ---
-DIAGNÓSTICO DIFERENCIAL
+---
+Slide: slide29.xml 
+Semana Nacional de VacunaciÃ³n 2026
+â€œDurango se vacuna, Durango se cuidaâ€
+25 de abril al 2 de mayo de 2026
 
---- Slide 20 ---
-Rubeola
+---
+Slide: slide3.xml 
+Orden del 
+dÃ­a
+Bienvenida y apertura de la sesiÃ³n.
+Pase de Lista
+PresentaciÃ³n de avances en campaÃ±as de vacunaciÃ³n y coberturas
+AnÃ¡lisis de estrategias de fortalecimiento
+PlaneaciÃ³n de la Semana Nacional de VacunaciÃ³n
+ActualizaciÃ³n sobre la vacuna contra VSR
+Avances en 
+microregionalizaciÃ³n
+Acuerdos y compromisos
+Asuntos generales
+Cierre de la reuniÃ³n
 
---- Slide 21 ---
-Escarlatina (S. pyogenes)
+---
+Slide: slide30.xml 
+SecretarÃ­a de Salud de Durango | Semana Nacional de VacunaciÃ³n 2026
+Fecha y Horario
+Periodo: 
+Del 25 de abril al 2 de mayo de 2026
+Arranque oficial: 
+25 de abril de 2026
+Horario: 
+12:00 a 19:00 horas
+Sede del Arranque
+UbicaciÃ³n: 
+Calle ConstituciÃ³n, Zona Centro, Durango
+Entre: 
+5 de Febrero y 20 de Noviembre
+Generalidades del Evento
+PropÃ³sito General
+Contribuir al fortalecimiento de la salud pÃºblica mediante la recuperaciÃ³n de esquemas de vacunaciÃ³n incompletos, a travÃ©s de una intervenciÃ³n intensiva y accesible en espacios de alta afluencia.
+Especial Ã©nfasis en grupos vulnerables: poblaciones perifÃ©ricas, comunidades rurales, zonas fronterizas y pueblos indÃ­genas.
 
---- Slide 22 ---
-Adenovirus
+---
+Slide: slide31.xml 
+SecretarÃ­a de Salud de Durango | Programa de VacunaciÃ³n Universal
+Objetivo
+Iniciar y/o completar los esquemas de vacunaciÃ³n conforme a la lÃ­nea de vida y el Programa de VacunaciÃ³n Universal.
+Contribuciones
+Incrementar coberturas de vacunaciÃ³n
+Completar esquemas de vacunaciÃ³n
+Fortalecer la inmunidad colectiva
+Disminuir enfermedades prevenibles por vacunaciÃ³n
+Objetivo EspecÃ­fico y Vacunas
+BiolÃ³gicos con Ã©nfasis especial
+BCG
+Hexavalente acelular
+SRP y SR
+DTP y Tdpa
+Rotavirus
+NeumÃ³coco
+Hepatitis A y B
+VSR
 
---- Slide 23 ---
-Enfermedad de Kawasaki
+---
+Slide: slide32.xml 
+SecretarÃ­a de Salud de Durango | Semana Nacional de VacunaciÃ³n 2026
+PoblaciÃ³n Objetivo
+PoblaciÃ³n en general
+NiÃ±as y niÃ±os
+Adolescentes
+Personas adultas
+Grupos con esquemas incompletos o desconocidos
+Poblaciones vulnerables con barreras de acceso
+PoblaciÃ³n Objetivo y Estrategia
+Estrategia Operativa
+InstalaciÃ³n interinstitucional de 4 CÃ©lulas Fijas de VacunaciÃ³n (CFV) en zona de alta concentraciÃ³n poblacional.
+Acciones a Realizar
+RevisiÃ³n de la Cartilla Nacional de Salud
+AplicaciÃ³n de vacunas por esquema disponible
+OrientaciÃ³n preventiva y concientizaciÃ³n social
+Registro de dosis aplicadas en el sistema
 
---- Slide 24 ---
-Dengue
+---
+Slide: slide33.xml 
+SecretarÃ­a de Salud de Durango | Semana Nacional de VacunaciÃ³n 2026
+Metas de VacunaciÃ³n â€“ Durango (SNV 2026)
+Vacuna
+Meta en dosis
+BCG
+507
+Hepatitis B
+396
+Hexavalente
+2,743
+Rotavirus
+1,014
+NeumocÃ³ccica
+1,504
+DPT
+588
+SRP*
+490
+SR*
+944
+Hepatitis A
+507
+TD
+1,609
+TDPA
+791
+VSR
+19
+VPH
+951
+Datos Operativos
+GuarderÃ­as y primarias (pob. cautiva): 
+909
+Puestos extramuros (lugares concurrentes): 
+970
+Vacunadores asignados: 
+408
+FÃ³rmulas (4% req. anual)
+BCG / Hep A / VPH: 
+(Pob. &lt;1aÃ±o) x 0.04
+Hexavalente: 
+[(Pob. &lt;1a x3) + (Pob. 1a) + (Pob. 1-4a x0.05)] x 0.04
+Rotavirus: 
+(Pob. &lt;1a x 2) x 0.04
+NeumocÃ³ccica: 
+[(Pob. &lt;1a x 2) + (Pob. 1a)] x 0.04
+DPT: 
+[Pob. 4a + (Pob. 5-6a x 0.05)] x 0.04
+SRP*: 
+(Pob. 1a x 2) x 0.02
+SR*: 
+[(Pob. 10-39a x 0.15)] x 0.02
+TD: 
+(Pob. 15-60a x 0.05) + (Pob. &lt;1a x 0.2) x 0.04
+TDPA: 
+(Pob. &lt;1a x 0.8) x 0.04
+VSR: 
+(Pob. &lt;1a x 0.917 x 0.8) x 0.02
+* Ajustado al 2% (equivalente a 1 semana)
 
---- Slide 25 ---
-¿Qué se hace al sospechar un caso?
+---
+Slide: slide34.xml 
+VACUNA VSR
 
---- Slide 26 ---
-Manejo de casos sospechosos¿Qué hacer en la consulta?
-Ambulatorio:  Egreso con recomendaciones de aislamiento (permanecer en el domicilio hasta cumplir 7 días del inicio del exantema  con ventilación  de espacios cerrados y uso de cubrebocas para mayores de 2 años.
-Hospitalización:  Traslado a ambiente aislado.
+---
+Slide: slide4.xml 
+CAMPAÃ‘A INVERNAL
+INFLUENZA
+COVID-19
+NEUMOCOCO
 
---- Slide 27 ---
-Importancia del algoritmo local
+---
+Slide: slide5.xml 
+CAMPAÃ‘A DE VACUNACIÃ“N 2025-2026 â€¢ INFLUENZA ESTACIONAL â€¢ DURANGO â€¢ SEMANA 26 (04-10 abril 2026)
+VacunaciÃ³n contra
+INFLUENZA ESTACIONAL
+SEMANA 26
+04 al 10 de abril de 2026
+Dosis aplicadas en Durango
+511,339
+96.47%
+de la meta (530,032 dosis)
+META ESPERADA: al menos 95%
+GRUPOS BLANCO â€” AVANCE POR GRUPO (% LOGRO)
+120.69%
+6-59 meses 1Âª Dosis
+94.89%
+7-59 meses 2Âª Dosis
+84.62%
+18-59 aÃ±os Dosis anual
+91.72%
+60 aÃ±os o mÃ¡s
+80.66%
+Personas embarazadas
+101.61%
+Personal de salud
+108.01%
+Resto 5-59 comorbilidades
+215.96%
+Otros grupos
+COMPARATIVO LOGRO GLOBAL: Durango vs. Nacional
+Durango: 96.47%
+Nacional: 99.22%
+Fuente: 
+Plataforma de Registro de Dosis Aplicadas de Influenza. CampaÃ±a Invernal 2025-2026. Corte al 10 de abril de 2026.
 
---- Slide 28 ---
-VACUNACIÓN
+---
+Slide: slide6.xml 
+CAMPAÃ‘A DE VACUNACIÃ“N 2025-2026 â€¢ COVID-19 â€¢ DURANGO â€¢ SEMANA (04-10 abril 2026)
+VacunaciÃ³n contra
+LA COVID-19
+Dosis aplicadas en Durango
+112,439
+88.2%
+de la meta (127,512 dosis)
+Nacional: 91.2% (9,945,217 dosis)
+Durango ocupa el lugar #25
+en avance nacional de COVID-19
+AVANCE SECTORIAL â€” COVID-19 DURANGO (04-10 abril 2026)
+SECTOR
+DOSIS APLICADAS
+META
+% AVANCE
+SS (incl. IMSS-Bienestar)                                                  
+  N/D              127,512       88.2%
+IMSS Ordinario                                                                        
+112,439              127,512       88.2%
+COMPARATIVO: Durango vs. Nacional
+Durango: 88.2%
+Nacional: 91.2%
+Fuente: 
+Plataforma de Registro SIS-CENSIA. CampaÃ±a Invernal COVID-19 2025-2026. Informe Semanal CENSIA del 4 al 10 de abril de 2026.
 
-PROGRAMA DE VACUNACIÓN UNIVERSAL
+---
+Slide: slide7.xml 
+CAMPAÃ‘A DE VACUNACIÃ“N 2025-2026 â€¢ NEUMOCOCO (60+) â€¢ DURANGO â€¢ SEMANA 26
+VacunaciÃ³n contra
+NEUMOCOCO
+Adultos de 60 aÃ±os o mÃ¡s
+SEMANA 26
+27 nov 2025 al 10 abr 2026
+Dosis aplicadas en Durango
+32,381
+54.58%
+de la meta (59,326 dosis)
+Nacional: 74.99%
+(3,157,513 de 4,210,474 dosis)
+AVANCE SECTORIAL NEUMOCOCO â€” DURANGO (27 nov 2025 â€“ 10 abr 2026)
+SECTOR
+META
+DOSIS APLICADAS
+% LOGRO SECTORIAL
+Sector (SS + IMSS-Bienestar)          
+  59,326         32,381              54.58%
+SS (sin IMSS-Bienestar) - Logro                          
+91.26%
+IMSS Ordinario - Logro                                       
+88.30%
+ISSSTE - Logro                                                       
+12.16%
+COMPARATIVO LOGRO SECTORIAL: Durango vs. Nacional
+Durango: 54.58%
+Nacional: 74.99%
+Fuente: 
+Plataforma SIS-CENSIA. CampaÃ±a Invernal Neumococo 2025-2026. Corte al 10 de abril de 2026.
 
---- Slide 29 ---
-Esquema de acuerdo a los Lineamientos Generales del Programa de Vacunación Universal
-SRP |  | 
-Primera Dosis | 12 meses | 
-Segunda Dosis | 18 meses (nacidos desp julio 2020) | 6  Años (nacidos antes julio 2020)
-Sin vacuna, menor de 10 años | 2 dosis con intervalo de 4 semanas 1-10 años, iniciar o completar esquema. | 
-SR | 
-Personas de 10 años o más con una dosis previa de SR o SRP | Aplicar una dosis
-Personas de 10 años o más sin esquema previo o no documentado de SR o SRP . | Aplicar dos dosis, con intervalo de 4 semanas
-PVU, 2025
+---
+Slide: slide8.xml 
+VACUNACIÃ“N VPH
+Reporte de Avance de Cobertura
+Ciclo Escolar 2025â€“2026  Â·  Primarias 5to Grado  Â·  Estado de Durango
+Corte al 12 de Abril de 2026  Â·  Presentado ante: COEVA Durango
+Fuente primaria: Sistema Nominal CENSIA Â· 22,938 registros procesados
 
---- Slide 30 ---
+---
+Slide: slide9.xml 
+CampaÃ±a
+  VPH â€” Corte 12 de Abril 2026
+Estado de Durango Â· Primarias 5to Grado Â· Ciclo 2025â€“2026 Â· Fuente: Nominal CENSIA
+22,938
+Dosis Aplicadas
+(todas las instituciones)
+62%
+Cobertura Estatal
+dosis aplicadas / meta 36,858
+69%
+Cobertura Sectorial SSA
+11,069 dosis / meta SSA 16,860
+13,920
+Dosis Pendientes
+para alcanzar meta estatal
+1,288
+Escuelas Visitadas
+con â‰¥1 dosis de 2,324 en padrÃ³n
+1,036
+Escuelas sin Dosis
+requieren brigada URGENTE
+SEMÃFORO GENERAL  â€”  SituaciÃ³n al 12 Abril 2026
+ðŸ”´  IMSS  45%  |  IMSS 
+Bienestar
+  47%  |  ISSSTE  49%  |  Jur.1 SSA  44%
+ðŸŸ¡  SSA Total  69%  |  Jur.3 
+Papasquiaro
+  84%
+EN PROCESO â€” avance significativo pero sin alcanzar meta
+ðŸŸ¢  Jur.2 GÃ³mez Palacio  91%  |  Jur.4 Rodeo  93.0%  |  SEDENA  100%
+EXCELENTE â€” modelo a replicar
 
---- Slide 31 ---
-
---- Slide 32 ---
-CONTRAINDICACIONES | PRECAUCIONES
-Reacción alérgica grave (por ejemplo, anafilaxia) después de una dosis previa o a un componente de la vacuna | Infección leve
-Fiebre mayor de 38°C | Alergia al huevo
-Embarazo | Recepción reciente (≤11 meses) de productos sanguíneos que contienen anticuerpos (el intervalo específico depende del producto).
-Trombocitopenia (contraindicación relativa).  | Antecedentes de trombocitopenia o púrpura trombocitopénica
-Transfusión (inmunoglobulina, sangre total, concentrados  de glóbulos) | Enfermedad aguda moderada o grave con o sin fiebre
-Inmunodeficiencia grave conocida (por ejemplo, tumores hematológicos y sólidos, quimioterapia, inmunodeficiencia congénita, terapia inmunosupresora a largo plazo(c) o pacientes con infección por VIH que están gravemente inmunocomprometidos) | 
-Contraindicaciones y precauciones | Vacunas e inmunizaciones | CDC
-
---- Slide 33 ---
-Condiciones comúnmente percibidas erróneamente como contraindicaciones 
-Enfermedad aguda leve con o sin fiebre
-Paciente en tratamiento con antimicrobiano
-Paciente en fase convaleciente de enfermedad
-Parto prematuro
-Exposición reciente a una enfermedad infecciosa
-Antecedente de alergia a la penicilina u otras alergias
-Contraindicaciones y precauciones | Vacunas e inmunizaciones | CDC
-
---- Slide 34 ---
-Conclusiones:
-Identificación oportuna
-Aislamiento oportuno
-Notificación y seguimiento de contactos
-Educación continua al personal
-Vacunación
-
-Evita brotes
-
---- Slide 35 ---
-
-
-
-
-
-
-GRACIAS
-
---- Slide 36 ---
-Preguntas y respuestas
-¿Se puede aplicar la vacuna durante la lactancia?
-Respuesta: Si
-
-
-
---- Slide 37 ---
-Preguntas y respuestas
-¿Se puede aplicar la vacuna durante la lactancia?
-
---- Slide 38 ---
-Preguntas y respuestas
-¿Riesgo de orquitis por vacuna SRP en varones?
-Riesgo de Orquitis testicular por Parotiditis natural.
-Incidencia en hombres postpuberales: Aproximadamente 1 de cada 5 hombres (20%) que contraen paperas pueden desarrollar orquitis.
-
-- Riesgo de infertilidad: Aunque la orquitis asociada a las paperas puede aumentar el riesgo de infertilidad, no todos los casos de orquitis llevan a infertilidad.
-CDC, 2024
-La incidencia de orquitis asociada a la vacuna triple vírica (SRP) es de aproximadamente 0,1 a 0,2 casos por cada 1.000 dosis administradas. Esto sugiere que el riesgo de desarrollar orquitis después de recibir la vacuna SRP es muy bajo. La mayoría de las reacciones adversas asociadas a la vacuna SRP son leves y transitorias.
-CDC, 2024
-
---- Slide 39 ---
-Preguntas y respuestas
-Si mi hijo tiene 15 años y tiene esquema completo de SRP, ¿debo aplicarle dosis de SR?
-Respuesta: Si
-
-“Si bien la vacuna SRP proporciona una protección eficaz contra Sarampión, Rubeola y Paperas para la mayoría de las personas, la inmunidad puede disminuir con el tiempo en algunas personas. Es posible que ya no estén protegidas contra esta enfermedad más adelante en la vida.”
-CDC,2024
+---
 
