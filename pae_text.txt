@@ -1,0 +1,3025 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+Directorio de la Secretaría de Salud 
+ 
+Dr. Jorge Carlos Alcocer Varela 
+Secretario de Salud 
+Dr. Hugo López-Gatell Ramírez 
+Subsecretario de Prevención y Promoción de la Salud 
+Mtra. Maricela Lecuona González 
+Abogada General de la Secretaría de Salud 
+Dr. Pedro Flores Jiménez 
+Titular de la Unidad de Administración y Finanzas 
+Dr. Alejandro Ernesto Svarch Pérez 
+Comisionado Federal para la Protección contra Riesgos Sanitarios 
+Dr. José Ignacio Santos Preciado 
+Secretario del Consejo de Salubridad General 
+Dr. Juan Antonio Ferrer Aguilar 
+Director General del Instituto de Salud para el Bienestar 
+Lic. Jaime Francisco Estala Estevez 
+Encargado del despacho de los asuntos correspondientes a la Oficina de Integración 
+ y Desarrollo del Sector Salud 
+Dr. Gustavo Reyes Terán 
+Titular de la Comisión Coordinadora de Institutos los Nacionales de Salud 
+ y Hospitales de Alta Especialidad 
+Dr. Gady Zabicky Sirot 
+Comisionado Nacional Contra las Adicciones 
+Lic. Mónica Alicia Mieres Hermosillo 
+Titular de la Unidad Coordinadora de Vinculación y Participación Social 
+Dr. Onofre Muñoz Hernández 
+Comisionado Nacional de Arbitraje Médico 
+Mtro. Edén González Roldán 
+Encargado del Despacho de la Comisión Nacional de Bioética 
+Lic. Ángel Rodríguez Alba 
+Titular del Órgano Interno de Control 
+Dra. María Eugenia Lozano Torres 
+Secretaria Técnica del Consejo Nacional de Salud 
+Dr. Marcos Cantero Cortés 
+Titular de la Unidad de Análisis Económico 
+ 
+ 
+ 
+6 
+ 
+ 
+Directorio del Sistema Nacional de Salud 
+ 
+Dr. Jorge Alcocer Varela 
+Secretario de Salud 
+Lic. Zoé Alejandro Robledo Aburto 
+Director General del Instituto Mexicano del Seguro Social 
+Mtro. Luis Antonio Ramírez Pineda 
+Director General del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado 
+Lic. María del Rocío García Pérez 
+Titular del Sistema Nacional para el Desarrollo Integral de la Familia 
+Ing. Octavio Romero Oropeza 
+Director General de Petróleos Mexicanos 
+General Luis Crescencio Sandoval González 
+Secretaría de la Defensa Nacional 
+Almirante José Rafael Ojeda Durán 
+Secretaría de Marina 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+ 
+Índice 
+ 
+Siglas y Acrónimos 
+08 
+I. 
+Introducción 
+10 
+II. 
+Fundamento normativo de la elaboración del programa 
+13 
+III. 
+Origen de los recursos para la instrumentación del programa 
+16 
+IV. 
+Análisis del estado actual 
+16 
+ 
+i. Antecedentes 
+ 
+ 
+ii. Justificación 
+ 
+ 
+iii. Planteamiento del problema 
+ 
+ 
+iv. Principios Rectores del PND en el PAE 
+ 
+ 
+v. Contribución del PAE al nuevo modelo de desarrollo 
+ 
+ 
+vi. Proyectos o programas prioritarios vinculados al PAE 
+ 
+ 
+vii. Cambios esperados 
+ 
+V. 
+Alineación con el Plan Nacional de Desarrollo 2019-2024 y Programa 
+Sectorial de Salud 2020-2024. 
+27 
+VI. 
+Objetivo general 
+30 
+VII. 
+Esquema Objetivos prioritarios, estrategias prioritarias y acciones 
+puntuales 
+30 
+VIII. 
+Objetivos prioritarios, estrategias prioritarias y acciones puntuales 
+30 
+IX. 
+Indicadores, metas para el bienestar y parámetros 
+     35 
+X. 
+Mapa de procesos. 
+44 
+XI. 
+Territorialización 
+45 
+XII. 
+Innovación en Salud 
+49 
+XIII. 
+Transversalidad 
+51 
+XIV. 
+Epílogo: visión de largo plazo 
+53 
+ 
+Lista de Dependencias y Entidades participantes 
+55 
+ 
+Bibliografía 
+57 
+ 
+Glosario de términos 
+59 
+ 
+ 
+8 
+ 
+Siglas y Acrónimos 
+BCG 
+ Bacilo de Calmette-Guerin, vacuna contra la tuberculosis 
+CENSIA 
+ Centro Nacional para la Salud de la Infancia y la 
+Adolescencia 
+CNFV 
+ Centro Nacional de Farmacovigilancia 
+COEVA 
+COFEPRIS 
+ Consejo Estatal de Vacunación 
+Comisión Federal para la Protección contra Riesgos 
+Sanitarios 
+CONAPO 
+CONASA 
+ Consejo Nacional de Población 
+Consejo Nacional de Salud 
+CONAVA 
+ Consejo Nacional de Vacunación 
+CURP 
+DGDIF 
+DGPLADES 
+ Clave Única de Registro de Población 
+Dirección General de Desarrollo de la Infraestructura Física 
+Dirección General de Planeación y Desarrollo en Salud 
+DPT 
+ Vacuna anti tos ferina de células completas, con toxoides 
+diftérico y tetánico 
+DPaT+VIP+Hi
+b 
+ Vacuna pentavalente acelular contra difteria, tos ferina 
+(acelular), tétanos, poliomielitis y Haemophilus influenzae 
+tipo b 
+DPaT+VIP+Hi
+b+HB 
+ Vacuna hexavalente acelular contra difteria, tos ferina 
+(acelular), tétanos, poliomielitis, Haemophilus influenzae tipo 
+b y hepatitis B 
+EPV 
+ Enfermedades Prevenibles por Vacunación 
+ERC 
+ Encuesta Rápida de Cobertura 
+ESAVI 
+ Evento Supuestamente Atribuible a Vacunación o 
+Inmunización 
+HB 
+ Vacuna contra Hepatitis B 
+Hib 
+ Vacuna contra Haemophilus influenzae tipo b 
+ 
+9 
+ 
+IMSS 
+ Instituto Mexicano del Seguro Social 
+INEGI 
+ Instituto Nacional de Estadística y Geografía 
+ISSSTE 
+ Instituto de Seguridad y Servicios Sociales de los 
+Trabajadores del Estado 
+OMS 
+ Organización Mundial de la Salud 
+OPS 
+ Organización Panamericana de la Salud 
+PAE 
+ Programa de Acción Específico 
+PFA 
+PEF 
+ Parálisis Flácida Aguda 
+Presupuesto de Egresos de la Federación 
+PVU 
+ Programa de Vacunación Universal 
+SIS 
+ Sistemas de Información en Salud 
+SNS 
+ Semanas Nacionales de Salud 
+SR 
+SRC 
+ Vacuna doble viral contra sarampión y rubéola 
+Síndrome de Rubéola Congénita 
+SRP 
+ Vacuna triple viral contra sarampión, rubéola y parotiditis 
+Td 
+ Vacuna con toxoide tetánico y diftérico adsorbidos 
+Tdpa 
+ Vacuna de refuerzo contra tétanos, difteria y tos ferina 
+acelular 
+VIH 
+ Virus de la Inmunodeficiencia Humana 
+VIP 
+ Vacuna Inactivada de poliovirus 
+VOP 
+ Vacuna antipoliomielítica oral 
+VPH 
+ Virus del Papiloma Humano 
+ 
+ 
+ 
+ 
+10 
+ 
+I. 
+Introducción 
+Con la elaboración de éste programa, se cumple con la obligación de las dependencias 
+del ejecutivo federal, señalada en el artículo 17 fracción II de la Ley de Planeación (DOF. 
+05-01-1983, última actualización 09-04-2012), También está alineado al Plan Nacional de 
+Desarrollo, al Programa Sectorial de Salud y da respuesta a los compromisos 
+internacionales en la materia, adquiridos por el gobierno de México.  
+El propósito del gobierno de la Cuarta Transformación es que en 2024 la población de 
+México esté viviendo en un entorno de bienestar. El Plan Nacional de Desarrollo (PND) 
+2019-2024 tiene como objetivo general transformar la vida pública del país para lograr un 
+desarrollo incluyente. Tal transformación requiere la articulación de políticas públicas 
+integrales que se complementen, fortalezcan y que en su conjunto construyan soluciones 
+de fondo. 
+En este documento se presenta en primer lugar, su vinculación con el Plan Nacional de 
+Desarrollo y sus ejes rectores, seguido del vínculo con los objetivos y compromisos 
+internacionales en materia de vacunación.  
+El Programa de Vacunación Universal está sustentado en la Constitución Política de los 
+Estados Unidos Mexicanos y en el Eje 2 Política Social del Plan Nacional de Desarrollo, bajo 
+cinco de sus ejes rectores.  
+En la siguiente figura se presenta el esquema general del Programa de Vacunación 
+Universal: 
+ 
+ 
+11 
+ 
+ 
+Este Programa se elaboró de conformidad con la Ley de Planeación, en su Artículo 16; es 
+de aplicación en todas las Instituciones de Sistema Nacional de Salud (SNS) del país, para 
+prevenir enfermedades, discapacidad y defunciones atribuibles a enfermedades 
+prevenibles por vacunación y lograr la mitigación, el control, la eliminación o la 
+erradicación de los padecimientos que, de acuerdo a su magnitud epidemiológica, 
+trascendencia clínica y social, vulnerabilidad de los agentes causales a la inmunidad 
+inducida por la vacunación y factibilidad técnica y de recursos humanos y materiales  para 
+garantizar la eficiencia y sostenibilidad de la vacunación en la población, sean de mayor 
+prioridad en salud pública. 
+ 
+Objetivos y compromisos nacionales e internacionales: 
+Alineación con los Objetivos del Desarrollo Sostenible (ODS) 
+Este Programa tiene relación directa con el ODS 3, e indirecta con 12 más: 
+1,4,5,6,7,8,9,10,11,13,16, y 17. A continuación, se señala solamente el vínculo directo.  
+Objetivo 3 Garantizar una vida sana y promover el bienestar para todos en todas las 
+edades. 
+Todas las acciones de vacunación, impactan positivamente en la salud de la población en 
+la línea de vida, además es la segunda intervención en salud pública más costo efectivo, 
+salva vidas y genera en la población salud y bienestar, participa intensamente en la 
+disminución de muertes evitables, en el combate a brotes o epidemias de las 
+enfermedades incorporadas en el esquema de vacunación, durante las diversas etapas 
+de la vida. 
+Así mismo, dentro de las prioridades definidas por el gobierno de México, se encuentra 
+lograr el acceso a servicios de salud esenciales de calidad y acceso a medicamentos, con 
+fortalecimiento de la Atención primaria a la salud. 
+ 
+Agenda de Inmunización 2030. Una estrategia para no dejar a nadie atrás. 
+Esta agenda tiene 7 estrategias, dirigidas a garantizar la incorporación de la vacunación 
+en las acciones de APS y lograr cobertura universal; lograr la corresponsabilidad de la 
+población para que acuda a demandar la vacuna que le corresponde, de acuerdo a la 
+línea de vida, así como que por parte del sistema de salud se garantice que existe el 
+servicio de vacunación con todos los insumos necesarios de buena calidad; aumentar el 
+ 
+12 
+ 
+acceso a poblaciones en situación de vulnerabilidad; atención de brotes y emergencias 
+en las que la vacunación sea necesaria y generar investigación en esta materia.  
+ 
+Agenda de Salud Sostenible para las Américas 2018-2030 
+ 
+Directamente se vincula con el Objetivo 5: Medicamentos esenciales y vacunas, cuya 
+meta está dirigida a Asegurar el acceso a medicamentos esenciales y vacunas, al igual 
+que a otras tecnologías sanitarias prioritarias, según la evidencia científica disponible y de 
+acuerdo con el contexto nacional.  
+Con base en lo anterior, el presente Programa de Acción Especifico y los Objetivos 
+Prioritarios del Gobierno de México planteados en el Plan Nacional de Desarrollo 2019-
+2024, favorecen el cumplimento de las agendas internacionales en materia de salud y 
+vacunación, pues consideran la creación de un entorno de bienestar para todos los 
+habitantes a lo largo de la línea de vida, sin dejar a nadie atrás ni a nadie fuera, incluyendo 
+entre sus prioridades la prestación universal de servicios de salud, respeto e inclusión de 
+todos los grupos poblacionales y pueblos originarios, así como el ejercicio correcto y 
+trasparente de recursos para garantizar el abasto de insumos necesarios. 
+Además, los objetivos del PVU están alineados a los compromisos y objetivos de la 
+Organización Mundial de la Salud y de la Organización Panamericana de la Salud, en la 
+materia, y son: 
+Alcanzar y mantener al menos 90% de cobertura de vacunación con el esquema 
+completo de vacunación y de al menos 95% por tipo de vacuna. 
+Mantener la eliminación de la poliomielitis por virus silvestre en el país y contribuir a la 
+erradicación mundial de este padecimiento. 
+Prevenir y controlar, si llegaran a presentarse, brotes de poliomielitis por poliovirus 
+derivado de la vacuna. 
+Mantener la eliminación del tétanos neonatal. 
+Mantener la eliminación del sarampión, la rubéola y el Síndrome de Rubéola Congénita 
+(SRC). 
+Alcanzar y mantener el control de los siguientes padecimientos inmunoprevenibles: 
+ 
+ 
+ 
+13 
+ 
+• Tuberculosis meníngea y miliar. 
+• Hepatitis B. 
+• Difteria. 
+• Tos ferina. 
+• Tétanos no neonatal. 
+• Neumonía y meningitis producidas por Haemophilus influenzae tipo b. 
+• Neumonía y meningitis producidas por Streptococcus pneumoniae. 
+• Gastroenteritis grave causada por rotavirus. 
+• Parotiditis.  
+Mitigar el riesgo de complicación en infecciones respiratorias agudas atribuibles al virus 
+influenza. 
+Reducir la incidencia de infección por el Virus del Papiloma Humano (VPH) a través de la 
+vacunación de niñas que cursan el 5° grado de primaria o de 11 años de edad si no están 
+escolarizadas y de mujeres portadoras del Virus de la Inmunodeficiencia Humana (VIH). 
+Garantizar la vacunación segura. 
+Monitorear la incidencia de Eventos Supuestamente Atribuibles a Vacunación e 
+Inmunización (ESAVI) a través de su detección, notificación y seguimiento oportunos. 
+ 
+II. 
+Fundamento Normativo 
+Constitución Política de los Estados Unidos Mexicanos 
+Establece en el Artículo 4°, que toda persona tiene derecho a la protección de la salud. 
+Por lo que el Estado está obligado a garantizar la extensión progresiva, cuantitativa y 
+cualitativa de los servicios de salud para la atención integral y gratuita de las personas a 
+través de las bases y modalidades definidas en un marco legislativo.  DOF 05-II-1917 F.E. 
+DOF 06-II-1917 Ref. DOF Última Reforma 15-09-2017. 
+ 
+ 
+ 
+ 
+14 
+ 
+Leyes 
+• Ley General de Salud.  
+• Ley de Migración, Ley sobre Refugiados, Protección Complementaria y Asilo 
+Político. 
+• Ley Orgánica de la Administración Pública Federal.  
+ 
+Códigos 
+• Código Federal de Procedimientos Civiles.  
+• Código Fiscal de la Federación.  
+ 
+Reglamentos 
+• Reglamento Interior de la Secretaría de Salud.  
+• Reglamento de la Ley General de Salud en Materia de investigación en Salud.  
+• Reglamento de la Ley General de Salud en Materia de Control Sanitario de 
+Actividades, Establecimientos, Productos y Servicios.  
+• Reglamento Sanitario Internacional. 
+• Reglamento de la Ley de Migración 
+• Reglamento de la Ley sobre Refugiados y Protección Complementaria 
+ 
+Decretos 
+• Decreto del Presupuesto de Egresos de la Federación del Ejercicio Fiscal 2020. 
+DOF 11-12-2019. 
+• Decreto que declara obligatorio a la inmunización contra la poliomielitis. DOF 
+20-9-1963. 
+• Decreto por el que se establece el Sistema de Cartillas Nacional de Salud. DOF 
+24-12-2002. 
+• Decreto por el que se crea el Consejo Nacional de Vacunación. DOF 24-1-1991. 
+• Decreto por el que se reforma el Consejo Nacional de Vacunación. DOF 5-07-
+2001. 
+• Decreto por el que se determina la integración del Consejo Nacional de 
+Vacunación. DOF 26-11-2018.  
+• Decreto por el que se reforma y adiciona diversas disposiciones de la Ley 
+General de Salud, en materia de vacunación. DOF 19-06-2017. 
+ 
+15 
+ 
+ 
+Normas Oficiales Mexicanas 
+• NOM-004-SSA3-2012, del Expediente Clínico.  DOF 15-10-2012. 
+• NOM-007-SSA2-2016, Para la atención de la mujer durante el embarazo, parto y 
+puerperio, y de la persona recién nacida. DOF: 07-04-2016. 
+• NOM-047-SSA1-2011, Salud Ambiental-Índices biológicos de exposición para el 
+personal ocupacionalmente expuesto a sustancias químicas. DOF 06-06-2011. 
+• NOM-036-SSA2-2012, Prevención y control de enfermedades. Aplicación de 
+Vacunas, toxoides, faboterápicos (sueros) e inmunoglobulinas en el humano. DOF 
+28-09-2012. 
+• NOM-017-SSA2-2012, Para Vigilancia Epidemiológica. DOF 19-02-2013. 
+• NOM-087-SEMARNAT-SSA1-2002. 
+Prevención 
+Ambiental-Salud 
+Ambiental- 
+Residuos Peligrosos Biológicos-Infecciosos-Clasificación y Especificaciones de 
+Manejo. DOF 17-02-2003. 
+• NOM-031-SSA2-1999, Para la atención a la salud del niño. DOF 09-02-2001. 
+• NOM-034-SSA2-2013, Para la prevención y control de los defectos al nacimiento. 
+DOF: 24-06-2014. 
+• NOM-047-SSA2-2015, Atención a la salud del grupo etario de 10 a 19 años de edad. 
+DOF 18-06-2015. 
+ 
+Estrategias y Planes Nacionales 
+• Plan Nacional de Desarrollo 2019-2024. Presidencia de la República. DOF 12-07-
+2019. 
+• Programa Sectorial de Salud 2020-2024. Secretaría de Salud.  
+ 
+ 
+ 
+16 
+ 
+ 
+III. Origen de los recursos para la instrumentación del programa 
+El programa Presupuestario E036 “Reducciones de enfermedades prevenibles por 
+vacunación”, recibe recursos dentro del Presupuesto de Egresos de la Federación (PEF), 
+a través del Ramo 12 Salud, estos recursos se utilizan principalmente para la adquisición 
+de biológicos, mismos que son entregados a las entidades federativas, mediante la 
+transferencia de insumos. 
+Adicionalmente se cuenta también con financiamiento del Instituto de Salud para el 
+Bienestar, en las entidades federativas con recursos del Ramo 33 “Aportaciones Federales 
+para Entidades Federativas” y con recursos de Clasificación Funcional: 
+ 
+Finalidad 
+2-Desarrollo Social 
+Función 
+3-Salud 
+Subfunción 
+2-Prestación de Servicios de Salud a la Persona 
+Actividad 
+Institucional 
+18-Prestación de servicios del Sistema Nacional 
+de Salud organizados e integrados 
+ 
+IV. Análisis del estado actual 
+i. Antecedentes 
+México cuenta con una larga historia en la aplicación y producción de vacunas, iniciando 
+en 1804 con la introducción de la vacuna contra la viruela.  
+El PVU como tal, fue creado en 1991 y tiene sus orígenes en el Programa Nacional de 
+Inmunizaciones (PNI) de 1973, que operaba con baja cobertura de vacunación y no cubría 
+todo el territorio nacional. En 1989-1990, se presentó una epidemia de sarampión con 
+89,163 casos registrados y 8,150 defunciones, motivo por el cual se realizó la Encuesta 
+Nacional de Cobertura de Vacunación que demostró una cobertura del esquema básico 
+del 46%, lo que originó la creación, en 1991, del CONAVA como entidad normativa 
+responsable de la coordinación interinstitucional y ejecución del PVU, para después 
+separar la coordinación, planeación, evaluación y control al interior de la Secretaría de 
+ 
+17 
+ 
+Salud, de la coordinación interinstitucional generando el Centro Nacional para la Salud 
+de la Infancia y la Adolescencia, y dejando al CONAVA como el organismo de coordinación 
+interinstitucional y asesor del sistema nacional de salud, en materia de vacunación.  
+En la siguiente tabla se detallan los aspectos históricos más relevantes en materia de 
+vacunación en México: 
+ 
+Tabla 1 Cronología de la introducción de vacunas 
+Año 
+Suceso 
+1804 
+El Dr. Francisco Javier Balmis introdujo a México la vacunación antivariólica 
+1908 
+Se expide la Ley Constitutiva del Instituto Bacteriológico Nacional, creado 
+para preparar vacunas, sueros y antitoxinas 
+1926 
+Por Decreto se hace obligatoria la vacunación contra la viruela. Inician las 
+campañas masivas para su aplicación 
+1939 
+Primer informe sobre la producción suficiente de biológicos del país para la 
+demanda nacional 
+1948 
+Introducción de vacuna combinada contra la tosferina y difteria 
+1951 
+San Luis Potosí registró el último caso de viruela 
+Inicia la vacunación con BCG 
+1954 
+Inicia la producción nacional de toxoide tetánico  
+1955 
+Inicia la producción nacional de DPT 
+1956 
+Inicia vacunación antipoliomielítica con vacuna inactivada tipo Salk 
+1962 
+Vacunación antipoliomielítica oral tipo Sabin 
+1971 
+Introducción de la vacuna antisarampión con cepa tipo Schwarz y 
+posteriormente Edmonston-Zagreb 
+1973 
+Creación del Programa Nacional de Inmunizaciones, con el que se organiza 
+la vacunación masiva y se inicia la aplicación simultánea de 5 vacunas contra 
+6 enfermedades: tuberculosis, poliomielitis, difteria, tosferina, tétanos y 
+sarampión 
+1978 
+Creación por Decreto de la Cartilla Nacional de Vacunación 
+1980 
+Creación de las fases intensivas de vacunación antipoliomielítica y 
+antisarampión, con duración de una semana cada año  
+1986 
+Sustitución de las fases intensivas de vacunación antipoliomielítica por los 
+Días Nacionales de Vacunación antipoliomielítica indiscriminada a la 
+población menor de cinco años de edad con el objetivo de erradicar la 
+enfermedad 
+1989-
+1990 
+Epidemia de sarampión que provocó 8,150 defunciones y 89,163 casos 
+notificados 
+1990 
+Último caso reportado de poliomielitis en Tomatlán, Jalisco. 
+ 
+18 
+ 
+Aprobación de la primera vacuna conjugada de polisacáridos (contra 
+Haemophilus influenzae tipo b) 
+1991 
+Creación por Decreto del: Consejo Nacional de Vacunación (CONAVA), con el 
+objetivo de coordinar las acciones en materia de vacunación de las 
+instituciones que integran el SNS 
+Se origina el PVU, dirigido a la protección de la salud de la niñez 
+Se registró el último caso de difteria en Lázaro Cárdenas, Michoacán 
+1993 
+Sustitución de los Días Nacionales de Vacunación por las Semanas 
+Nacionales de Salud que incluyen, además de la vacunación, otras acciones 
+de salud como: entrega de sobres “Vida Suero Oral”, aplicación de megadosis 
+de vitamina A, desparasitación intestinal, información para la prevención y 
+tratamiento de enfermedades diarreicas.  
+Realización de la campaña de vacunación “Puesta al día” con vacuna 
+antisarampión 
+1995 
+Último caso de sarampión adquirido en una cadena de transmisión 
+endémica 
+1996 
+Último caso de sarampión endémico en el Distrito Federal 
+1997 
+Introducción del toxoide tetánico y diftérico (Td) 
+1998 
+Sustitución de la vacuna antisarampión monovalente por la vacuna triple 
+viral (SRP).  
+Último caso de rubéola y SRC adquiridos en una cadena de transmisión 
+endémica 
+1999 
+Introducción de la vacuna pentavalente de células completas (DPT+HB+Hib) 
+2000 
+Inicia vacunación contra sarampión y rubéola en adolescentes y adultos.  
+Reintroducción de casos de Sarampión provenientes de Brasil 
+2001 
+Inicia la vacunación a la población de 13 años y más con doble viral o con SR 
+2003 
+Reintroducción de casos de Sarampión provenientes de Asia 
+2004 
+Introducción de la vacunación contra influenza estacional (niños de 6 a 23 
+meses y adultos de 65 años y más).  
+Incorporación de la vacuna neumocócica 23 valente para adultos mayores.  
+Nueva introducción del virus de sarampión al país proveniente de Europa 
+2005 
+Ampliación de grupos de edad para vacuna antiinfluenza (6 a 35 meses de 
+edad) 
+2006 
+Introducción de la vacuna contra rotavirus y vacuna conjugada heptavalente 
+contra neumococo en 58 municipios con menor índice de desarrollo 
+humano de 9 entidades federativas.  
+Realización de campaña de seguimiento contra Sarampión (vacunación 
+indiscriminada a niños de uno a 4 años de edad) 
+2007 
+Universalización de la vacunación contra rotavirus. 
+Introducción de vacuna antipoliomielítica inactivada (tipo Salk) mediante la 
+sustitución de la vacuna  pentavalente de células completas por la vacuna 
+pentavalente acelular (contiene pertussis acelular y polio inactivada (IPV) 
+DPaT+Hib+IPV 
+ 
+19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Coberturas de vacunación. 
+Existen rezagos acumulados en materia de vacunación, fundamentalmente por:  
+• Disminución de la capacidad de respuesta a nivel operativo en lo referente al 
+seguimiento de las dosis del esquema de vacunación;  
+• Barreras estructurales tales como horarios limitados de atención de los servicios de 
+vacunación que no satisfacen la demanda de atención, en horas hábiles, ni en turno 
+vespertino, ni fines de semana y días festivos en hospitales. 
+• Crecimiento elevado de la población a atender en zonas periurbanas, superior al de 
+la infraestructura en salud. Presencia de localidades rurales dispersas con pocos 
+habitantes.  
+• Vacunación por las instituciones de seguridad social fundamentalmente 
+intramuros  
+• Abasto irregular de vacunas; 
+2008 
+Universalización de la aplicación de la vacuna conjugada heptavalente 
+contra neumococo. 
+Campaña Nacional de Vacunación indiscriminada contra el sarampión y la 
+rubéola en población de 19 a 29 años de edad, para la eliminación de la 
+rubéola y el síndrome de rubéola congénita. 
+Introducción de la vacunación contra VPH  a niñas de 12 a 16 años de edad en 
+los 125 municipios con menor índice de desarrollo humano. 
+2009 
+Introducción de la vacuna contra Influenza A (H1N1) pandémica. 
+Aprobación del esquema de vacunación contra VPH (0, 6 y 60 meses )  
+2010 
+Ampliación de la aplicación de vacuna antiinfluenza estacional (6 a 59 meses 
+de edad) 
+2011 
+Realización de la campaña de seguimiento contra Sarampión (vacunación 
+indiscriminada a niños de uno a 4 años de edad). 
+Cambio de vacuna monovalente por pentavalente contra rotavirus. 
+2012 
+Universalización de aplicación de vacuna contra el VPH en niñas de 5º año de 
+primaria y 11 años no escolarizadas (con esquema de vacunación 0, 6 y 60 
+meses). Adición de la vacunación con Tdpa en mujeres embarazadas  
+2013 
+Aprobación de la vacunación contra Hepatitis A (una dosis) en niños de un 
+año de edad, en estancias infantiles y guarderías del país 
+2014 
+Modificación del esquema de vacunación contra el VPH de tres a dos dosis 
+2016 
+Encuesta de contención de poliovirus vacunal tipo 2 en el del 100% de los 
+laboratorios del país 
+2017 
+Seguimiento a las acciones de la Estrategia Mexicana para la fase de 
+Erradicación de la Poliomielitis 
+ 
+20 
+ 
+• Falta de corresponsabilidad de la población en la revisión de las necesidades a 
+cubrir en materia de dosis de vacunas faltantes; 
+• Oportunidades perdidas por falsas contraindicaciones, mitos y creencias falsas en 
+la población.  
+El impacto de los aspectos referidos anteriormente, en las coberturas de vacunación1, se 
+puede visualizar en el siguiente cuadro, en el que se observa que tanto por esquema 
+completo como por tipo de vacuna hay  fluctuación.  
+Con relación al esquema completo de vacunación en población menor de un año, 
+solamente en 2015 y 2016 se lograron coberturas adecuadas, destacando un descenso de 
+13.4 puntos porcentuales de 2016 a 2017, a expensas de coberturas subóptimas en todas 
+las vacunas que se aplican en este grupo de edad, con excepción de BCG.  
+Con relación a la vacuna contra la influenza, el cálculo presentado con base en meta 
+definida fundamentalmente por histórico o por logros previos, por lo que los valores de 
+100%, no se refieren a que el total de la población que debía de haber sido vacunada, 
+recibió la vacuna, es por ello que, con logros del 100% más del 90% de los casos en las 
+últimas 5 temporadas invernales, tenían comorbilidad y no habían sido vacunados. 
+ 
+Cobertura de vacunación por biológico y grupo de edad, México 2013-2018 
+ 
+Biológico 
+Año* 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+BCG 
+91.3 
+95.6 
+100.0 
+99.8 
+93.8 
+96.8 
+Hepatitis B 
+79.1 
+84.5 
+82.5 
+93.1 
+58.7 
+53.5 
+Pentavalente/hexavalente 
+82.6 
+89.9 
+87.1 
+93.3 
+85.3 
+89.3 
+Rotavirus 
+81.4 
+84.6 
+80.9 
+82.8 
+69.2 
+77.8 
+Neumococo 
+84.5 
+89.8 
+100.0 
+94.8 
+89.9 
+83.0 
+Esquema completo < 1 año 
+83.8 
+88.9 
+90.7 
+92.8 
+79.4 
+81.7 
+SRP 
+88.7 
+97.8 
+100.0 
+97.0 
+70.7 
+97.6 
+Pentavalente 
+62.5 
+89.4 
+88.9 
+79.1 
+74.5 
+83.0 
+ 
+1 El cáclulo de coberturas es utilizando la metodología de “cobertura administrativa” definida por la OPS. 
+ 
+21 
+ 
+Biológico 
+Año* 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+Neumococo 
+84.0 
+93.6 
+100.0 
+92.4 
+88.6 
+88.8 
+Esquema completo 1 año 
+85.0 
+91.8 
+97.2 
+89.7 
+85.0 
+88.9 
+DPT 4 años 
+98.8 
+97.9 
+100.0 
+86.7 
+100.0 
+91.6 
+SRP 
+79.0 
+96.4 
+96.1 
+95.3 
+62.2 
+99.1 
+VPH 
+93.7 
+90.3 
+99.1 
+99.2 
+96.5 
+90.7 
+Influenza estacional 
+98.7 
+99.1 
+100.0 
+100.0 
+100.0 
+100.0 
+ 
+Esquema Completo por vacuna 
+ 
+  
+95 y 
+más 
+ 
+ 
+  
+90 y 
+más 
+ 
+  
+entre 90 y 95 
+ 
+  
+ 
+  
+< de 90 
+ 
+ 
+  
+< de 85 
+ 
+ 
+ii. Justificación 
+El PVU es un bien público que tiene un efecto directo sobre la población que recibe la 
+vacuna, transformándola en inmune, esto tiene una consecuencia inmediata en la 
+disminución de la incidencia de enfermedad y, en consecuencia, de la mortalidad. Pero, 
+además se produce un efecto indirecto en toda la población, ya que la disminución del 
+número de infectados conlleva una reducción en la circulación del agente infeccioso, por 
+lo que disminuye la probabilidad de toda la población (vacunada y no vacunada) de entrar 
+en contacto con dicho agente y, así, se genera una inmunidad de grupo o protección 
+colectiva. 
+La reducción de las enfermedades prevenibles por vacunación y su eventual mitigación, 
+control, eliminación o erradicación, requiere garantizar el acceso de la población a los 
+servicios de vacunación, por ello, se necesita contar con un instrumento programático 
+que garantice las estrategias y lineamientos técnicos que permitan alcanzar la 
+vacunación universal en la línea de vida.   
+La epidemiología de las enfermedades inmunoprevenibles cambia cuando los 
+programas de vacunación se encuentran bien desarrollados y se alcanzan y mantienen 
+ 
+22 
+ 
+buenas coberturas de vacunación. El grado del cambio dependerá de varios factores: la 
+eficacia de la vacuna ya sea protegiendo contra la infección o reduciendo la gravedad de 
+la enfermedad; la forma de implantar las acciones y el nivel de cobertura alcanzado. 
+ 
+iii. Planteamiento del problema 
+Las niñas y niños son especialmente vulnerables frente a las enfermedades infecciosas 
+prevenibles por vacunación. La acumulación de población susceptible a determinados 
+padecimientos que actualmente están bajo control epidemiológico o que han sido 
+eliminados, pone en riesgo al país de reintroducción de los agentes biológicos que los 
+provocan, propiciando potencialmente que se presenten casos asociados a importación, 
+que podrían eventualmente producir grandes epidemias en zonas geográficas de baja 
+cobertura  e incluso la reanudación de la cadena de transmisión endémica de estos 
+padecimientos, con la secuela de complicaciones, gastos catastróficos y mortalidad 
+potencialmente atribuible a estas enfermedades.  
+El crecimiento de las ciudades y de las zonas periurbanas, aunado a la insuficiencia de 
+unidades de primer nivel de atención, el abasto insuficiente e inoportuno de vacunas, los 
+horarios limitados de atención en las unidades de salud, las falsas contraindicaciones y 
+los mitos y creencias en esta materia, propician oportunidades perdidas de vacunación y 
+restringen el acceso de la población a estos servicios preventivos. 
+Por otra parte, la inseguridad en algunas zonas del país limita la demanda de servicios de 
+vacunación, así como la posibilidad de llevar a cabo estrategias preventivas extramuros. 
+La cobertura de vacunación en México es heterogénea, encontrándose zonas de 
+cobertura elevada y otras con cobertura insuficiente o muy baja.  
+La vacunación es la segunda intervención de salud pública de mejor relación costo-
+efectividad e indiscutible costo beneficio.  
+El PVU en el momento actual (año 2020) incluye 14 inmunógenos, lo que representa uno 
+de los esquemas más completos en América Latina. Cada año, las EPV presentan una 
+mejoría gradual en sus indicadores epidemiológicos, sin embargo, se reconocen rezagos 
+que afectan a diversos grupos de población, particularmente aquellos que no tienen 
+acceso a los servicios formales de salud o que están en situación de vulnerabilidad.   
+Para disminuir estos riesgos, se requiere desarrollar eficientemente el PVU bajo los 
+principios de participación social, competencia técnica, calidad, pertinencia cultural, y 
+trato no discriminatorio, digno y humano.  
+ 
+23 
+ 
+Para lograr el control de las Enfermedades Prevenibles por Vacunación en, en 2019, se 
+contó con el esquema de vacunación con las vacunas BCG, HB, Conjugada de 
+neumococo, Rotavirus, pentavalente o hexavalente, SRP y DPT. 
+Eliminación/erradicación de la poliomielitis. La eliminación de la transmisión endémica 
+de la poliomielitis se logró en 1991 (último caso ocurrido en una cadena de transmisión 
+endémica fue en 1990), desde entonces no se han presentado casos de este padecimiento 
+producidos por el virus silvestre de poliomielitis. Para su eliminación, se contó con la 
+Vacuna Oral de poliovirus atenuados tipo Sabin. Para mantener la eliminación y avanzar 
+a su erradicación mundial, se contó en 2019, con las vacunas de poliovirus inactivados 
+(IPV) pentavalente y hexavalente.   
+La eliminación de sarampión y rubéola se logró respectivamente en 1996 (último caso 
+presentado en una cadena de transmisión endémica fue en 1995) y en 2009 (último caso 
+de rubéola adquirido en una cadena de transmisión endémica fue en 2008). Para 
+mantener la eliminación de ambos padecimientos se contó con las vacunas SRP Y SR.  
+En 2019 hubo 1 caso de tétanos neonatal en Mérida, Yucatán. El indicador internacional 
+de eliminación de tétanos neonatal es de menos de un caso por 1000 nacidos vivos por 
+municipio, en 2019 el indicador en Mérida fue 0.0589, por lo tanto, puede concluirse que 
+se mantuvo este indicador.  
+Respecto del complimiento del objetivo de mantener la eliminación del Sarampión y la 
+Rubeola y el Síndrome de Rubeola Congénita (SRC) se obtuvo lo siguiente: 
+ 
+Sarampión 
+1. Entre febrero y octubre de 2019 se presentaron 20 casos de sarampión importados o 
+asociados a importación. El sarampión sigue estando eliminado debido a que se requiere 
+que el virus de esta la enfermedad se mantenga en circulación por más de 12 meses para 
+concluir que la enfermedad ha dejado de estar eliminada y definir que el país 
+nuevamente tiene transmisión endémica. 
+ 
+Rubéola y Síndrome de rubéola congénita 
+1. Los últimos casos de rubéola y de Síndrome de rubéola congénita adquiridos en una 
+cadena de transmisión endémica, ocurrieron en 2008. En 2019 no se presentaron casos 
+de estos padecimientos.  
+ 
+ 
+24 
+ 
+Concerniente al cumplimiento del objetivo de "Lograr el control de la tos ferina y el control 
+epidemiológico de los casos de parotiditis”: 
+• En 2019, los casos de tos ferina presentados en el país se ubicaron por abajo del 
+percentil 75 (Q3), en los meses de julio a diciembre.  
+• En 2019, los casos de parotiditis presentados en el país se ubicaron por arriba del 
+percentil 75 (Q3, en los meses de enero a noviembre). 
+En 2019, los casos de tuberculosis meníngea se ubicaron al nivel de, o por abajo del 
+percentil 75 (Q3, en los meses de enero, febrero y diciembre). Otras formas de 
+tuberculosis, se mantuvieron por debajo de Q3 en los meses de enero, febrero, junio, 
+agosto y septiembre. 
+En 2019, solo se notificaron 2 casos de infecciones invasivas por Haemophilus influenza 
+tipo b en el grupo de menores de 5 años de edad, el rango de notificaciones de 2014 a 
+2018 fue de 0 a 5 casos anuales. 
+En 2019, solo se notificaron 5 casos de infecciones invasivas por neumococo en el grupo 
+de menores de 5 años de edad, el rango de notificaciones de 2014 a 2018 fue de 3 a 7 casos 
+anuales. 
+La influenza no es un padecimiento controlable, sino mitigable y la magnitud de las 
+complicaciones de influenza dependen de que el tipo de vacuna aplicada en el periodo 
+estacional respectivo coincida con los tipos virales dominantes, por lo que el control no es 
+un propósito de la vacunación.  
+iv. Principios rectores  
+El Plan Nacional de Desarrollo establece como una de sus prioridades en política social el 
+fortalecimiento de los servicios de salud, por lo que los siguientes principios rectores son 
+fundamentales para garantizar el derecho a la salud:   
+Honradez y honestidad 
+Finalizando con todo tipo de actos de corrupción, no sólo la monetaria, sino la que 
+conlleva a la simulación y la mentira, garantizando la transparencia de todos los procesos 
+de adquisición de vacunas y otros insumos, así como los procesos técnicos y 
+administrativos a realizar en la coordinación y ejecución del PVU.  
+Economía para el bienestar 
+ 
+25 
+ 
+Generando las mejores condiciones de adquisición de bienes e insumos para el Estado, 
+fundamentado inicialmente en el mercado interno, de tal manera que se asegure el logro 
+del mayor bienestar social al menor costo posible.  
+Por el bien de todos, primero los pobres 
+Focalizando actividades priorizadas con criterios de vulnerabilidad, para lo cual se realizó 
+un ejercicio de territorialización en el que se consideran, además de los indicadores de 
+cobertura y de daño en salud, indicadores socioeconómicos y de disponibilidad de 
+servicios de salud. 
+No dejar a nadie atrás, no dejar a nadie fuera 
+Garantizando la universalidad del Programa de Vacunación, con estrategias operativas 
+en las que se considere el respeto a los pueblos originarios, sus usos y costumbres y su 
+derecho a la autodeterminación, atendiendo con equidad a niñas, niños, adolescentes, 
+mujeres, hombres y adultos mayores, evitando todas las formas de discriminación. 
+Ética, libertad y confianza 
+Asegurar la vacunación gratuita y segura, generando confianza, empatía y colaboración 
+con el nuevo pacto social y el modelo de desarrollo para el México, impulsando el 
+desempeño responsable de los profesionales de la salud, garantizando la vacunación 
+Con la finalidad de disminuir las enfermedades inmunoprevenibles, el objetivo prioritario 
+del PVU es contribuir al bienestar y equidad en salud mediante la vacunación de toda la 
+población en la línea de vida. 
+ 
+v. Contribución del programa al nuevo modelo de desarrollo  
+El PVU contribuye, al bienestar y equidad en salud mediante la vacunación universal de 
+la población en la línea de vida, para la disminución de las enfermedades que se 
+previenen a través de la vacunación; cumpliendo con el Eje 2 del Plan Nacional de 
+Desarrollo, Política Social.  
+Para ello, se requiere desarrollar estrategias adicionales de vacunación, centradas en la 
+persona, y focalizadas para mantener los logros y con acciones específicas en las zonas 
+geográficas de alto riesgo de que se presenten estos padecimientos y sus 
+complicaciones. 
+ 
+26 
+ 
+Las nuevas estrategias se orientan al acercamiento de los servicios a la población en 
+situación de vulnerabilidad, mejorar el acceso a los servicios de vacunación, garantizar la 
+conservación de las vacunas desde su origen hasta su aplicación, garantizar el abasto 
+oportuno, disminución de oportunidades perdidas de vacunación; seguimiento de la 
+población para iniciar o completar esquemas de vacunación y estudio de los ESAVI.  
+ 
+vi. Proyectos o programas prioritarios que se encuentran vinculados con el 
+programa derivado del Plan. 
+En términos generales, los 30 proyectos y programas del Gobierno de México en la Cuarta 
+Transformación están dirigidos a disminuir la brecha entre grupos sociales, focalizando a 
+las poblaciones con menor desarrollo económico y humano y en situación de 
+vulnerabilidad, por lo que la conjunción de esfuerzos definidos en ellos, lleva a disminuir 
+los determinantes sociales vinculados a salud, generando un estado de bienestar 
+disminuyendo la inequidad y por lo tanto apoyan a los logros del PVU. 
+15 Atención Médica y Medicamentos Gratuitos: El programa prioritario de Atención 
+Médica y Medicamentos Gratuitos, contempla a las personas que no cuentan con 
+seguridad social y que se caracterizan por estar en alta o muy alta marginación, para 
+garantizarles el derecho a la salud y, así, avanzar gradualmente a un Sistema Universal de 
+Salud en México en el que se eliminen la fragmentación y segmentación actual de 
+nuestro sistema de salud. 
+De esta forma, la atención y medicamentos para toda la población que lo requiera, estará 
+garantizada y acercará los servicios de salud y medicinas gratuitas a la población 
+adolescente de las zonas prioritarias definidas en la territorialización y vinculándolos con 
+las estrategias del programa para su atención integral. 
+ 
+vii. Principales cambios esperados de la puesta en marcha del programa. 
+Considerando que las acciones de vacunación universal contribuyen a garantizar el 
+derecho a la protección de la salud, el bienestar social y la igualdad, este programa de 
+acción específico contribuirá a: 
+• Garantizar el acceso universal y efectivo de los servicios de vacunación en la línea 
+de vida, priorizando a grupos específicos y en situación de vulnerabilidad.  
+• Disminuir la incidencia de las enfermedades prevenibles, actualmente en control. 
+• Disminuir las complicaciones, hospitalizaciones y defunciones atribuibles a EPV. 
+ 
+27 
+ 
+• Mantener la eliminación endémica de poliomielitis, sarampión, rubéola y síndrome 
+de rubéola congénita, además de contribuir a la erradicación mundial de la 
+poliomielitis.  
+Los cambios esperados se esperan tras la ejecución de los siguientes principios de 
+administración: 
+Eficacia. Se evaluará la incidencia de los padecimientos prevenibles por vacunación que 
+forman parte de espectro protector del PVU, y las hospitalizaciones y muertes evitadas 
+atribuibles a la eficacia preventiva de las vacunas aplicadas. 
+Eficiencia. Se evaluará la cobertura de vacunación por grupo de edad a nivel nacional y 
+subnacional, es decir a nivel estatal y municipal, para identificar áreas de baja cobertura 
+y realizar oportunamente acciones correctivas con la finalidad de disminuir las 
+oportunidades perdidas de vacunación y favorecer la eficiencia óptima del PVU, así como 
+el porcentaje de dosis perdidas en la operación. 
+•Equidad. Se realizarán intervenciones territorializadas en las áreas identificadas de riesgo, 
+focalizando intervenciones específicas en poblaciones en situación de vulnerabilidad, 
+abatiendo discriminación. 
+ 
+V. Alineación con el Plan Nacional de Desarrollo 2019-2024 y Programa 
+Sectorial de Salud 2020-2024 
+Para llevar a México a un restablecimiento del pacto social, el PND 2019- 2024 tiene un 
+objetivo superior: el bienestar general de la población; el poder público debe servir en 
+primer lugar al interés público, no a los intereses privados y la vigencia del estado de 
+derecho debe ser complementada por una nueva ética social, no por la tolerancia 
+implícita de la corrupción.  
+ 
+ 
+ 
+28 
+ 
+ 
+ 
+Alineación 
+PND 2019-2024 
+PSS 2020-2024 
+PAE Vacunación 
+Universal 2020-2024 
+Eje General II. 
+Política Social 
+ 
+Objetivo Nacional 
+Salud para toda la 
+población 
+ 
+Objetivo Prioritario 1. 
+Garantizar el acceso efectivo, universal y 
+gratuito a los servicios de salud, para las 
+personas no afiliadas al IMSS o al ISSSTE, 
+en especial a grupos en situación de 
+vulnerabilidad 
+marginación 
+o 
+discriminación. 
+Objetivo prioritario 1.  
+Garantizar el esquema completo 
+de vacunación a toda la población 
+con criterio de línea de vida, para 
+mitigar, 
+controlar, 
+eliminar 
+o 
+erradicar 
+enfermedades 
+prevenibles.  
+ 
+Objetivo Prioritario 2.  
+Incrementar la eficiencia, efectividad y 
+calidad en los procesos del SNS para 
+corresponder a una atención integral de 
+salud pública y asistencia social que 
+garantice los principios de participación 
+social, competencia técnica, calidad 
+médica, pertinencia cultural y trato no 
+discriminatorio, digno y humano. 
+ 
+Objetivo prioritario 2.  
+Actualizar 
+el 
+esquema 
+de 
+vacunación y sus estrategias, con: 
+información 
+basada 
+en 
+la 
+evidencia, 
+criterios 
+de 
+costo 
+efectividad, costo beneficio, costo 
+utilidad y sostenibilidad técnica y 
+financiera, para otorgar la mejor 
+oportunidad de prevención a la 
+población mexicana.  
+ 
+Objetivo prioritario 3.  
+Incrementar el acceso a vacunas 
+de calidad, a toda la población, con 
+prioridad a la que habita en zonas 
+marginadas y en situación de 
+vulnerabilidad 
+mejorando 
+la 
+infraestructura necesaria para su 
+distribución y conservación.  
+ 
+Objetivo Prioritario 3.  
+Incrementar la capacidad humana y de 
+infraestructura en las instituciones que 
+conforman el SNS, especialmente, en 
+las regiones con mayores niveles de 
+marginación para corresponder a las 
+prioridades de salud bajo un enfoque 
+diferenciado, 
+intercultural 
+y 
+con 
+perspectiva de derechos. 
+Objetivo prioritario 1.  
+Garantizar el esquema completo 
+de vacunación a toda la población 
+con criterio de línea de vida, para 
+mitigar, 
+controlar, 
+eliminar 
+o 
+erradicar 
+enfermedades 
+prevenibles.  
+ 
+Objetivo Prioritario 4 
+Garantizar la eficacia de estrategias, 
+programas y acciones de salud pública, 
+a partir de información oportuna y 
+confiable, que facilite la promoción y 
+Objetivo prioritario 1.  
+Garantizar el esquema completo 
+de vacunación a toda la población 
+con criterio de línea de vida, para 
+mitigar, 
+controlar, 
+eliminar 
+o 
+ 
+29 
+ 
+prevención en salud, así como el control 
+epidemiológico tomando en cuenta la 
+diversidad de la población, el ciclo de 
+vida y la pertinencia cultural. 
+ 
+erradicar 
+enfermedades 
+prevenibles.  
+ 
+Objetivo prioritario 2.  
+Incrementar el acceso a vacunas 
+de calidad, a toda la población, con 
+prioridad a la que habita en zonas 
+marginadas y en situación de 
+vulnerabilidad 
+mejorando 
+la 
+infraestructura necesaria para su 
+distribución y conservación. 
+ 
+Objetivo prioritario 3.  
+Actualizar 
+el 
+esquema 
+de 
+vacunación y sus estrategias, con: 
+información 
+basada 
+en 
+la 
+evidencia, 
+criterios 
+de 
+costo 
+efectividad, costo beneficio, costo 
+utilidad y sostenibilidad técnica y 
+financiera, para otorgar la mejor 
+oportunidad de prevención a la 
+población mexicana.  
+ 
+Objetivo prioritario 4.  
+Generar acciones coordinadas a 
+través del Sistema Nacional de 
+Salud 
+para 
+impulsar 
+la 
+participación 
+y 
+conciencia 
+ciudadana 
+en 
+materia 
+de 
+vacunación.  
+. 
+ 
+ 
+ 
+ 
+30 
+ 
+ 
+VI. Objetivo general 
+Contribuir al ejercicio del derecho a la protección de salud de la población a través de la 
+vacunación en la línea de vida, para mitigar, controlar, eliminar o erradicar las 
+enfermedades prevenibles por vacunación.  
+ 
+VII.  Esquema objetivos prioritarios, estrategias prioritarias y acciones 
+puntuales 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VIII. Objetivos prioritarios, estrategias prioritarias y acciones puntuales 
+Objetivo prioritario 1:  
+Garantizar el esquema completo de vacunación a toda la población con criterio de línea 
+de vida, para mitigar, controlar, eliminar o erradicar enfermedades prevenibles.  
+Estrategia prioritaria 1.1: Identificar las características de atención de las poblaciones con 
+menor cobertura de vacunación, para disminuir barreras y lograr su acceso efectivo a los 
+servicios de vacunación, priorizando a grupos en situación de vulnerabilidad. 
+ 
+ 
+Programa de Acción Específico 
+Vacunación Universal (PVU)  
+ 
+Objetivo prioritario 1.  
+Garantizar el esquema 
+completo de vacunación a toda 
+la población con criterio de línea 
+de vida, para mitigar, controlar, 
+eliminar o erradicar 
+enfermedades prevenibles 
+ 
+3 Estrategias 
+Prioritarias 
+ 
+11 Acciones 
+puntuales  
+ 
+ 
+ 
+Objetivo prioritario 2.  
+Incrementar el acceso a 
+vacunas de calidad y 
+oportunamente, con prioridad a 
+la que habita en zonas 
+marginadas y en situación de 
+vulnerabilidad mejorando la 
+infraestructura necesaria para 
+su distribución y conservación 
+ 
+2 Estrategias 
+Prioritarias 
+ 
+6 Acciones 
+Puntuales 
+ 
+ 
+ 
+Objetivo prioritario 3.  
+Actualizar el esquema de 
+vacunación y sus estrategias, 
+con: información basada en la 
+evidencia, criterios de costo 
+efectividad, costo beneficio, 
+costo utilidad y sostenibilidad 
+técnica y financiera, para 
+otorgar la mejor oportunidad de 
+prevención a la población 
+mexicana.  
+ 
+1 Estrategia 
+Prioritaria 
+ 
+3 Acciones 
+Puntuales 
+ 
+ 
+ 
+Objetivo prioritario 4. 
+Generar acciones coordinadas a 
+través del Sistema Nacional de 
+Salud para incrementar la 
+participación y conciencia 
+ciudadana en materia de 
+vacunación 
+ 
+1 Estrategia 
+Prioritaria 
+ 
+2 Acciones 
+Puntuales 
+ 
+ 
+ 
+31 
+ 
+ACCIONES PUNTUALES 
+1.1.1 
+Utilizar el ejercicio de territorialización como base de análisis 
+para definir estrategias operativas específicas dirigidas a 
+completar esquemas de vacunación dependiendo de áreas 
+geográficas con mayor daño a la salud y a grupos en situación 
+de vulnerabilidad, marginación y pobreza extrema.  
+1.1.2 
+Impulsar la integración de equipos completos de Atención 
+Primaria a la Salud, su incorporación a las acciones de 
+vacunación, y la adecuación de los servicios a las dinámicas de 
+demanda de la población según responsabilidad institucional.  
+1.1.3 
+Incorporar las acciones de vacunación al 100% de modalidades 
+de atención a la salud: Unidades fijas de los 3 niveles de 
+atención y servicios de salud itinerantes.  
+1.1.4 
+Realizar acciones intensivas de vacunación a través de jornadas 
+integrales, dirigidas a grupos específicos de edad, bajo criterios 
+de vulnerabilidad, presencia de casos y brotes de EPV, haciendo 
+llegar los servicios de vacunación al 100% de localidades. 
+1.1.5 
+Realizar proyectos con acciones innovadoras para hacer llegar 
+los servicios de vacunación de forma oportuna a la población 
+blanco, tales como: uso de sistemas de notificación con nuevas 
+tecnologías, vehículos equipados para acercar el servicio a 
+zonas urbanas y rurales en las que no hay servicios de salud 
+fijos, incorporación de población para trabajo comunitario como 
+promotoras de la salud, trabajo en reclusorios.   
+Estrategia prioritaria 1.2:  Identificar las causas de oportunidades perdidas de vacunación 
+por: falsas contraindicaciones, debidas al personal de salud, logística y organización del 
+servicio, para realizar intervenciones basadas en la evidencia para su disminución. 
+ 
+ACCIONES PUNTUALES 
+1.2.1 
+Realizar diagnóstico de oportunidades perdidas en municipios 
+prioritarios, cuyos resultados contribuyan a la definición 
+específica de necesidades de capacitación, distribución de 
+insumos u organización del servicio de vacunación.  
+1.2.2 
+Diseñar y difundir campañas informativas dirigidas a la 
+población y personal de salud, sobre la seguridad de las vacunas, 
+ 
+32 
+ 
+la importancia de su aplicación oportuna y para esclarecer falsas 
+contraindicaciones de vacunación.  
+ 
+Estrategia prioritaria 1.3: Mejorar los procesos de adquisición e inventarios de vacunas a 
+fin de que se pueda dotar de las mismas a las entidades federativas, de forma regular y 
+exista abasto permanente en todas las unidades de salud.  
+ 
+ACCIONES PUNTUALES 
+1.3.1 
+Realizar el ejercicio de planeación de vacunas e insumos con las 
+entidades federativas a más tardar en el mes de julio del año 
+previo, definiendo demanda estimada al menos para los 2 
+siguientes años para facilitar la oportunidad de compra, 
+liberación y distribución 
+1.3.2 
+Coordinar el desarrollo de un sistema integral de información del 
+programa de vacunación, que incluya entradas, salidas y 
+existencias de vacunas e insumos asociados, para distribuirlos 
+con oportunidad y garantizar su abasto permanente en las 
+unidades de salud, respetando el tiempo de estancia normado 
+para los diversos niveles de atención. 
+1.3.3 
+Elaborar y actualizar catálogo mundial de proveedores, que sirva 
+como base para la investigación de mercado nacional e 
+internacional. 
+1.3.4 
+Mejorar los procesos de adquisición e inventarios de vacunas a 
+fin de que se pueda dotar de las mismas a las entidades 
+federativas, de forma regular y exista abasto permanente en 
+todas las unidades de salud. 
+ 
+Objetivo prioritario 2.  
+Incrementar el acceso a vacunas de calidad y oportunamente, con prioridad a la que 
+habita en zonas marginadas y en situación de vulnerabilidad mejorando la 
+infraestructura necesaria para su distribución y conservación.  
+Estrategia prioritaria 2.1: Contar con sistema de red de frío de calidad para garantizar la 
+conservación adecuada de vacunas en los distintos niveles técnico administrativos del 
+Sistema Nacional de Salud. 
+ 
+ 
+33 
+ 
+ACCIONES PUNTUALES 
+2.1.1 
+Fortalecer la red de frío basado en un diagnóstico integral de la 
+misma, para contar con cámaras de red de frío licenciadas y con 
+equipos normados y acordes a las capacidades y necesidades de 
+la red de atención. 
+2.1.2 
+Desarrollar programas de capacitación para personal de 
+mantenimiento del nivel jurisdiccional a fin de generar 
+capacidades operativas para el mantenimiento preventivo y 
+correctivo básico, de cámaras, refrigeradores y congeladores. 
+2.1.3 
+Desarrollar programas de capacitación para personal directivo y 
+operativo de vacunación, acerca del uso adecuado de la red de frío 
+y el impacto de su calidad.  
+ 
+Estrategia prioritaria 2.2: Realizar capacitación, supervisión y evaluación del PVU, para, en 
+su caso, redireccionar las estrategias y acciones puntuales.  
+ 
+ACCIONES PUNTUALES 
+2.2.1 
+Diseñar, actualizar e implementar cursos de capacitación 
+presenciales, a distancia y telementoría, permanentes para el 
+personal ya incorporado y de nuevo ingreso al programa. 
+2.2.2 
+Implementar un sistema de supervisión con enfoque de riesgo e 
+integrado, para identificar la calidad en la operación de los 
+programas de vacunación en los diferentes niveles de atención, 
+con prioridad en los lugares en los que se proveen los servicios. 
+2.2.3 
+Desarrollar un sistema de información nominal que permitan 
+evaluar coberturas de vacunación por lugar de residencia habitual 
+del vacunado, la trazabilidad del esquema de Vacunación, 
+seguimiento de ESAVI y que cuente con tableros de control para 
+generar capacidades operativas de acción oportuna. 
+ 
+Objetivo prioritario 3.  
+Actualizar el esquema de vacunación y sus estrategias, con: información basada en la 
+evidencia, criterios de costo efectividad, costo beneficio, costo utilidad y sostenibilidad 
+técnica y financiera, para otorgar la mejor oportunidad de prevención a la población 
+mexicana.  
+ 
+34 
+ 
+Estrategia prioritaria 3.1: Incorporar al PVU innovaciones técnicas y científicas para 
+incrementar el impacto positivo en salud del esquema de vacunación.  
+ 
+ACCIONES PUNTUALES 
+3.1.1 
+Actualizar la normatividad y lineamientos técnicos que dan 
+sustento técnico a las acciones de vacunación. 
+3.1.2 
+Consolidar la integración del grupo técnico de vacunación, como 
+grupo asesor acerca de la modificación de los esquemas de 
+vacunación durante la línea de vida, para disminuir las incidencia 
+y gravedad de enfermedades para las que existen vacunas y que 
+su utilización impacte positivamente la salud pública de México.  
+3.1.3 
+Realizar oportunamente las acciones de planeación, gestión y 
+capacitación, para garantizar la incorporación ordenada de 
+nuevas vacunas así como la adecuación o modificación de los 
+esquemas vigentes. 
+ 
+Objetivo prioritario 4.  
+Generar acciones coordinadas a través del Sistema Nacional de Salud para incrementar 
+la participación y conciencia ciudadana en materia de vacunación.  
+Estrategia prioritaria 4.1: Diseñar e implementar estrategias de comunicación social 
+sectoriales de promoción de la vacunación y generar corresponsabilidad de la población.  
+ 
+ACCIONES PUNTUALES 
+4.1.1 
+Gestionar la elaboración, 
+reproducción y distribución de 
+materiales de difusión y promoción de las acciones de vacunación 
+y de seguridad de las vacunas. 
+4.1.2 
+Realizar alianzas estratégicas con los sectores público, social y 
+privado, para desarrollo de campañas y materiales promocionales, 
+y difusión de información a las poblaciones blanco. 
+ 
+ 
+ 
+ 
+35 
+ 
+ 
+IX. Indicadores, metas para el bienestar y parámetros 
+Metas 
+ 
+1. Cobertura de vacunación con esquema completo en niñas y niños menores de 1 
+año de edad. 
+• Meta: Cobertura mayor o igual al 90% de niñas y niños de un año de edad con 
+esquema de vacunación completo. 
+ 
+2. Cobertura de vacunación de 1ª dosis de vacuna SRP>=95% en niñas y niños de 1 año 
+de edad, en al menos 80% de los municipios. 
+• Meta: 80% o más de los municipios alcanzan cobertura superior o igual al 95% con 
+la 1ª dosis de vacuna SRP en niñas y niños de 1 año. 
+ 
+3. Cobertura de vacunación con esquema completo en niñas y niños de un año de 
+edad. 
+• Meta: Cobertura mayor o igual al 90% de niñas y niños de 1 año de edad con 
+esquema de vacunación completo.  
+4. Cobertura de segunda dosis de vacuna SRP en niñas y niños de 6 años de edad. 
+• Meta: 95% o más de cobertura de vacunación con segunda dosis de SRP en niñas y 
+niños de 6 años de edad. 
+ 
+ 
+ 
+36 
+ 
+1.ELEMENTOS DE META PARA EL BIENESTAR O PARÁMETRO EN 
+MENORES DE 1 AÑO 
+Nombre 
+Cobertura de vacunación con esquema completo en la población por línea de 
+vida. Esquema completo en niñas y niños menores de 1 año de edad. 
+Objetivo 
+prioritario 
+Garantizar el esquema completo de vacunación a toda la población con criterio 
+de línea de vida, para mitigar, controlar, eliminar o erradicar enfermedades 
+prevenibles.  
+Definición 
+Cobertura de vacunación con esquema completo en niñas y niños menores de 1 
+año de edad. 
+Nivel de 
+desagregación 
+Nacional 
+Estatal 
+Municipal 
+Periodicidad o 
+frecuencia de 
+medición 
+Anual 
+Tipo 
+Estratégico 
+Acumulado o 
+periódico 
+Acumulado anual con reportes 
+periódicos trimestrales 
+Unidad de 
+medida 
+Porcentaje 
+Periodo de 
+recolección de 
+datos 
+Enero a diciembre, con 
+reportes trimestrales 
+Dimensión 
+Eficacia 
+Al menos 90% de cobertura 
+de esquema completo 
+Disponibilidad 
+de la 
+información 
+Diciembre, con reportes de 
+avance trimestrales 
+Tendencia 
+esperada 
+Ascendente 
+Unidad 
+responsable 
+de reportar el 
+avance 
+Centro Nacional para la Salud 
+de la Infancia y la Adolescencia 
+(CENSIA) 
+Método de 
+cálculo 
+Edad 
+Numerador    
+ A 
+Denominador 
+  B 
+Ecuación 
+Menores de 1 
+año 
+# de <1 año con 
+esquema completo 
+para la edad (1) 
+Población total de 
+<1 año de edad 
+(A/B) X 100 
+(1) 1 BCG + 3 HB + 2 conjugada de neumococo + 3 pentavalente o 
+hexavalente + 2 o 3 Rotavirus* 
+*Si la vacuna es monovalente el esquema es de 2 dosis, y si es pentavalente, 
+el esquema es de 3 dosis 
+ 
+Observaciones 
+Proyecciones de población CONAPO de menores de 1 año.  
+ 
+37 
+ 
+APLICACIÓN DEL MÉTODO DE CÁLCULO 
+PARA LA OBTENCIÓN DE LA LÍNEA BASE 
+Nombre  
+variable 1 
+Menores de 1 
+año con 
+esquema 
+completo en 
+el añot 
+Valor 
+variable 1 
+1,794,009 
+ 
+Fuente de 
+información 
+variable 1 
+CENSIA 
+ 
+Nombre 
+variable 2 
+Total de 
+menores de 1 
+año de edad 
+en el añot 
+Valor 
+variable 2 
+2,207,476 
+Fuente de 
+información 
+variable 2 
+CONAPO 
+Nombre 
+variable 3 
+--- 
+Valor 
+variable 3 
+--- 
+Fuente de 
+información 
+variable 3 
+--- 
+Nombre 
+variable n 
+--- 
+Valor 
+variable n 
+--- 
+Fuente de 
+información 
+variable n 
+--- 
+Sustitución en 
+método de 
+cálculo 
+Número de menores de 1 año con esquema completo de vacunación en el añotX 
+100 
+                  Total de población de menores de 1 año en el añot 
+VALOR DE LÍNEA BASE Y METAS 
+Línea base 
+Nota sobre la línea base 
+Valor 
+81.27 
+Información al cierre de 2018 
+Año 
+2018 
+Meta 2024 
+Nota sobre meta 2024 
+Cobertura >=90% 
+Debido a que el mínimo porcentaje aceptable es 
+90%, se aspira que en los años del periodo 
+próximo, hasta 2024, se alcance y supere esta 
+cobertura, conservando como mínimo aceptable 
+90%. 
+SERIE HISTÓRICA DE LA META PARA EL BIENESTAR O PARÁMETRO 
+2012 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+ND 
+83.76 
+88.91 
+90.68 
+91.17 
+82.36 
+81.27 
+METAS 
+2019 
+2020 
+2021 
+2022 
+2023 
+2024 
+85.03* 
+>=90.0 
+>=90.0 
+>=90.0 
+>=90.0 
+>=90.0 
+ 
+38 
+ 
+ 
+2. ELEMENTOS DE META PARA EL BIENESTAR O PARÁMETRO DE 
+VACUNACIÓN CON SRP POR MUNICIPIO EN NIÑAS Y NIÑOS DE 1 AÑO 
+DE EDAD 
+Nombre 
+Cobertura de vacunación con esquema completo en la población por línea de 
+vida. 
+Cobertura de 1ª dosis de SRP>=95% en niñas y niños de 1 año, en al menos 80% 
+de los municipios. 
+Objetivo 
+prioritario 
+Garantizar el esquema completo de vacunación a toda la población con criterio 
+de línea de vida, para mitigar, controlar, eliminar o erradicar enfermedades 
+prevenibles. 
+Definición 
+Cobertura de 1ª dosis de SRP>=95% en niñas y niños de 1 año, en al menos 80% 
+de los municipios. 
+Nivel de 
+desagregación 
+Nacional 
+Estatal 
+Municipal 
+Periodicidad o 
+frecuencia de 
+medición 
+Anual 
+Tipo 
+Estratégico 
+Acumulado o 
+periódico 
+Acumulado anual con 
+reportes periódicos 
+trimestrales 
+Unidad de 
+medida 
+Porcentaje 
+Periodo de 
+recolección de 
+datos 
+Enero a diciembre, con 
+reportes trimestrales 
+Dimensión 
+Eficacia 
+Al menos 80% de los 
+municipios con cobertura de 
+1ª dosis de SRP >= 95% en 
+niñas y niños de 1 año de 
+edad 
+Disponibilidad 
+de la 
+información 
+Diciembre, con reportes de 
+avance trimestrales 
+Tendencia 
+esperada 
+Ascendente 
+Unidad 
+responsable 
+de reportar el 
+avance 
+Centro Nacional para la 
+Salud de la Infancia y la 
+Adolescencia (CENSIA) 
+Método de 
+cálculo 
+Municipios 
+Numerador    
+ A 
+Denominador 
+  B 
+Ecuación 
+Municipios con 
+cobertura de 1ª dosis 
+de SRP >= 95% en 
+niñas y niños de 1 año 
+de edad 
+# de municipios 
+con cobertura de 
+1ª dosis de SRP >= 
+95% en niñas y 
+niños de 1 año de 
+edad 
+# total de 
+municipios 
+(A/B) X 100 
+  
+Observaciones 
+Proyecciones de población CONAPO de niñas y niños de 1 año por municipio. 
+Fuente de número de municipios INEGI 
+ 
+39 
+ 
+APLICACIÓN DEL MÉTODO DE CÁLCULO  
+PARA LA OBTENCIÓN DE LA LÍNEA BASE 
+Nombre  variable 
+1 
+# municipios 
+con cobertura 
+de vacunación 
+de 1ª dosis de 
+SRP >=95% en 
+niñas y niños de 
+1 año en el añot 
+Valor 
+variable 1 
+1,356 
+Fuente de 
+información 
+variable 1 
+CENSIA 
+Nombre variabl.e 
+2 
+Total de 
+municipios en 
+el añot 
+Valor 
+variable 2 
+2,463 
+Fuente de 
+información 
+variable 2 
+INEGI 
+Nombre variable 
+3 
+--- 
+Valor 
+variable 3 
+--- 
+Fuente de 
+información 
+variable 3 
+--- 
+Nombre variable 
+n 
+--- 
+Valor 
+variable n 
+--- 
+Fuente de 
+información 
+variable n 
+--- 
+Sustitución en 
+método de 
+cálculo 
+Número de municipios con cobertura de SRP en niñas y niños de 1 año en el 
+añotX 100 
+Total de municipios en el añot 
+VALOR DE LÍNEA BASE Y METAS 
+Línea base 
+Nota sobre la línea base 
+Valor 
+55.05 
+Información al cierre de 2018 
+Año 
+2018 
+Meta 2024 
+Nota sobre meta 2024 
+Porcentaje de municipios que cumplen el 
+indicador >=80% 
+Debido a que el mínimo porcentaje aceptable 
+es 80%, se aspira que en los años del periodo 
+próximo, hasta 2024, se alcance y supere esta 
+cobertura, 
+conservando 
+como 
+mínimo 
+aceptable 80%. 
+SERIE HISTÓRICA DE LA META PARA EL BIENESTAR O PARÁMETRO 
+2012 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+ND 
+ND 
+51.36 
+36.09 
+46.95 
+24.77 
+55.01 
+METAS 
+2019 
+2020 
+2021 
+2022 
+2023 
+2024 
+36.8* 
+>=80 
+>=80 
+>=80 
+>=80 
+>=80 
+ 
+ 
+ 
+ 
+40 
+ 
+ 
+3. ELEMENTOS DE META PARA EL BIENESTAR  
+O PARÁMETRO EN 1 AÑO DE EDAD 
+Nombre 
+Cobertura de vacunación con esquema completo en la población por línea 
+de vida. 
+Esquema completo de vacunación en niñas y niños de 1 año de edad. 
+Objetivo prioritario 
+Garantizar el esquema completo de vacunación a toda la población con 
+criterio de línea de vida, para mitigar, controlar, eliminar o erradicar 
+enfermedades prevenibles.  
+Definición 
+Cobertura de esquema completo de vacunación en niñas y niños de 1 año 
+de edad. 
+Nivel de 
+desagregación 
+Nacional 
+Estatal 
+Municipal 
+Periodicidad 
+o frecuencia 
+de medición 
+Anual 
+Tipo 
+Estratégico 
+Acumulado 
+o periódico 
+Acumulado anual con 
+reportes periódicos 
+trimestrales 
+Unidad de medida 
+Porcentaje 
+Periodo de 
+recolección 
+de datos 
+Enero a diciembre, con 
+reportes trimestrales 
+Dimensión 
+Eficacia 
+Al menos 90% de cobertura 
+de esquema completo 
+Disponibilid
+ad de la 
+información 
+Diciembre, con reportes de 
+avance trimestrales 
+Tendencia esperada 
+Ascendente 
+Unidad 
+responsable 
+de reportar 
+el avance 
+Centro Nacional para la 
+Salud de la Infancia y la 
+Adolescencia (CENSIA) 
+Método de cálculo 
+Edad 
+Numerador    
+ A 
+Denominador 
+  B 
+Ecuación 
+Niñas y 
+niños de 1 
+año 
+# de niñas y niños 
+de 1 año con 
+esquema completo 
+para la edad (1) 
+Población total 
+de 1 año de 
+edad 
+(A/B) X 100 
+(1) 1 SRP + 3a conjugada de neumococo + 4a pentavalente o 
+hexavalente 
+ 
+Observaciones 
+Proyecciones de población CONAPO de niñas y niños de 1 año.  
+APLICACIÓN DEL MÉTODO DE CÁLCULO  
+PARA LA OBTENCIÓN DE LA LÍNEA BASE 
+Nombre  variable 1 
+Niñas y niños de 
+1 año con 
+esquema 
+completo en el 
+añot 
+Valor 
+variable 1 
+1,959,660 
+Fuente de 
+información 
+variable 1 
+CENSIA 
+ 
+ 
+41 
+ 
+Nombre variable 2 
+Total de menores 
+de 1 año de edad 
+en el añot 
+Valor 
+variable 
+2 
+2,204,730 
+Fuente de 
+información 
+variable 2 
+CONAPO 
+Nombre variable 3 
+--- 
+Valor 
+variable 
+3 
+--- 
+Fuente de 
+información 
+variable 3 
+--- 
+Nombre variable n 
+--- 
+Valor 
+variable 
+n 
+--- 
+Fuente de 
+información 
+variable n 
+--- 
+Sustitución 
+en 
+método de cálculo 
+Número de niñas y niños de 1 año con esquema completo de vacunación 
+en el añot  X 100 
+Total de población de 1 año en el añot 
+VALOR DE LÍNEA BASE Y METAS 
+Línea base 
+Nota sobre la línea base 
+Valor 
+88.90 
+Información al cierre de 2018 
+Año 
+2018 
+Meta 2024 
+Nota sobre meta 2024 
+Cobertura >=90% 
+Debido a que el mínimo porcentaje 
+aceptable es 90%, se aspira que en los años 
+del periodo próximo, hasta 2024, se pase 
+esta cobertura, conservando como mínimo 
+aceptable 90%. 
+SERIE HISTÓRICA DE LA META PARA EL BIENESTAR O PARÁMETRO 
+2012 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+86.45 
+85.29 
+91.80 
+96.69 
+89.52 
+83.41 
+88.88 
+METAS 
+2019 
+2020 
+2021 
+2022 
+2023 
+2024 
+83.41* 
+>=90 
+>=90 
+>=90 
+>=90 
+>=90 
+ 
+ 
+ 
+ 
+42 
+ 
+ 
+5. ELEMENTOS DE META PARA EL BIENESTAR 
+O PARÁMETRO EN 6 AÑOS 
+Nombre 
+Cobertura de vacunación con esquema completo en la población por línea de 
+vida. 
+Cobertura con Segunda dosis de vacuna SRP en niñas y niños de 6 años de edad 
+Objetivo 
+prioritario 
+Garantizar el esquema completo de vacunación a toda la población con criterio 
+de línea de vida, para mitigar, controlar, eliminar o erradicar enfermedades 
+prevenibles. 
+Definición 
+Cobertura de segunda dosis de vacuna SRP en niñas y niños de 6 años de edad. 
+Nivel de 
+desagregación 
+Nacional 
+Estatal 
+Municipal 
+Periodicidad o 
+frecuencia de 
+medición 
+Anual 
+Tipo 
+Estratégico 
+Acumulado o 
+periódico 
+Acumulado anual con reportes 
+periódicos trimestrales 
+Unidad de 
+medida 
+Porcentaje 
+Periodo de 
+recolección de 
+datos 
+Enero a diciembre, con reportes 
+trimestrales 
+Dimensión 
+Eficacia 
+Al menos 95% de cobertura 
+de segunda dosis de SRP 
+Disponibilidad 
+de la 
+información 
+Diciembre, con reportes de 
+avance trimestrales 
+Tendencia 
+esperada 
+Ascendente 
+Unidad 
+responsable 
+de reportar el 
+avance 
+Centro Nacional para la Salud de 
+la Infancia y la Adolescencia 
+(CENSIA) 
+Método de 
+cálculo 
+Edad 
+Numerador    
+ A 
+Denominador 
+  B 
+Ecuación 
+Niñas y niños 
+de 6 años 
+# de niñas y niños de 6 
+años con 2a dosis de SRP 
+Población total de 6  
+años de edad 
+(A/B) X 100 
+ 
+Observaciones 
+Proyecciones de población CONAPO de niñas y niños 6 años. 
+APLICACIÓN DEL MÉTODO DE CÁLCULO  
+PARA LA OBTENCIÓN DE LA LÍNEA BASE 
+Nombre  
+variable 1 
+Niñas y niños 
+de 6 años con 
+segunda dosis 
+de SRP en el 
+añot 
+Valor 
+variable 1 
+2,184,011 
+Fuente de 
+información 
+variable 1 
+CENSIA 
+ 
+Nombre variable 
+2 
+Total de niñas 
+y niños de 6 
+años de edad 
+en el añot 
+Valor 
+variable 2 
+2,207,476 
+Fuente de 
+información 
+variable 2 
+CONAPO 
+ 
+43 
+ 
+Nombre variable 
+*** 
+--- 
+Valor 
+variable *** 
+--- 
+Fuente de 
+información 
+variable *** 
+--- 
+Nombre variable 
+n 
+--- 
+Valor 
+variable n 
+--- 
+Fuente de 
+información 
+variable n 
+--- 
+Sustitución en 
+método de 
+cálculo 
+Número de niñas y niños de 6 años con 2ª dosis de SRP en el añotX 100 
+Total de población de 6 años en el añot 
+VALOR DE LÍNEA BASE Y METAS 
+Línea base 
+Nota sobre la línea base 
+Valor 
+99.0 
+Información al cierre de 2018 
+Año 
+2018 
+Meta 2024 
+Nota sobre meta 2024 
+Cobertura >=95% 
+Debido a que el mínimo porcentaje aceptable es 
+95%, se aspira que en los años del periodo 
+próximo, hasta 2024, se alcance y supere esta 
+cobertura, conservando como mínimo aceptable 
+95%. 
+SERIE HISTÓRICA DE LA META PARA EL BIENESTAR O PARÁMETRO 
+2012 
+2013 
+2014 
+2015 
+2016 
+2017 
+2018 
+91.8 
+79.0 
+96.4 
+96.1 
+95.3 
+62.28 
+99.0 
+METAS 
+2019 
+2020 
+2021 
+2022 
+2023 
+2024 
+62.91* 
+>=95 
+>=95 
+>=95 
+>=95 
+>=95 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44 
+ 
+ 
+X. Mapa de procesos 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+45 
+ 
+XI. Territorialización 
+Para este ejercicio, se utilizó un método basado en la identificación de patrones 
+espaciales de un fenómeno con una técnica intrínsecamente geográfica llamada 
+autocorrelación espacial (AE). Este análisis brinda los elementos para identificar zonas 
+prioritarias como apoyo para la planeación de acciones diferenciadas para el Programas 
+de Acción Específico Vacunación Universal.  
+Objetivos 
+• Identificar las agrupaciones de municipios con índices altos. 
+• Reconocer las características contextuales (sociodemográficas, de accesibilidad 
+geográfica y de oportunidades de atención) de las agrupaciones de municipios 
+identificados. 
+ Indicadores utilizados 
+Directos de salud: 
+• Tasa de mortalidad infantil por 1000 nacimientos, 2015-2017 
+• Cobertura de vacunación con SRP en población de 1 año de edad para 2017 
+Determinantes sociales 
+• Poblacionales (densidad de población, población de 0 a 4 años) 
+• Densidad poblacional 
+• Ingresos inferiores a la línea de bienestar, pobreza extrema 
+• Accesibilidad geográfica 
+• Etnicidad  
+• Rezago educativo 
+• Oportunidades de atención 
+ 
+ 
+ 
+46 
+ 
+ 
+1. Resultados: Identificación de municipios prioritarios  
+El Análisis de Autocorrelación espacial comprueba la existencia de dependencia 
+territorial en la carga de la problemática planteada para el programa de Vacunación 
+Universal; ésta se focaliza en la región sureste del país, esto sin restar importancia a las 
+agrupaciones localizadas en el norte y occidente. De la totalidad de municipios 
+prioritarios (333), el 83.4% (278 municipios) se ubican en los estados de Guerrero, Oaxaca, 
+Veracruz y Chiapas.  
+• La población indígena es prevalente en los municipios de las entidades antes 
+referidas, (60.5%), lo que implica consideración prioritaria de la pertinencia cultural 
+en esta región para que el programa consiga tanto el seguimiento de los esquemas 
+de vacunación como la universalidad de estos.  
+• Los indicadores sociodemográficos denotan que los municipios de las entidades 
+del sureste cuentan con más características desfavorables, pues alrededor del 46% 
+de la población se encuentra en condición de pobreza extrema y 86.6% tiene 
+ingresos inferiores a la línea de bienestar.  
+• En promedio, en los municipios prioritarios se presenta un 16.3% de analfabetismo 
+en la población de 6 a 18 años y 19.2% en la población de 15 o más años; existe un 
+rezago escolar en la población general de 34.4%; siendo más alto éste último, en los 
+municipios de las regiones del occidente y sureste. Existen grandes brechas de 
+comunicación, pues más del 93% de la población, no cuenta con una computadora 
+y alrededor del 85% no cuenta con teléfono, desafíos tecnológicos a enfrentar para 
+el desarrollo de sistemas de información automatizados, telemedicina y 
+telementoría.  
+• Los indicadores de accesibilidad geográfica en estos municipios prioritarios 
+muestran que casi el 60% de los ubicados en la región del sureste cuenta con 
+accesibilidad muy baja a caminos y carreteras; sin embargo, la población más 
+alejada (más de una hora de distancia) de un hospital público, se localiza en los 
+municipios del norte y occidente del país.  
+ 
+2. Respecto a las oportunidades de atención, se observa que la razón de médicos 
+generales por cada 10 mil habitantes es menor en los municipios prioritarios de la 
+región del centro y la misma tendencia se observa para el personal de enfermería. 
+La mayor proporción de promotores de salud se encuentra en la región del norte, 
+ 
+47 
+ 
+no habiendo variedad de distribución para este indicador en el resto de las regiones. 
+El porcentaje de carencia por acceso a los servicios de salud es semejante en las 
+regiones del Occidente, Centro y Sureste, 13.4%, 15.2% y 13.2% respectivamente. 
+ 
+Mapa. Agrupación espacial de Índice del ACP de la carga de la problemática del programa 
+Vacunación Universal 
+ 
+Anexos 
+(descripción por región, cuadro con determinantes sociales y mapas con agrupaciones 
+identificadas).  
+Considerando la caracterización específica de los municipios prioritarios según región, y 
+los niveles de competencia en el ejercicio de su resolución se desarrollarán tres tipos de 
+colaboraciones para la atención territorializada: vertical, sectorial e intersectorial. La 
+colaboración vertical buscará mejorar los factores relacionados a cobertura y acceso; 
+fundamentado en la coordinación de los distintos niveles de gobierno. La colaboración 
+sectorial buscará incidir en los factores relacionados a capacidad operativa y prestación 
+de servicios; identificará oportunidades con distintas instituciones del sector salud. La 
+colaboración intersectorial buscará atender los determinantes sociales que afecten el 
+proceso de resolución; gestionará el trabajo conjunto a otros sectores. 
+ 
+48 
+ 
+Las estrategias diferenciadas de forma general permitirán: 
+• Dirigir las acciones de vacunación a los grupos más vulnerables. 
+• Establecer estrategias diferenciadas dependiendo de las características de la zona 
+de atención y la población: grupos indígenas, migrantes o desplazados, comunidad 
+de la diversidad sexual (comportamiento lésbico, gay, bisexual, transexual o LGBT), 
+y personas con comorbilidades asociadas a complicaciones y riesgo de defunción 
+de EPV. 
+• Realizar acciones intensivas de vacunación, con base en calendario local.  
+• Contribuir a la reducción de brechas de desigualdad y condiciones de 
+vulnerabilidad y discriminación en poblaciones y territorios. 
+• Asesoría técnica para reducir la brecha actual en la funcionalidad de equipos de red 
+de frio en zonas con rezago. 
+ 
+ 
+ 
+ 
+49 
+ 
+ 
+XII. Innovación en Salud  
+La innovación en salud consiste en la incorporación de herramientas digitales, 
+tecnologías de la información y de telecomunicación para el desarrollo de políticas, 
+sistemas, productos y métodos de servicios que mejoren la salud de las personas.  
+La optimización de los sistemas de salud requiere políticas en constante evolución, que 
+se traduzcan en un mejor desarrollo y prestación de servicios. La innovación basada en 
+las necesidades cataliza este proceso, toda vez que permite el adecuado uso de recursos 
+económicos, humanos y de infraestructura, generando una alternativa de acceso para las 
+y los usuarios y permite una mayor cobertura en sitios de difícil acceso, eliminando 
+algunas de las barreras geográficas, económicas y sociales que aún impactan en el acceso 
+a los servicios de salud.  
+En los programas de acción específica, su aplicación se enfoca en cinco componentes 
+principales: 
+ 
+1. Promoción y prevención 
+2. Capacitación 
+3. Atención y asistencia 
+4. Gestión 
+5. Medición y Evaluación 
+ 
+La implementación será multimodal y con la visión centrada en las necesidades de los 
+diferentes usuarios y de cada región, garantizando así el acceso a servicios de salud de 
+calidad, asequibles, eficientes y efectivos.   
+Dado que puede estar enfocada en diversos aspectos de la atención, las intervenciones 
+que emplea pueden tener diferentes ámbitos de aplicación y estar dirigidos a diferentes 
+sectores. En la siguiente tabla se enlistas estrategias potencialmente aplicables al 
+programa para el programa de Vacunación Universal. 
+ 
+ 
+ 
+50 
+ 
+ 
+ 
+Tabla. Innovación en Salud: Vacunación universal 
+ 
+POBLACIÓN 
+OBJETIVO 
+MODALIDADES DE 
+INTERVENCIÓN 
+APLICACIONES 
+ESTRATEGIAS DE 
+IMPLEMENTACIÓN 
+Para 
+personas 
+usuarias 
+• Salud Móvil (apps 
+móviles)  
+• Centros de contacto  
+• Teleeducación 
+(webinars, talleres) 
+• Teleconsulta para 
+asesorías 
+• (vía telefónica, web o 
+videollamada) 
+• Promoción de la salud y 
+difusión de contenidos. 
+• Información y 
+orientación. 
+• Seguimiento de casos.  
+• Orientación acerca del 
+esquema de 
+vacunación.  
+Centros de contacto, 
+Línea de la vida, Salud 
+Móvil, Telementoría 
+Para 
+profesionales 
+de salud 
+• Teleeducación 
+• (Telementoría, 
+webinars, diplomados 
+en línea) 
+• Teleconsulta 
+(Interconsultas)  
+• Formación continua. 
+• Asesoría técnica. 
+• Redes integrales de 
+servicios. 
+• Seguimiento de ESAVIS.  
+Favorecer los cursos 
+teóricos mediante TICs y 
+utilizar los recursos para 
+la adquisición y 
+fortalecimiento de 
+habilidades prácticas.  
+Para sistemas 
+de salud y 
+responsables 
+de programa 
+• Videollamadas 
+• Sistemas de Gestión y 
+organización de bases 
+de datos 
+• Actualización y 
+evidencia. 
+• Asesoría gerencial. 
+• Aseguramiento de 
+insumos. 
+• Seguimiento a 
+indicadores y 
+coberturas del PVU.  
+• Capacitación integral 
+del PVU.  
+Coadyuvar las 
+actividades gerenciales, 
+la coordinación entre 
+niveles y entre sectores, 
+y el liderazgo a nivel 
+estatal y local.  
+Para servicios 
+de datos 
+• Sistemas de Gestión y 
+organización de bases 
+de datos 
+• Sistemas de registro. 
+• Análisis de datos. 
+• Decisiones basadas en 
+resultados.  
+• Sistema nominal de 
+información en salud.  
+Todas las acciones 
+realizadas deberán 
+formar parte oficial de 
+los registros de 
+atención.  
+ 
+ 
+51 
+ 
+ 
+XIII. Transversalidad 
+A través de esta herramienta analítica, formativa, consultiva, dinámica y participativa; el 
+Centro Nacional para la Salud de la Infancia y la Adolescencia aportará al Sistema Nacional 
+de Salud una visión global e integrada en materia de Vacunación Universal, centrada en 
+una visión particular de la realidad social no contemplada, o no suficientemente 
+integrada, en la estructura básica de este Órgano Desconcentrado, estableciendo una 
+estrecha participación  intersectorial que permita   generar sinergia de acciones  para la 
+resolución de problemas específicos, mejorar  la integración  sectorial y territorial, con una 
+mayor consistencia y coherencia de los objetivos, estrategias y líneas de acción  de los 
+diferentes programas de acción. 
+Para este fin se plantean tres actividades bajo un esquema de participación transversal. 
+1.   Recolección, producción y tratamiento de información.  
+2. Diseño e identificación de objetivos estratégicos y operativos, y formulación de 
+políticas y estrategias.  
+3. Estructuración y gestión de redes relacionales internas y externas de carácter 
+multilateral y bilateral.  
+ 
+ 
+ 
+52 
+ 
+Esquema de participación transversal del Centro Nacional de Vacunación, 
+Infancia y Adolescencia 
+OBJETIVO 
+ESPECÍFICO 
+ESTRATEGIA 
+TEMA DE 
+TRANSVERSALIDAD 
+1. Garantizar el esquema 
+completo de vacunación a toda 
+la población, con criterio de línea 
+de vida para mitigar, controlar, 
+eliminar o erradicar 
+enfermedades prevenibles.  
+1.1 Identificar las características de 
+atención de las poblaciones con menor 
+cobertura de vacunación, para disminuir 
+barreras y lograr su acceso efectivo a los 
+servicios de vacunación, priorizando a 
+grupos en situación de vulnerabilidad. 
+1.2 Identificar las causas de 
+oportunidades perdidas de vacunación 
+por: falsas contraindicaciones, debidas al 
+personal de salud, logística y 
+organización del servicio, para realizar 
+intervenciones basadas en la evidencia 
+para su disminución. 
+1.3 Mejorar los procesos de adquisición e 
+inventarios de vacunas a fin de que se 
+pueda dotar de las mismas a las 
+entidades federativas, de forma regular 
+y exista abasto permanente en todas las 
+unidades de salud. 
+1. Acceso universal y 
+vacunación a grupos 
+vulnerables. 
+2. Incrementar el acceso a 
+vacunas de calidad y 
+oportunamente, con prioridad a 
+la que habita en zonas 
+marginadas y en situación de 
+vulnerabilidad mejorando la 
+oferta y la infraestructura 
+necesaria para su distribución y 
+conservación. 
+2.1 Contar con sistema de red de frío de 
+calidad para garantizar la conservación 
+adecuada de vacunas desde el nivel 
+estatal hasta el local. 
+2.2. Realizar capacitación, supervisión y 
+evaluación del PVU, para, en su caso, 
+redireccionar las estrategias y acciones 
+puntuales 
+1. Fortalecimiento de la red 
+de frío a nivel nacional. 
+2. Fortalecer actividades de 
+capacitación efectiva y 
+supervisión 
+ 
+ 
+ 
+3. Actualizar el esquema de 
+vacunación y sus estrategias, 
+con: información basada en la 
+evidencia, criterios de costo 
+efectividad, costo beneficio, 
+costo utilidad y sostenibilidad 
+técnica y financiera, para otorgar 
+la mejor oportunidad de 
+prevención a la población 
+mexicana.. 
+3.1 Incorporar al PVU innovaciones 
+técnicas y científicas para incrementar 
+el impacto positivo en salud del 
+esquema de vacunación. 
+1. Incorporación de 
+innovaciones en el 
+esquema de vacunación.  
+ 
+4. Generar acciones coordinadas 
+a través del Sistema Nacional de 
+Salud para fortalecer la 
+participación y conciencia 
+ciudadana en materia de 
+vacunación. 
+4.1. Diseñar e implementar estrategias 
+de comunicación social sectoriales de 
+promoción de la vacunación y generar 
+corresponsabilidad de la población. 
+1. Comunicación social 
+efectiva y participación 
+ciudadana. 
+ 
+53 
+ 
+ 
+XIV. Epílogo: visión a largo plazo 
+El gobierno de la Cuarta Transformación se propone alcanzar una mejora radical en los 
+niveles de bienestar y seguridad de la población, con respecto a los que prevalecían en 
+años anteriores, con instituciones saneadas en su estructura, gerencia, funcionamiento y 
+capacidad resolutiva, que además sean confiables y respetuosas de las leyes y con una 
+sociedad participativa e involucrada en el ejercicio del poder público. 
+Para 2024, México logrará éxitos relevantes en el control de las enfermedades prevenibles 
+por vacunación y en el mantenimiento de la eliminación de poliomielitis, tétanos 
+neonatal, sarampión, rubéola y síndrome de rubéola congénita, mostrando bajo límites 
+de transmisión endémica de tos ferina, parotiditis, gastroenteritis grave en menores de 5 
+años, neumonía y meningitis bacteriana, y de otras enfermedades inmunoprevenibles. 
+Debido a la incidencia endémica en otros países, de padecimientos ya eliminados en 
+México, como sarampión y rubéola, se deberá desarrollar un sistema de vigilancia 
+epidemiología y de inteligencia en salud robusto, para detectar oportunamente casos 
+aislados y cadenas de transmisión comunitaria, para detonar de inmediato acciones de 
+control y de la población vacunación.  
+Para avanzar en la protección de la salud de la población, se contará con esquemas de 
+vacunación actualizados, para todas las etapas en la línea de vida, para salvar las vidas que 
+de otra manera, podrían perderse por la nula prevención inmunitaria de la población, por 
+coberturas de vacunación no óptimas, ocasionando gastos catastróficos por tratamiento, 
+hospitalización o secuelas de estas enfermedades en la población.  
+Con la asesoría de profesionales de instituciones académicas y de investigación, se 
+evaluará la conveniencia y posibilidad técnica de ampliar el espectro protector del PVU 
+en beneficio de la población, incorporando, en caso de justificarse, nuevas vacunas que 
+como las de virus sincicial respiratorio, infecciones de transmisión sexual o astrovirus, son 
+de importancia en salud pública y podrían salvar vidas en diferentes grupos de edad.  
+Para cumplir el propósito de garantizar la salud de la población en la línea de vida, se 
+establecerán mecanismos de mejora continua de las acciones rutinarias e intensivas de 
+vacunación, actualmente disponibles en el PVU. 
+Se monitorearán permanentemente las nuevas tecnologías en materia de comunicación, 
+sistemas de información y capacitación para mejorar la formación académica de las y los 
+ 
+54 
+ 
+trabajadores de la salud en el área de vacunación y promover su profesionalización en 
+salud pública.  
+En el curso de los próximos 20 años, probablemente se logrará la erradicación mundial 
+de la poliomielitis y se podría estar a las puertas de la erradicación mundial del sarampión 
+y rubéola, para lo cual se requiere continuar el compromiso internacional en ese sentido. 
+Estaremos preparados para la prevención de otros padecimientos que actualmente no 
+están presentes en el país pero que podrían llegar a afectar gravemente a la población. 
+Ante estas amenazas, habrá que conocer las tecnologías y estrategias de salud pública 
+realizadas por otros países que han afrontado o que actualmente afrontan estos retos a 
+la salud, como las variantes de influenza aviar y la amenaza de pandemia por esta 
+posibilidad, enfermedad por virus ébola y otros padecimientos aun no prevenibles por 
+vacunación como el síndrome respiratorio agudo severo, neumonía de origen 
+desconocido y fiebres hemorrágicas de diferente etiología. 
+ 
+ 
+ 
+55 
+ 
+ 
+Lista de Dependencias y Entidades participantes 
+Instituciones Secretaría de Salud 
+• Dirección General de Promoción de la Salud (DGPS) 
+• Dirección General de Información en Salud (DGIS) 
+• Dirección General de Epidemiología (DGE) 
+• Centro Nacional de Equidad de Género y Salud Reproductiva (CNEGSR) 
+• Centro Nacional para la Prevención y el Control del VIH y el SIDA (CENSIDA) 
+• Secretarías de Salud en los Estados 
+• Servicios Estatales de Salud  
+ 
+Otras Instituciones de Salud 
+• Instituto Mexicano del Seguro Social (IMSS) 
+• Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE) 
+• Secretaría de la Defensa Nacional (SEDENA) 
+• Servicios de Salud de Petróleos Mexicanos (PEMEX) 
+ 
+Instancias del Gobierno Federal 
+• Secretaría de Educación Pública (SEP) 
+• Secretaría de Gobernación (SEGOB-SIPINNA) 
+• Secretaría de Relaciones Exteriores (SRE) 
+ 
+ 
+56 
+ 
+Organismos Internacionales 
+• Organización Mundial de la Salud (OMS) 
+• Organización Panamericana de la Salud (OPS) 
+• Fondo de las Naciones Unidas para la Infancia (UNICEF) 
+ 
+El PVU se vincula con los siguientes programas derivados del PND:  
+• Programa Nacional de Derechos Humanos. 
+• Programa Nacional de Protección de Niñas, Niños y Adolescentes. 
+• Programa Nacional para el Desarrollo y la Inclusión de las Personas con 
+Discapacidad. 
+• Programa Nacional de Mejora de la Gestión Pública y Combate a la Corrupción y la 
+Impunidad 
+• Programa Nacional para la Igualdad entre Hombres y Mujeres. 
+ 
+De conformidad con los artículos 16 y 17° de la Ley de Planeación, se tiene relación con el 
+programa sectorial de salud y los derivados de las entidades paraestatales e 
+institucionales.  
+Las acciones puntuales se llevarán a cabo de manera coordinada con otros programas 
+institucionales de la Secretaría de Salud, como los responsables de la elaboración de las 
+Cartillas Nacionales de Salud, Promoción de la Salud y Vigilancia Epidemiológica; en 
+forma transversal con los programas orientados al diagnóstico y prevención de la 
+influenza, tuberculosis, neumococo, tétanos, infecciones de transmisión sexual.  
+También el PVU está vinculado con las siguientes organizaciones nacionales e 
+internacionales: Instituto Nacional de Salud Pública, SIPINNA, CONAPO, CONEVAL, 
+CENETEC, SEP, CNDH, la Organización Mundial de la Salud/Organización Panamericana 
+de la Salud y UNICEF.  
+ 
+ 
+ 
+ 
+57 
+ 
+ 
+Bibliografía 
+• Aspectos normativos y metodológicos generales para la elaboración de los 
+Programas. 2019 SHCP. 
+• Constitución Política de los Estados Unidos Mexicanos. 
+• DECRETO por el que se reforman y adicionan diversas disposiciones de la Ley 
+General de Salud, en materia de vacunación. DOF: 19-06-2017. 
+• Incorporación de enfoques transversales y pensamiento sistémico en el diseño de 
+los programas derivados del Plan Nacional de Desarrollo 2019-2024. 2019. Instituto 
+Nacional de los Pueblos Indígenas. 
+• Ley General de Salud. DOF: 24-01-2020. 
+• Manual de eventos supuestamente atribuibles a la vacunación e inmunización. 
+2014. CeNSIA. 
+• NORMA Oficial Mexicana NOM-017-SSA2-2012, Para la Vigilancia Epidemiológica. 
+DOF: 19-02-2013. 
+• NORMA Oficial Mexicana NOM-031-SSA2-1999, Para la atención a la salud del niño. 
+DOF: 09-02-2001. 
+• NORMA 
+Oficial 
+Mexicana 
+NOM-036-SSA2-2012, 
+Prevención 
+y 
+control 
+de 
+enfermedades. Aplicación de vacunas, toxoides, faboterápicos (sueros) e 
+inmunoglobulinas en el humano. DOF: 28-09-2012. 
+• NORMA Oficial Mexicana NOM-087-SEMARNAT-SSA1-2002. Protección Ambiental - 
+Salud Ambiental - Residuos Peligrosos Biológico-Infecciosos - Clasificación y 
+Especificaciones de Manejo. DOF: 17-02-2003. 
+• Offit PA, Davis RL, Gust D. Vaccine safety. En: Plotkin SA, Orenstein WA, Offit PA 
+(Eds.). Vaccines 5th Ed. 2008, 1629-1650. 
+• Plan Nacional de Desarrollo 2019-2024. DOF: 12-07-2019. 
+ 
+58 
+ 
+• Reglamento Interior de la Secretaría de Salud, en el Artículo 47, fracciones I a XIX, 
+se establecen las funciones del Centro Nacional para la Salud de la Infancia y 
+Adolescencia (CENSIA). DOF: última reforma 07-02-2018. 
+• Strom LB. Pharmacoepidemiology. 3th Ed. John Willey & Sons, LTD, Inglaterra, 
+2000. 
+• WHO-UNICEF policy statement for mass immunization campaigns. Geneva, 2000. 
+• WHO. Injection Safety: Aide-Memoire for a national strategy for the safe and 
+appropriate use of injections. Geneva, 2000. 
+ 
+ 
+ 
+ 
+59 
+ 
+Glosario de Términos 
+Barrido Vacunal. Visitas casa a casa en una población determinada, y que tiene como 
+objetivo iniciar y/o completar esquemas de vacunación a todos los niños y niñas, o a 
+grupos de edad específicos. 
+Bloqueo Vacunal. Actividades de vacunación en torno a uno o varios casos de 
+enfermedad prevenible por vacunación, para limitar la transmisión de la enfermedad. 
+Brote. Aumento superior al tercer cuartil (percentil 75) del valor esperado para la misma 
+semana epidemiológica, de los casos nuevos de una EPV, o en poblaciones pequeñas, 
+aumento inusual en el número de casos ocurridos en la misma área geográfica, asociados 
+epidemiológicamente, a excepción de aquellas enfermedades erradicadas o eliminadas, 
+en cuyo caso la presencia de un solo caso se considera brote.  
+Cartilla Nacional de Salud. Documento gratuito, único e individual, expedido por la 
+autoridad sanitaria para su uso en toda la República Mexicana, que se utiliza para el 
+registro y control de las acciones del Paquete Garantizado de Servicios de Salud. En donde 
+se registran entre otras acciones en salud, los tipos y las dosis de vacunas aplicadas al 
+titular; según los diferentes grupos de edad y etapas de la vida. 
+Censo Nominal. Es la fuente primaria del Sistema de Información de las actividades de 
+Vacunación Universal, donde se registran el nombre, edad, domicilio, dosis de vacunas 
+aplicadas, esquema de vacunación, y otras acciones que realizan las instituciones del 
+Sistema Nacional de Salud en beneficio de la población.  
+Cobertura de Vacunación. Tasa de individuos de una población de acuerdo con su edad, 
+o porcentaje, considerando la población especifica total de un grupo de edad o de riesgo 
+que han sido vacunados o que han recibido él o los biológicos correspondientes al grupo 
+al que pertenecen (por ejemplo, niños y niñas de un año de edad, mujeres en edad fértil). 
+Control. Aplicación de medidas para disminuir o reducir la incidencia, en casos de 
+enfermedad, teniendo como límites los valores esperados de los padecimientos en 
+condiciones de endemia (por abajo del tercer cuartil o percentil 75). 
+Educación para la Salud. Proceso de enseñanza-aprendizaje que permite, mediante el 
+intercambio y análisis de la información, desarrollar habilidades y cambiar actitudes, con 
+el propósito de inducir comportamientos para cuidar la salud individual, familiar y 
+colectiva. 
+ 
+60 
+ 
+Eliminación de: 
+Sarampión, rubéola y Síndrome de rubéola congénita. Ausencia de la circulación del 
+agente causal y de casos adquiridos en cadenas de transmisión endémica, pero 
+posibilidad de que se presenten casos atribuibles a importación con presencia o no de 
+casos secundarios relacionados con la importación por menos de 12 meses de duración 
+de circulación continua del mismo agente causal considerando el genotipo y su linaje 
+viral. 
+Tétanos neonatal. Menos de 1 caso de tétanos neonatal por 1000 nacidos vivos por 
+municipio. 
+Erradicación. Ausencia de casos de la enfermedad y del agente causal a nivel global 
+(única enfermedad erradicada es la viruela, la poliomielitis está en vías de erradicación). 
+Eventos Supuestamente Atribuidos a la Vacunación o Inmunización (ESAVI). 
+Manifestaciones clínicas o evento médico que ocurre después de la vacunación y que 
+supuestamente se atribuye a la vacunación o inmunización. La temporalidad dependerá 
+de las características de cada una de las vacunas.  
+ESAVI Grave. Cualquier manifestación que clínicamente cause la muerte del paciente, o 
+ponga en peligro la vida, o que haga necesaria la hospitalización o prolongue la estancia 
+hospitalaria, o que sea causa de invalidez o de incapacidad persistente o significativa, o 
+que sea causa de alteraciones o malformaciones en el recién nacido. 
+ESAVI no Grave. Todos los eventos que no cumplen con los criterios de un evento grave. 
+Esquema Básico de Vacunación. Vacunas aplicadas en menores de 8 años de edad 
+incluidas en PVU, de acuerdo con los lineamientos emitidos por la Secretaría de Salud sin 
+incluir las dosis de refuerzo de las vacunas. 
+Esquema Completo de Vacunación. Número de vacunas, dosis y refuerzos establecidos 
+que debe recibir la población, de acuerdo con su edad. 
+Grupo Blanco. Conjunto de individuos con características comunes a los cuales se dirigen 
+acciones e intervenciones específicas.  
+Grupo de Edad.  Conjunto de individuos que comparten un mismo rango de tiempo 
+vivido agrupado en un intervalo de edad. Los intervalos de edad permiten señalar 
+características especiales de la población. También se le llama grupo etario. 
+ 
+61 
+ 
+Grupo de Población bajo resguardo temporal (“Cautiva”). Conjunto de individuos que 
+se encuentran bajo custodia temporal, en instituciones cuyo servicio es de cuidado, 
+capacitación y control. 
+Indicador. Valoración porcentual o cualitativa del cumplimiento de una actividad o de la 
+proporción del logro de una meta, por ejemplo, valores esperados en condiciones de 
+endemia de enfermedades prevenibles por vacunación, o cobertura mínima aceptable 
+de vacunación de una población.  
+Inmunidad. Presencia de células y moléculas en un individuo con la capacidad de 
+reconocer agentes externos a la composición del organismo e inducir respuestas innatas 
+y respuestas especificas a estos agentes. 
+Inmunización. Inducción mediada por anticuerpos específicos, por células (linfocitos) o 
+por ambas, de la respuesta inmune contra un padecimiento, la cual se adquiere a través 
+de infección natural ya sea asintomática o sintomática, o a través de la vacunación 
+específica. 
+Insumos para la Vacunación. Recursos materiales desechables, que se utilizan para la 
+aplicación de los biológicos, incluyendo torundas, alcohol, jeringas y agujas. 
+Jornadas Nacionales de Salud Pública. Acciones de prevención, entre ellas, la 
+vacunación, que incorporan la participación interinstitucional e intersectorial, además de 
+población, para la promoción de medidas habituales de salud pública en un corto periodo 
+de tiempo. 
+Morbilidad. Riesgo de enfermar en un periodo de tiempo determinado y espacio 
+establecidos en una población general o específica, en relación con el total de la 
+población. 
+Mortalidad. Riesgo de morir en un periodo de tiempo determinado y espacio 
+establecidos en una población general o específica, en relación con el total de la 
+población. 
+Operativos Especiales de Vacunación. Se realizan con la finalidad de prevenir 
+enfermedades específicas, o para romper la cadena de transmisión ante la presencia de 
+un caso en la comunidad o en situaciones de desastre para prevenir la presencia de brotes 
+que pongan en riesgo la salud de la población.  
+ 
+62 
+ 
+Participación Social. Proceso que permite involucrar a la población, autoridades locales, 
+instituciones públicas y los sectores social y privado en la planeación, programación, 
+ejecución o evaluación de los programas y acciones de salud, con el propósito de lograr 
+un mayor impacto y fortalecer el Sistema Nacional de Salud. 
+Programa de Vacunación Universal. Política Sanitaria del Gobierno Federal que tiene 
+como objetivo lograr la protección de la población, mediante la aplicación del esquema 
+completo de vacunación. Establece los criterios y procedimientos para lograr la 
+mitigación, el control, la eliminación o la erradicación de enfermedades transmisibles 
+prevenibles por vacunación, así como la población blanca a quienes se aplicará para cada 
+uno de los biológicos incluidos en el Programa. 
+Programa Permanente o Rutinario de Vacunación. Servicio de inmunizaciones que se 
+ofrece sistemáticamente en todas las unidades de salud, todos los días laborales del año, 
+su principal objetivo es “ofertar permanentemente las vacunas del esquema de 
+vacunación universal”. 
+Red o Cadena de Frío. Sistema logístico que comprende personal, infraestructura, 
+equipo y procedimientos para almacenar, transportar y mantener los biológicos en 
+condiciones adecuadas de temperatura, desde el lugar de su fabricación hasta el 
+momento de aplicarlas a la población objetivo. 
+Refuerzo. Acción que se realiza, después de haber completado el esquema de 
+vacunación, al aplicar una dosis adicional del antígeno de inmunización; y que permite 
+incrementar los niveles protectores contra ese antígeno. 
+Riesgo Epidemiológico. Probabilidad que tiene una persona o población de enfermar o 
+morir de una determinada enfermedad, debido a factores endógenos y/o exógenos, en 
+un lugar y tiempo determinados. 
+Sistema Nacional de Salud. Conjunto constituido por las dependencias e instituciones 
+de la Administración Pública, tanto federal como local, y por las personas físicas o morales 
+de los sectores social y privado que prestan servicios de salud, así como por los 
+mecanismos establecidos para la coordinación de acciones. Tiene por objeto dar 
+cumplimiento al derecho de protección de la salud. 
+Susceptible. Ausencia de inmunidad frente a un agente infeccioso determinado, de tal 
+forma que, si un individuo llegase a entrar en contacto con él, estaría expuesto a contraer 
+la enfermedad. 
+ 
+63 
+ 
+Universo. En vacunación, se le llama al total de individuos a quienes están dirigidas las 
+actividades de vacunación. 
+Vacuna. Preparación molecular o biológica lo más inocua posible, destinada a generar 
+inmunidad contra una enfermedad mediante la producción de anticuerpos, células o 
+ambas, para eliminar, prevenir o controlar estados patológicos.   
+Vacunación. Aplicación de un producto inmunizante a un organismo con objeto de 
+protegerlo contra el riesgo de una enfermedad determinada, esta acción no 
+necesariamente produce inmunización, ya que la respuesta inmune varía de un individuo 
+a otro. 
+Vacunación Universal. Política sanitaria que tiene como objetivo lograr la protección de 
+toda la población del país, mediante la aplicación del esquema completo de vacunación. 
+Establece los criterios y procedimientos para alcanzar la mitigación, el control, la 
+eliminación o la erradicación de enfermedades prevenibles por vacunación. 
+Vigilancia pos-comercialización. Etapa de la farmacovigilancia posterior a la 
+comercialización de una vacuna y que evalúa el riesgo de que se presenten eventos 
+adversos posteriores a la aplicación de la vacuna y su eficacia ante retos antigénicos 
+habituales, en condiciones de vacunación masiva en un programa regular de prevención.  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+64 
+ 
+ 
+ 

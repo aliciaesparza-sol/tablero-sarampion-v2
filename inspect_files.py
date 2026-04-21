@@ -1,26 +1,41 @@
-import pandas as pd
+import fitz # PyMuPDF
+import sys
+from pptx import Presentation
 import os
 
-path = r'c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\CRONOGRAMAS DE VISITAS ESCUELAS'
-files = os.listdir(path)
+pdf_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\LINEAMIENTOS\Docto_PlanSarampion_10abr2020.pdf"
+pptx_path = r"c:\Users\aicil\OneDrive\Escritorio\plantilla presentacion ppt.pptx"
 
-print(f"Found {len(files)} files.")
+def inspect_pptx():
+    print(f"Inspecting PPTX: {pptx_path}")
+    if not os.path.exists(pptx_path):
+        print("PPTX not found!")
+        return
 
-for f in files:
-    if not f.endswith(('.xlsx', '.xls', '.csv')):
-        continue
-    
-    file_path = os.path.join(path, f)
-    print(f"\n{'='*50}")
-    print(f"FILE: {f}")
-    try:
-        if f.endswith('.csv'):
-            df = pd.read_csv(file_path, encoding='latin1', nrows=5)
-        else:
-            df = pd.read_excel(file_path, nrows=5)
+    prd = Presentation(pptx_path)
+    print(f"Number of layouts: {len(prd.slide_layouts)}")
+    for i, layout in enumerate(prd.slide_layouts):
+        print(f"Layout {i} - {layout.name}")
+        for ph in layout.placeholders:
+            print(f"  Placeholder: {ph.placeholder_format.idx} (type: {ph.placeholder_format.type}) name: {ph.name}")
+
+def extract_pdf():
+    print(f"Extracting PDF: {pdf_path}")
+    if not os.path.exists(pdf_path):
+        print("PDF not found!")
+        return
         
-        print("Columns:", df.columns.tolist())
-        print("\nFirst 2 rows:")
-        print(df.head(2).to_string())
-    except Exception as e:
-        print(f"Error reading {f}: {e}")
+    doc = fitz.open(pdf_path)
+    text = ""
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        text += f"\\n--- PAGE {page_num + 1} ---\\n"
+        text += page.get_text("text")
+        
+    with open("pdf_extracted.txt", "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"Extraction complete, {len(doc)} pages.")
+
+if __name__ == '__main__':
+    inspect_pptx()
+    extract_pdf()

@@ -95,4 +95,30 @@ KeyboardInterrupt
   File "pandas/_libs/tslibs/nattype.pyx", line 1, in init pandas._libs.tslibs.nattype
   File "<frozen importlib._bootstrap>", line 463, in _lock_unlock_module
 KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 34, in <module>
+    from pandas.compat import (
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\__init__.py", line 18, in <module>
+    from pandas.compat._constants import (
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_constants.py", line 19, in <module>
+    WASM = (sys.platform == "emscripten") or (platform.machine() in ["wasm32", "wasm64"])
+                                              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 1024, in machine
+    return uname().machine
+           ^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 922, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 450, in win32_ver
+    version, csd, ptype, is_client = _win32_ver(version, csd, ptype)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 388, in _win32_ver
+    (version, product_type, ptype, spmajor, spminor)  = _wmi_query(
+                                                        ^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\platform.py", line 327, in _wmi_query
+    data = _wmi.exec_query("SELECT {} FROM {}".format(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
 ^C

@@ -1,0 +1,3636 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+Contenido 
+Introducción ................................................................................................................................... 4 
+Marco legal ..................................................................................................................................... 6 
+Objetivos ......................................................................................................................................... 8 
+1. 
+Rectoría ................................................................................................................................ 9 
+1.1 
+Coordinación estatal ................................................................................................... 9 
+1.1.1 Funciones de los COEVA ............................................................................................. 9 
+1.1.2 Integrantes de los COEVA ......................................................................................... 10 
+1.1.3 Sesiones de los COEVA .............................................................................................. 11 
+1.1.4 Actividades de los COEVA ......................................................................................... 11 
+1.1.5 Avaluación .................................................................................................................. 12 
+2. 
+Distribución de población de responsabilidad institucional del PVU en el SNA ....... 12 
+3. 
+Capacitación ...................................................................................................................... 13 
+4. 
+Supervisión ........................................................................................................................ 15 
+4.1 
+Supervisión nacional ................................................................................................. 16 
+4.2 
+Supervisión estatal o local ........................................................................................ 16 
+5. 
+Operación del programa de vacunación ....................................................................... 17 
+5.1 
+Planificación (metodología de cálculo) ................................................................... 17 
+5.2 
+Programa permanente de vacunación (PPV) ......................................................... 21 
+5.2.1 Lineamientos de aplicación ...................................................................................... 22 
+5.2.2 Esquema de vacunación ........................................................................................... 35 
+5.3 
+Desempeño del programa de vacunación ............................................................. 50 
+5.4 
+Registro de dosis aplicadas y evaluación del desempeño del PVU ..................... 51 
+5.5 
+Vigilancia de ESAVI ..................................................................................................... 52 
+ 
+ 
+ 
+ 
+ 
+3 
+5.5.1 Seguimiento y dictaminación de los ESAVI graves ................................................ 54 
+5.6 
+Vigilancia epidemiológica ......................................................................................... 55 
+5.7 
+Promoción de la vacunación (comunicación) ......................................................... 55 
+5.8 
+Vacunación en situaciones de emergencia ............................................................ 56 
+5.9 
+Vacunación a personas en situación de migración, desplazamiento y  
+refugiados   ................................................................................................................. 57 
+5.10 
+Fuentes de información ............................................................................................ 59 
+5.11 
+Información y reporte de coberturas administrativas de vacunación ............... 59 
+5.12 
+Evaluación ................................................................................................................... 61 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+Introducción 
+Los presentes Lineamientos Generales son de aplicación obligatoria en todos los 
+niveles técnico-administrativos del Sistema Nacional de Salud (SNS), toda vez que 
+contienen las acciones que deben llevarse a cabo durante el ejercicio 2026 en todas las 
+Instituciones del SNS para contribuir a la mitigación, control, eliminación y 
+erradicación de las Enfermedades Prevenibles por Vacunación (EPV).  
+ 
+El Programa de Vacunación Universal (PVU) es una política pública de salud, cuyas 
+metas son las siguientes:  
+• 
+Alcanzar y mantener el 95% de cobertura de vacunación por entidad federativa 
+con cada uno de los biológicos del PVU. (cuadro 1) 
+• 
+Alcanzar y mantener el 90% de cobertura de vacunación en el esquema completo 
+para niñas y niños menores de un año de edad y al año de edad por entidad 
+federativa. 
+• 
+Mantener la eliminación de la poliomielitis por virus silvestre en el país y contribuir 
+a la erradicación mundial de este padecimiento. 
+• 
+Mantener la eliminación del tétanos neonatal. 
+• 
+Mantener la eliminación del sarampión, la rubéola y el síndrome de rubéola 
+congénita. 
+• 
+Mantener 
+el 
+control 
+epidemiológico 
+de 
+los 
+siguientes 
+padecimientos 
+inmunoprevenibles: 
+a. tuberculosis meníngea y miliar, 
+b. hepatitis B, 
+c. difteria, 
+d. tos ferina, 
+e. tétanos no neonatal, 
+f. neumonía y meningitis producidas por Haemophilus influenzae tipo b, 
+g. neumonía y meningitis producidas por Streptococcus pneumoniae, 
+h. enteritis grave causada por rotavirus, y 
+i. 
+parotiditis. 
+• 
+Mitigar el riesgo de complicación en infecciones respiratorias agudas atribuibles a 
+la influenza estacional y COVID-19, con enfoque en las poblaciones con mayor 
+riesgo. 
+ 
+ 
+ 
+ 
+ 
+5 
+• 
+Contribuir a la reducción de la incidencia de infección por el Virus del Papiloma 
+Humano (VPH), a través de la estrategia de vacunación previa al inicio de la vida 
+sexual activa, en adolescentes que cursan el 5° grado de primaria o de 11 años de 
+edad no escolarizados en el Sistema Educativo Nacional. 
+• 
+Coadyuvar en el monitoreo de la incidencia de los Eventos Supuestamente 
+Atribuibles a la Vacunación o Inmunización (ESAVI).  
+• 
+Apoyar con información técnico-científica, cambios requeridos e innovaciones en 
+los esquemas de vacunación del PVU, en beneficio de la población. 
+ 
+ 
+Cuadro 1. Esquema de vacunación 2026, Programa de Vacunación Universal 
+Grupo de edad 
+Vacuna 
+Esquema 
+Recién nacido 
+BCG 
+Una dosis 
+Anti hepatitis B 
+Una dosis 
+Menores de un año 
+Hexavalente acelular 
+1ª, 2ª y 3ª dosis 
+Anti neumocócica conjugada  
+1ª y 2ª dosis 
+Anti-rotavirus 
+1ª y 2ª dosis (RV1) 
+Anti influenza* 
+1ª y 2ª dosis (esquema primario) 
+Anti COVID-19* 
+1ª y 2ª dosis (esquema primario) 
+Un año 
+Anti neumocócica conjugada 
+3ª dosis 
+Triple viral (SRP) 
+1ª dosis 
+Anti varicela*** 
+Una dosis 
+18 meses 
+Triple viral (SRP) 
+2ª dosis 
+Hexavalente acelular 
+Dosis de refuerzo 
+Anti hepatitis A**** 
+Una dosis 
+4 años 
+Triple bacteriana (DPT) 
+Dosis de refuerzo 
+6 años 
+Triple viral (SRP) 
+2ª dosis** 
+*El esquema primario anti influenza y contra la COVID-19 consiste en 2 dosis a partir de los 6 meses de edad con un intervalo de 4 semanas 
+entre cada una, y una dosis anual en cada temporada invernal, hasta los 59 meses de edad. 
+**La segunda dosis de SRP a los 6 años se aplicará a niñas y niños nacidos antes de julio de 2020. Dicha estrategia se implementará hasta 2026, 
+posteriormente se dejará de aplicar a esta edad, pero se seguirá aplicando a niñas y niños de 18 meses de edad. 
+*** A la fecha de publicación del presente lineamiento, la vacuna NO forma parte del esquema básico de vacunación. Actualmente se aplica en 
+guarderías o centros de cuidados infantiles.  
+****ACUERDO-01CONAVA-2025. Se aprueba la incorporación al PVU de la vacuna contra el virus de la hepatitis tipo A, con la estrategia de 
+vacunación universal en niñas y niños de 1 año o bien aquellos que no cuenten con antecedente vacunal. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+Marco legal 
+• 
+Constitución Política de los Estados Unidos Mexicanos, Artículo IV. 
+• 
+Ley General de Salud, Título 8°, Capítulo II, Artículos 134, 135, 141, 144. DOF: última 
+reforma 07/06/2024. 
+• 
+DECRETO por el que se reforman y adicionan diversas disposiciones de la Ley 
+General de Salud, en materia de vacunación. DOF: 19/06/2017. 
+• 
+DECRETO por el que se crea el Consejo Nacional de Vacunación. DOF: 24/01/1991, 
+última reforma 05/07/2001. 
+• 
+DECRETO por el que se determina la integración del Consejo Nacional de 
+Vacunación. DOF: 26/11/2018. 
+• 
+DECRETO por el que se expide el Reglamento Interior de la Secretaría de Salud, 
+Artículo 54, fracciones I a XVIII, se establecen las funciones del Centro Nacional 
+para la Salud de la Infancia y Adolescencia (CENSIA). DOF: 27/02/2025 
+• 
+DECRETO por el que se declara terminada la acción extraordinaria en materia de 
+salubridad general que tuvo por objeto prevenir, controlar y mitigar la enfermedad 
+causada por el virus SARS-CoV-2 (COVID-19): última reforma 09/05/2023 
+• 
+Plan Nacional de Desarrollo 2025-2030. 
+• 
+NORMA Oficial Mexicana NOM-004-SSA3-2012, Del expediente clínico. DOF: 
+15/10/2012. 
+• 
+NORMA Oficial Mexicana NOM-006-SSA2-2013, Para la prevención y control de la 
+tuberculosis. DOF: 13/11/2013. 
+• 
+NORMA Oficial Mexicana NOM-007-SSA2-2016, Para la atención de la mujer 
+durante el embarazo, parto y puerperio, y de la persona recién nacida. DOF: 
+07/04/2016. 
+• 
+NORMA Oficial Mexicana NOM-010-SSA-2023, Para la prevención y el control de la 
+infección por virus de la inmunodeficiencia humana. DOF: 02/06/2023. 
+• 
+NORMA Oficial Mexicana NOM-017-SSA2-2012, Para la Vigilancia Epidemiológica. 
+DOF: 19/02/2013. 
+• 
+NORMA Oficial Mexicana NOM-031-SSA2-1999, Para la atención a la salud del niño. 
+DOF: 09/02/2001.  
+• 
+NORMA Oficial Mexicana NOM-034-SSA2-2013, Para la prevención y control de los 
+defectos al nacimiento. DOF: 24/06/2014. 
+• 
+NORMA Oficial Mexicana NOM-036-SSA2-2012, Prevención y control de 
+enfermedades. Aplicación de vacunas, toxoides, faboterápicos (sueros) e 
+inmunoglobulinas en el humano. DOF: 28/09/2012. Aclaración: D.O.F. 12-X-2012 
+• 
+NORMA Oficial Mexicana NOM-087-SEMARNAT-SSA1-2002. Protección ambiental - 
+salud ambiental - residuos peligrosos biológico-infecciosos - clasificación y 
+especificaciones de manejo. DOF: 17/02/2003. 
+ 
+ 
+ 
+ 
+ 
+7 
+• 
+NORMA Oficial Mexicana NOM-220-SSA1-2016, Instalación y operación de la 
+farmacovigilancia. DOF: 19/07/2017.NORMA Oficial Mexicana NOM-034-SSA2-2013, 
+Para la prevención y control de los defectos al nacimiento. DOF: 24/06/2014. 
+• 
+NORMA Oficial Mexicana NOM-036-SSA2-2012, Prevención y control de 
+enfermedades. Aplicación de vacunas, toxoides, faboterápicos (sueros) e 
+inmunoglobulinas en el humano. DOF: 28/09/2012. 
+• 
+NORMA Oficial Mexicana NOM-087-SEMARNAT-SSA1-2002. Protección ambiental - 
+salud ambiental - residuos peligrosos biológico-infecciosos - clasificación y 
+especificaciones de manejo. DOF: 17/02/2003. 
+• 
+NORMA Oficial Mexicana NOM-220-SSA1-2016, Instalación y operación de la 
+farmacovigilancia. DOF: 19/07/2017. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8 
+Objetivos 
+ 
+• 
+Objetivo General del Programa de Vacunación Universal 
+Contribuir al ejercicio del derecho a la protección de la salud de la población a través 
+de la vacunación en la línea de vida, para mantener la eliminación, control 
+epidemiológico y disminución en la incidencia de las enfermedades que se previenen 
+con esta intervención en salud pública. 
+ 
+• 
+Objetivo de los Lineamientos Generales del Programa de Vacunación 
+Universal 
+Establecer criterios para la planeación, programación, ejecución, monitoreo y 
+evaluación del PVU.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9 
+La ejecución del PVU se lleva a cabo mediante sus componentes de rectoría y 
+operación, los cuales se explican en los siguientes apartados. 
+ 
+1. Rectoría 
+La rectoría en materia de vacunación se fortalecerá a través de la coordinación 
+sectorial e interinstitucional del PVU mediante el Consejo Nacional de Vacunación 
+(CONAVA) para la mitigación, control, eliminación o erradicación de algunas EPV.  
+ 
+Las instituciones de salud deben establecer mecanismos de coordinación, seguimiento 
+y monitoreo de sus poblaciones objetivo y evaluación de coberturas; así como emitir 
+recomendaciones en el cumplimiento de la normatividad establecida para el PVU. 
+ 
+1.1 
+Coordinación estatal 
+Los Consejos Estatales de Vacunación (COEVA) son los organismos rectores en materia 
+de vacunación a nivel estatal, en los que confluyen los integrantes operativos del PVU 
+de todas las instituciones públicas del Sector Salud. 
+ 
+1.1.1 Funciones de los COEVA 
+Convocar y realizar reuniones ordinarias y extraordinarias abordando los siguientes 
+temas relacionados con el PVU, siendo éstos enunciativos más no limitativos: 
+• 
+Monitoreo de las coberturas de vacunación y Reporte de Dosis Aplicadas (RDA) 
+por tipo de biológico, grupo de edad e institución en los niveles estatal, distrital 
+o jurisdiccional y municipal o regional; 
+• 
+Seguimiento al abasto de biológicos; 
+• 
+Distribución de Población de Responsabilidad Institucional (DPRI1); 
+• 
+Monitoreo y análisis de los Eventos Supuestamente Atribuibles a la Vacunación 
+o Inmunización (ESAVI) de tipo grave; 
+• 
+Seguimiento y en su proceder acciones extraordinarias ante casos y brotes de 
+enfermedades prevenibles por vacunación; 
+• 
+Red de frío; 
+• 
+Capacitación y supervisión; 
+ 
+1 https://www.gob.mx/salud/censia/documentos/lineamientos-para-la-distribucion-de-poblacion-de-responsabilidad-institucional-2026 
+ 
+ 
+ 
+ 
+ 
+10 
+• 
+Seguimiento de acuerdos del Sector Salud;  
+• 
+Campañas especiales de vacunación. 
+ 
+Además de analizar e implementar estrategias para la prevención, control, eliminación 
+y erradicación de las EPV acorde a la realidad epidemiológica de la entidad. Es de 
+mencionar, que no todos los puntos son desarrollados en una sesión, por lo que, 
+estarán sujetos a las necesidades operativas de cada entidad federativa. 
+ 
+1.1.2 Integrantes de los COEVA 
+Un COEVA deberá estar integrado de la siguiente manera: 
+• 
+Presidente (Secretaria o Secretario de Salud de la entidad federativa); 
+• 
+Secretario técnico (Directora o Director de los Servicios de Salud u homólogo); 
+• 
+Titular del Órgano Operativo Administrativo Desconcentrado (OOAD) estatal o 
+regional del Instituto Mexicano del Seguro Social (IMSS); 
+• 
+Subdelegado Médico o Subdelegada Médica del Instituto de Seguridad y 
+Servicios Sociales de los Trabajadores del Estado (ISSSTE); 
+• 
+Responsable de Sanidad Militar en la región (SEDENA); 
+• 
+Responsable estatal del Programa de Atención a la Salud de la Infancia y la 
+Adolescencia (PASIA) o bien el responsable estatal de vacunación de la 
+Secretaría de Salud; 
+• 
+En aquellas entidades federalizadas deberá participar el titular de la 
+coordinación estatal de los Servicios de Salud de IMSS-BIENESTAR 
+• 
+Acorde a la presencia de las instituciones de salud en las entidades, en caso de 
+que aplique, deberá participar el responsable de Sanidad Naval en la región 
+(SEMAR) y el responsable regional de los Servicios de Salud de Petróleos 
+Mexicanos (PEMEX);  
+• 
+Responsables institucionales de los sistemas de información de vacunación; 
+• 
+Responsable estatal del Servicio Nacional de Salud Pública. 
+ 
+Adicionalmente, se deberá considerar lo siguiente:  
+• 
+Exclusivamente una persona por institución podrá emitir su voto; 
+• 
+En ausencia de los titulares institucionales, se deberá designar mediante oficio 
+un representante con atribución para toma de decisiones y emisión de voto. 
+ 
+ 
+ 
+ 
+ 
+11 
+• 
+Con objeto de integrar la cosmovisión y necesidades de comunidades de difícil 
+acceso, podrá ser convocada la representación estatal del Instituto Nacional de 
+Pueblos Indígenas. 
+ 
+1.1.3 Sesiones de los COEVA 
+Los COEVA realizarán al menos cuatro sesiones ordinarias al año, una por trimestre, 
+pudiendo realizar un mayor número de reuniones de acuerdo con sus necesidades 
+estatales emergentes en materia de enfermedades prevenibles por vacunación.Las 
+reuniones extraordinarias dependerán de las necesidades del PVU, al ser de carácter 
+emergente, no se establecen criterios para su programación y, por lo tanto, tampoco 
+se consideran para la evaluación de los indicadores correspondientes. 
+ 
+1.1.4 Actividades de los COEVA 
+Los COEVA deberán realizar las siguientes actividades: 
+• 
+Elaborar y enviar al CENSIA antes del 14 de febrero de 2026 su cronograma 
+anual de reuniones, debiendo especificar el mes de realización de cada una. 
+• 
+Realizar acta o minuta de acuerdos por cada reunión celebrada, mismas que se 
+enviarán al CENSIA para dar fe de su cumplimiento. Adicionalmente y de 
+manera opcional podrán remitir las presentaciones o documentos de apoyo 
+que se utilizaron durante la sesión al correo censia.info@salud.gob.mx . Los 
+archivos deberán remitirse por vía oficial o electrónica al CENSIA con las 
+siguientes fechas de corte: 
+ 
+1. primer trimestre, a más tardar el 10 de abril de 2026; 
+2. segundo trimestre, a más tardar el 10 de julio de 2026; 
+3. tercer trimestre, a más tardar el 09 de octubre de 2026; 
+4. cuarto trimestre, a más tardar el 08 de enero de 2027. 
+ 
+• 
+Analizar, evaluar y validar las coberturas de vacunación sectoriales, 
+trimestralmente por tipo de biológico, grupo de edad en el nivel local, 
+distrital/jurisdiccional y estatal.  
+• 
+Coordinar las actividades de las Semanas Nacionales de Vacunación (SNV2) o su 
+equivalente de todo el sector; cada COEVA elaborará su calendario de trabajo. 
+ 
+2 A desarrollarse en los meses de abril, septiembre y noviembre. 
+ 
+ 
+ 
+ 
+ 
+12 
+• 
+Convocar al Comité Estatal de Expertos de ESAVI para garantizar la 
+investigación de los casos de ESAVI graves a través del dictamen de estos.  
+ 
+1.1.5 Evaluación 
+El COEVA es un organismo con autonomía, por lo que, el CENSIA y el Grupo de Trabajo 
+Insterinstitucional (GTI) federal, únicamente podrá participar como orientador de 
+alguno de ellos, previa solicitud e invitación del COEVA.  
+ 
+Las coberturas de vacunación del programa permanente deberán abordarse por los 
+COEVA en cada una de las reuniones programadas por trimestre, en el entendido del 
+envío del RDA, adaptando los cambios en el denominador que realice el CENSIA acorde 
+a la necesidad metodológica. 
+ 
+En el supuesto de que se presenten casos y brotes por EPV, el COEVA y la coordinación 
+interinstitucional a nivel jurisdiccional deberá sesionar de forma urgente y 
+extraordinaria a fin de establecer las medidas necesarias para el control del brote.  
+ 
+En caso de emergencias, cada Institución de Salud deberá poner a disposición al 
+menos 5 brigadas de vacunación o bien el personal que se considere en el COEVA, con 
+la finalidad de atender las necesidades que se requieran en las entidades o regiones 
+afectadas.   
+ 
+De ser necesario, los COEVA deberán modificar el reglamento interno de los Consejos 
+Estatales de Vacunación, con el fin de cumplir con lo establecido dentro del presente 
+lineamiento.  
+ 
+2. Distribución 
+de 
+población 
+de 
+responsabilidad 
+institucional del PVU en el SNS3 
+ 
+La distribución de la población de la República Mexicana implica que cada una de las 
+instituciones públicas del SNS conozca su población de responsabilidad, la cuál será su 
+ 
+3 https://www.gob.mx/salud/censia/documentos/lineamientos-para-la-distribucion-de-poblacion-de-responsabilidad-institucional-2026 
+ 
+ 
+ 
+ 
+ 
+13 
+población por vacunar intra y extramuros. Sin embargo, al tratarse de un programa 
+universal y gratuito, toda persona que se encuentre dentro del territorio nacional 
+tendrá acceso a las vacunas disponibles en el sector público del país4. 
+ 
+La población de responsabilidad institucional a nivel federal forma parte de la base de 
+cálculo para la adquisición de las vacunas e insumos para la vacunación requeridos 
+por las instituciones del SNS, y a nivel estatal es el elemento para la construcción de 
+un plan de trabajo anual con población de responsabilidad asignada a la red de 
+servicios de salud. 
+ 
+La distribución de la población se elabora con anticipación al año fiscal calculado, con 
+la finalidad de estimar oportunamente las dosis requeridas y el presupuesto para la 
+adquisición de insumos por cada institución de salud. Para más información, consultar 
+los Lineamientos para la distribución de población de responsabilidad institucional del 
+PVU en el SNS, México 2026.  
+ 
+3. Capacitación 
+El nivel nacional de la Secretaría de Salud, a través del CENSIA como órgano rector del 
+PVU, deberá realizar en el año al menos un evento de capacitación (presencial y/o 
+virtual) con la participación de los 32 responsables estatales del PVU, así como los 
+responsables del nivel federal de los Servicios de Salud del Instituto Mexicano del 
+Seguro Social (IMSS), ISSSTE, PEMEX, SEDENA, SEMAR y enlaces de los Servicios de 
+Salud del IMSS BIENESTAR. El o los temas por abordar serán definidos por el CENSIA. 
+ 
+El nivel estatal/delegacional y jurisdiccional/distrital deberán realizar en el año, al 
+menos 4 eventos de capacitación, para lo cual se elaborará un plan anual de 
+capacitación que incluya:   
+a) Participación de los responsables de vacunación de los Servicios de Salud de la 
+Secretaría de Salud, Servicios de Salud del IMSS-BIENESTAR, IMSS-Obligatorio, 
+ISSSTE y demás instituciones de salud que integren el COEVA; 
+b) Carta descriptiva (anexo del manual de vacunación);  
+ 
+4 https://www.dof.gob.mx/nota_detalle.php?codigo=5487336&fecha=19/06/2017#gsc.tab=0 
+ 
+ 
+ 
+ 
+ 
+14 
+c) Lista de asistentes que incluya nombre, firma, correo electrónico e institución a la 
+que pertenece; 
+d) Evaluación inicial y evaluación final;   
+e) Análisis y promedios de evaluación inicial y final.  
+ 
+Se recomienda contar con la asistencia de al menos el 90% del personal convocado, 
+adscrito a las unidades de responsabilidad de cada una de las instituciones, debiendo 
+incluir al personal de unidades de segundo y tercer nivel que apliquen vacunas. 
+ 
+Adicionalmente, se recomienda al nivel estatal incluir en la capacitación los siguientes 
+contenidos, siendo éstos enunciativos más no limitativos.  
+Primera sesión de capacitación: 
+• 
+lineamientos Generales del PVU; 
+• 
+esquema de vacunación universal vigente y las actualizaciones en los esquemas 
+de vacunación, incluida las vacunas contra la COVID-19; 
+• 
+indicaciones y contraindicaciones de los diferentes biológicos; 
+• 
+oportunidades perdidas de vacunación; 
+• 
+priorización de actividades en grupos vulnerables; 
+• 
+ESAVI; 
+• 
+vigilancia epidemiológica de EPV (con la participación del enlace estatal de 
+epidemiología). 
+ 
+Siguientes sesiones de capacitación:  
+• 
+procedimientos para la vacunación segura; 
+• 
+técnicas de aplicación de los biológicos y vacunación simultánea; 
+• 
+manejo normativo, almacenamiento y conservación de la red de frío; 
+• 
+instalación y preparación del termo en el puesto de vacunación; 
+• 
+demostración física de la presentación de los diferentes biológicos; 
+• 
+Política de frascos abiertos y manejo de frascos (para uso intramuros y 
+extramuros); 
+• 
+mantenimiento preventivo y/o correctivo de la red de frío (unidades 
+refrigerantes); 
+• 
+accidentes de red de frío; 
+• 
+manejo de Residuos Peligrosos Biológico-Infecciosos (RPBI); 
+ 
+ 
+ 
+ 
+ 
+15 
+• 
+registro y control de entradas y salidas del biológico; 
+• 
+vacunación simultánea; 
+• 
+sistema de información de vacunación: reporte de dosis aplicadas (RDA), 
+cobertura de vacunación, calidad del dato y monitoreo rápido de vacunación en 
+áreas de riesgo (MRV), plataformas de registro en campañas de vacunación. 
+ 
+Por tratarse de una tarea operativa, la evidencia de las capacitaciones realizadas a nivel 
+estatal/delegacional, jurisdiccional/distrital y en unidades de salud, deberá ser 
+resguardada en la unidad aplicativa correspondiente, siendo su responsabilidad 
+verificar su cumplimento y respectivo almacenamiento. 
+ 
+4. Supervisión  
+Para evaluar las acciones del PVU, se desarrollarán actividades de supervisión que 
+permitan identificar desviaciones y áreas de oportunidad para la mejora del programa, 
+proporcionando asesoría para la solución de los problemas identificados.  
+ 
+Para priorizar los lugares de las entidades federativas que se deberán supervisar, se 
+tomarán en cuenta uno o más de los siguientes aspectos técnicos, siendo éstos 
+enunciativos más no limitativos:  
+• 
+Presencia de brotes de EPV,  
+• 
+Bajas coberturas de vacunación e 
+• 
+Incidencia o prevalencia de accidentes de red de frío. 
+ 
+El CENSIA pone a disposición el modelo de cédula de supervisión del PVU5, en la cual 
+se podrán adicionar los rubros que se consideren relevantes para cada institución de 
+salud o entidad federativa. Sin embargo, no podrán eliminarse ninguna de las 
+variables que contiene, debiendo cubrir como mínimo los siguientes rubros: 
+1. Estructura: en esta sección se explora el organigrama, recursos humanos, físicos y 
+materiales, incluyendo a la red de frío. 
+2. Proceso: 
+organización 
+(coordinación 
+institucional, 
+sectorial), 
+procesos 
+(normatividad, capacitación, supervisión, red de frío) y procedimientos (técnica de 
+reconstitución, higiene de manos, técnica de aplicación, manejo adecuado de 
+ 
+5 https://www.gob.mx/salud/censia/documentos/formatos-del-manual-de-vacunacion  
+ 
+ 
+ 
+ 
+ 
+16 
+frascos multidosis, cumplimiento de la normatividad del PVU), ingresos y egresos 
+de biológicos. 
+3. Resultado: indicadores de coberturas por tipo de biológico y esquemas completos. 
+ 
+4.1 
+Supervisión Nacional  
+El CENSIA planeará anualmente supervisiones a las entidades federativas 
+considerando el o los criterios anteriormente descritos.  El resto de las instituciones de 
+salud realizarán su planeación con base en su análisis específico.  
+ 
+4.2 
+Supervisión estatal o local  
+Hasta donde sea posible, las supervisiones a nivel local por los responsables estatales 
+se realizarán en forma interinstitucional, siendo las autoridades institucionales del 
+nivel estatal o delegacional las que financien estas actividades.  
+ 
+El nivel estatal deberá realizar un cronograma de supervisión anual, considerando:       
+• Realizar al menos dos supervisiones a las jurisdicciones/distritos de salud con 
+menor cobertura de vacunación o que hayan presentado incidentes que ameriten 
+supervisión, y al menos dos supervisiones a unidades de salud con menor 
+desempeño o que hayan presentado incidentes que ameriten supervisión.  
+• Realizar al menos una supervisión a las unidades de salud que presenten más de 
+un accidente de red de frío en un período de 12 meses.  
+ 
+El nivel estatal/delegacional y jurisdiccional/distrital respectivamente deberá dar 
+seguimiento al cumplimiento o al avance de las recomendaciones emitidas. Al tratarse 
+de herramientas operativas destinadas a la mejora permanente del programa, éstas 
+deberán ser conservadas en la unidad administrativa correspondiente, siendo 
+responsabilidad del área estatal y local que supervisó verificar su seguimiento.  
+ 
+Las supervisiones, así como las capacitaciones realizadas a nivel estatal/delegacional 
+y jurisdiccional/distrital serán responsabilidad de los servicios estatales e 
+institucionales de salud, en cuyo acompañamiento técnico podría participar el COEVA.  
+ 
+ 
+ 
+ 
+ 
+ 
+17 
+5. Operación del Programa de Vacunación 
+5.1 
+Planificación (metodología de cálculo) 
+La metodología de cálculo para las vacunas del PVU se realiza en apego al esquema de 
+vacunación que aplicará para el ejercicio fiscal calculado, para el presente ejercicio se 
+utilizan las poblaciones de responsabilidad institucional 2026, desagregadas por 
+entidad federativa y grupo de edad, mismas que fueron calculadas con base en los 
+“Lineamientos para la distribución de población de responsabilidad institucional del 
+PVU en el SNS, México 2026”. (ver cuadro 2). 
+ 
+Para el cálculo de vacunas, las instituciones a nivel federal podrán realizar ajustes, con 
+base en la situación de oferta de vacunas por los distribuidores y/o laboratorios. El 
+porcentaje de “factor de pérdida” estará sujeto a la operación de cada institución, por 
+lo que, lo establecido en el cuadro 2, corresponde al rango aceptado por el PVU. 
+ 
+Cuadro 2. Recomendaciones para la programación de vacunas 2026 
+CLAVE 
+VACUNA 
+POBLACIÓN BLANCO 
+CÁLCULO 
+DOSIS POR 
+ESQUEMA 
+FACTOR DE 
+PÉRDIDA 
+020.000.3801.00 
+020.000.3801.01 
+ 
+Vacuna B.C.G. 
+Se considera una dosis para el 
+100 % de las niñas y niños 
+menores de un año, más una 
+dosis para el 5 % de las niñas y 
+niños de uno a cuatro años 
+(rezagados), 
+todas 
+de 
+responsabilidad institucional 
+((Población menor de un año) 
++ 
+(Poblaciones de 1,2,3 y 4 años x 0.05)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.1 mL 
+50-90 %a 
+020.000.2526.00 
+020.000.2511.00 
+Vacuna 
+recombinante 
+contra la hepatitis 
+B 20 mcg 
+Se considera una dosis de 10 
+mcg para el 100 % de las niñas 
+y niños menores de un año, 
+más una dosis de 20 mcg para 
+el 5 % de la población de 20 a 
+39 
+años, 
+todas 
+de 
+responsabilidad institucional 
+(Población menor de un año/2) 
++ 
+(Población de 20 a 39 años x 0.05) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+dosis 
+pediátrica 
+ 
+1.0 mL 
+dosis 
+adultos 
+5-10 % 
+020.000.6135.00 
+020.000.6135.01 
+020.000.6135.02 
+020.000.6135.03 
+Vacuna 
+hexavalente (DPaT-
+VIP-HB- Hib) 
+ 
+Vacuna acelular 
+antipertussis, con toxoides 
+diftérico y tetánico 
+adsorbidos, con vacuna 
+antipoliomielítica inactivada, 
+vacuna conjugada de 
+Haemophilus influenzae  tipo 
+b y hepatitis B 
+Se consideran tres dosis para el 
+100 % de las niñas y niños 
+menores de 1 año, más una 
+dosis para el 100 % de las niñas 
+y niños de 1 año, más una dosis 
+para el 5 % de las niñas y niños 
+de 2 a 4 años (rezagados), 
+todas 
+de 
+responsabilidad 
+institucional 
+((Población menor de un año x 3) 
++ 
+(Población de un año) 
++ 
+(Poblaciones de 2, 3 y 4 años x 0.05)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+ 
+ 
+ 
+ 
+ 
+18 
+Cuadro 2. Recomendaciones para la programación de vacunas 2026 
+CLAVE 
+VACUNA 
+POBLACIÓN BLANCO 
+CÁLCULO 
+DOSIS POR 
+ESQUEMA 
+FACTOR DE 
+PÉRDIDA 
+020.000.0150.02 
+020.000.0150.03 
+020.000.0150.04 
+020.000.0150.05 
+Vacuna 
+monovalente 
+contra rotavirus 
+(RV1) 
+Se consideran dos dosis para el 
+100 % de las niñas y niños 
+menores 
+de 
+un 
+año 
+de 
+responsabilidad institucional 
+(Población menor de un año x 2) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado al múltiplo superior 
+de 50 
+1.5 mL 
+3-5 % 
+020.000.6508.00 
+020.000.6508.01 
+Vacuna 
+antineumocócica 
+conjugada 20Vi 
+Se consideran dos dosis para el 
+100 % de las niñas y niños 
+menores de un año, más una 
+dosis para el 100 % de las niñas 
+y niños de 1 año, más una dosis 
+para el 100 % de la población 
+de 
+60 
+años, 
+todas 
+de 
+responsabilidad institucional 
+((Población menor de un año x 2) 
++ 
+(Población de un año) 
++ 
+(Población de 60 años) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+020.000.3822.00 
+020.000.3822.01 
+020.000.3822.02 
+ 
+Vacuna anti 
+influenza 
+estacionalb 
+Se consideran dos dosis para el 
+100 % de las niñas y niños de 6 
+a 11 meses, más dos dosis para 
+el 50 % de las niñas y niños de 
+1 año, más 2 dosis para el 5% 
+de las niñas y niños de 2 a 4 
+años, más una dosis para el 50 
+% de las niñas y niños de 1 año, 
+más 1 dosis para el 95 % de 
+niñas y niños de 2 a 4 años, más 
+una dosis para el 100 % de la 
+población de 60 años y más, 
+más 
+una 
+dosis 
+para 
+la 
+población de 5 a 59 años 
+considerada de riesgoc, más 
+una dosis para el 100 % de las 
+personas 
+embarazadas 
+durante 
+el 
+periodo 
+de 
+la 
+campaña (50 % de la población 
+menor de un año), más una 
+dosis para el 100 % del 
+personal de salud, todas de 
+responsabilidad institucional 
+(((Población <1 año/2)*2 
++ 
+(Población de 1 año/2)*2 
++ 
+((Población de 2,3 y 4 años x 0.05) x 2) 
++ 
+(Población de 1 año x 0.5) 
++ 
+(Población de 2,3 y 4 años x 0.95) 
++ 
+(Población de 60 años y más) 
++ 
+(Población de 5 a 59 años considerada 
+de riesgo)c 
++ 
+(Población menor de un añod x 0.5) 
++ 
+(Personal de salud))) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la centena superior 
+0.5 mL 
+3-10 % 
+ 
+ 
+ 
+ 
+ 
+19 
+Cuadro 2. Recomendaciones para la programación de vacunas 2026 
+CLAVE 
+VACUNA 
+POBLACIÓN BLANCO 
+CÁLCULO 
+DOSIS POR 
+ESQUEMA 
+FACTOR DE 
+PÉRDIDA 
+020.000.3820.00 
+020.000.3820.01 
+020.000.3821.00 
+Vacuna triple viral 
+(SRP) contra 
+sarampión, rubéola 
+y parotiditis 
+Se consideran dos dosis para el 
+100 % de las niñas y niños de 
+un año, más una dosis para el 5 
+% de la población de 2, 3, 4, 5, 
+años 
+(rezagos), 
+todos 
+de 
+responsabilidad 
+institucional 
+Más el 20 % para atención de 
+brotes 
+((Población de un año x 2) 
++ 
+(Poblaciones de 2,3,4 y 5 años x 0.05)) 
++ 
+20% para atención a brotes) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-10 % 
+020.000.3805.00 
+Vacuna 
+antipertussis con 
+toxoides diftérico y 
+tetánico (DPT) 
+Se considera una dosis para el 
+100 % de las niñas y niños de 4 
+años, más una dosis para el 5 % 
+de las niñas y niños de 5 y 6 
+años (rezagados), todas de 
+responsabilidad institucional 
+((Población de 4 años) 
++ 
+(Poblaciones de 5 y 6 años x 0.05)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+5-20 % 
+020.000.6501.00 
+020.000.6501.01 
+020.000.6501.02 
+020.000.6501.03 
+Vacuna contra el 
+virus del papiloma 
+humano (VPH)e 
+Se considera una dosis para el 
+100 % de las niñas y niños de 10 
+años, más una dosis para el 6 % 
+de las niñas y niños de 11 años, 
+más tres dosis para el 100 % de 
+las personas de 11 a 49 años 
+que viven con VIH, más una 
+dosis para el 100 % de las 
+mujeres de 9 a 19 años 
+atendidas dentro del protocolo 
+de 
+violación 
+sexual, 
+de 
+responsabilidad institucional 
+((Población de 10 años) 
++ 
+(Población de 11 años x 0.06) 
++ 
+(Personas de 11 a 49 años que viven con 
+VIH x 3) 
++ 
+(Mujeres de 9 a 19 años atendidas en 
+protocolo de violación sexual)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3- 5 % 
+020.000.3810.00 
+020.000.3810.01 
+Toxoides tetánico y 
+diftérico (Td) 
+Se considera una dosis para el 
+100 % de la población 15 años, 
+más una dosis para el 50 % de 
+la población de 25, 35, 45, 55 y 
+65 años (refuerzo cada 10 
+años). Más una dosis para el 5 
+% de la población de 16, 26, 36, 
+46, 56 y 66 años (rezagados), 
+más una dosis para el 20 % de 
+las 
+personas 
+embarazadas. 
+Todas 
+de 
+responsabilidad 
+institucional 
+((Población de 15 años) 
++ 
+(Poblaciones de 25, 35, 45, 55 y 65 años 
+x 0.50) 
++ 
+(Poblaciones de 16, 26, 36, 46, 56 y 66 
+años x 0.05) 
++ 
+(Población menor de 1 añod x 0.2)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+5-10 % 
+ 
+ 
+ 
+ 
+ 
+20 
+Cuadro 2. Recomendaciones para la programación de vacunas 2026 
+CLAVE 
+VACUNA 
+POBLACIÓN BLANCO 
+CÁLCULO 
+DOSIS POR 
+ESQUEMA 
+FACTOR DE 
+PÉRDIDA 
+020.000.3808.00 
+020.000.3808.01 
+020.000.3808.02 
+020.000.3808.03 
+020.000.3808.04 
+Vacuna de 
+Refuerzo contra 
+difteria, tétanos y 
+tos ferina acelular 
+(Tdpa) 
+Se considera una dosis para el 
+80 
+% 
+de 
+las 
+personas 
+embarazadas, más una dosis 
+para el 5 % de la población de 
+20 a 39 años (considerada de 
+riesgo), 
+de 
+responsabilidad 
+institucional 
+(Población menor de 1 añod x 0.8) 
++ 
+(Población de 20 a 39 años x 0.05) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+020.000.3800.00 
+020.000.3804.00 
+Vacuna Doble Viral 
+(SR) contra 
+Sarampión y 
+Rubéola 
+Se considera una dosis para el 
+5 % de la población de 20 a 49 
+años 
+de 
+responsabilidad 
+institucional, más el 20 % para 
+atención de brotes (bloqueos) 
+((Población de 20 a 49 años x 0.05) 
++ 
+(20% para atención a brotes)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+5 -10 % 
+020.000.6502.00 
+020.000.6503.00 
+020.000.6504.00 
+020.000.6504.01 
+020.000.6505.00 
+020.000.6505.01 
+020.000.6506.00 
+020.000.6506.01 
+Vacuna contra la 
+COVID-19 
+Se consideran dos dosis para el 
+100 % de niñas y niños de 6 a 
+59 meses, más una dosis para 
+el 100 % de la población de 60 
+años y más, más una dosis para 
+el 100 % de la población de a 5 
+a 59 años considerada de 
+riesgo, más una dosis para el 
+100 
+% 
+de 
+las 
+personas 
+embarazadas, más una dosis 
+para el 100 % del personal de 
+salud, 
+todas 
+de 
+responsabilidad institucional 
+(Niñas y niños de 6 a 59 meses) x 2 
++ 
+(Población de 60 años y más) 
++ 
+(Población de 5 a 59 años considerada 
+de riesgoc) 
++  
+(Población <1 añod) 
++ 
+(Personal de salud)) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+5-10 % 
+020.000.3825.00 
+020.000.3825.01 
+020.000.3825.02 
+020.000.3825.03 
+020.000.3825.04 
+020.000.3825.08 
+020.000.6187.00 
+020.000.6187.01 
+Vacuna contra la 
+Hepatitis Af 
+Se considera una dosis para el 
+100 % de la población de 1 año 
+de 
+responsabilidad 
+institucional 
+Población de un año 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+020.000.6056.00 
+020.000.6056.01 
+Vacuna contra 
+Varicelah 
+Se considera una dosis para el 
+100 % de la población de 1 año 
+que asiste a guarderías o 
+centros de cuidado infantil de 
+responsabilidad institucional 
+Población de un año 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+ 
+ 
+ 
+ 
+ 
+21 
+Cuadro 2. Recomendaciones para la programación de vacunas 2026 
+CLAVE 
+VACUNA 
+POBLACIÓN BLANCO 
+CÁLCULO 
+DOSIS POR 
+ESQUEMA 
+FACTOR DE 
+PÉRDIDA 
+020.000.6509.00 
+020.000.6509.01 
+Vacuna contra el 
+Virus Sincitial 
+Respiratorio  
+(VSR)g 
+Se considera una dosis para el 
+91.7 
+%j 
+de 
+las 
+personas 
+gestantes que culminarán su 
+embarazo 
+durante 
+la 
+temporada invernal (50 % de la 
+población menor de un año) de 
+responsabilidad institucional 
+((Población menor de 1 añod x 0.5) x 
+0.917) 
++ 
+% factor de pérdida 
+ 
+Ajuste el resultado a la decena superior 
+0.5 mL 
+3-5 % 
+aLa vacuna BCG se presenta en frascos ámpula de 10 dosis, una vez reconstituida, pierde su viabilidad después de 6 horas, por lo que, se considera un factor de pérdida alto. 
+b El cálculo de requerimientos se realiza con base en los grupos blanco de la intervención, en los grupos de riesgo y en la disponibilidad de vacuna.   
+cCada institución de salud deberá estimar su población de 5 a 59 años considerada de riesgo. 
+dSe considera la población de embarazadas igual que la población menor de un año.   
+eACUERDO-03-CONAVA-2024. Se aprueba la incorporación de los niños que se encuentran cursando el quinto grado de primaria y de 11 años no escolarizados para recibir el esquema 
+monodosis de la vacuna contra el VPH a partir del ciclo escolar 2025-2026. Asimismo, implementar una estrategia de detección del rezago de niñas, e implementar un registro nominal. 
+fACUERDO-01CONAVA-2025. Se aprueba la incorporación al PVU de la vacuna contra el virus de la hepatitis tipo A, con la estrategia de vacunación universal en niñas y niños de 1 año o 
+bien aquellos que no cuenten con antecedente vacunal. 
+gACUERDO-02CONAVA-2025. Se aprueba la incorporación al PVU de la estrategia de inmunización contra VSR a las personas embarazadas entre las 32 a 36 SDG. 
+hA la fecha de publicación del presente lineamiento, la vacuna NO forma parte del esquema básico de vacunación. Por lo que, se aplicará a niñas y niños de 1 año de edad que asisten 
+a guarderías o centros de cuidado infantil.  
+iACUERDO-EXTRA-02CONAVA-2025: El Consejo Nacional de Vacunación con fundamento en los artículos 157 Bis 4, fracción I y 157 Bis 5 de la Ley General de Salud y 14 
+del Reglamento Interno del Consejo Nacional de Vacunación, emite opinión favorable respecto al cambio del esquema de la vacuna Neumocócica PCV13/PCV20 para 
+niñas, niños y adultos. 
+jEn 2024 la prevalencia de niñas y niños prematuros con menos de 37 SDG en México fue del 8.3% 
+ 
+ 
+ 
+5.2 
+Programa Permanente de vacunación (PPV) 
+Las actividades permanentes de vacunación son acciones que se desarrollan de 
+manera intramuros en la red de servicios de salud, y extramuros a través de la 
+instalación de puestos de vacunación en lugares estratégicos y con brigadas que 
+realizan visitas casa a casa. Las actividades se realizan durante todo el año en las 
+unidades de primer, segundo y tercer nivel de atención, así como en unidades médicas 
+móviles de las instituciones del SNS que cuentan con servicios de vacunación. 
+ 
+El esquema de vacunación tiene a su grupo blanco estratificado en cohortes: niñas y 
+niños menores de un año, un año y 4 años, que permite la administración oportuna 
+de las vacunas, así como la planeación y adecuación de esquemas emergentes en caso 
+necesario, facilitando que se completen los esquemas de acuerdo con el grupo de 
+edad, lo que no significa que se dejen de iniciar o completar esquemas en otros grupos 
+con rezago de vacunación, en los que técnicamente pueda hacerse. 
+ 
+ 
+ 
+ 
+ 
+ 
+22 
+5.2.1 Lineamientos de aplicación  
+ 
+ 
+5.2.1.1 Programación de actividades 
+Con el propósito de alcanzar y mantener coberturas de vacunación ≥95 % por 
+biológico y ≥90 % de promedio de cobertura de vacunación en el esquema completo 
+de niñas y niños menores de un año de edad, un año, 4 años y 6 años, las instituciones 
+de salud realizarán las actividades necesarias en las unidades de salud, incluyendo las 
+hospitalarias, además de otras actividades intramuros y extramuros de acuerdo con 
+su población de responsabilidad institucional. 
+ 
+Toda vacuna aplicada deberá ser registrada en la Cartilla Nacional de Salud (CNS), 
+Censo Nominal y formatos administrativos y/o nominales que cada institución 
+determine.  
+ 
+En la CNS, se registrará con pluma la fecha de aplicación de la vacuna, unidad de salud, 
+número de lote y caducidad del biológico administrado. Con lápiz, se anotará la fecha 
+de la próxima dosis a aplicar del esquema como un recordatorio a la madre o tutor de 
+el o la menor, respecto al calendario de vacunación.  
+ 
+Asimismo, se insta a todo el personal operativo para que, al momento del contacto de 
+la población con los servicios de salud, se revise la CNS y en caso de requerirse, derivar 
+al área de inmunización para poner al día los esquemas de vacunación.  
+ 
+5.2.1.2 Red de frío 
+La red o cadena de frío es un proceso logístico que comprende los recursos humanos, 
+materiales y procedimientos, necesarios para llevar a cabo la correcta conservación, 
+almacenamiento y transporte de las vacunas; desde el lugar de fabricación, hasta el 
+sitio de aplicación a la población, manteniendo así su potencia inmunogénica. 
+ 
+Para garantizar la conservación de las vacunas, es necesario que ninguno de los 
+eslabones de la cadena de frío se vea afectado, para ello se deberán almacenar en 
+condiciones óptimas, manteniéndolas bajo vigilancia y monitoreo continuo respecto 
+a: la temperatura, tiempo de almacenamiento, caducidad, exposición a radiación solar 
+ 
+ 
+ 
+ 
+ 
+23 
+o luminosa directa, humedad o cualquier forma de contaminación, entre otros (ver 
+especificaciones del Manual de Vacunación vigente).  
+ 
+Los niveles de la cadena de frío tienen como función almacenar, conservar y 
+transportar los productos biológicos hasta su aplicación en la población. El número de 
+niveles depende de las condiciones geográficas, la organización de las instituciones y 
+el volumen de vacunas que se requiera almacenar. Se consideran los siguientes 
+niveles: nacional, estatal/delegacional, jurisdiccional/distrital, coordinación médica, 
+regional/municipal y local/zonal (unidad médica o brigada de vacunación, aplicativo); 
+cada institución determinará de acuerdo con su organización, a qué nivel corresponde 
+el sitio donde se almacenen y conserven las vacunas, debiendo asegurar la capacidad 
+de almacenamiento de acuerdo con la demanda programada. 
+ 
+5.2.1.2.1 
+Almacenamiento 
+En todos los niveles de almacenamiento y durante su traslado, las vacunas deberán 
+conservarse según el biológico del que se trate; temperatura de refrigeración (+2°C a 
++8°C), congelación (-18°C a -25°C) o ultracongelación (-60°C a -90°C), según sea el caso. 
+El tiempo máximo de almacenamiento depende de cada nivel en que se encuentren 
+(sin ser acumulativo). 
+1. Nivel nacional: hasta su fecha de caducidad. 
+2. Nivel estatal o delegacional: 9 meses. 
+3. Nivel jurisdiccional/distrital, regional y/o municipal: 4 meses. 
+4. Nivel local o zonal: 3 meses. 
+ 
+Si el período de almacenamiento de las vacunas en alguno de los niveles ha superado 
+el tiempo establecido previamente y cuenta con fecha de caducidad vigente, se deberá 
+solicitar al CENSIA la anuencia de permanencia por un periodo adicional, siempre y 
+cuando existan registros de temperatura que sustenten que se ha conservado en un 
+rango de +2 °C a +8 °C y se implementen las estrategias necesarias para su distribución 
+y aplicación antes de su fecha de expiración. Considerando que existe una reincidencia 
+en la solicitud de anuencias, deberá remitir al CENSIA una justificación técnica del 
+retraso en su aplicación, toda vez que, las vacunas distribuidas corresponden al 
+ejercicio presupuestal del año en curso, a las metas de aplicación mensual o bien, a los 
+logros de las campañas de vacunación.  
+ 
+ 
+ 
+ 
+ 
+24 
+Las 
+solicitudes 
+de 
+anuencia 
+se 
+deberán 
+enviar 
+al 
+correo 
+censia.reddefrio@salud.gob.mx (correo electrónico oficial de red de frío del CENSIA). 
+Una vez recibida la solicitud, se confirmará de recibido y se asignará un número de 
+folio para su trazabilidad y pronunciamiento por el CENSIA. 
+ 
+5.2.1.2.2 
+Accidentes de red de frío (ARF) 
+Un ARF ocurre cuando las vacunas han salido de los parámetros normados 
+(refrigeración, congelación y en su caso ultracongelación) por el motivo que sea, si esto 
+ocurre, se procederá a realizar las siguientes acciones: 
+• 
+Elaboración del acta circunstanciada (Consultar Anexo I del Manual de 
+Vacunación vigente https://www.gob.mx/salud/censia/documentos/formatos-
+del-manual-de-vacunacion), misma que deberá enviarse al correo electrónico 
+oficial de red de frío de manera inmediata y oportuna en un lapso no mayor a 
+5 días hábiles, a partir de su recepción en el nivel estatal, a fin de optimizar los 
+tiempos para su dictaminación por el Grupo Técnico de Accidentes de Red de 
+Frío (GTARF) y conservar el mayor número de dosis para su aplicación.  
+• 
+Una vez notificado el ARF al CENSIA, se confirmará de recibido y se asignará un 
+número de folio a cada ARF para su trazabilidad.  
+• 
+El GTARF será el encargado de realizar el dictamen de los biológicos afectados.  
+• 
+Finalmente, el CENSIA notificará mediante los canales de comunicación oficiales 
+el dictamen para la utilización o desecho de las vacunas. Nota. Para el caso del 
+IMSS Ordinario y PEMEX, la notificación de los ARF deberá seguir las 
+indicaciones especificadas en su normativa vigente, al contar con estructura 
+orgánica responsable de esta función.  
+ 
+Para saber más sobre este proceso, consulte el Manual de Vacunación vigente. 
+ 
+5.2.1.3 Política de frascos abiertos 
+Todos los frascos abiertos de vacunas líquidas en presentación multidosis como DPT, 
+Td, anti influenza, anti hepatitis B y anti neumocócica conjugada, usados dentro de las 
+unidades de salud y en los puestos móviles de vacunación, podrán ser utilizados hasta 
+28 días después de abierto el frasco, siempre y cuando la fecha de caducidad no haya 
+expirado, se hayan almacenado y transportado dentro de los parámetros de 
+ 
+ 
+ 
+ 
+ 
+25 
+temperatura normados (+2ºC a +8 ºC) y se hayan manipulado con buenas prácticas 
+asépticas, siendo indispensable el registro en la etiqueta del frasco, la fecha y hora de 
+apertura de las vacunas. 
+ 
+Las vacunas liofilizadas como BCG, varicela, SR y SRP, podrán ser utilizadas hasta 6 
+horas después de reconstituidas o al finalizar la jornada de trabajo, lo que ocurra 
+primero. Excepto la vacuna BCG cepa Tokio, la cual podrá ser utilizada solo 4 horas 
+después de ser reconstituida, al término de las cuales, deberá ser desechada. Lo 
+anterior porque la estabilidad térmica de las vacunas liofilizadas disminuye 
+considerablemente cuando se reconstituyen con su diluyente, o cuando son expuestas 
+a la radiación ultravioleta.  
+ 
+Respecto a las vacunas disponibles en México contra la COVID-19, a la fecha y derivado 
+del soporte técnico y bibliográfico, se deberá consultar la vida útil de cada de las 
+vacunas disponibles en su guía de aplicación o lineamientos de vacunación 
+correspondiente.  
+ 
+Las acciones que se deben considerar en los frascos abiertos multidosis son: 
+• 
+utilizar antes de la fecha de vencimiento, 
+• 
+escribir en el frasco la fecha y hora de apertura, 
+• 
+almacenar y transportar entre +2°C y +8°C, 
+• 
+manipular con buenas prácticas asépticas. 
+• 
+Prohibido utilizar aguja piloto. 
+ 
+Adicionalmente, se deberá prestar atención a los siguientes puntos: 
+• 
+No utilizar la vacuna si se identifica o se sospecha que el tapón del frasco fue 
+sumergido en agua del deshielo de los paquetes refrigerantes o la etiqueta se 
+encuentra mojada o desprendida (independientemente si se trata de frascos 
+abiertos o cerrados). 
+• 
+Se considera una práctica insegura el uso de aguja piloto (aguja introducida en 
+el tapón del frasco para la extracción de varias dosis de vacuna de forma 
+subsecuente), ya que se puede contribuir a la reducción potencial de la 
+efectividad de la vacuna y permite el posible desarrollo de microorganismos. 
+De tal modo que esta práctica está prohibida. 
+ 
+ 
+ 
+ 
+ 
+26 
+• 
+Las jeringas se preparan con la vacuna sólo antes de su administración.  
+ 
+Al terminar las actividades de campo, las vacunas en frascos cerrados multidosis que 
+se hayan conservado todo el tiempo a la temperatura normada, podrán ser utilizadas 
+siempre y cuando no haya expirado la fecha de caducidad. Las vacunas en frascos 
+cerrados unidosis deberán utilizarse una vez abiertas, ya sea dentro de las unidades 
+de salud o en campo; si por alguna causa no se utilizan y las condiciones de 
+almacenamiento/transporte fueron adecuadas, deberán ser devueltas al refrigerador 
+destinado a su conservación en la unidad de salud, respetando el tiempo máximo 
+permitido para su utilización una vez abiertos.  
+ 
+En el caso de sospecha de contaminación de frascos abiertos, expuestos a 
+congelamiento o que exceda la vigencia de su uso con relación a la fecha de apertura, 
+deberán darse de baja, inactivarse y desecharse; así como realizar las acciones 
+correspondientes para su notificación al CENSIA, conforme a lo descrito en el Manual 
+de Vacunación vigente. Para el caso de vacunas contra la COVID-19 se deberá realizar 
+el desecho conforme a lo establecido en las guías técnicas de aplicación o lineamientos 
+de vacunación que apliquen.  
+ 
+Al ser una actividad operativa, el resguardo de las actas de inactivación será 
+responsabilidad del nivel que se trate; estatal/delegacional, jurisdiccional/distrital y/o 
+local. 
+ 
+Para evitar pérdidas en la operación y un dispendio que genere desabasto en la unidad 
+de salud se deberá realizar la planeación de las actividades de vacunación extramuros 
+previo a su ejecución. 
+ 
+5.2.1.4 Manejo de RPBI 
+La eliminación de RPBI está regulada por la Ley General del Equilibrio Ecológico y la 
+Protección al Ambiente, Ley General para la Prevención y Gestión Integral de los 
+Residuos, las Normas Oficiales Mexicanas: NOM-098-SEMARNAT-2002, Protección 
+ambiental-Incineración de residuos, especificaciones de operación  y límites de 
+emisión 
+de 
+contaminantes; 
+NOM-052-SEMARNAT-2005, 
+que 
+establece 
+las 
+ 
+ 
+ 
+ 
+ 
+27 
+características, el procedimiento de identificación, clasificación y los listados de los 
+residuos peligrosos, y la NOM-087-ECOL-SSA1-2002, Protección ambiental - salud 
+ambiental - residuos peligrosos biológico-infecciosos - clasificación y especificaciones 
+de manejo, o las que las sustituyan.  
+ 
+Aunque la normatividad no es específica para vacunación, se consideran los criterios 
+generales de las mismas, por lo que, la eliminación de los RPBI debe cumplir con las 
+siguientes fases de manejo (ver cuadro 3): 
+ 
+a) identificación de los residuos, 
+b) envasado de los residuos generados, 
+c) almacenamiento temporal, 
+d) recolección y transporte externo, 
+e) tratamiento, 
+f) disposición final. 
+ 
+Cuadro 3. Identificación y envasado de los RPBI de vacunación, de acuerdo con las características 
+físicas y biológicas del residuo 
+Tipo de residuo 
+Envasado 
+Color 
+Medio de eliminación 
+Agujas, jeringas prellenadas. 
+Recipiente rígido 
+de polipropileno 
+Rojo 
+Empresa autorizada 
+Jeringas usadas para la aplicación de vacunas virales o 
+bacterianas atenuadas*.  Torundas empapadas de sangre. 
+Bolsa de 
+polietileno 
+Roja 
+Empresa autorizada 
+Torundas con sangre seca o manchadas de sangre, fundas 
+protectoras de la aguja y envoltura. Frascos de vacunas 
+inactivadas o recombinantes, así como jeringas usadas 
+para la aplicación de éstas. 
+Bolsa de 
+polietileno 
+** 
+Basurero municipal 
+Frascos de vacunas virales o bacterianas atenuadas*, que 
+previamente hayan sido sometidas a proceso de 
+inactivación.  
+Bolsa de 
+polietileno 
+** 
+Basurero municipal 
+*Vacunas triple viral SRP, doble viral SR, anti varicela, BCG, contra Fiebre amarilla y otras vacunas atenuadas. 
+**Se colocará en bolsas de cualquier color, excepto roja o amarilla. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+28 
+La Norma Oficial Mexicana NOM-087-ECOL-SSA1-2002 considera como RPBI a los 
+utensilios desechables usados para contener, transferir, inocular y mezclar cultivos de 
+agentes biológicos-infecciosos, por lo tanto, las jeringas usadas de vacunas de 
+antígenos atenuados se deben desechar en bolsa roja. Los recipientes de los residuos 
+peligrosos para punzocortantes y las bolsas rojas deben cumplir con las 
+especificaciones indicadas en la NOM-087-ECOL-SSA1-2002.  
+ 
+5.2.1.4.1 
+Almacenamiento temporal  
+Se deberá destinar un área para el almacenamiento temporal de los RPBI, excepto en 
+los establecimientos de nivel I6, los cuales podrán ubicar los contenedores en el lugar 
+más apropiado dentro de sus instalaciones, cuidando que no obstruya las vías de 
+acceso y que no se encuentre en contacto con el personal ni con la población. 
+ 
+El periodo de almacenamiento temporal sujeto al tipo de establecimiento generador: 
+a) Nivel I, máximo 30 días; 
+b) Nivel II, máximo 15 días; 
+c) Nivel III, máximo 7 días. 
+ 
+5.2.1.4.2 
+Recolección y transporte externo de los RPBI  
+Para la recolección y transporte de RPBI se requiere la autorización por parte de la 
+Secretaría del Medio Ambiente y Recursos Naturales (SEMARNAT). Dicho transporte 
+debe cumplir con lo siguiente: 
+• 
+Sólo podrá recolectarse los RPBI que cumplan con el envasado, embalado y 
+etiquetado, según la NOM-087-ECOL-SSA1-2002. 
+• 
+Los RPBI no deben ser compactados durante su recolección y transporte. 
+• 
+Los vehículos recolectores deben ser de caja cerrada y hermética, contar con 
+sistema de captación de escurrimientos, y operar con un sistema de 
+enfriamiento para mantener los residuos a una temperatura de 4 °C. 
+ 
+6 En la clasificación de los establecimientos generadores de RPBI, corresponden a: Nivel I las Unidades hospitalarias de 1 a 5 camas e instituciones 
+de investigación con excepción de los señalados en el nivel III, tales como: laboratorios clínicos y bancos de sangre que realicen análisis de 1 a 50 
+muestras al día, unidades hospitalarias psiquiátricas y centros de toma de muestras para análisis clínicos. 
+Nivel II las Unidades hospitalarias de 6 hasta 60 camas, tales como: laboratorios clínicos y bancos de sangre que realicen análisis de 51 a 200 
+muestras al día, bioterios que se dediquen a la investigación con agentes biológico-infecciosos, o establecimientos que generen de 25 a 100 
+kilogramos al mes de RPBI. 
+Nivel III las Unidades hospitalarias de más de 60 camas, tales como: centros de producción e investigación experimental en enfermedades 
+infecciosas, laboratorios clínicos y bancos de sangre que realicen análisis a más de 200 muestras al día, o establecimientos que generen más de 
+100 kilogramos al mes de RPBI. 
+ 
+ 
+ 
+ 
+ 
+29 
+• 
+Durante el transporte, los RPBI sin tratamiento no deberán mezclarse con 
+ningún otro tipo de residuo municipal o de origen industrial. 
+ 
+5.2.1.4.3 
+Disposición final 
+Los RPBI tratados e irreconocibles, podrán disponerse como residuos no peligrosos en 
+sitios autorizados por la autoridad competente. 
+ 
+5.2.1.4.4 
+Consideraciones sobre el uso de cajas recolectoras 
+Las “cajas de cartón incineradoras de agujas” o “cajas recolectoras incinerables con 
+jeringas”, anteriormente tuvieron como finalidad servir como contenedores e 
+incineradores de RPBI punzocortantes; sin embargo, están elaboradas de cartón con 
+un forro interior de aluminio, por lo que, no cumple con las especificaciones que marca 
+la Norma Oficial Mexicana NOM-087-ECOL-SSA1-2002 para los recipientes de los 
+residuos peligrosos punzocortantes; por lo tanto, no se deben usar para tal fin. 
+ 
+Con dichas cajas, es poco factible que se lleve a cabo el tratamiento de incineración, 
+ya que, no genera las condiciones de combustión (temperatura, tiempos de retención 
+y turbulencia) requeridos para realizar la incineración; además, de no contar con los 
+dispositivos de control de temperatura, de composición de gases, ni tolvas para la 
+captación de cenizas, por lo que, no pueden ser consideradas como un incinerador. 
+ 
+5.2.1.5 Seguridad y vacunación  
+Las prácticas de inyección segura incluyen no causar daño a la persona usuaria, al 
+personal de salud, a la comunidad, ni al ambiente. 
+ 
+Se debe cumplir con los procedimientos normalizados para el transporte, 
+almacenamiento, 
+distribución, 
+conservación, 
+manipulación, 
+reconstitución, 
+administración y eliminación de cada una de las vacunas e insumos involucrados en el 
+PVU. Con el fin de tener riesgos mínimos en la vacunación o inmunización de la 
+población, se deberán seguir las prácticas seguras de vacunación. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30 
+5.2.1.5.1 
+Seguridad en la administración  
+Para garantizar que el proceso de administración de las vacunas sea seguro, se 
+recomienda: 
+• 
+Identificar correctamente a la persona antes de la aplicación de la(s) vacuna(s). 
+• 
+Realizar la técnica de higiene de manos antes y después de cada procedimiento 
+respetando los 5 momentos de higiene de manos. 
+• 
+Revisar indicaciones, contraindicaciones y precauciones (ver Manual de 
+Vacunación y Manual de procedimientos estandarizados para la vigilancia 
+epidemiológica de ESAVI, vigentes), así como, realizar una anamnesis previa a 
+la vacunación. 
+• 
+Verificar la viabilidad de los insumos previo a su administración, mostrar a la 
+persona usuaria (responsable del cuidado de la niña, niño o adolescente) la 
+jeringa y aguja, e informar que es nueva y de uso único para la persona a la que 
+se le aplicará la vacuna, adicionalmente, se deberá leer en voz alta la fecha de 
+caducidad impresa en el empaque, así como abrirlo frente al usuario. 
+• 
+Revisar el nombre en la etiqueta del frasco, mostrar a la persona usuaria, leer 
+en voz alta el nombre de la vacuna y la enfermedad (s) que previene con su 
+aplicación. 
+• 
+Revisar fecha de caducidad de la vacuna, leerla en voz alta, así como, el nombre 
+del laboratorio, en caso de frascos multidosis leer fecha y hora de apertura. 
+• 
+Cuando aplique, realizar una adecuada reconstitución de las vacunas. 
+• 
+Utilizar la misma aguja para realizar la carga de la vacuna y la aplicación de ésta. 
+• 
+Esta estrictamente prohibido utilizar agujas “piloto”  
+• 
+Extraer la cantidad indicada de dosis a aplicar, sin excedentes. 
+• 
+Técnica de administración: verificar que sea la dosis correcta para la edad, el 
+intervalo correcto de aplicación entre dosis, la vía correcta (parenteral u oral), 
+el sitio de aplicación correcto y los insumos adecuados (agujas, jeringas y 
+diluyentes). Ver cuadro 4. 
+• 
+Mantener las vacunas en condiciones normativas de temperatura en todo 
+momento, verificar que antes de iniciar la jornada de trabajo los termómetros 
+de vástago estén calibrados. 
+• 
+No re-encapuchar las agujas. 
+• 
+Desechar en apego a la política de frascos abiertos. 
+ 
+ 
+ 
+ 
+ 
+31 
+• 
+Verificar la limpieza y descontaminación del puesto de vacunación (mesa, 
+termo, contenedores de agujas y jeringas) al inicio de cada jornada laboral en 
+la unidad de salud y en actividades de campo. 
+• 
+Eliminación segura de RPBI. 
+• 
+No cargar jeringas antes de su uso. 
+ 
+Cuadro 4. Vías de administración, sitios anatómicos y agujas para aplicación de las 
+vacunas del PVU 
+Vías de administración de las vacunas 
+Intramuscular 
+Subcutánea 
+Intradérmica 
+Oral 
+Anti Hepatitis B 
+SRP 
+BCG 
+Anti rotavirus 
+Hexavalente acelular (DPaT-VIP-HB-Hib) 
+SR 
+Anti neumocócica conjugada 
+Anti varicela 
+DPT 
+Td 
+Tdpa 
+Anti VPH 
+Anti Influenza 
+Anti hepatitis A 
+COVID-19 
+VSR 
+Sitios anatómicos de aplicación de las vacunas 
+El sitio anatómico (izquierdo o derecho) dependerá de cada vacuna. En niñas y niños menores de 18 
+meses de edad la administración de vacunas vía intramuscular es en el tercio medio de la cara 
+anterolateral externa del muslo y a partir de los 18 meses de edad en la región deltoidea del brazo. 
+ 
+ 
+ 
+ 
+ 
+ 
+32 
+ 
+ 
+Tipos de agujas y jeringas para aplicación de vacunas 
+Vacuna 
+Vía de 
+administración 
+Medida de la aguja* 
+Jeringa 
+BCG 
+Intradérmica 
+27 G x 13 mm 
+0.5 mL** 
+Anti hepatitis B 
+Intramuscular 
+Recién nacidos:  25 G x 16 mm 
+Adolescentes y adultos: 22 G x 32 mm 
+0.5 mL 
+1 mL 
+DPT 
+Intramuscular 
+23 G x 25 mm 
+0.5 mL 
+Anti neumocócica 
+conjugada 
+Intramuscular 
+Niñas y niños: 25 G x 25 mm 
+Adultos: 22 G x 32 mm 
+0.5 mL 
+Anti influenza 
+Intramuscular 
+6 a 35 meses de edad: 23 G x 25 mm 
+Niños de 36 meses y más, adolescentes y 
+adultos: 22 G x 32 mm 
+0.5 mL 
+Triple viral (SRP) 
+Subcutánea 
+27 G x 13 mm 
+0.5 mL 
+Td 
+Intramuscular 
+22 G x 32 mm 
+0.5 mL 
+Tdpa 
+Intramuscular 
+23 G x 25 mm (jeringa prellenada) 
+22 G x 32 mm (frasco unidosis) 
+0.5 mL 
+SR 
+Subcutánea 
+27 G x 13 mm 
+0.5 mL 
+VPH 
+Intramuscular 
+22 G x 32 mm 
+0.5 mL 
+COVID-19 
+Intramuscular 
+22 G x 32 mm 
+0.5 mL 
+Varicela 
+Subcutánea 
+Aguja 27 G x 13 mm 
+0.5 mL 
+Hepatitis A 
+Intramuscular 
+Aguja 25 G x 25 mm 
+0.5 mL 
+VSR 
+Intramuscular 
+Aguja 25 G x 25 mm 
+0.5 mL 
+*Para vacunas que requieren reconstitución se utilizan agujas de 20 G x 32 mm (BCG, SR, SRP).   
+**En caso de no contar con la jeringa recomendada, podrá utilizarse jeringa de 1 mL, con aguja adherida de 30G x 13 mm. 
+ 
+ 
+5.2.1.6 Administración simultánea e intervalos de aplicación  
+Se recomienda respetar los intervalos recomendados entre vacunas, no obstante, 
+cuando sea necesaria la aplicación de forma simultánea, podrán aplicarse en 
+diferentes extremidades, o bien, con una distancia entre ambas aplicaciones de 2.5 a 
+5 cm. El intervalo entre dosis de vacunas depende del tipo de antígenos que 
+contengan, como se describe en el anexo 1 (enmienda al cuadro 7.1 del Manual de 
+Vacunación 2021).  
+ 
+Las vacunas de antígenos inactivados pueden administrarse simultáneamente o con 
+cualquier intervalo con otra vacuna de antígenos inactivados o atenuados. 
+Las vacunas de antígenos atenuados pueden administrarse de forma simultánea entre 
+ellas; cuando no es posible la administración simultánea, el intervalo mínimo de 
+aplicación entre cada una es de 4 semanas. No obstante, esta regla no aplica para las 
+vacunas de antígenos virales atenuados administradas de forma oral (anti rotavirus) e 
+ 
+ 
+ 
+ 
+ 
+33 
+intranasal, así como las vacunas bacterianas de antígenos atenuados administradas 
+de forma parenteral (BCG), las cuales pueden aplicarse de forma simultánea o con 
+cualquier intervalo. Ver cuadro 5. 
+ 
+Por lo anterior, las vacunas SRP y anti varicela pueden aplicarse de forma 
+simultánea y cuando no sea posible la administración simultánea, el intervalo 
+mínimo de aplicación entre cada una es de 4 semanas.  
+ 
+De acuerdo con las últimas recomendaciones técnicas para la aplicación de vacunas 
+contra la COVID-19, publicadas por los Centros para el Control y Prevención de 
+Enfermedades (CDC por sus siglas en inglés), la administración de las vacunas contra 
+la COVID-19 y otras vacunas de forma simultánea, sin existir un intervalo específico, es 
+factible y altamente recomendable.7 
+ 
+Cuadro 5. Intervalo de dosis entre diferentes tipos de antígenos 
+Tipo de vacuna 
+Intervalos mínimos 
+Aplicación simultánea 
+Aplicación en diferentes días 
+Entre vacunas de antígenos inactivados1 
+Ninguno 
+Ninguno 
+Entre vacunas de antígenos inactivados y 
+vacunas de antígenos atenuados2 
+Ninguno 
+Ninguno 
+Entre vacunas virales de antígenos atenuados 
+Ninguno 
+4 semanas* 
+*Excepto vacunas bacterianas de antígenos atenuados administradas de forma parenteral (BCG) y vacunas de antígenos virales atenuados 
+administradas de forma oral (rotavirus) o intranasal, las cuales pueden aplicarse de forma simultánea o con cualquier intervalo. 
+1Vacunas de antígenos inactivados: anti neumocócica conjugada, Td, anti influenza, anti hepatitis B, Tdpa, contra VPH, Hexavalente acelular, anti 
+hepatitis A.  
+2Vacunas de antígenos atenuados: SRP, SR, BCG, anti rotavirus, anti varicela.  
+ 
+ 
+5.2.1.7 Intercambiabilidad 
+Cuando se inicia un esquema de vacunación con un biológico, se deberá continuar y 
+completar el esquema con el mismo biológico preferentemente, salvo el caso de 
+vacunas contra la COVID-19, con las cuales pueden aplicarse esquemas heterólogos.8 
+ 
+7 Centers for Disease Control and Prevention. Interim Clinical Considerations for Use of COVID-19 Vaccines in the United States. 
+https://www.cdc.gov/vaccines/covid-19/clinical-considerations/interim-considerations-us.html  
+8 Para el caso de las vacunas contra la COVID-19, deberá consultar las guías técnicas vigentes o política específica definida por la Secretaría de 
+Salud.  
+ 
+ 
+ 
+ 
+ 
+34 
+Cuando se desconozca cuál fue el producto administrado previamente, debe 
+continuarse el esquema con el producto disponible y registrarse en el censo nominal 
+o sistema de registro institucional y en la CNS. 
+ 
+5.2.1.8 Esquemas incompletos y atrasados 
+La información proporcionada a las personas usuarias o personas responsables del 
+cuidado del menor, sobre la importancia de completar los esquemas de vacunación en 
+el tiempo estipulado, evita esquemas atrasados o incompletos; por lo que, se les debe 
+reiterar acudir a la unidad de salud a iniciar o completar el esquema de vacunación 
+(consultar anexo 1, a fin de evaluar los intervalos mínimos y máximos de aplicación de 
+las vacunas). Asimismo, es relevante la logística y estrategias que se adapten en el nivel 
+estatal para contar con las vacunas en todas las unidades de salud. 
+ 
+Siempre que se detecte una persona con esquema incompleto o rezagado, deberá 
+continuarse o completarse en la primera oportunidad, siempre y cuando no exista 
+alguna contraindicación. No obstante, es importante recordar que los esquemas 
+incompletos no deben reiniciarse, se deben continuar en el momento en que se 
+interrumpió la aplicación de este hasta completar el esquema de vacunación, sin 
+rebasar los límites de edad permitidos y respetando los intervalos mínimos y máximos 
+(Anexo 1), a fin de disminuir las oportunidades perdidas de vacunación.  
+ 
+Cuando la persona usuaria o los responsables del cuidado del menor no puedan 
+proporcionar la CNS, se deberá verificar en el censo nominal o sistema de registro 
+institucional para conocer el estatus del esquema. Cuando no sea posible obtener la 
+información por ninguna fuente, deberá iniciarse el esquema de vacunación 
+correspondiente de acuerdo con la edad.  
+ 
+5.2.1.9 Información a la persona usuaria 
+El personal vacunador deberá proporcionar información a la persona usuaria, 
+referente a la vacuna que administrará, la(s) enfermedad(es) que previene, el esquema 
+de vacunación, los eventos adversos y qué hacer en caso de que ocurran. Cuando se 
+detecten esquemas incompletos y que no puedan actualizarse en ese momento, se 
+ 
+ 
+ 
+ 
+ 
+35 
+debe proporcionar orientación y cita para llevarlo a cabo, con la posibilidad de realizar 
+vacunación simultánea, evitando las oportunidades perdidas de vacunación. 
+ 
+5.2.2 
+Esquema de vacunación 
+A continuación, se describe el esquema de vacunación 2026, así como, los biológicos 
+básicos para administrar en personal de salud. En el caso de situaciones especiales 
+deberá consultar el Manual de Vacunación vigente y los Lineamientos generales de las 
+campañas de vacunación que correspondan. 
+ 
+5.2.2.1 Esquema para población de 0 a 9 años 
+Cuadro 6. Esquema de vacunación para niñas y niños de 0 a 9 años de edad 
+Nacimiento 
+BCG 
+Anti hepatitis B 
+2 meses 
+Hexavalente acelular 
+Anti rotavirus 
+Anti neumocócica conjugada 
+4 meses 
+Hexavalente acelular 
+Anti rotavirus 
+Anti neumocócica conjugada 
+6 meses 
+Hexavalente acelular 
+Anti influenza estacional (1ª dosis), 
+en temporada invernal 
+Anti COVID-19 (1ª dosis) en temporada invernal 
+7 meses 
+Anti influenza estacional (2ª dosis) en la 
+misma temporada invernal que la primera 
+dosis, posteriormente una dosis anual hasta 
+los 59 meses, en cada temporada invernal 
+Anti COVID-19 (2ª dosis) en la misma temporada invernal que 
+la primera dosis, posteriormente una dosis anual hasta los 
+59 meses, en cada temporada invernal 
+12 meses 
+SRP 
+Anti neumocócica conjugada 
+Anti varicelaa 
+18 meses 
+Hexavalente acelular 
+SRP (2ª dosis)b 
+Anti hepatitis Ac 
+48 meses  
+(4 años) 
+DPT (refuerzo) 
+A partir de 
+los 5 años  
+Anti influenza estacionald 
+Anti COVID-19d 
+(6 años) 
+SRP (2ª dosis)e 
+a A la fecha de publicación del presente lineamiento, la vacuna NO forma parte del esquema básico de vacunación. Por lo que, se aplicará a niñas y niños de 1 año de edad que 
+asisten a guarderías o centros de cuidado infantil.  
+bLa segunda dosis de SRP a los 18 meses aplica solo para niñas y niños nacidos a partir de julio de 2020. 
+cACUERDO-01CONAVA-2025. Se aprueba la incorporación al PVU de la vacuna contra el virus de la hepatitis tipo A, con la estrategia de vacunación universal en niñas y niños de 1 
+año o bien aquellos que no cuenten con antecedente vacunal. 
+dUna dosis anual en cada temporada invernal, se aplica a partir de los 5 años en niñas y niños que vivan con alguna comorbilidad de riesgo. 
+eLa segunda dosis de SRP a los 6 años se aplicará a niñas y niños nacidos antes de julio de 2020. Dicha estrategia se implementará hasta 2026, y se seguirá aplicando a niñas y 
+niños de 18 meses de edad. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36 
+5.2.2.2 Vacunas para población pediátrica 
+Vacuna BCG 
+• 
+Se aplicará dosis única de 0.1 mL., vía intradérmica en la región deltoidea del brazo 
+derecho, a la población recién nacida con peso igual o mayor a 2,000 gramos, 
+previo a su egreso del hospital, o en el primer contacto con los servicios de salud, 
+preferentemente antes del año de edad.  
+• 
+Se podrá vacunar a niñas y niños menores de 5 años y excepcionalmente a 
+menores de 14 años que no hayan sido vacunados. 
+• 
+Se sugiere a las Instituciones del SNS que establezcan estrategias a nivel local que 
+permitan la optimización de las dosis, sin que esto pueda significar oportunidades 
+pérdidas de vacunación. 
+• 
+La vacuna se encuentra contraindicada en el embarazo, en personas que viven con 
+leucemia, linfomas, neoplasias malignas, en tratamiento inmunosupresor e 
+inmunodeficiencias primarias (IDP) y recién nacidos con peso menor a 2 kg. En 
+niñas y niños con antecedentes de hermanos fallecidos precozmente por sospecha 
+o diagnóstico de IDP, se recomienda descartar la enfermedad antes de vacunar. 
+• 
+Adicionalmente, se encuentra contraindicada en niñas y niños que viven con el 
+Virus de Inmunodeficiencia Humana (VIH), tengan o no síntomas. Sin embargo, se 
+podrá administrar la vacuna cuando se encuentren recibiendo tratamiento 
+antirretroviral y estén clínicamente estables (%CD4 >25 % en niños menores de 5 
+años; y en mayores de 5 años que tengan un recuento de CD4 ≥200 células).  
+• 
+La realización de la prueba tuberculínica (PPD) en personas inmunocomprometidas 
+(recién nacidos con desnutrición, que viven con VIH, etc.) con o sin antecedente de 
+BCG se debe realizar de acuerdo con lo establecido en la NOM-006-SSA2-2013, para 
+la prevención y control de tuberculosis; con el fin de detectar tuberculosis latente 
+y decidir si se requiere tratamiento inmediato para infección o enfermedad. 
+• 
+Las instituciones a nivel estatal/delegacional y jurisdiccional/distrital, deberán 
+coordinarse a fin de abastecer vacuna BCG en el 100 % de las unidades médicas de 
+atención materno-infantil (primero, segundo y tercer nivel de atención) para la 
+administración en la persona recién nacida, idealmente previo a su alta de la 
+unidad de salud. 
+• 
+En caso de presentarse un ESAVI, deberá darse seguimiento por doce meses y 
+vigilancia estrecha por el personal de salud, ante cualquier otra manifestación se 
+deberá notificar en los formatos correspondientes a la DGE, asimismo, notificar al 
+CENSIA 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37 
+Vacuna anti hepatitis B  
+• 
+Se aplicará una dosis de 0.5 mL (10 µg) vía intramuscular, en al tercio medio de la 
+cara anterolateral externa del muslo izquierdo, en las primeras 24 horas de vida, 
+en recién nacidos con peso ≥2,000 gramos o <2,000 gramos clínicamente estables. 
+Se podrá vacunar de forma extemporánea hasta los 7 días de vida.  
+• 
+Las niñas y niños que no sean vacunados al nacimiento deberán iniciar su esquema 
+a los 2 meses de edad con la vacuna hexavalente acelular y continuar a las edades 
+determinadas para esta vacuna. 
+• 
+Los recién nacidos pretérmino (<29 semanas de edad gestacional) o con peso 
+<1,500 gramos deberán vacunarse entre las 6-8 semanas de vida.  
+• 
+En el caso de utilizar presentación de vacuna de 1 mL/20 µg (multidosis de 10 mL), 
+se deberá administrar una dosis de 10 µg (0.5 mL), con el esquema antes indicado. 
+• 
+Las instituciones a nivel estatal/delegacional y jurisdiccional/distrital, deberán 
+coordinarse a fin de abastecer vacuna contra la hepatitis B en el 100 % de las 
+unidades médicas de atención materno-infantil (primero, segundo y tercer nivel de 
+atención) para la administración en la persona recién nacida, idealmente previo a 
+su alta de la unidad de salud. 
+• 
+No es necesario aplicar dosis adicionales de hepatitis B si se está utilizando la 
+vacuna hexavalente, ya que ésta contiene el componente contra la hepatitis B. 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna hexavalente acelular (DPaT+VIP+HB+Hib) 
+• 
+La vacuna hexavalente acelular contiene antígenos que protegen contra difteria, 
+tos ferina (de componente acelular), tétanos, poliomielitis, hepatitis B y 
+enfermedades invasivas por Haemophilus influenzae tipo b.  
+• 
+Se deberán aplicar 3 dosis de 0.5 mL, vía intramuscular en el tercio medio de la cara 
+anterolateral externa del muslo derecho en menores de 18 meses de edad y en la 
+región deltoidea del brazo izquierdo a partir de los 18 meses de edad. El esquema 
+primario de vacunación consiste en 3 dosis a los 2, 4 y 6 meses de edad y una dosis 
+de refuerzo a los 18 meses de edad. 
+• 
+Puede aplicarse si se ha administrado o no una dosis de vacuna contra la hepatitis 
+B al nacimiento.  
+• 
+El uso de la vacuna hexavalente acelular representa las dosis adicionales de la 
+vacuna contra la hepatitis B.  
+• 
+Para saber más sobre la vacuna hexavalente acelular, consulte el Manual de 
+Vacunación vigente. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+38 
+Vacuna anti rotavirus monovalente (RV1) 
+• 
+El esquema de vacunación es de 2 dosis de 1.5 mL cada una, vía oral a los 2 y 4 
+meses de edad. 
+• 
+Ninguna persona deberá recibir esta vacuna después de los 7 meses con 29 días 
+de edad. 
+• 
+Cuando la disponibilidad en el mercado de vacuna monovalente contra rotavirus 
+sea limitada, podrá utilizarse la vacuna pentavalente contra rotavirus para iniciar o 
+completar esquemas. De igual manera, cuando sea aplicada en el sector privado 
+cualquiera de las dos vacunas y se solicite completar el esquema en el sector 
+público, se podrán utilizar esquemas de vacunación heterólogos, ver cuadro 7.  
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Cuadro 7. Esquemas para aplicación de vacunas anti rotavirus 
+Edad 
+Tipo de vacuna 
+RV5 
+RV1 
+Mixto 
+Mixto 
+Mixto 
+2 meses 
+RV5 
+RV1 
+RV5 
+RV5 
+RV1 
+4 meses 
+RV5 
+RV1 
+RV1 
+RV5 
+RV5 
+6 meses 
+RV5 
+No requiere 
+RV1 
+RV1 
+RV1 
+RV5: vacuna pentavalente contra rotavirus 
+RV1: vacuna monovalente contra rotavirus 
+ 
+Vacuna anti neumocócica conjugada 
+• 
+Se aplicarán 3 dosis de 0.5 mL, vía intramuscular en el tercio medio de la cara 
+anterolateral externa del muslo derecho (en menores de 18 meses de edad), a los 
+2, 4 y 12 meses de edad. 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna anti influenza para población pediátrica 
+• 
+La vacunación para el periodo invernal 2026-2027, iniciará en el último trimestre 
+de 2026.  
+• 
+La vía de aplicación es intramuscular, en el tercio medio de la cara antero lateral 
+externa del muslo izquierdo, para menores de 18 meses de edad y en la región 
+deltoidea del brazo izquierdo para personas a partir de los 18 meses de edad. El 
+esquema de vacunación en población pediátrica, es el siguiente:  
+• 
+Niñas y niños de 6 a 59 meses de edad: 2 dosis de 0.5 mL cada una, con intervalo 
+de 4 semanas entre ellas, si no tienen antecedente de haber recibido la vacuna o si 
+no completaron el esquema de 2 dosis en una misma temporada invernal. 
+Posteriormente una dosis anual de 0.5 mL hasta los 59 meses. 
+• 
+Personas de 5 a 9 años que viven con comorbilidades (personas que viven con 
+VIH/sida, Diabetes Mellitus, obesidad mórbida, cardiopatías agudas o crónicas 
+ 
+ 
+ 
+ 
+ 
+39 
+(excepto hipertensión arterial esencial), enfermedad pulmonar crónica (incluido 
+EPOC y asma), cáncer, enfermedades cardiacas o pulmonares congénitas, crónicas 
+y otros padecimientos que se acompañen del consumo prolongado de salicilatos, 
+insuficiencia renal e inmunosupresión adquirida por enfermedad o tratamiento): 
+o Para las niñas y niños de de 5 a 8 años de edad que no tengan 2 dosis previas 
+en la misma temporada invernal, se les aplicará el esquema de 2 dosis (0.5 
+mL cada una) con intervalo de 4 semanas entre ellas, posteriormente una 
+dosis de 0.5 mL en cada temporada invernal. 
+o A partir de los 9 años de edad recibirán una dosis de 0.5 mL, 
+independientemente de haber recibido o no 2 dosis en años anteriores. 
+• 
+En caso de estar disponible la vacuna contra la COVID-19 durante la temporada 
+invernal, podrá aplicarse de manera simultánea. 
+• 
+Para saber más, consulte el Manual de Vacunación y los Lineamientos de 
+Vacunación para la Temporada invernal vigentes. 
+ 
+Vacuna triple viral (SRP) 
+• 
+Se aplicarán 2 dosis de 0.5 mL, vía subcutánea en la región deltoidea del brazo 
+izquierdo: 
+o Primera dosis al cumplir 12 meses de edad. 
+o Segunda dosis a los 18 meses de edad. 
+• 
+Se aplicarán dos dosis de SRP (0.5 mL) con un intervalo de 4 semanas, a menores 
+de 10 años que no hayan recibido ninguna dosis y se completará esquema en 
+personas con antecedente de una dosis previa de esta vacuna. 
+• 
+En situación de brote por sarampión, podrá vacunarse a las niñas y niños de 6 a 11 
+meses, cuando sean contactos de algún caso confirmado de sarampión o en 
+aquellos municipios estratificados de muy alto riesgo de transmisión deberá 
+aplicarse (esta dosis se considera la dosis cero y se inicia el esquema a partir de los 
+12 meses de edad, con un intervalo mínimo de 4 semanas entre ambas dosis).  
+• 
+En niñas y niños de 1 a 9 años, se deberá iniciar o completar esquema (población 
+rezagada).  
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna DPT9 
+• 
+Posterior a la aplicación del esquema primario con la vacuna hexavalente acelular, 
+se aplica una dosis de 0.5 mL de la vacuna DPT, vía intramuscular en la región 
+deltoidea o tricipital del brazo izquierdo, a los 4 años de edad.  
+ 
+9  De manera excepcional y con la finalidad de disminuir las oportunidades perdidas de vacuanción, podrá aplicar la vacuna DPT en en niñas y 
+niños que acuden a guarderías o estancias infantiles, así como en situaciones de emergencia a partir de los 3 años y 6 meses de edad. 
+ 
+ 
+ 
+ 
+ 
+40 
+• 
+En aquellos casos en los que no se reciba a los 4 años, la edad de aplicación no 
+debe sobrepasar los 6 años, 11 meses y 29 días. 
+• 
+El intervalo mínimo entre DPT y la cuarta dosis de hexavalente, es de 6 semanas. 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacunas contra la COVID-1910 
+• 
+La vacunación para el periodo invernal 2026-2027, iniciará en el último trimestre 
+de 2026. 
+• 
+Niñas y niños de 6 a 59 meses de edad: 2 dosis (los mL corresponderán según 
+tipo de vacuna disponible y se informan en el lineamiento específico) cada una, 
+con intervalo de 4 semanas entre ellas, si no tienen antecedente de haber recibido 
+la vacuna o si no completaron el esquema de 2 dosis en una misma temporada 
+invernal. Posteriormente una dosis anual hasta los 59 meses. 
+• 
+Niñas y niños de 5 a 9 años de edad que vivan con alguna de las siguientes 
+comorbilidades de riesgo: VIH/sida, Diabetes Mellitus, obesidad mórbida, 
+cardiopatías agudas o crónicas (incluida hipertensión arterial esencial), 
+enfermedades pulmonares crónicas incluida EPOC y asma, cáncer, insuficiencia 
+renal, inmunosupresión adquirida por enfermedad o tratamiento y niñas y niños 
+que viven con discapacidades incluyendo parálisis cerebral, malformaciones 
+congénitas, discapacidades de aprendizaje, limitaciones en el autocuidado o en las 
+actividades de la vida diaria, trastornos del neurodesarrollo y lesiones de la médula 
+espinal, se aplicará una dosis, en cada temporada invernal.  
+• 
+La vía de aplicación es intramuscular en el tercio medio de la cara anterolateral 
+externa del muslo izquierdo en niñas y niños de 6 a 18 meses y en la región 
+deltoidea del brazo izquierdo a partir de los 18 meses de edad.  
+• 
+Podrá aplicarse de manera simultánea con la vacuna anti influenza en la 
+temporada invernal. 
+• 
+Para saber más, consulte los lineamientos generales de la Campaña de Vacunación 
+para la temporada invernal vigente. 
+ 
+Vacuna anti hepatitis A 
+• 
+Dosis única de 0.5 mL, vía intramuscular en la región deltoidea del brazo izquierdo, 
+a niñas y niños de 18 meses de edad. 
+ 
+ 
+10 Tras cuatro años de pandemia, la mayoría de las personas tienen cierta inmunidad contra el virus SARS-CoV-2 a través de la infección, la 
+vacunación o ambas. Mientras tanto, se han observado reducciones significativas de las enfermedades graves y las muertes relacionadas con el 
+SARS-CoV-2 en todos los grupos de edad. https://www.paho.org/es/noticias/11-1-2024-aspectos-destacados-xi-reunion-ad-hoc-grupo-tecnico-
+asesor-gta-sobre. La política de vacunación asi como las vacunas disponibles contra COVID-19 podrían modificarse durante 2026, por lo que, 
+deberá consultar en su proceder la página y lineamientos específicos que emita el CENSIA. 
+ 
+ 
+ 
+ 
+ 
+41 
+Vacuna anti varicela11 
+• 
+El esquema consiste en 1 dosis de 0.5 mL, vía subcutánea en la región deltoidea o 
+tricipital del brazo izquierdo, en niñas y niños de 12 meses de edad que acuden a 
+guarderías o centros de cuidados infantiles.  
+ 
+5.2.2.3 Esquema de vacunación para población de 10 a 19 años 
+y adultos a partir de los 20 años 
+ 
+11 La presente actualización, sustituye a las indicadas en el Manual de vacunación 2021. La vacuna contra varicela a la fecha de publicación no 
+forma parte del PVU. 
+Cuadro 8. Esquema de vacunación para adolescentes y adultos 
+Vacuna 
+Enfermedad que previene 
+Edad 
+Td 
+Tétanos, difteria 
+Personas con esquema completoa: Aplicar a partir de los 15 años de edad, 
+con refuerzo  cada 10 años. 
+ 
+Personas con esquema incompleto o no documentado: Aplicar 3 dosis con 
+intervalos 0, 1, 12 meses, con refuerzo cada 10 años. 
+SR 
+Sarampión, rubéola 
+Personas de 10 a 49 años de edad, en personas sin esquema previo, 
+esquema incompleto o desconocido. 
+Antihepatitis B 
+Hepatitis B 
+A partir de los 11 años de edad en personas sin antecedente vacunal (al 
+menos 3 dosis de Hb). 
+VPH 
+Infección por el Virus del 
+Papiloma Humano 
+Niñas y niños  que cursan el 5º grado de primaria y de 11 años de edad 
+NO escolarizados. 
+Mujeres y hombresb cisgénero y transgénero  de 11 a 49 años de edad, 
+que viven con VIH. 
+Niñas y adolescentes de 9 a 19 años que estén siendo atendidas dentro 
+del protocolo de violación sexual (idealmente en las primeras 72 horas, 
+sin ser limitativo) y que no cuenten con antecedente vacunalc. 
+Tdpa 
+Tétanos, difteria, Tos ferina 
+acelular 
+Personas embarazadas a partir de la semana 20 de edad gestacional 
+(preferentemente entre la 27 a 36 semanas de gestación). 
+Personal en contacto con menores de 1 año, incluido el personal de salud, 
+de guarderías y centros de acogida. 
+Anti influenza 
+estacional 
+Casos graves y defunciones 
+por Influenza 
+Población de 10 a 59 años de edad con factores de riesgo; población de 
+60 años y más; así como personas embarazadas en cualquier trimestre de 
+la gestación. 
+Contra la 
+COVID-19 
+Casos graves y defunciones 
+por el virus SARS-CoV-2, 
+causante de la COVID-19 
+Población de 10 a 59 años de edad con factores de riesgo; población de 
+60 años y más; así como personas embarazadas en cualquier trimestre de 
+la gestación (preferentemente a partir del segundo trimestre por el 
+beneficio de los anticuerpos transferidos al feto). 
+Antineumocócica 
+conjugada 
+Infecciones por 
+neumococo 
+Población de 60 años y más, sin antecedente vacunald 
+ 
+ 
+ 
+ 
+ 
+42 
+ 
+ 
+5.2.2.4 Vacunas para población adolescente y adulta 
+La aplicación de vacunas en población adolescente y adulta se realiza con criterio de 
+riesgo, por lo que, no son consideradas universales. 
+ 
+Toxoides Tetánico y Diftérico (Td) 
+El esquema primario completo para proteger contra tétanos y difteria consiste en: 4 
+dosis de vacuna hexavalente (DPaT+VIP+HB+Hib) a los 2, 4, 6 y 18 meses de edad, más 
+una dosis de refuerzo con la vacuna DPT a los 4 años de edad. Este esquema debe 
+estar cubierto máximo a los 6 años 11 meses de edad, con la dosis de DPT. 
+Para la vacunación en población adolescente y adulta, se consideran tres distintos 
+contextos: 
+1. El esquema completo es aquel que cuenta con las 5 dosis del esquema primario o 
+con 3 dosis de Td. Dicho esquema, deberá estar documentado. 
+2. El esquema incompleto es aquel que tiene una menor cantidad de dosis del 
+esquema primario o menos de 3 dosis de Td. 
+3. El esquema no documentado es aquel en el que no se cuenta con un registro de 
+las dosis aplicadas, por lo que, no se asegura que la persona se encuentre 
+Cuadro 8. Esquema de vacunación para adolescentes y adultos 
+Vacuna 
+Enfermedad que previene 
+Edad 
+VSR 
+Casos graves por el virus 
+respiratorio sincitial (VRS) 
+en lactantes desde el 
+nacimiento hasta los 6 
+meses de edad mediante la 
+inmunización activa de 
+mujeres embarazadas 
+Personas embarazadas entre las 32 y 36 semanas de gestacióne 
+a *Se entiende como esquema completo al antecedente de contar con 5 dosis del esquema primario (4 dosis de hexavalente acelular + una dosis de DPT) o 3 dosis de Td 
+con intervalos de 0,1 y 12 meses). 
+bPara el caso de los hombres cis y trans que viven con VIH/sida, podrá iniciar o completar los esquemas de vacunación conforme a la disponibilidad de la vacuna en el nivel 
+estatal, delegacional/jurisdiccional y/o local. 
+c Deberá coordinarse en el COEVA y hospitales de 2do nivel de atención a fin de tener disponible al menos 1 dosis de la vacuna contra el VPH en las unidades de salud y 
+hospitales para la aplicación de la vacuna a niñas y adolescentes de 9 a 19 años víctimas de violación sexual, que no cuenten con antecedente vacunal, sin embargo, en 
+aquellos casos donde no se logre su aplicación en las primeras 72 h deberá aplicarse lo más pronto posible.  
+d ACUERDO-EXTRA-02CONAVA-2025: El Consejo Nacional de Vacunación con fundamento en los artículos 157 Bis 4, fracción I y 157 Bis 5 de la Ley General 
+de Salud y 14 del Reglamento Interno del Consejo Nacional de Vacunación, emite opinión favorable respecto al cambio del esquema de la vacuna 
+Neumocócica PCV13/PCV20 para niñas, niños y adultos. 
+eACUERDO-02CONAVA-2025. Se aprueba la incorporación al PVU de la estrategia de inmunización contra VSR a las personas embarazadas entre las 32 a 36 SDG. 
+ 
+ 
+ 
+ 
+ 
+ 
+43 
+inmunizada. Para mayor seguridad y evitar eventos asociados a múltiples dosis, 
+siempre se deberán registrar las dosis aplicada en la CNS. 
+ 
+La vacunación en estos grupos dependerá del antecedente vacunal, para todos los 
+casos, la vía de administración es intramuscular en la región deltoidea del brazo 
+izquierdo: 
+a) Con esquema completo: Se aplicará una dosis de 0.5 mL, a partir de los 15 años de 
+edad, con una dosis de refuerzo cada 10 años. 
+b) Con esquema incompleto: Los esquemas incompletos no deben reiniciarse, se 
+deberá completar las dosis faltantes en el momento en que se detecte, respetando 
+los intervalos mínimos entre vacunas. El refuerzo consiste en una dosis de 0.5 mL, 
+cada 10 años. 
+c) Esquema no documentado y no vacunados: Se aplicará a partir de los 15 años de 
+edad, 3 dosis de 0.5 mL, cada una: 1ª dosis en el momento de la visita, 2ª dosis 4 
+semanas después de la primera dosis y la 3ª dosis 12 meses después de la primera 
+(0-1-12 meses); el refuerzo consiste en una dosis de Td cada 10 años. 
+ 
+Cuadro 9. Administración de Td e Inmunoglobulina antitetánica en caso de heridas 
+Esquema previo 
+Herida limpia, leve 
+Otras heridas* 
+Vacunación 
+con Td 
+Inmunoglobulina 
+antitetánica¥ 
+Vacunación 
+con Td 
+Inmunoglobulin
+a antitetánica¥ 
+Esquema 
+desconocido 
+o 
+menor a 3 dosis** 
+Vacunar 
+No aplicar 
+Vacunar 
+Aplicar 
+Esquema 
+completo 
+(≥3 
+dosis). 
+No vacunar1 
+No aplicar 
+No vacunar2 
+No aplicar 
+*Heridas contaminadas con suciedad, heces, tierra y/o saliva; heridas necróticas o gangrenosas, heridas punzocortantes; avulsiones, por 
+proyectiles, aplastamiento, explosión, quemaduras y congelaciones. 
+**La vacunación se realiza de acuerdo con las pautas propuestas en los presentes Lineamientos, el refuerzo es cada 10 años. En el caso de 
+niñas y niños menores de 7 años de edad la vacuna a elegir es DPT o hexavalente, a partir de los 7 años se puede administrar Td, o, de acuerdo 
+a disponibilidad, vacuna Tdpa a partir de los 4 años de edad; las dosis faltantes a aplicar deben tener los intervalos mínimos aceptados. En 
+población recién nacida con corte insalubre del cordón umbilical y sin antecedente durante la gestación de aplicación de vacuna Td o Tdpa en 
+el embarazo, aplicar inmunoglobulina antitetánica intramuscular, 250 UI, y seguir el protocolo hospitalario para la atención y vigilancia del 
+neonato. 
+¥La dosis de inmunoglobulina antitetánica es de 500 UI en la persona adulta y 250 UI en el menor de 5 años, en un sitio anatómico diferente 
+a la aplicación de vacuna Td (o la vacuna que se haya elegido), por vía intramuscular (la dosis no debe ser inferior a 5 UI/Kg). 
+1Sí se administra vacuna Td sólo en caso de que hayan pasado 10 años o más desde la última dosis de Td. 
+2Sí se administra vacuna Td sólo en caso de que hayan pasado 5 años o más desde la última dosis de Td. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44 
+• 
+En personas con heridas, la administración de la vacuna se describe en el cuadro 
+9.  
+• 
+En personas embarazadas, ver el apartado de la vacuna Tdpa.  
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna SR 
+La aplicación de esta vacuna se realizará bajo los siguientes criterios: 
+• 
+Personas de 10 a 49 años con una dosis previa de vacuna SR o SRP, aplicar una 
+dosis de 0.5 mL, vía subcutánea en la región deltoidea del brazo izquierdo. 
+• 
+Personas de 10 a 49 años sin esquema previo o no documentado de SR o SRP, 
+aplicar 2 dosis de 0.5 mL, cada una, con intervalo mínimo de 4 semanas (un mes), 
+vía subcutánea en la región deltoidea del brazo izquierdo. 
+• 
+En caso de bloqueo vacunal, se aplicará una dosis de SR o SRP (preferir SR) a niñas 
+y niños de 6 a 11 meses de edad (dosis cero). Posteriormente se reprogramará el 
+inicio del esquema a los 12 meses de edad o en caso de que la persona tenga entre 
+11 y 12 meses, se reprogramará en 4 semanas.  
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna Anti hepatitis B  
+• 
+El esquema de vacunación consiste en 2 dosis vía intramuscular de 20 µg  (1 mL) 
+cada una, para la población de 11 años y más que no hayan recibido el esquema 
+de vacunación contra hepatitis B (HB y/o Hexavalente antes de los 5 años de edad).  
+• 
+El intervalo mínimo entre cada dosis es de 4 semanas. 
+• 
+Si se utiliza la vacuna de 10 µg se aplican 3 dosis vía intramuscular, con el esquema 
+0, 1 y 6 meses (después de la dosis inicial), cada dosis de vacuna es de 0.5 mL. 
+• 
+Deberá coordinarse con los hospitales y los Centros Ambulatorios para la 
+Prevención y Atención del sida y otras Infecciones de Transmisión Sexual 
+(CAPASITS) para su aplicación en grupos de alto riesgo (personas trabajadoras de 
+laboratorios clínicos, personas que reciben diálisis, hemodiálisis, transfusiones 
+frecuentes, convivientes con personas portadoras del antígeno de superficie del 
+virus de la hepatitis B, personas que hayan recibido trasplantes, que vivan con 
+hemofilia o con VIH/sida). 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+ 
+ 
+ 
+ 
+45 
+Vacuna contra Virus del Papiloma Humano (VPH) 
+• 
+A partir del 2025 se incorporó como población objetivo a los niños de quinto grado 
+de primaria y de 11 años no escolarizados a la vacunación contra el VPH. Por lo que, 
+su aplicación deberá realizarse en apego a los lineamientos generales de la 
+campaña de vacunación contra el VPH, 2026.  
+• 
+Se aplicará una dosis12 de 0.5 mL, vía intramuscular en la región deltoidea del brazo 
+no dominante, a las niñas y niños que se encuentren cursando el quinto grado de 
+primaria y de 11 años no escolarizados. Para este último grupo, deberá coordinarse 
+con instancias como el DIF, asociaciones que atiendan a poblaciones en situación 
+de calle, albergues, refugios, entre otros.  
+• 
+A personas de 11 a 49 años que viven con VIH, se les aplicarán 3 dosis de 0.5 mL, 
+vía intramuscular en la región deltoidea del brazo no dominante, con intervalo de 
+0-2-6 meses, independientemente del conteo de linfocitos T CD4+. Si la persona 
+cuenta con esquema completo previamente, no es necesario reiniciar esquema con 
+vacuna nonavalente.  
+• 
+Se aplicará una dosis de 0.5 mL, vía intramuscular en la región deltoidea del brazo 
+no dominante a las niñas y adolescentes de 9 a 19 años que estén siendo atendidas 
+dentro del protocolo de violación sexual (idealmente en las primeras 72 horas, sin 
+ser limitativo) y que no tengan antecedente previo de vacunación contra el VPH 
+(una dosis previa de vacuna contra el VPH, bivalente, tetravalente o nonavalente). 
+• 
+No se requiere realizar la prueba de detección de el VPH previa a la vacunación. 
+• 
+Debe aclararse a las personas usuarias que la vacunación no sustituye al tamizaje, 
+ni la detección oportuna del cáncer. 
+• 
+Para saber más, consulte los lineamientos específicos de la campaña de vacunación 
+contra el VPH. 
+ 
+Vacuna Tdpa 
+En cada embarazo, aplicar una dosis de 0.5 mL, vía intramuscular en la región 
+deltoidea del brazo izquierdo, a partir de la semana 20 de edad gestacional 
+(preferentemente entre la 27 a 36 semanas de gestación), independientemente de la 
+historia previa de vacunación con Td o Tdpa; y completar esquema con Td según sea 
+el caso. La pauta para la aplicación de Tdpa depende del antecedente vacunal con Td: 
+ 
+12 Naciones Unidas. Una sola dosis de la vacuna contra el Virus del Papiloma Humano (VPH) ofrece una sólida protección contra el cáncer de cuello 
+uterino. 11 de abril de 2022. Disponible en: https://news.un.org/es/story/2022/04/1507092  
+ 
+ 
+ 
+ 
+ 
+46 
+• 
+Personas embarazadas con esquema completo de Td (esquema primario de 5 dosis 
+o 3 dosis de Td): Aplicar una dosis de Tdpa a partir de la semana 20 de edad 
+gestacional (preferentemente entre la 27 a 36 semanas de gestación), en 
+sustitución o no de Td. Refuerzos de Td cada 10 años. 
+• 
+Personas embarazadas sin esquema de Td o no documentado (menos de 5 dosis 
+del esquema primario o menos de 3 dosis de Td): Aplicar 3 dosis (0, 1 y 12 meses) 
+de toxoide antitetánico, procurando aplicar Tdpa a partir de la semana 20 de edad 
+gestacional (preferentemente entre la 27 a 36 semanas de gestación), en 
+sustitución o no de Td. El refuerzo con Td es cada 10 años. 
+• 
+Personas embarazadas con esquema incompleto: Aplicar una dosis de vacuna 
+Tdpa a partir de la semana 20 de edad gestacional (preferentemente entre la 27 a 
+36 semanas de gestación), en sustitución o no de Td. Completar el esquema con Td 
+de acuerdo con las dosis faltantes, respetando intervalos entre dosis. El refuerzo 
+con Td es cada 10 años. 
+• 
+Personas embarazadas con heridas contaminadas: se deberán aplicar las pautas 
+recomendadas en el Cuadro 9 para la protección, considerando que a partir de la 
+semana 20 de gestación debe recibir una dosis de vacuna Tdpa. 
+• 
+Personal en contacto o convivencia estrecha o cotidiana con menores de 1 año, 
+incluido el personal de salud, de guarderías, centros de cuidados infantiles, 
+albergues y centros de acogida: aplicar dosis única en aquellos que no cuenten con 
+antecedente vacunal. 
+• 
+Para saber más, consulte el Manual de Vacunación vigente. 
+ 
+Vacuna Anti influenza  
+• 
+Se deberá aplicar una dosis de 0.5 mL, vía intramuscular en la región deltoidea del 
+brazo izquierdo, en cada temporada invernal, independientemente de la fecha de 
+aplicación de la dosis correspondiente a la temporada invernal previa.  
+a) Población de 60 y más años de edad, dando prioridad a la aplicación del 
+biológico en la fecha más próxima del inicio de la campaña de vacunación.  
+b) Personas embarazadas en cualquier trimestre del embarazo y en periodo de 
+lactancia, dando prioridad a la aplicación del biológico en la fecha más próxima 
+del inicio de la campaña de vacunación. 
+ 
+ 
+ 
+ 
+ 
+47 
+a) Personal de salud (personal médico, paramédico, intendencia, administrativo, 
+estudiantes y todo personal en contacto con usuarios del sistema de salud), 
+dando prioridad a la aplicación del biológico en la fecha más próxima del inicio 
+de la campaña de vacunación. 
+b) Adolescentes de 10 a 19 años y población de 20 a 59 años de edad que viven 
+con 
+comorbilidades 
+(VIH/sida, 
+Diabetes 
+Mellitus, 
+obesidad 
+mórbida, 
+cardiopatías agudas o crónicas (excepto hipertensión arterial esencial), 
+enfermedad pulmonar crónica (incluido EPOC y asma), cáncer, enfermedades 
+cardiacas o pulmonares congénitas, crónicas y otros padecimientos que se 
+acompañen del consumo prolongado de salicilatos, insuficiencia renal e 
+inmunosupresión adquirida por enfermedad o tratamiento).  
+• 
+Con el fin de optimizar los frascos multidosis, si los frascos abiertos se encuentran 
+en el último día de utilización de acuerdo con la política de frascos abiertos, se 
+podrá aplicar la vacuna a otro grupo poblacional para evitar el desperdicio. 
+• 
+Para saber más, consulte los lineamientos de vacunación para la temporada 
+invernal vigentes. 
+ 
+Vacuna contra la COVID-19 
+Se deberá aplicar una dosis (esquema monodosis) en cada temporada invernal, vía 
+intramuscular en la región deltoidea del brazo izquierdo, independientemente del 
+antecedente vacunal previo, considerando las siguiente poblaciones:  
+• 
+Población de 60 años y más, dando prioridad a la aplicación del biológico en la 
+fecha más próxima del inicio de la campaña de vacunación.  
+• 
+Personas embarazadas en cualquier trimestre del embarazo (preferentemente 
+en el segundo trimestre del embarazo, considerando el beneficio materno-
+fetal) y en periodo de lactancia, dando prioridad a la aplicación del biológico en 
+la fecha más próxima del inicio de la campaña de vacunación.  
+• 
+Personal de salud (personal médico, paramédico, intendencia, administrativo, 
+estudiantes y todo personal en contacto con usuarios del sistema de salud), 
+dando prioridad a la aplicación del biológico en la fecha más próxima del inicio 
+de la campaña de vacunación. 
+• 
+Personas de 10 a 59 años que vivan con alguna comorbilidad de riesgo 
+(VIH/sida, Diabetes Mellitus, obesidad mórbida, cardiopatías agudas o crónicas 
+(incluida hipertensión arterial esencial), enfermedades pulmonares crónicas 
+ 
+ 
+ 
+ 
+ 
+48 
+incluida EPOC y asma, cáncer, insuficiencia renal, inmunosupresión adquirida 
+por enfermedad o tratamiento y niñas y niños que viven con discapacidades 
+incluyendo parálisis cerebral, malformaciones congénitas, discapacidades de 
+aprendizaje, limitaciones en el autocuidado o en las actividades de la vida diaria, 
+trastornos del neurodesarrollo y lesiones de la médula espinal.   
+• 
+Para saber más, consulte los lineamientos de vacunación para la temporada 
+invernal vigentes. 
+ 
+Vacuna antineumocócica  conjugada 
+• 
+Se deberá aplicar una dosis de 0.5 mL, vía intramuscular en la región deltoidea del 
+brazo derecho a la población de 60 años y de 61 o más que no cuenten con 
+antecedente vacunal. 
+• 
+No se requiere revacunación. 
+• 
+Para saber más, consulte el Manual de Vacunación vigente.  
+ 
+Vacuna contra el Virus Sincitial Respiratorio 
+• 
+Se deberá aplicar una dosis de 0.5 mL, vía intramuscular en la región deltoidea del 
+brazo de menor uso, en personas embarazadas entre las semanas 32 a 36 del 
+embarazo.  
+• 
+No se requiere revacunación 
+ 
+5.2.2.5 Esquema para personal de salud 
+En este grupo se considera al personal de las áreas médica y paramédica en contacto 
+con pacientes, a personal estudiante y pasantes de áreas de la salud, personal 
+administrativo y de intendencia, personal de asilos y guarderías. Cada una de las 
+instituciones de salud a nivel estatal es responsable de determinar la cantidad de 
+personal de salud. Las vacunas que deberán aplicarse a la población trabajadora de la 
+salud, se describen en el cuadro 10. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+49 
+Cuadro 10. Esquema de inmunización para Trabajadores de la Salud 
+VACUNA 
+ENFERMEDAD QUE 
+PREVIENE 
+DOSIS/ESQUEMA 
+FRECUENCIA 
+Anti Influenza 
+estacional 
+Casos graves y defunciones 
+por Influenza 
+Una dosis de 0.5 mL. 
+En cada temporada invernal 
+Contra la 
+COVID-19 
+Casos graves y defunciones 
+por el virus SARS-CoV-2, 
+causante de la COVID-19 
+Una dosis de 0.5 mL* 
+Con base en los lineamientos 
+específicos y/o políticas que 
+determine la Secretaría de Salud 
+Anti hepatitis B 
+(HB) 
+Hepatitis B 
+2 dosis de 20 µg cada una, 
+con intervalo de 1 mes (0, 1 
+mes). 
+o 
+3 dosis** de 10 µg cada una 
+(0, 1, 6 meses). 
+El personal de laboratorio clínico 
+requiere refuerzo con la vacuna 
+contra HB, si la titulación de 
+anticuerpos de superficie del virus de 
+la hepatitis B (HBsAb o anti-HBs) es 
+menor de 10 mUI/mL 
+SR*** 
+Sarampión, Rubéola 
+Una dosis de 0.5 mL. 
+Única 
+Td 
+Tétanos, Difteria 
+Personas con esquema 
+completo****: Aplicar a 
+partir de los 15 años de 
+edad, con refuerzo  cada 10 
+años. 
+ 
+Personas con esquema 
+incompleto o no 
+documentado: Aplicar 3 
+dosis con intervalos 0,1,12 
+meses, con refuerzo cada 10 
+años. 
+Cada 10 años 
+Tdpa 
+Tétanos, Difteria y Tos 
+ferina 
+Personal de salud en 
+contacto con menores de 
+edad: aplicar 1 dosis cuando 
+no cuenten con antecedente 
+vacunal  
+Única 
+*Sujeto a la vacuna disponible en el país. 
+**Aplicar en caso de no tener en existencia en la unidad de salud, vacuna de 20 µg 
+***El personal de salud menor de 40 años, que no demuestre evidencia de haberse aplicado al menos 2 dosis de vacunas que contengan los componentes S y R, se 
+les administra: 2 dosis de 0.5 mL cada una con 4 semanas de separación. 
+****Se entiende como esquema completo al antecedente de contar con 5 dosis del esquema primario (4 dosis de hexavalente acelular + una dosis de DPT) o 3 dosis 
+de Td con intervalos de 0,1 y 12 meses). 
+ 
+ 
+ 
+ 
+ 
+50 
+Las personas trabajadoras de la salud en periodo de gestación deben cumplir con el 
+control prenatal correspondiente y el médico tratante determinará la protección 
+adicional que amerite; sin embargo, toda persona embarazada debe recibir la vacuna 
+Tdpa en cada embarazo, independientemente de su antecedente vacunal con Td y del 
+intervalo intergenésico; así como, la vacuna contra la influenza estacional, contra la 
+COVID-19 y contra el Virus Sincitial Respiratorio, durante la temporada invernal: 
+• 
+Tdpa: Una dosis de Tdpa en cada embarazo a partir de la semana 20 de gestación 
+como sustitución o no de Td. 
+• 
+Anti influenza estacional: Una dosis en cualquier trimestre del embarazo, 
+durante la temporada invernal. 
+• 
+Contra la COVID-19: Una dosis en cualquier trimestre del embarazo, 
+preferentemente a partir del segundo trimestre, derivado del beneficio de 
+transmisión de anticuerpos al feto.  
+• 
+Contra el VSR: Una dosis entre las semanas 32 y 36 de gestación. 
+ 
+5.3 
+Desempeño del Programa de Vacunación 
+Las metas del PVU corresponden a las poblaciones de responsabilidad institucional 
+2026, las cuales fueron obtenidas en apego a los “Lineamientos para la Distribución de 
+Población de Responsabilidad Institucional del Programa de Vacunación Universal en 
+el Sistema Nacional de Salud, México 2026”. Para el caso de las vacunas destinadas a 
+adolescentes y adultos, al no considerarse de aplicación universal, las metas serán 
+calculadas con base en los grupos de riesgo.  
+ 
+La programación de actividades se realizará en el 100 % de las unidades de la red de 
+servicios de salud en las que los COEVA validen que se encuentra activo el servicio de 
+vacunación. 
+ 
+Las metas deberán reflejar una cobertura ≥95 % por cada biológico del esquema de 
+vacunación, e ≥90 % para esquemas completos en menores de un año, uno, 4 y 6 años. 
+El cálculo se realizará desagregando la meta por entidad federativa, municipio, 
+delegación, jurisdicción/distrito y unidad médica, estimando que al menos se vacune 
+al 8.33 % de la población blanco de manera mensual de las vacunas del programa 
+permanente (cuadro 11). 
+ 
+ 
+ 
+ 
+ 
+51 
+Cuadro 11. Porcentaje mensual de población a vacunar por 
+biológico, en personas menores de 10 años de edad 
+Mes 
+Porcentaje mensual de aplicación a la población 
+1 
+8.333 
+2 
+16.666 
+3 
+24.999 
+4 
+33.332 
+5 
+41.665 
+6 
+49.998 
+7 
+58.331 
+8 
+66.664 
+9 
+74.997 
+10 
+83.33 
+11 
+91.663 
+12 
+99.996 
+ 
+La evaluación mensual de las metas del PPV se realizará por los COEVA a través de la 
+integración de gráficas de avance mensual y acumulado de coberturas de vacunación 
+por biológico, el registro de dosis aplicadas en los formatos de los sistemas 
+administrativos de vacunación (SINBA-SIS, SIAIS, SIEMP, SISPA) y en el registro del 
+censo nominal de cada unidad médica. 
+ 
+5.4 
+Registro de dosis aplicadas y evaluación del desempeño 
+del PVU 
+El registro administrativo de dosis aplicadas se realizará por cada unidad operativa de 
+cada institución del SNS a través de los formatos para los sistemas oficiales: 
+• 
+SINBA-SIS para la Secretaría de Salud y aquellas entidades que se encuentren 
+incorporadas a los Servicios de Salud del IMSS-BIENESTAR, o cualquier otro que 
+determine la Secretaría de salud. 
+• 
+SIAIS para IMSS Obligatorio.  
+• 
+SIEMP para ISSSTE. 
+• 
+Registros oficiales para otras instituciones. 
+ 
+El registro nominal se realizará en el formato de censo nominal que emita el CENSIA, 
+previa validación por el Grupo de Trabajo Interinstitucional (GTI). En este formato, se 
+deberá registrar el lote y fecha de caducidad de las vacunas aplicadas en cada visita. 
+ 
+ 
+ 
+ 
+ 
+52 
+Al tratarse de documentos operativos y necesarios para consulta y manejo en las 
+unidades de salud, éstos deberán permanecer exclusivamente a nivel operativo 
+(unidad de salud). Adicionalmente, el registro de las dosis aplicadas se deberá realizar 
+en la CNS, para lo cual, es fundamental que el registro sea claro y completo. 
+ 
+La evaluación se realizará a partir de los datos administrativos de dosis aplicadas, 
+registrados en los sistemas de información de cada institución, previamente validados 
+por los COEVA, para obtener coberturas por biológico y de esquema completo en niñas 
+y niños menores de un año, un año, 4 y 6 años, en apego al Programa de Acción 
+Específico, Vacunación 2025 a 2030. 
+ 
+Los datos registrados en el censo nominal, CNS y sistemas de información de las 
+instituciones serán útiles para que los COEVA realicen los procesos de evaluación de 
+calidad del dato y para encuestas de cobertura, en apego al Manual de Vacunación 
+vigente. 
+ 
+5.5 
+Vigilancia de ESAVI 
+Se consideran ESAVI a cualquier situación de salud (signos, síntomas o enfermedad) 
+desfavorable y no intencionada que ocurra luego de la vacunación o inmunización y 
+que no necesariamente tiene una relación causal con el proceso de vacunación o con 
+la vacuna. La ocurrencia y temporalidad dependerá de cada una de las vacunas. 
+  
+Los errores técnicos que no manifiesten signos y síntomas o que no muestren 
+alteraciones en pruebas de laboratorio, deberán reportarse a la Dirección General de 
+Epidemiología (DGE); en estos se incluyen la administración de vacunas en pacientes 
+que no le corresponde la vacuna (por edad o por contraindicación), por vía de 
+aplicación indebida (por ejemplo, colocación de vacuna BCG vía intramuscular), dosis 
+incorrecta (administración de megadosis o multidosis), sitio anatómico no apto para 
+aplicación de vacunas (por ejemplo, región glútea en lugar de región deltoidea). 
+ 
+Con base en el Manual de Procedimientos Estandarizados para la Vigilancia 
+Epidemiológica de ESAVI, de la DGE, la clasificación de los ESAVI es:  
+ 
+ 
+ 
+ 
+ 
+53 
+ESAVI no grave: Persona de cualquier edad y sexo que presente manifestación(es) 
+clínica(s) en los primeros 30 días posteriores a la vacunación y es supuestamente 
+atribuido a la vacunación o inmunización que no pone en riesgo la vida del paciente, 
+desaparece sin tratamiento o con tratamiento sintomático, que no obliga a hospitalizar 
+al afectado y que no ocasionan trastornos a largo plazo ni discapacidad.  
+ 
+Dentro de los ESAVI no graves también se deben considerar los de tipo local: 
+exantema, tumefacción, aumento de volumen, eritema, edema, absceso, pústula, 
+celulitis, dolor que se trata de forma ambulatoria y sistémicos que no pongan en 
+peligro la vida como fiebre (>38ºC) y febrícula (37.5 a 38ºC). 
+ 
+ESAVI grave: persona de cualquier edad y sexo que en los primeros 30 días 
+posteriores a la vacunación presenta alguna manifestación clínica que cumple con uno 
+o más de los siguientes criterios:  
+• 
+causan la muerte del paciente; 
+• 
+ponen en peligro inminente la vida del paciente en el momento que se presentan; 
+• 
+causan invalidez o incapacidad persistente o significativa; 
+• 
+se sospecha que son causa de alteraciones o, malformaciones en el recién nacido; 
+• 
+hacen necesaria la hospitalización13 o prolongan la estancia hospitalaria.  
+ 
+Nota: Algunos eventos pueden presentarse después de 30 días de haberse 
+administrado la vacuna, como en el  caso de rotavirus (primeros 42 días en la persona 
+vacunada) y BCG (hasta 12 meses) 
+ 
+La notificación de los ESAVI, deberá realizarse a la DGE, respetando los tiempos y 
+mecanismos establecidos en el Manual de Procedimientos Estandarizados para la 
+Vigilancia 
+Epidemiológica 
+de 
+ESAVI, 
+disponible 
+en 
+https://epidemiologia.salud.gob.mx/gobmx/salud/documentos/manuales/42_Manual
+_ESAVI.pdf :  
+• 
+ESAVI no grave la notificación es 48 horas posteriores a su detección, y 
+• 
+ESAVI grave notificarse de manera inmediata en las primeras 24 horas posterior al 
+conocimiento por la unidad de salud.  
+ 
+13 Entiéndase por hospitalización como la ocupación de camas censables, por lo que, la estancia por unas horas para observación en un 
+hospital, no se considera como tal.  
+ 
+ 
+ 
+ 
+ 
+54 
+• 
+ESAVI de vacuna de COVID-19 grave y no grave, en las primeras 24 horas 
+posteriores a su detección, independientemente de la clasificación de tipo de 
+ESAVI. 
+• 
+Conglomerados de ESAVI (dos o más ESAVI asociados con un proveedor en 
+particular, centro de salud, y/o un vial de vacuna o un lote de vacunas.) notificarse 
+por el médico tratante de la unidad que identifique a la jurisdicción sanitaria de 
+forma inmediata (en las primeras 24 horas) posterior al conocimiento del 
+conglomerado de ESAVI. 
+ 
+Las áreas responsables del PVU en los estados, colaborarán con el área de 
+epidemiología para recabar toda la información que arroje la investigación del caso y 
+será el Comité Nacional de Expertos (CNE) en colaboración con el CENSIA quien emitirá 
+la dictaminación final  de los ESAVI evaluados de acuerdo con la  clasificación final, con 
+base en la evaluación a la causalidad: 
+A. Asociación causal consistente con la vacunación: 
+A1. Evento relacionado con la vacuna 
+A2. Evento relacionado con un defecto en la calidad de la vacuna 
+A3.Evento 
+relacionado 
+con 
+un 
+error 
+en 
+la 
+inmunización 
+(errores 
+programáticos/técnicos) 
+B. Indeterminado, 
+C. Asociación causal inconsistente con la vacunación, 
+D. Asociación causal con las condiciones inherentes al vacunado, e 
+E. Inclasificable. 
+ 
+5.5.1 Seguimiento y dictaminación de los ESAVI graves 
+Para el seguimiento e investigación de los ESAVI graves,  el nivel estatal deberá remitir 
+los resultados de la investigación, los cuáles deben incluir al menos: Ficha de 
+identificación del paciente, datos de la o las vacunas aplicadas, resúmen clínico, 
+manejo del paciente, estudios de laboratorio y gabinete, interconsultas con las 
+diferentes especialidades (si es el caso), diagnóstico inicial y diagnóstico final, 
+evaluación a la causalidad, en caso de defunción resultados de la necropsia, autopsia 
+verbal y certificado de defunción, en el formato que determine el CENSIA y remitirlo a 
+este centro nacional en un lapso no mayor a 10 días habiles una vez recibida la 
+ 
+ 
+ 
+ 
+ 
+55 
+información 
+en 
+el 
+nivel 
+estatal 
+y 
+notificación 
+a 
+la 
+DGE 
+ 
+al 
+correo 
+comité_expertos@salud.gob.mx.  
+ 
+El CNE es el responsable de sesionar los casos de ESAVI graves a nivel nacional que 
+pongan en peligro la vida del paciente, causen hospitalización, invalidez o incapacidad 
+y/o defunción, así como los ESAVI relacionados con vacunas de nueva introducción.  
+ 
+5.6 
+Vigilancia epidemiológica 
+La metodología y procedimientos son responsabilidad de la DGE y se deben realizar 
+de acuerdo con lo establecido en la Norma Oficial Mexicana NOM-017-SSA2-2012, para 
+la Vigilancia Epidemiológica, la Norma Oficial Mexicana NOM-220-SSA1-2016, 
+Instalación y Operación de la Farmacovigilancia, y el Manual de Procedimientos 
+Estandarizados para la Vigilancia Epidemiológica de las Enfermedades Prevenibles por 
+Vacunación publicado por la DGE.  
+ 
+5.7 
+Promoción de la Vacunación (Comunicación)  
+• 
+Promoción en radio y televisión: la promoción para la aplicación de las vacunas 
+incluidas en las actividades permanentes e intensivas del PVU, serán reforzadas en 
+estaciones y canales locales del sistema de radiodifusión de la Comisión Nacional 
+para el Desarrollo de los Pueblos Indígenas. 
+• 
+Medios impresos: el CENSIA pondrá a disposición en su página web o medios de 
+difusión oficiales los materiales validados por las autoridades correspondientes; 
+con el fin de que las instituciones del SNS y los Servicios Estatales de Salud los 
+repliquen para su impresión, distribución y difusión. Las instituciones del SNS 
+podrán utilizar material adicional para la difusión del programa que consideren 
+conveniente para el logro de los objetivos. 
+• 
+Medios 
+digitales: 
+promover 
+la 
+difusión 
+en 
+medios 
+digitales 
+(sitios 
+gubernamentales, redes sociales, etc.), mediante el uso de la imagen y mensajes 
+oficiales que el CENSIA comparte con las entidades federativas a fin de lograr una 
+réplica intensiva a nivel nacional. Las instituciones del SNS podrán utilizar material 
+adicional para la difusión del programa que consideren conveniente para el logro 
+de los objetivos. 
+ 
+ 
+ 
+ 
+ 
+ 
+56 
+Las acciones de comunicación deben realizarse en todos los niveles aplicativos con los 
+recursos disponibles para tal fin, no siendo exclusivos ni limitativos los descritos en el 
+presente lineamiento.  
+ 
+5.8 
+Vacunación en situaciones de emergencia 
+En el caso de desastres naturales como huracanes, inundaciones, brotes por 
+enfermedades inmunoprevenibles, entre otros, es común que las personas tengan 
+que refugiarse en albergues donde en ocasiones hay condiciones de hacinamiento, 
+situación que favorece la aparición de brotes de padecimientos infecciosos, por lo que, 
+deberá consultar el numeral 5.2.2 y el Manual de Vacunación vigente para conocer las 
+especificaciones de cada vacuna.  
+ 
+En estas situaciones se considera población de riesgo a quienes por sus características 
+físicas y fisiológicas son más vulnerables de adquirir enfermedades transmisibles: 
+• 
+niñas y niños menores de 5 años de edad, con énfasis en menores de un año; 
+• 
+personas de 60 y más años de edad; 
+• 
+personas embarazadas. 
+ 
+Para estos grupos de riesgo, se deberá considerar la aplicación de las siguientes 
+vacunas, con base en las características del desastre natural del que se trate: 
+ 
+A) Influenza Estacional 
+La medida principal y más eficaz para mitigar la influenza estacional es la vacunación 
+anual. El mejor momento para vacunarse contra la influenza estacional, de estar 
+disponible la vacuna, es en octubre y noviembre, para asegurar la protección antes del 
+inicio de la temporada invernal, siguiendo las pautas establecidas en el numeral 5.2.2. 
+ 
+B) COVID-19 
+Se vacunará a personas a partir de los 6 meses de edad que vivan con alguna 
+comorbilidad de riesgo para el desarrollo de complicaciones o defunciones asociadas 
+al SARS-CoV-2, con base en las pautas establecidas en el numeral 5.2.2. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+57 
+C) Tétanos 
+Se recomienda la vacunación contra tétanos (Td) a personas que durante el desastre 
+presenten heridas contaminadas y que no tengan refuerzo en los últimos 10 años. En 
+personas embarazadas, así como en niñas y niños, se deberá iniciar o completar 
+esquemas de vacunación, siguiendo las pautas de vacunación establecidas en el 
+numeral 5.2.2. 
+ 
+D) Sarampión, rubéola, parotiditis  
+Se iniciará o se completarán esquemas de vacunación con SR o SRP, con base en el 
+antecedente vacunal y siguiendo las pautas de vacunación establecidas en el numeral 
+5.2.2. 
+ 
+E) Varicela 
+De estar disponible, se vacunará a las personas que no hayan padecido la enfermedad 
+o no se compruebe esquema de vacunación documentado. Se recomienda 
+administrarla durante las primeras 72 horas posteriores al contacto con una persona 
+con infección por varicela, siguiendo las pautas de vacunación establecidas en el 
+numeral 5.2.2. 
+ 
+F) Hepatitis A 
+Se vacunarán a las niñas y niños de 18 meses de edad, que no hayan padecido la 
+enfermedad ni tengan documentado la aplicación de la vacuna, siguiendo las pautas 
+de vacunación establecidas en el numeral 5.2.2 
+ 
+Cada Institución de Salud deberá poner a disposición el mayor número de brigadas de 
+vacunación para actividades extramuros, con la finalidad de atender las necesidades 
+en materia de vacunación que se requieran en las entidades o regiones afectadas.   
+ 
+5.9 
+Vacunación a personas en situación de migración, 
+desplazamiento y refugiados 
+Las características geográficas y demográficas de México asociadas a los 
+acontecimientos mundiales han determinado el incremento del número de personas 
+en situación de migración, desplazamiento, refugiados y aquellos privados de la 
+ 
+ 
+ 
+ 
+ 
+58 
+libertad; por lo que, existe el riesgo latente de emergencia o reemergencia de 
+enfermedades infecciosas; siendo la vacunación una estrategia que permite reducir 
+este riesgo. 
+ 
+En México la vacunación es universal, por lo que, toda persona que se encuentre en el 
+territorio nacional deberá recibir las vacunas del PPV, siguiendo las pautas 
+establecidas en la Ley General de Salud14, el Manual de Vacunación vigente15 y los 
+presentes lineamientos.  
+ 
+La vigilancia epidemiológica involucra realizar la búsqueda activa de casos de 
+Sarampión, Poliomielitis, Meningitis meningococcica y Fiebre Amarilla por el alto 
+riesgo que representan para la salud pública de nuestra población; con base en la 
+clínica y los estudios de laboratorio y medio ambiente que se recomiendan para cada 
+caso de acuerdo con la normativa nacional; sin perder de vista otras enfermedades de 
+notificación inmediata incluidas en el Sistema de Vigilancia Epidemiológica Nacional. 
+ 
+Para alcanzar el mismo nivel de protección que la población autóctona, el esquema de 
+vacunación debe cubrir a las personas en situación de inmigración. De acuerdo con la 
+normativa nacional y las recomendaciones de la OMS, cuando se evalúa la vacunación 
+que ha recibido una persona en situación de inmigración sin importar su edad, se debe 
+realizar de acuerdo con el esquema nacional de vacunación vigente para su edad, 
+definidos en los lineamientos o manuales vigentes. 
+ 
+Los casos detectados con meningococo, fiebre amarilla, cólera, rotavirus o 
+enfermedades 
+febriles 
+exantemáticas, 
+deberán 
+recibir 
+tratamiento 
+médico 
+especializado y actuar de acuerdo con el manual de vigilancia epidemiológica para 
+cada una de las enfermedades antes mencionadas. 
+ 
+Para el caso de las personas privadas de la libertad, deberá coordinarse la 
+regionalización de los centros penitenciarios para la atención a esta población, 
+realizando la vacunación con base en los esquemas vigentes.  
+ 
+14 https://www.diputados.gob.mx/LeyesBiblio/pdf/LGS.pdf 
+ 
+15 https://www.gob.mx/salud/censia/es/articulos/manual-de-vacunacion-2021-295402?idiom=es  
+ 
+ 
+ 
+ 
+ 
+59 
+5.10 Fuentes de información  
+Las fuentes primarias de información en materia de vacunación son las siguientes: 
+• 
+Censo Nominal: es el formato oficial que utiliza el personal vacunador en las 
+unidades de salud y en las brigadas de vacunación; donde se registra el nombre, 
+domicilio, tipo y dosis de vacunas aplicadas. Actualmente se manejan 3 tipos de 
+censos nominales: censo nominal para registro de esquemas de vacunación de 0 a 
+9 años (anexo 1-A), censo nominal para registro de esquemas de vacunación de 10 
+a 19 años (anexo 1-B) y censo nominal para población adulta (20 años y más) y 
+personas 
+embarazadas 
+(anexo 
+1-C) 
+disponibles 
+en 
+la 
+página 
+https://www.gob.mx/salud/censia/documentos/formatos-del-manual-de-vacunacion 
+. 
+Todas las Instituciones de Salud que participan en el desarrollo de las actividades 
+de vacunación deberán utilizar el mismo formato en el nivel operativo. El 
+resguardo, manejo, utilización, análisis de la información, etc. de los censos 
+nominales corresponde a las unidades aplicativas o niveles operativos.  
+ 
+• 
+CNS: es el documento oficial en el que se registran, entre otras actividades, las 
+vacunas aplicadas en los diferentes grupos poblacionales. Permite al personal de 
+salud y a las personas responsables del cuidado de niñas, niños y adolescentes, 
+identificar las dosis aplicadas y las que faltan por aplicar. La CNS se entrega de 
+manera gratuita en todas las unidades médicas del SNS. La Dirección General de 
+Políticas de Salud (DGPS) es responsable de la dotación de las CNS a los servicios 
+estatales de salud. La CNS deberá entregarse a la persona usuaria o responsables 
+del cuidado de niñas, niños y adolescentes, al ser vacunados por alguna institución 
+de salud, siempre y cuando no se duplique la entrega del documento. 
+ 
+5.11 Información y reporte de coberturas administrativas de 
+vacunación  
+Se deberán utilizar los sistemas de información oficiales de cada una de las 
+instituciones, los cuales incorporan los datos de las acciones realizadas en las 
+actividades permanentes, campañas locales o regionales y bloqueos vacunales: 
+• 
+SINBA-SIS para la Secretaría de Salud y aquellas entidades que se encuentren 
+incorporadas a los Servicios de Salud del IMSS-BIENESTAR, o cualquier otro que 
+determine la Secretaría de salud. 
+ 
+ 
+ 
+ 
+ 
+60 
+• 
+SIAIS para el Instituto Mexicano del Seguro Social en su régimen obligatorio. 
+• 
+SIEMP para el Instituto de Seguridad y Servicios Sociales para los Trabajadores del 
+Estado. 
+ 
+Adicionalmente, la información que se obtiene de los sistemas institucionales oficiales 
+se deberá registrar y ser remitida al CENSIA de manera trimestral con la validación de 
+los COEVA, mediante el formato de RDA desde la unidad aplicativa local, 
+jurisdiccional/distrital y estatal/delegacional. Dicho formato considera las poblaciones 
+de responsabilidad institucional obtenidas con apego a los lineamientos para la 
+distribución de población de responsabilidad institucional en el SNS vigentes. 
+Generando así las coberturas por grupo de edad. 
+ 
+La cobertura para el esquema completo en un lapso según se evalúe, puede ser 
+trimestral, semestral o anual, y se obtiene aplicando la siguiente formula: 
+ 
+(dosis aplicadas / población de responsabilidad institucional) x 100 
+ 
+Cada COEVA deberá enviar los informes acumulados al trimestre correspondiente a 
+las coberturas estatales, considerando las estrategias de mejora a implementar como 
+sector, cuando las coberturas no sean las óptimas; entendiendo estas últimas, como 
+al menos el 90 % del promedio de cobertura de esquemas completos de vacunación 
+por grupo de edad y el 95 % por tipo de vacuna, mismas que deberán ser notificadas 
+mediante oficio al CENSIA, junto con el archivo electrónico del RDA al correo 
+rda.censia@salud.gob.mx en las siguientes fechas.16 
+Informe acumulado trimestral:  
+ 
+• 
+Primer trimestre (enero a marzo), a más tardar el 28 de abril de 2026; 
+• 
+Segundo trimestre (enero a junio), a más tardar el 28 de julio de 2026; 
+• 
+Tercer trimestre (enero a septiembre), a más tardar el 27 de octubre de 2026; 
+• 
+Cuarto trimestre (octubre a diciembre), a más tardar el 26 de enero de 2027. 
+ 
+ 
+16 Sujeto a cambios, en colaboración con la Dirección General de Información en Salud (DGIS).  
+ 
+ 
+ 
+ 
+ 
+61 
+Para los servicios estatales de salud, la información enviada deberá ser lo más 
+coincidente posible con la información vertida en el sistema de información en salud 
+SINBA-SIS.  
+ 
+Adicionalmente, para el caso de a Secretaría de Salud, cuando se envíen cifras 
+extemporáneas a la DGIS, se deberá remitir al correo rda.censia@salud.gob.mx un 
+oficio en el que se especifiquen los cambios y/o ajustes solicitados a la DGIS, en un 
+periodo no mayor a 3 días hábiles posterior al envío de esta información a la DGIS.   
+ 
+5.12 Evaluación  
+La evaluación se realizará en los niveles local, jurisdiccional/distrital, estatal y nacional, 
+considerando las coberturas de vacunación por biológico y esquema completo para el 
+grupo de edad, en apego a los indicadores plasmados en el PAE del Programa de 
+Vacunación vigente. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Anexo 1. Recomendaciones de intervalos y edades para la aplicación de vacunas del Esquema de Vacunación Universal. 
+ 
+ 
+Nombre de la vacuna y dosis por aplicar 
+Edad recomendada para 
+recibir las dosis 
+Edad mínima 
+permitida para 
+aplicar las dosis 
+Edad máxima permitida 
+Intervalo recomendado 
+para la siguiente dosis 
+Intervalo mínimo para la siguiente 
+dosis 
+Aplicación entre biológicos 
+BCG 
+Bacilo de Calmette-Guérin contra las 
+formas graves de Tuberculosis 
+Al nacer 
+Al nacer 
+<5 años. 
+Excepcionalmente <14 años. 
+No aplica 
+No aplica 
+Se puede aplicar simultáneamente o con cualquier intervalo con 
+Hepatitis B, Hexavalente, neumocócica conjugada, rotavirus, influenza 
+estacional, COVID-19, DPT,  SRP o SR. 
+Hepatitis B 
+Al nacer y hasta los 7 días 
+de vida. 
+Al nacer 
+Preferentemente no después de 
+los 7 días de vida. Continuar 
+esquema con vacuna 
+hexavalente. 
+No aplica 
+No aplica 
+Se puede aplicar simultáneamente o con cualquier intervalo, en 
+ausencia potencial de Hexavalente, con BCG, neumocócica conjugada, 
+rotavirus, influenza estacional, DPT,  SRP o SR. 
+Hexavalente acelular 
+(DpaT+IPV+HB+Hib)-1ª 
+2 meses 
+6 semanas 
+59 mesesy 29 días. 
+8 semanas 
+4 semanas 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG,  
+neumocócica conjugada, rotavirus, influenza estacional, COVID-19, DPT,  
+SRP o SR. 
+Hexavalente acelular 
+(DpaT+IPV+HB+Hib)-2ª 
+4 meses 
+10 semanas 
+8 semanas 
+4 semanas 
+Hexavalente acelular 
+(DpaT+IPV+HB+Hib)-3ª 
+6 meses 
+14 semanas 
+12 meses 
+6 semanas, si la 3ra dosis se aplicó 
+después del año de edad. 
+Hexavalente acelular 
+(DpaT+IPV+HB+Hib)-Refuerzo 
+18 meses 
+12 meses 
+No aplica 
+No aplica 
+(VCN)-1ª Neumocócica conjugada 
+2 meses 
+6 semanas 
+59 meses y 29 días. 
+8 semanas 
+4 semanas en <12 meses 
+8 semanas en >12 meses 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, rotavirus, influenza estacional, COVID-19, DPT,  SRP o SR. 
+(VCN)-2ª Neumocócica conjugada 
+4 meses 
+10 semanas 
+8 meses 
+8 semanas 
+(VCN)-3ª Neumocócica conjugada 
+12 meses 
+12 meses 
+No aplica 
+No aplica 
+(Rv1)-1ª Antirotavirus 
+2 meses 
+6 semanas 
+7 meses y 29 días 
+8 semanas 
+4 semanas 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, neumocócica conjugada e influenza estacional. 
+(Rv1)-2ª Antirotavirus 
+4 meses 
+10 semanas 
+No aplica 
+No aplica 
+Influenza estacional-1ª 
+6 meses 
+6 meses 
+59 meses y 29 días. 
+4 semanas 
+4 semanas o mayor intervalo mientras 
+se aplique en la misma temporada 
+invernal. 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, neumocócica conjugada, rotavirus, influenza estacional, 
+COVID-19, DPT,  SRP o SR. 
+Influenza estacional-2ª 
+7 meses 
+7 meses 
+Anual 
+No aplica 
+Influenza estacional-dosis anual 
+Una dosis en cada temporada invernal hasta los 59 
+meses. 
+59 meses y 29 días. 
+Anual 
+Sin importar el intervalo de la dosis 
+aplicada en la temporada invernal 
+previa. 
+(SRP)-1ª Sarampión, rubéola y parotiditis 
+12 meses 
+12 meses 
+<10 años 
+6 meses* 
+o 
+5 años** 
+4 semanas 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, neumocócica conjugada, influenza estacional, COVID-19 y 
+DPT. 
+(SRP)-2ª Sarampión, rubéola y parotiditis 
+18 meses* 
+o 
+6 años** 
+18 meses 
+No aplica 
+No aplica 
+Anti varicela*** 
+12 meses 
+12 meses 
+59 meses y 29 días 
+No aplica 
+No aplica 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, neumocócica conjugada, influenza estacional, COVID-19 y 
+DPT.  
+Se puede aplicar simultáneamente con SRP, sin embargo, en caso de no 
+aplicarse el mismo día, deberán aplicarse con un invervalo de 4 semanas 
+en cada una.  
+Anti hepatitis A 
+18 meses 
+12 meses 
+59 meses y 29 días. 
+No aplica 
+No aplica 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+Hexavalente, neumocócica conjugada, influenza estacional y COVID-19. 
+DPT 
+4 años 
+4 años 
+Excepcionalmente a 
+las 3 años y 6 meses 
+<7 años 
+No aplica 
+No aplica 
+Se puede aplicar simultáneamente o con cualquier intervalo con BCG, 
+neumocócica conjugada, influenza estacional, SRP y SR. Y con intervalo 
+de 6 semanas con Hexavalente.  
+ 
+*La segunda dosis de SRP a los 18 meses aplica solo para niñas y niños nacidos a partir de julio de 2020. 
+**La segunda dosis de SRP a los 6 años se aplicará a niñas y niños nacidos antes de julio de 2020. Dicha estrategia se implementará hasta 2026, posteriormente se dejará de aplicar a esta edad, pero se seguirá aplicando a niñas y niños de 18 meses de edad. 
+***A la fecha de publicación del presente lineamiento, la vacuna NO forma parte del esquema básico de vacunación. Actualmente se aplica en guarderías o centros de cuidados infantiles. 
