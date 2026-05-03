@@ -1,0 +1,50 @@
+﻿=== TABLAS DEL DOCUMENTO ORIGINAL ===
+
+
+--- TABLA 0 (8 filas x 4 cols) ---
+  F0: ['Tabla 1. An├ílisis Comparativo de Aplicaci├│n de Dosis Cero (SR/SRP 6 a 11 meses)', 'Tabla 1. An├ílisis Comparativo de Aplicaci├│n de Dosis Cero (SR/SRP 6 a 11 meses)', 'Tabla 1. An├ílisis Comparativo de Aplicaci├│n de Dosis Cero (SR/SRP 6 a 11 meses)', 'Tabla 1. An├ílisis Comparativo de Aplicaci├│n de Dosis Cero (SR/SRP 6 a 11 meses)']
+  F1: ['Jurisdicci├│n', 'Corte 10/abr', 'Corte 17/abr', 'Variaci├│n']
+  F2: ['Durango', '5,529', '5,648', 'Ôåæ 119']
+  F3: ['G├│mez Palacio', '3,803', '3,858', 'Ôåæ 55']
+  F4: ['Santiago Papasquiaro', '758', '771', 'Ôåæ 13']
+  F5: ['Rodeo', '253', '257', 'Ôåæ 4']
+  F6: ['Total estatal', '10,343', '10,534', 'Ôåæ 191']
+  F7: ['Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a']
+
+--- TABLA 1 (5 filas x 4 cols) ---
+  F0: ['Tabla 2. Comparaci├│n intersemanal (10/abr vs 17/abr/2026)', 'Tabla 2. Comparaci├│n intersemanal (10/abr vs 17/abr/2026)', 'Tabla 2. Comparaci├│n intersemanal (10/abr vs 17/abr/2026)', 'Tabla 2. Comparaci├│n intersemanal (10/abr vs 17/abr/2026)']
+  F1: ['Rubro', 'Semana anterior (10/abr)', 'Semana actual (17/abr)', 'Variaci├│n']
+  F2: ['SRP 6ÔÇô11 meses (Dosis cero)', '10,343', '10,534', '+191']
+  F3: ['SRP 18 meses (2┬¬ dosis)', '19,267', '19,507', '+240']
+  F4: ['Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform']
+
+--- TABLA 2 (7 filas x 8 cols) ---
+  F0: ['Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr', 'Tabla 3. SRP primera dosis por jurisdicci├│n y grupo de edad (acumulado al 17/abr']
+  F1: ['Jurisdicci├│n', '6ÔÇô11 m', '1 a├▒o', '2ÔÇô5 a├▒os', '6 a├▒os', '7ÔÇô9 a├▒os', '10ÔÇô19 a├▒os', '20ÔÇô29 a├▒os']
+  F2: ['Durango', '5,648', '13,324', '5,626', '3,698', '3,034', '4,294', '6,693']
+  F3: ['G├│mez Palacio', '3,858', '10,581', '3,906', '2,878', '2,379', '2,941', '6,355']
+  F4: ['Rodeo', '257', '499', '135', '54', '31', '88', '40']
+  F5: ['Santiago Papasquiaro', '771', '2,037', '863', '306', '216', '132', '237']
+  F6: ['Total', '10,534', '26,441', '10,530', '6,936', '5,660', '7,455', '13,325']
+
+--- TABLA 3 (7 filas x 5 cols) ---
+  F0: ['Tabla 4. Cobertura acumulada en poblaci├│n prioritaria (corte al 17 de abril de 2', 'Tabla 4. Cobertura acumulada en poblaci├│n prioritaria (corte al 17 de abril de 2', 'Tabla 4. Cobertura acumulada en poblaci├│n prioritaria (corte al 17 de abril de 2', 'Tabla 4. Cobertura acumulada en poblaci├│n prioritaria (corte al 17 de abril de 2', 'Tabla 4. Cobertura acumulada en poblaci├│n prioritaria (corte al 17 de abril de 2']
+  F1: ['Jurisdicci├│n', 'Captaci├│n general', 'Jornaleros agr├¡colas', 'Personal institucional', 'An├ílisis operativo']
+  F2: ['Durango', 'Alto', 'Bajo (31)', 'Alto', 'Mayor volumen operativo estatal']
+  F3: ['G├│mez Palacio', 'Moderado-alto', 'Alto (308)', 'Moderado', 'Buen desempe├▒o en captaci├│n laboral']
+  F4: ['Santiago Papasquiaro', 'Bajo', 'M├¡nimo (3)', 'Bajo', 'Rezago operativo']
+  F5: ['Rodeo', 'Muy bajo', 'M├¡nimo (4)', 'Muy bajo', 'Actividad limitada']
+  F6: ['Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Plataforma SIS-CeNSIA. Corte de inform']
+
+--- TABLA 4 (8 filas x 4 cols) ---
+  F0: ['Tabla 5. Cumplimiento de Esquema B├ísico ÔÇô Segunda Dosis SRP (18 meses)', 'Tabla 5. Cumplimiento de Esquema B├ísico ÔÇô Segunda Dosis SRP (18 meses)', 'Tabla 5. Cumplimiento de Esquema B├ísico ÔÇô Segunda Dosis SRP (18 meses)', 'Tabla 5. Cumplimiento de Esquema B├ísico ÔÇô Segunda Dosis SRP (18 meses)']
+  F1: ['Jurisdicci├│n', 'Corte 10/abr', 'Corte 17/abr', 'Variaci├│n']
+  F2: ['Durango', '8,965', '9,037', 'Ôåæ 72']
+  F3: ['G├│mez Palacio', '8,001', '8,139', 'Ôåæ 138']
+  F4: ['Santiago Papasquiaro', '1,812', '1,827', 'Ôåæ 15']
+  F5: ['Rodeo', '489', '504', 'Ôåæ 15']
+  F6: ['Total estatal', '19,267', '19,507', 'Ôåæ 240']
+  F7: ['Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a', 'Referencia: Secretar├¡a de Salud ÔÇô CeNSIA. Informe de avance sectorial de dosis a']
+
+
+=== P├üRRAFOS CERCANOS A TABLAS (t├¡tulos y fuentes) ===

@@ -121,4 +121,56 @@ KeyboardInterrupt
     data = _wmi.exec_query("SELECT {} FROM {}".format(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 1, in <module>
+    from __future__ import annotations
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap>", line 984, in find_spec
+KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 147, in <module>
+    from pandas import api, arrays, errors, io, plotting, tseries
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\api\__init__.py", line 3, in <module>
+    from pandas.api import (
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1532, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1506, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1624, in find_spec
+KeyboardInterrupt
+^CTraceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 56, in <module>
+    import pandas.core.config_init  # pyright: ignore[reportUnusedImport] # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\config_init.py", line 31, in <module>
+    from pandas.errors import Pandas4Warning
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\errors\__init__.py", line 12, in <module>
+    from pandas._libs.tslibs import (
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\__init__.py", line 18, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\tslibs\__init__.py", line 41, in <module>
+    from pandas._libs.tslibs.conversion import localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 1, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 1, in init pandas._libs.tslibs.timestamps
+  File "pandas/_libs/tslibs/timedeltas.pyx", line 1, in init pandas._libs.tslibs.timedeltas
+  File "pandas/_libs/tslibs/timezones.pyx", line 5, in init pandas._libs.tslibs.timezones
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\zoneinfo\__init__.py", line 14, in <module>
+    from _zoneinfo import ZoneInfo
+  File "<frozen importlib._bootstrap>", line 471, in _lock_unlock_module
+  File "<frozen importlib._bootstrap>", line 311, in acquire
+  File "<frozen importlib._bootstrap>", line 175, in __exit__
+KeyboardInterrupt
 ^C

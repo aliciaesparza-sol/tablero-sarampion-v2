@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNV 2026 — Dosis Totales por Biológico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0f1117;
+            --bg-card: #1a1d28;
+            --bg-card-hover: #222536;
+            --border: rgba(255,255,255,0.06);
+            --text-primary: #f0f0f5;
+            --text-secondary: #8b8fa3;
+            --text-muted: #5a5e72;
+            --accent-gold: #c9a84c;
+            --accent-gold-light: #e8cc6e;
+            --accent-green: #34d399;
+            --accent-blue: #60a5fa;
+            --accent-purple: #a78bfa;
+            --accent-rose: #fb7185;
+            --accent-amber: #fbbf24;
+            --accent-teal: #2dd4bf;
+            --accent-orange: #fb923c;
+            --gradient-gold: linear-gradient(135deg, #c9a84c, #8b6914);
+            --gradient-header: linear-gradient(135deg, #1a1d28 0%, #252840 100%);
+            --shadow-card: 0 4px 24px rgba(0,0,0,0.3);
+            --shadow-glow: 0 0 40px rgba(201,168,76,0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(ellipse at 20% 20%, rgba(201,168,76,0.04) 0%, transparent 50%),
+                        radial-gradient(ellipse at 80% 80%, rgba(96,165,250,0.03) 0%, transparent 50%),
+                        radial-gradient(ellipse at 50% 50%, rgba(167,139,250,0.02) 0%, transparent 50%);
+            animation: bgShift 20s ease-in-out infinite alternate;
+            z-index: 0;
+        }
+
+        @keyframes bgShift {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(-5%, -3%) rotate(3deg); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px 24px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 32px;
+            background: var(--gradient-header);
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-glow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-gold);
+        }
+
+        .header-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(201,168,76,0.12);
+            border: 1px solid rgba(201,168,76,0.25);
+            border-radius: 100px;
+            padding: 6px 18px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent-gold-light);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+        }
+
+        .header-badge .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #f0f0f5 0%, #c9a84c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        /* Gran Total Card */
+        .gran-total {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 36px;
+        }
+
+        .gran-total-card {
+            background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(201,168,76,0.05));
+            border: 1px solid rgba(201,168,76,0.3);
+            border-radius: 20px;
+            padding: 28px 56px;
+            text-align: center;
+            box-shadow: 0 0 60px rgba(201,168,76,0.08);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .gran-total-label {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+        }
+
+        .gran-total-number {
+            font-size: 56px;
+            font-weight: 900;
+            color: var(--accent-gold-light);
+            letter-spacing: -2px;
+            line-height: 1;
+            text-shadow: 0 0 40px rgba(201,168,76,0.3);
+        }
+
+        .gran-total-sub {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        /* Grid */
+        .bio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .bio-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            animation: fadeInUp 0.5s ease-out both;
+        }
+
+        .bio-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255,255,255,0.12);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-card);
+        }
+
+        .bio-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .bio-card[data-color="gold"]::before { background: var(--gradient-gold); }
+        .bio-card[data-color="green"]::before { background: linear-gradient(90deg, #34d399, #10b981); }
+        .bio-card[data-color="blue"]::before { background: linear-gradient(90deg, #60a5fa, #3b82f6); }
+        .bio-card[data-color="purple"]::before { background: linear-gradient(90deg, #a78bfa, #8b5cf6); }
+        .bio-card[data-color="rose"]::before { background: linear-gradient(90deg, #fb7185, #f43f5e); }
+        .bio-card[data-color="amber"]::before { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+        .bio-card[data-color="teal"]::before { background: linear-gradient(90deg, #2dd4bf, #14b8a6); }
+        .bio-card[data-color="orange"]::before { background: linear-gradient(90deg, #fb923c, #f97316); }
+
+        .bio-card .icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        .bio-card[data-color="gold"] .icon { background: rgba(201,168,76,0.15); }
+        .bio-card[data-color="green"] .icon { background: rgba(52,211,153,0.15); }
+        .bio-card[data-color="blue"] .icon { background: rgba(96,165,250,0.15); }
+        .bio-card[data-color="purple"] .icon { background: rgba(167,139,250,0.15); }
+        .bio-card[data-color="rose"] .icon { background: rgba(251,113,133,0.15); }
+        .bio-card[data-color="amber"] .icon { background: rgba(251,191,36,0.15); }
+        .bio-card[data-color="teal"] .icon { background: rgba(45,212,191,0.15); }
+        .bio-card[data-color="orange"] .icon { background: rgba(251,146,60,0.15); }
+
+        .bio-name {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .bio-number {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-primary);
+            letter-spacing: -1px;
+            line-height: 1;
+        }
+
+        .bio-number.zero {
+            color: var(--text-muted);
+            font-size: 28px;
+        }
+
+        .bio-bar {
+            margin-top: 12px;
+            height: 4px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .bio-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 0;
+        }
+
+        .bio-card[data-color="gold"] .bio-bar-fill { background: var(--accent-gold); }
+        .bio-card[data-color="green"] .bio-bar-fill { background: var(--accent-green); }
+        .bio-card[data-color="blue"] .bio-bar-fill { background: var(--accent-blue); }
+        .bio-card[data-color="purple"] .bio-bar-fill { background: var(--accent-purple); }
+        .bio-card[data-color="rose"] .bio-bar-fill { background: var(--accent-rose); }
+        .bio-card[data-color="amber"] .bio-bar-fill { background: var(--accent-amber); }
+        .bio-card[data-color="teal"] .bio-bar-fill { background: var(--accent-teal); }
+        .bio-card[data-color="orange"] .bio-bar-fill { background: var(--accent-orange); }
+
+        /* Detail section */
+        .detail-section {
+            margin-bottom: 32px;
+        }
+
+        .detail-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .detail-title .line {
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+
+        .detail-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+
+        .detail-item:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255,255,255,0.1);
+        }
+
+        .detail-item .label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .detail-item .value {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .detail-item .value.zero {
+            color: var(--text-muted);
+        }
+
+        /* Source table */
+        .source-section {
+            margin-top: 40px;
+        }
+
+        .source-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+
+        .source-table th {
+            background: rgba(201,168,76,0.08);
+            color: var(--accent-gold);
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .source-table th:last-child {
+            text-align: right;
+        }
+
+        .source-table td {
+            padding: 12px 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .source-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .source-table td:last-child {
+            text-align: right;
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 15px;
+        }
+
+        .source-table tbody tr:hover td {
+            background: rgba(255,255,255,0.02);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px;
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation delays for cards */
+        .bio-card:nth-child(1) { animation-delay: 0.05s; }
+        .bio-card:nth-child(2) { animation-delay: 0.1s; }
+        .bio-card:nth-child(3) { animation-delay: 0.15s; }
+        .bio-card:nth-child(4) { animation-delay: 0.2s; }
+        .bio-card:nth-child(5) { animation-delay: 0.25s; }
+        .bio-card:nth-child(6) { animation-delay: 0.3s; }
+        .bio-card:nth-child(7) { animation-delay: 0.35s; }
+        .bio-card:nth-child(8) { animation-delay: 0.4s; }
+        .bio-card:nth-child(9) { animation-delay: 0.45s; }
+        .bio-card:nth-child(10) { animation-delay: 0.5s; }
+        .bio-card:nth-child(11) { animation-delay: 0.55s; }
+        .bio-card:nth-child(12) { animation-delay: 0.6s; }
+        .bio-card:nth-child(13) { animation-delay: 0.65s; }
+        .bio-card:nth-child(14) { animation-delay: 0.7s; }
+        .bio-card:nth-child(15) { animation-delay: 0.75s; }
+        .bio-card:nth-child(16) { animation-delay: 0.8s; }
+        .bio-card:nth-child(17) { animation-delay: 0.85s; }
+
+        @media (max-width: 768px) {
+            .container { padding: 16px; }
+            .header { padding: 24px 16px; }
+            .header h1 { font-size: 20px; }
+            .gran-total-number { font-size: 42px; }
+            .gran-total-card { padding: 20px 32px; }
+            .bio-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .bio-card { padding: 14px; }
+            .bio-number { font-size: 26px; }
+            .detail-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-badge">
+                <span class="dot"></span>
+                Reporte Consolidado
+            </div>
+            <h1>Semana Nacional de Vacunación 2026</h1>
+            <p>Dosis totales por biológico — 8 unidades reportantes</p>
+        </header>
+
+        <!-- Gran Total -->
+        <div class="gran-total">
+            <div class="gran-total-card">
+                <div class="gran-total-label">Gran Total de Dosis</div>
+                <div class="gran-total-number" id="granTotal">0</div>
+                <div class="gran-total-sub">Todas las unidades consolidadas</div>
+            </div>
+        </div>
+
+        <!-- Bio Cards Grid -->
+        <div class="bio-grid" id="bioGrid"></div>
+
+        <!-- Detalle Td -->
+        <div class="detail-section">
+            <div class="detail-title">
+                Detalle Td (Tetánico Diftérico)
+                <span class="line"></span>
+            </div>
+            <div class="detail-grid" id="detalleTd"></div>
+        </div>
+
+        <!-- Detalle Influenza -->
+        <div class="detail-section">
+            <div class="detail-title">
+                Detalle Influenza
+                <span class="line"></span>
+            </div>
+            <div class="detail-grid" id="detalleInfluenza"></div>
+        </div>
+
+        <!-- Source Table -->
+        <div class="source-section">
+            <div class="detail-title">
+                Dosis por Unidad Reportante
+                <span class="line"></span>
+            </div>
+            <table class="source-table">
+                <thead>
+                    <tr>
+                        <th>Unidad / Jurisdicción</th>
+                        <th>Total Dosis</th>
+                    </tr>
+                </thead>
+                <tbody id="sourceTableBody"></tbody>
+            </table>
+        </div>
+
+        <footer class="footer">
+            Datos extraídos de 8 archivos de Reporte Diario SNV 2026 • Generado el 28 de abril de 2026
+        </footer>
+    </div>
+
+    <script>
+        // Data
+        const biologicos = [
+            { name: 'BCG', value: 165, icon: '💉', color: 'gold' },
+            { name: 'HEPATITIS B', value: 233, icon: '🛡️', color: 'blue' },
+            { name: 'HEXAVALENTE', value: 706, icon: '💊', color: 'purple' },
+            { name: 'DPT', value: 165, icon: '💉', color: 'rose' },
+            { name: 'ROTAVIRUS', value: 250, icon: '🦠', color: 'green' },
+            { name: 'NEUMOCÓCICA 13V', value: 471, icon: '🫁', color: 'teal' },
+            { name: 'NEUMOCÓCICA 20V', value: 184, icon: '🫁', color: 'teal' },
+            { name: 'SRP', value: 362, icon: '🔬', color: 'amber' },
+            { name: 'SR', value: 825, icon: '🔬', color: 'orange' },
+            { name: 'VPH', value: 32, icon: '🧬', color: 'purple' },
+            { name: 'VARICELA', value: 0, icon: '💧', color: 'blue' },
+            { name: 'HEPATITIS A', value: 215, icon: '🛡️', color: 'green' },
+            { name: 'Td (TOTAL)', value: 723, icon: '💉', color: 'gold' },
+            { name: 'Tdpa', value: 94, icon: '💉', color: 'rose' },
+            { name: 'VSR', value: 37, icon: '🫁', color: 'amber' },
+            { name: 'COVID-19', value: 0, icon: '🦠', color: 'blue' },
+            { name: 'INFLUENZA', value: 71, icon: '🤒', color: 'orange' },
+        ];
+
+        const detalleTd = [
+            { label: 'Embarazadas', value: 56 },
+            { label: '1ra Dosis', value: 306 },
+            { label: '2da Dosis', value: 60 },
+            { label: '3ra Dosis', value: 33 },
+            { label: 'Refuerzo', value: 268 },
+        ];
+
+        const detalleInfluenza = [
+            { label: 'Población Blanco', value: 5 },
+            { label: 'Riesgo 5-59 años', value: 66 },
+        ];
+
+        const archivos = [
+            { name: 'JS1 Durango', value: 3213 },
+            { name: 'JSN2 (Tercer Reporte)', value: 660 },
+            { name: 'Jurisdicción 4', value: 410 },
+            { name: 'H.I. Nuevo Ideal', value: 89 },
+            { name: 'CS DTBG', value: 77 },
+            { name: 'CS Ojito', value: 40 },
+            { name: 'HIC', value: 30 },
+            { name: 'CS Lajas', value: 14 },
+        ];
+
+        const GRAN_TOTAL = 4533;
+        const MAX_VALUE = Math.max(...biologicos.map(b => b.value));
+
+        // Animate number
+        function animateNumber(el, target, duration = 1200) {
+            const start = performance.now();
+            const initial = 0;
+            function update(now) {
+                const elapsed = now - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const current = Math.round(initial + (target - initial) * eased);
+                el.textContent = current.toLocaleString('es-MX');
+                if (progress < 1) requestAnimationFrame(update);
+            }
+            requestAnimationFrame(update);
+        }
+
+        // Render bio cards
+        function renderBioCards() {
+            const grid = document.getElementById('bioGrid');
+            biologicos.forEach((bio, i) => {
+                const card = document.createElement('div');
+                card.className = 'bio-card';
+                card.dataset.color = bio.color;
+                const pct = MAX_VALUE > 0 ? (bio.value / MAX_VALUE * 100) : 0;
+                card.innerHTML = `
+                    <div class="icon">${bio.icon}</div>
+                    <div class="bio-name">${bio.name}</div>
+                    <div class="bio-number ${bio.value === 0 ? 'zero' : ''}" data-target="${bio.value}">0</div>
+                    <div class="bio-bar">
+                        <div class="bio-bar-fill" data-width="${pct}"></div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Render detail items
+        function renderDetails(containerId, data) {
+            const container = document.getElementById(containerId);
+            data.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'detail-item';
+                div.innerHTML = `
+                    <span class="label">${item.label}</span>
+                    <span class="value ${item.value === 0 ? 'zero' : ''}">${item.value.toLocaleString('es-MX')}</span>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // Render source table
+        function renderSourceTable() {
+            const tbody = document.getElementById('sourceTableBody');
+            archivos.forEach(a => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${a.name}</td>
+                    <td>${a.value.toLocaleString('es-MX')}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderBioCards();
+            renderDetails('detalleTd', detalleTd);
+            renderDetails('detalleInfluenza', detalleInfluenza);
+            renderSourceTable();
+
+            // Animate gran total
+            setTimeout(() => {
+                animateNumber(document.getElementById('granTotal'), GRAN_TOTAL, 1500);
+            }, 300);
+
+            // Animate bio numbers
+            setTimeout(() => {
+                document.querySelectorAll('.bio-number[data-target]').forEach((el, i) => {
+                    setTimeout(() => {
+                        animateNumber(el, parseInt(el.dataset.target), 1000);
+                    }, i * 60);
+                });
+            }, 500);
+
+            // Animate bars
+            setTimeout(() => {
+                document.querySelectorAll('.bio-bar-fill').forEach(bar => {
+                    bar.style.width = bar.dataset.width + '%';
+                });
+            }, 800);
+        });
+    </script>
+</body>
+</html>

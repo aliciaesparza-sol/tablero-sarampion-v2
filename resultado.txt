@@ -1,0 +1,15 @@
+﻿Ô£à Documento guardado en:
+C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPI├ôN\CONASABI\EVIDENCIAS CONASABI_24ABRIL2026\DSP_Vacunaci├│n_CONASABIAc2_24abril2026_ACTUALIZADO.docx
+
+RESUMEN DE DATOS CLAVE - CORTE 24 ABRIL 2026
+  Dosis cero SRP (6-11m) semana actual: 39
+  Dosis cero SRP (6-11m) acumulado:     5,196
+  SRP 1a dosis semana actual:            206
+  SRP 1a dosis acumulado:                59,113
+  SRP 2a dosis (18m) semana actual:      61
+  SRP 2a dosis (18m) acumulado:          7,037
+  SR 1a dosis semana actual:             1,434
+  SR 1a dosis acumulado:                 129,328
+  SR 2a dosis semana actual:             963
+  SR 2a dosis acumulado:                 151,761
+  GRAN TOTAL ACUMULADO:                  436,385

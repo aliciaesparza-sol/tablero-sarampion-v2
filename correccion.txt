@@ -1,0 +1,16 @@
+﻿DC acum ant: 5157, DC acum: 5196, dif: 39, pct: 0.76%
+18m acum ant: 6976, 18m acum: 7037, dif: 61
+18m dif Durango: 13, GP: 45, SP: 3, Rodeo: 0
+Jornaleros GP: 126
+  Ô£à P├írrafo [29] corregido: Dosis cero acumulado
+  Ô£à P├írrafo [42] corregido: 2a dosis SRP 18m
+  Ô£à P├írrafo [44] corregido: 1a dosis SRP por grupo
+  Ô£à P├írrafo [48] corregido: Jornaleros
+  Ô£à P├írrafo [67] corregido: Secci├│n VI 2a dosis
+  Ô£à P├írrafo [73] corregido: GP 2a dosis
+  Ô£à P├írrafo [74] corregido: Durango 2a dosis
+  Ô£à P├írrafo [75] corregido: SP 2a dosis
+  Ô£à P├írrafo [76] corregido: Rodeo 2a dosis
+
+Ô£à Documento corregido y guardado en:
+C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPI├ôN\CONASABI\EVIDENCIAS CONASABI_24ABRIL2026\DSP_Vacunaci├│n_CONASABIAc2_24abril2026_ACTUALIZADO.docx

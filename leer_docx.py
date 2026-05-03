@@ -1,33 +1,17 @@
-import sys, zipfile, re, os, shutil
 
-sys.stdout.reconfigure(encoding='utf-8')
+from docx import Document
 
-docx_path = r'C:\Users\aicil\.gemini\antigravity\scratch\informe_sarampion.docx'
-out_dir = r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images'
+doc = Document(r'C:\Users\aicil\.gemini\antigravity\scratch\informe_original.docx')
 
-# Extract images
-if os.path.exists(out_dir):
-    shutil.rmtree(out_dir)
-os.makedirs(out_dir)
+print('=== PÁRRAFOS ===')
+for i, p in enumerate(doc.paragraphs):
+    if p.text.strip():
+        print(f'[{i}] ESTILO={p.style.name!r} | {p.text[:300]}')
 
-with zipfile.ZipFile(docx_path, 'r') as z:
-    namelist = z.namelist()
-    print("Files in docx:")
-    for n in namelist:
-        print(n)
-    
-    # Extract media files
-    for name in namelist:
-        if name.startswith('word/media/'):
-            z.extract(name, out_dir)
-            print(f"Extracted: {name}")
-    
-    # Extract and print all text from document.xml
-    with z.open('word/document.xml') as f:
-        xml_content = f.read().decode('utf-8')
-    
-    # Extract all text nodes
-    texts = re.findall(r'<w:t[^>]*>([^<]+)</w:t>', xml_content)
-    print("\n=== ALL TEXT FROM DOCUMENT ===")
-    full_text = ' '.join(texts)
-    print(full_text)
+print()
+print('=== TABLAS ===')
+for ti, t in enumerate(doc.tables):
+    print(f'\n--- TABLA {ti} ({len(t.rows)} filas x {len(t.columns)} cols) ---')
+    for ri, row in enumerate(t.rows):
+        cells = [c.text.strip()[:60] for c in row.cells]
+        print(f'  F{ri}: {cells}')

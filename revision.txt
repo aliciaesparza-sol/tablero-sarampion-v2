@@ -1,0 +1,44 @@
+﻿=== TODOS LOS P├üRRAFOS CON TEXTO ===
+[4] INFORME SEMANAL SEGUIMIENTO OPERATIVO, PLATAFORMA SIS-CeNSIA
+[5] SARAMPI├ôN
+[6] Corte: 24 de abril de 2026
+[7] Entidad Federativa: Durango
+[8] Responsable: Dra. Alicia J. Esparza Aldaba
+[9] I. Fundamentaci├│n T├®cnica
+[10] En cumplimiento de los acuerdos establecidos en la sesi├│n de CONASABI y conforme al seguimiento operativo registrado en la plataforma SIS-CeNSIA, se presenta el siguiente informe t├®cnico que da respuesta puntual al 
+[11] Acuerdo 2, en el marco de las acciones intensivas ante el brote de sarampi├│n en la entidad.
+[12] II. Objetivo
+[13] Interrumpir la cadena de transmisi├│n del virus mediante estrategias integradas de vacunaci├│n intensiva, vigilancia epidemiol├│gica, fortalecimiento log├¡stico y comunicaci├│n de riesgos, priorizando territorios con alta vulnerabilidad operativa y social
+[14] III. Acciones Institucionales en Apego a CONASABI
+[15] Acuerdo 02/II/CONASABI/2025 - Aplicaci├│n de dosis cero y fortalecimiento en zonas de rezago social.
+[16] Descripci├│n del acuerdo: Todos los estados y municipios de muy alto y alto riesgo (con transmisi├│n comunitaria y limitada de sarampi├│n), deber├ín aplicar "dosis cero" con vacuna SR en lactantes de 6 a 11 meses de edad, en caso de no contar con SR, apl
+[17] Criterios operativos:
+[18] Aplicaci├│n de dosis cero en menores de 6 a 11 meses
+[19] Inicio de esquema b├ísico a los 12 meses y segunda dosis a los 18 meses
+[20] Priorizaci├│n territorial seg├║n rezago social (CONAPO/CONEVAL)
+[21] Registro en plataforma SIS-CeNSIA
+[22] Entrega semanal de informaci├│n
+[28] IV. Cobertura de Dosis Cero por Jurisdicci├│n ÔÇô Comparativo Intersemanal
+[29] La aplicaci├│n de primera dosis de SRP presenta incremento estatal respecto al corte previo. El acumulado estatal pas├│ de 5,157 dosis (17 de abril) a 5,196 dosis (17 de abril) en el grupo de 6ÔÇô11 meses, lo que representa un incremento de 191 dosis adi
+[32] Durango contin├║a concentrando el mayor volumen operativo estatal, seguido por G├│mez Palacio. Santiago Papasquiaro y Rodeo mantienen incremento moderado derivado de brigadas extramuros. El crecimiento observado en el per├¡odo intersemanal es consistent
+[34] Durante la ├║ltima semana epidemiol├│gica se observa incremento en la aplicaci├│n de dosis del esquema de vacunaci├│n contra sarampi├│n, tanto en la estrategia de dosis cero (SRP 6ÔÇô11 meses) como en la segunda dosis del esquema b├ísico (SRP 18 meses). El c
+[42] Por su parte, la aplicaci├│n de segunda dosis SRP (18 meses) registr├│ un aumento de 240 dosis adicionales, pasando de 6,976 a 7,037 dosis, lo que confirma continuidad en las acciones de recuperaci├│n del esquema b├ísico en menores de dos a├▒os. El compor
+[43] Primera Dosis SRP por Jurisdicci├│n y Grupo de Edad
+[44] La aplicaci├│n de primera dosis de vacuna SRP muestra incremento generalizado en la mayor├¡a de los grupos etarios y jurisdicciones sanitarias del estado. Con corte al 24 de abril de 2026, el grupo de 6 a 11 meses (dosis cero) registra 5,196 dosis a ni
+[47] V. Priorizaci├│n de Poblaci├│n Objetivo y Fortalecimiento en Zonas de Rezago
+[48] Se observa que G├│mez Palacio mantiene mayor captaci├│n en jornaleros agr├¡colas (308), mientras que Durango concentra la mayor vacunaci├│n institucional. Santiago Papasquiaro y Rodeo contin├║an con rezago operativo, requiriendo reforzamiento de estrategi
+[65] VI. An├ílisis Comparativo de Cumplimiento de Esquema B├ísico (Segunda Dosis SRP ÔÇô 18 meses)
+[66] Segunda Dosis SRP ÔÇô 18 meses
+[67] La aplicaci├│n de segunda dosis de vacuna SRP (18 meses) muestra continuidad en la recuperaci├│n del esquema b├ísico infantil como parte de las acciones intensivas implementadas para el control del brote de sarampi├│n. Con corte al 24 de abril de 2026, e
+[71] El incremento observado en la aplicaci├│n de segunda dosis SRP (18 meses) refleja continuidad en la recuperaci├│n del esquema b├ísico en el estado.
+[72] Se identifica:
+[73] Mayor incremento en G├│mez Palacio (Ôåæ 138 dosis), derivado del fortalecimiento de la b├║squeda nominal en unidades de primer nivel.
+[74] Incremento destacado en la Jurisdicci├│n Durango (Ôåæ 72 dosis), asociado a operativos intensivos y captaci├│n institucional.
+[75] Crecimiento moderado en Santiago Papasquiaro (Ôåæ 15 dosis), relacionado con brigadas extramuros en localidades rurales.
+[76] Incremento marginal en Rodeo (Ôåæ 15 dosis), manteni├®ndose como la jurisdicci├│n con menor volumen operativo.
+[77] Recomendaciones Operativas
+[78] Intensificar b├║squeda nominal de ni├▒os de 12 a 23 meses que no cuenten con segunda dosis de SRP, mediante revisi├│n de cartillas y listados nominales en unidades de salud.
+[79] Fortalecer operativos de vacunaci├│n extramuros y brigadas m├│viles en jurisdicciones con menor volumen operativo, particularmente Santiago Papasquiaro y Rodeo.
+[80] Garantizar registro nominal oportuno en la plataforma SIS-CeNSIA el mismo d├¡a de la aplicaci├│n, para mantener consistencia en los reportes sectoriales.
+[81] Priorizar captaci├│n en poblaci├│n infantil rezagada, especialmente en localidades con rezago social y dispersi├│n geogr├ífica.
+[82] Mantener supervisi├│n jurisdiccional semanal, con reporte consolidado del avance de vacunaci├│n y seguimiento de brechas de cobertura por grupo de edad.

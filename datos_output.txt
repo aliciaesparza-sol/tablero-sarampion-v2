@@ -1,0 +1,79 @@
+﻿=== TABLA 1: DOSIS CERO (SRP 6-11 meses) POR JURISDICCION ===
+Jurisdicci├│n                    Sem Anterior  Sem Actual  Diferencia   Acumulado
+  DURANGO                                131          25        -106       2,623
+  GOMEZ PALACIO                           39          13         -26       2,072
+  SANTIAGO PAPASQUIARO                    13           1         -12         372
+  RODEO                                    0           0          +0         129
+  TOTAL ESTATAL                          183          39        -144       5,196
+
+=== TABLA 2: PRIMERA DOSIS SRP POR JURISDICCION Y GRUPO DE EDAD ===
+Jurisdicci├│n               6-11m     1 a├▒o      2-5a        6a      7-9a    10-12a    13-19a    20-29a    30-39a    40-49aPers.Salud Pers.EducJornaleros     TOTAL
+  DURANGO                     25        29        16        11         6         0         1         7         6         9         0         1         0       111
+  GOMEZ PALACIO               13        32         5        10         0        20         0         0         0         0         0         0         0        80
+  SANTIAGO PAPASQUIARO         1         9         1         0         2         0         2         0         0         0         0         0         0        15
+  RODEO                        0         0         0         0         0         0         0         0         0         0         0         0         0         0
+  ESTATAL                     39        70        22        21         8        20         3         7         6         9         0         1         0       206
+
+=== TABLA 3: COMPARATIVO 1a DOSIS SRP INTERSEMANAL ===
+Jurisdicci├│n                    Sem Ant (11-17 abr)  Sem Act (18-24 abr)   Diferencia
+  DURANGO                                       842                  111         -731
+  GOMEZ PALACIO                                 760                   80         -680
+  SANTIAGO PAPASQUIARO                           82                   15          -67
+  RODEO                                           0                    0           +0
+  ESTATAL                                     1,684                  206       -1,478
+
+=== TABLA 4: SEGUNDA DOSIS SRP (18 meses) COMPARATIVO ===
+Jurisdicci├│n                      Sem Ant    Sem Act      Dif   Acumulado
+  DURANGO                              73         13      -60       3,010
+  GOMEZ PALACIO                        37         45       +8       3,280
+  SANTIAGO PAPASQUIARO                 16          3      -13         599
+  RODEO                                 4          0       -4         148
+  ESTATAL                             130         61      -69       7,037
+
+=== TABLA 5: SR PRIMERA DOSIS COMPARATIVO ===
+Jurisdicci├│n                      Sem Ant    Sem Act      Dif   Acumulado
+  DURANGO                          11,717      1,229  -10,488      85,316
+  GOMEZ PALACIO                     3,951        161   -3,790      39,569
+  SANTIAGO PAPASQUIARO                886         44     -842       4,328
+  RODEO                                 1          0       -1         115
+  ESTATAL                          16,555      1,434  -15,121     129,328
+
+=== TABLA 6: SR SEGUNDA DOSIS COMPARATIVO ===
+Jurisdicci├│n                      Sem Ant    Sem Act      Dif   Acumulado
+  DURANGO                           5,687        821   -4,866      96,643
+  GOMEZ PALACIO                     2,211        126   -2,085      48,710
+  SANTIAGO PAPASQUIARO                776         16     -760       2,671
+  RODEO                               340          0     -340       3,737
+  ESTATAL                           9,014        963   -8,051     151,761
+
+=== TABLA 7: POBLACIONES ESPECIALES - SRP 1a DOSIS ===
+Jurisdicci├│n                    Pers.Salud  Pers.Educ  Jornaleros
+  DURANGO                                0          1           0
+  GOMEZ PALACIO                          0          0           0
+  SANTIAGO PAPASQUIARO                   0          0           0
+  RODEO                                  0          0           0
+  ESTATAL                                0          1           0
+
+=== TABLA 8: RESUMEN GENERAL ACUMULADO 2026 ===
+Vacuna                 1a Dosis Acum   2a Dosis Acum      Total
+  SRP                         59,113          96,183    155,296
+  SR                         129,328         151,761    281,089
+  TOTAL ESTATAL              188,441         247,944    436,385
+
+=== ACUMULADOS HASTA SEMANA ANTERIOR (sem 50) ===
+SRP 1a: 58,907  SRP 2a: 94,929  SR 1a: 127,894  SR 2a: 150,798
+
+=== 1a DOSIS SRP POR GRUPO EDAD - ACUMULADO ESTATAL ===
+  6-11m: 5,196
+  1 a├▒o: 8,430
+  2-5a: 5,507
+  6a: 4,059
+  7-9a: 3,998
+  10-12a: 4,620
+  13-19a: 4,662
+  20-29a: 7,978
+  30-39a: 6,709
+  40-49a: 4,434
+  Pers.Salud: 1,018
+  Pers.Educ: 390
+  Jornaleros: 156

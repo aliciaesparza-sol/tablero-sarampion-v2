@@ -1,534 +1,330 @@
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 
+# -*- coding: utf-8 -*-
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+import pandas as pd
 from docx import Document
-from docx.shared import Pt, Cm, RGBColor, Inches
+from docx.shared import Pt, RGBColor, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.table import WD_ALIGN_VERTICAL, WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
-import copy
 
-doc = Document()
+# ============================================================
+# 1. DATOS DEL CSV
+# ============================================================
+df = pd.read_csv(r'c:\Descargas_SRP\SRP-SR-2025_28-04-2026 08-14-18.csv', encoding='latin1', sep=';')
+num_cols = [c for c in df.columns if c not in ['id','INSTITUCION','DELEGACION','ESTADO','JURISDICCION','MUNICIPIO','CLUES','Fecha de registro','Temporada']]
+for c in num_cols:
+    df[c] = pd.to_numeric(df[c], errors='coerce').fillna(0)
 
-# ── Page margins ──────────────────────────────────────────────
-section = doc.sections[0]
-section.top_margin    = Cm(2)
-section.bottom_margin = Cm(2)
-section.left_margin   = Cm(2.5)
-section.right_margin  = Cm(2.5)
+dur26 = df[(df['Temporada']==2026) & (df['ESTADO']=='DURANGO')].copy()
 
-# ── Helper functions ──────────────────────────────────────────
-def set_cell_bg(cell, hex_color):
-    tc   = cell._tc
+C = {
+    'srp_6_11': 'SRP 6 A 11 MESES PRIMERA',
+    'srp_1a':   'SRP 1 ANIO  PRIMERA',
+    'srp_2_5':  'SRP 2 A 5 ANIOS PRIMERA',
+    'srp_6a':   'SRP 6 ANIOS PRIMERA',
+    'srp_7_9':  'SRP 7 A 9 ANIOS PRIMERA',
+    'srp_10_12':'SRP 10 A 12 ANIOS PRIMERA',
+    'srp_13_19':'SRP 13 A 19 ANIOS PRIMERA',
+    'srp_20_29':'SRP 20 A 29 ANIOS PRIMERA',
+    'srp_30_39':'SRP 30 A 39 ANIOS PRIMERA',
+    'srp_40_49':'SRP 40 A 49 ANIOS PRIMERA',
+    'srp_salud':'SRP PERSONAL DE SALUD PRIMERA',
+    'srp_educ': 'SRP PERSONAL EDUCATIVO PRIMERA',
+    'srp_jorn': 'SRP JORNALEROS AGRICOLAS PRIMERA',
+    'srp_pt':   'SRP  PRIMERA TOTAL',
+    'srp_18m':  'SRP 18 MESES SEGUNDA',
+    'srp_2_5_2':'SRP 2 A 5 ANIOS SEGUNDA',
+    'srp_st':   'SRP SEGUNDA TOTAL',
+    'sr_6_11':  'SR 6 A 11 MESES PRIMERA',
+    'sr_1a':    'SR 1 ANIO PRIMERA',
+    'sr_2_5':   'SR 2 A 5 ANIOS PRIMERA',
+    'sr_6a':    'SR 6 ANIOS PRIMERA',
+    'sr_7_9':   'SR 7 A 9 ANIOS PRIMERA',
+    'sr_10_12': 'SR 10 A 12 ANIOS PRIMERA',
+    'sr_13_19': 'SR 13 A 19 ANIOS PRIMERA',
+    'sr_20_29': 'SR 20 A 29 ANIOS PRIMERA',
+    'sr_30_39': 'SR 30 A 39 ANIOS PRIMERA',
+    'sr_40_49': 'SR 40 A 49 ANIOS PRIMERA',
+    'sr_salud': 'SR PERSONAL DE SALUD PRIMERA',
+    'sr_educ':  'SR PERSONAL EDUCATIVO PRIMERA',
+    'sr_jorn':  'SR JORNALEROS AGRICOLAS PRIMERA',
+    'sr_pt':    'SR PRIMERA TOTAL',
+    'sr_18m':   'SR 18 MESES SEGUNDA',
+    'sr_st':    'SR SEGUNDA TOTAL',
+}
+
+JURS = ['DURANGO','GOMEZ PALACIO','SANTIAGO PAPASQUIARO','RODEO']
+JL   = {'DURANGO':'Durango','GOMEZ PALACIO':'Gómez Palacio','SANTIAGO PAPASQUIARO':'Santiago Papasquiaro','RODEO':'Rodeo'}
+
+da  = dur26[dur26['SEMANA']==51]
+dant= dur26[dur26['SEMANA']==50]
+dacu= dur26[dur26['SEMANA']<=51]
+daa = dur26[dur26['SEMANA']<=50]
+
+def v(d,k): return int(d[C[k]].sum())
+def vj(d,j,k): return int(d[d['JURISDICCION']==j][C[k]].sum())
+def n(x): return f"{x:,}"
+
+# ============================================================
+# 2. ABRIR DOCUMENTO Y ELIMINAR IMÁGENES
+# ============================================================
+doc = Document(r'C:\Users\aicil\.gemini\antigravity\scratch\informe_original.docx')
+
+# Eliminar imágenes inline
+for para in doc.paragraphs:
+    for run in para.runs:
+        for tag in [qn('w:drawing'), qn('w:pict')]:
+            for el in run._element.findall('.//' + tag):
+                el.getparent().remove(el)
+
+# Eliminar párrafos vacíos tras eliminar imágenes (limpiar)
+for para in doc.paragraphs:
+    if para.text.strip() == '' and len(para.runs) == 0:
+        pass  # los dejamos, no rompemos el layout
+
+# ============================================================
+# 3. HELPERS FORMATO
+# ============================================================
+def shd(cell, hex_color):
+    tc = cell._tc
     tcPr = tc.get_or_add_tcPr()
-    shd  = OxmlElement('w:shd')
-    shd.set(qn('w:val'),   'clear')
-    shd.set(qn('w:color'), 'auto')
-    shd.set(qn('w:fill'),  hex_color)
-    tcPr.append(shd)
+    s = OxmlElement('w:shd')
+    s.set(qn('w:val'), 'clear')
+    s.set(qn('w:color'), 'auto')
+    s.set(qn('w:fill'), hex_color)
+    tcPr.append(s)
 
-def set_cell_borders(table):
-    for row in table.rows:
-        for cell in row.cells:
-            tc   = cell._tc
-            tcPr = tc.get_or_add_tcPr()
-            tcBorders = OxmlElement('w:tcBorders')
-            for side in ['top','left','bottom','right','insideH','insideV']:
-                border = OxmlElement(f'w:{side}')
-                border.set(qn('w:val'),   'single')
-                border.set(qn('w:sz'),    '4')
-                border.set(qn('w:space'), '0')
-                border.set(qn('w:color'), 'BDBDBD')
-                tcBorders.append(border)
-            tcPr.append(tcBorders)
+def ct(cell, text, bold=False, sz=9, col=None, align=WD_ALIGN_PARAGRAPH.CENTER):
+    cell.text = ''
+    p = cell.paragraphs[0]
+    p.alignment = align
+    r = p.add_run(str(text))
+    r.bold = bold
+    r.font.size = Pt(sz)
+    if col:
+        r.font.color.rgb = RGBColor(*col)
 
-def heading(doc, text, level=1, color='1A237E'):
-    p   = doc.add_paragraph()
-    run = p.add_run(text)
-    run.bold = True
-    run.font.size  = Pt(13 if level == 1 else 11)
-    run.font.color.rgb = RGBColor.from_string(color)
-    p.paragraph_format.space_before = Pt(10)
-    p.paragraph_format.space_after  = Pt(4)
+HDR = '1F497D'; SUB='2E75B6'; TOT='BDD7EE'; ALT='DEEAF1'; WHT='FFFFFF'
+
+def make_table(doc, headers, data_rows, totals=None, col_widths=None):
+    n_rows = 1 + len(data_rows) + (1 if totals else 0)
+    table = doc.add_table(rows=n_rows, cols=len(headers))
+    table.style = 'Table Grid'
+    # Header
+    for i, h in enumerate(headers):
+        shd(table.cell(0, i), HDR)
+        ct(table.cell(0, i), h, bold=True, col=(255,255,255), sz=8)
+    # Data
+    for ri, row in enumerate(data_rows):
+        bg = ALT if ri % 2 == 0 else WHT
+        for ci, val in enumerate(row):
+            shd(table.cell(ri+1, ci), bg)
+            al = WD_ALIGN_PARAGRAPH.LEFT if ci == 0 else WD_ALIGN_PARAGRAPH.CENTER
+            ct(table.cell(ri+1, ci), val, align=al, sz=8)
+    # Totals
+    if totals:
+        ri = len(data_rows) + 1
+        for ci, val in enumerate(totals):
+            shd(table.cell(ri, ci), TOT)
+            al = WD_ALIGN_PARAGRAPH.LEFT if ci == 0 else WD_ALIGN_PARAGRAPH.CENTER
+            ct(table.cell(ri, ci), val, bold=True, align=al, sz=8)
+    return table
+
+def add_heading(doc, text, level=1):
+    p = doc.add_heading(text, level=level)
     return p
 
-def body(doc, text, bold=False, size=10):
-    p   = doc.add_paragraph()
-    run = p.add_run(text)
-    run.bold = bold
-    run.font.size = Pt(size)
-    p.paragraph_format.space_before = Pt(0)
-    p.paragraph_format.space_after  = Pt(4)
+def add_para(doc, text, bold=False, italic=False, sz=10, align=WD_ALIGN_PARAGRAPH.JUSTIFY):
+    p = doc.add_paragraph()
+    p.alignment = align
+    r = p.add_run(text)
+    r.bold = bold
+    r.italic = italic
+    r.font.size = Pt(sz)
     return p
 
-def add_image(doc, path, width_cm=16):
+# ============================================================
+# 4. ACTUALIZAR TABLAS EXISTENTES
+# ============================================================
+tables = doc.tables
+
+# TABLA 0 (Tabla 1 del doc): Dosis Cero comparativo 4 jurisdicciones
+# Encabezados actuales: Jurisdicción | Corte 10/abr | Corte 17/abr | Variación
+# Nuevos: Jurisdicción | Corte 17/abr | Corte 24/abr | Variación
+t0 = tables[0]
+# Fila 1 = headers
+try:
+    t0.cell(1,1).paragraphs[0].runs[0].text = 'Corte 17/abr'
+    t0.cell(1,2).paragraphs[0].runs[0].text = 'Corte 24/abr'
+except: pass
+
+# Filas de datos (F2=Durango, F3=GomPal, F4=StgPap, F5=Rodeo, F6=Estatal, F7=Acumulado?)
+jur_map = {2:'DURANGO', 3:'GOMEZ PALACIO', 4:'SANTIAGO PAPASQUIARO', 5:'RODEO'}
+for fi, jur in jur_map.items():
+    ant_v = vj(dant, jur, 'srp_6_11')
+    act_v = vj(da,   jur, 'srp_6_11')
+    dif_v = act_v - ant_v
     try:
-        doc.add_picture(path, width=Cm(width_cm))
-        last = doc.paragraphs[-1]
-        last.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    except Exception as e:
-        body(doc, f"[imagen no disponible: {e}]")
+        for ci, val in enumerate([JL[jur], n(ant_v), n(act_v), f"{'+' if dif_v>=0 else ''}{n(dif_v)}"]):
+            cell = t0.cell(fi, ci)
+            cell.text = val
+    except: pass
 
-# ══════════════════════════════════════════════════════════════
-#  PORTADA / ENCABEZADO
-# ══════════════════════════════════════════════════════════════
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("SECRETARIA DE SALUD DEL ESTADO DE DURANGO")
-run.bold = True
-run.font.size = Pt(12)
-run.font.color.rgb = RGBColor.from_string('1A237E')
-p.paragraph_format.space_after = Pt(2)
+# Fila total estatal
+try:
+    ant_e = v(dant,'srp_6_11'); act_e = v(da,'srp_6_11'); dif_e = act_e-ant_e
+    for ci, val in enumerate(['Total Estatal', n(ant_e), n(act_e), f"{'+' if dif_e>=0 else ''}{n(dif_e)}"]):
+        t0.cell(6, ci).text = val
+except: pass
 
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("PROGRAMA DE VACUNACION UNIVERSAL")
-run.bold = True
-run.font.size = Pt(11)
-run.font.color.rgb = RGBColor.from_string('1A237E')
-p.paragraph_format.space_after = Pt(2)
+# Fila acumulado
+try:
+    acum_ant_v = v(daa,'srp_6_11'); acum_act_v = v(dacu,'srp_6_11')
+    for ci, val in enumerate(['Acumulado 2026', n(acum_ant_v), n(acum_act_v), f"+{n(acum_act_v-acum_ant_v)}"]):
+        t0.cell(7, ci).text = val
+except: pass
 
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("CAMPAÑA DE VACUNACION CONTRA SARAMPION 2026")
-run.bold = True
-run.font.size = Pt(13)
-run.font.color.rgb = RGBColor.from_string('B71C1C')
-p.paragraph_format.space_after = Pt(2)
-
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("INFORME EJECUTIVO – SEMANA 8 DE 10")
-run.bold = True
-run.font.size = Pt(12)
-run.font.color.rgb = RGBColor.from_string('1A237E')
-p.paragraph_format.space_after = Pt(2)
-
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("Fecha de corte: 10 de abril de 2026")
-run.font.size = Pt(10)
-p.paragraph_format.space_after = Pt(10)
-
-doc.add_paragraph()  # espacio
-
-# ══════════════════════════════════════════════════════════════
-#  1. RESUMEN EJECUTIVO
-# ══════════════════════════════════════════════════════════════
-heading(doc, "1. RESUMEN EJECUTIVO")
-
-resumen = (
-    "La Campaña de Vacunacion contra Sarampion SRP/SR en el estado de Durango "
-    "se desarrollo del 19 de febrero al 29 de abril de 2026, con una duracion "
-    "programada de 10 semanas. Al corte del 10 de abril de 2026 (Semana 8), "
-    "la estrategia registra 297,251 dosis aplicadas a nivel sectorial, "
-    "representando el 65.0% de la meta acumulada correspondiente a las primeras "
-    "ocho semanas (457,475 dosis). Se cuenta con 60 brigadas activas operando "
-    "en el territorio estatal. La campana tiene 51 dias transcurridos y 20 dias restantes "
-    "para concluir el esquema de 10 semanas."
-)
-body(doc, resumen)
-
-# ══════════════════════════════════════════════════════════════
-#  2. INDICADORES GENERALES – SECTORIAL
-# ══════════════════════════════════════════════════════════════
-heading(doc, "2. INDICADORES GENERALES DE LA CAMPAÑA – NIVEL SECTORIAL")
-
-# tabla resumen sectorial
-table = doc.add_table(rows=1, cols=4)
-table.style = 'Table Grid'
-table.alignment = WD_TABLE_ALIGNMENT.CENTER
-hdr = table.rows[0].cells
-for i, txt in enumerate(["INDICADOR", "META", "LOGRADO", "AVANCE"]):
-    hdr[i].text = txt
-    hdr[i].paragraphs[0].runs[0].bold = True
-    hdr[i].paragraphs[0].runs[0].font.size = Pt(9)
-    set_cell_bg(hdr[i], '1A237E')
-    hdr[i].paragraphs[0].runs[0].font.color.rgb = RGBColor.from_string('FFFFFF')
-    hdr[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-rows_data = [
-    ("Meta total 10 semanas",       "522,608 dosis",  "297,251 dosis", "56.9%"),
-    ("Meta acumulada Sem 1-8",       "457,475 dosis",  "297,251 dosis", "65.0%"),
-    ("Dias transcurridos / restantes","71 dias totales","51 dias",       "20 restantes"),
-    ("Brigadas activas",             "—",              "60",            "—"),
-    ("Ritmo requerido",              "52,260.8 dos/sem","—",            "—"),
-    ("Ritmo actual",                 "—",              "40,799 dos/sem","—"),
+# ============================================================
+# 5. ACTUALIZAR TEXTO DE PÁRRAFOS CLAVE
+# ============================================================
+REEMPLAZOS = [
+    ('Corte: 24 de abril de 2026', 'Corte: 24 de abril de 2026'),
+    ('corte al 17 de abril', 'corte al 24 de abril'),
+    ('17 de abril de 2026', '24 de abril de 2026'),
+    ('10 de abril', '17 de abril'),
+    ('10,534', n(v(dacu,'srp_6_11'))),
+    ('10,343', n(v(daa,'srp_6_11'))),
+    ('19,507', n(v(dacu,'srp_18m'))),
+    ('19,267', n(v(daa,'srp_18m'))),
+    ('semana epidemiológica 16', 'semana epidemiológica 17'),
+    ('semana 16', 'semana 17'),
+    ('Sem. 15', 'Sem. 16'),
+    ('Sem. 16', 'Sem. 17'),
 ]
 
-for rd in rows_data:
-    row = table.add_row().cells
-    for i, val in enumerate(rd):
-        row[i].text = val
-        row[i].paragraphs[0].runs[0].font.size = Pt(9)
-        row[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        if i == 0:
-            row[i].paragraphs[0].runs[0].bold = True
-            set_cell_bg(row[i], 'E8EAF6')
-set_cell_borders(table)
+for p in doc.paragraphs:
+    for old, new in REEMPLAZOS:
+        if old in p.text:
+            for run in p.runs:
+                if old in run.text:
+                    run.text = run.text.replace(old, new)
 
-doc.add_paragraph()
+# ============================================================
+# 6. REGENERAR TABLAS RESTANTES CON DATOS NUEVOS
+# ============================================================
+# Borramos contenido de tablas 1-4 y las reemplazamos con datos actualizados
+# Esto es más seguro que intentar editar celda por celda con estructura desconocida
 
-# ── Dashboard sectorial imagen 1
-body(doc, "Figura 1. Tablero sectorial – Semana 8 de 10 (corte 10 de abril de 2026).", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image1.png', width_cm=15)
-doc.add_paragraph()
+def clear_and_fill_table(table, headers, data_rows, totals=None):
+    """Rellena una tabla existente con nuevos datos"""
+    # Limpiar todas las celdas
+    all_rows = list(table.rows)
+    n_existing = len(all_rows)
+    n_needed = 1 + len(data_rows) + (1 if totals else 0)
 
-# ── Grafico progreso sectorial
-body(doc, "Figura 2. Progreso semanal sectorial – dosis aplicadas vs meta acumulada.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image2.png', width_cm=15)
-doc.add_paragraph()
+    # Rellenar encabezados
+    if n_existing > 0:
+        for ci, h in enumerate(headers):
+            if ci < len(all_rows[0].cells):
+                shd(all_rows[0].cells[ci], HDR)
+                ct(all_rows[0].cells[ci], h, bold=True, col=(255,255,255), sz=8)
 
-# ── Tabla desglose semanal sectorial
-body(doc, "Figura 3. Desglose semanal detallado – nivel sectorial.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image3.png', width_cm=15)
-doc.add_paragraph()
+    # Rellenar filas de datos
+    for ri, row_data in enumerate(data_rows):
+        if ri+1 < n_existing:
+            row = all_rows[ri+1]
+            bg = ALT if ri % 2 == 0 else WHT
+            for ci, val in enumerate(row_data):
+                if ci < len(row.cells):
+                    shd(row.cells[ci], bg)
+                    al = WD_ALIGN_PARAGRAPH.LEFT if ci == 0 else WD_ALIGN_PARAGRAPH.CENTER
+                    ct(row.cells[ci], val, align=al, sz=8)
 
-# ══════════════════════════════════════════════════════════════
-#  3. PROMEDIO DE DOSIS POR DIA
-# ══════════════════════════════════════════════════════════════
-heading(doc, "3. PROMEDIO DE DOSIS APLICADAS POR DIA (ESTRATEGIA 10 SEMANAS)")
+    # Totals
+    if totals and n_existing > len(data_rows)+1:
+        tr = all_rows[len(data_rows)+1]
+        for ci, val in enumerate(totals):
+            if ci < len(tr.cells):
+                shd(tr.cells[ci], TOT)
+                al = WD_ALIGN_PARAGRAPH.LEFT if ci == 0 else WD_ALIGN_PARAGRAPH.CENTER
+                ct(tr.cells[ci], val, bold=True, align=al, sz=8)
 
-# Calculos:
-# 10 semanas = 70 dias calendario
-# Total aplicadas al corte: 297,251  en 51 dias transcurridos
-# Promedio real = 297,251 / 51 = 5,829/dia aprox
-# Promedio requerido para cumplir meta = (522,608 - 297,251) / 20 = 11,268/dia
-# Por brigada activa (60): 5,829/60 = 97 dosis/brigada/dia actual
-#                          11,268/60 = 188 dosis/brigada/dia requeridas
+# Tabla 1 (idx 1): Primera Dosis SRP por Jurisdicción - comparativo intersemanal
+if len(tables) > 1:
+    t1_headers = ['Jurisdicción', 'Sem. Ant.\n(11-17 abr)', 'Sem. Act.\n(18-24 abr)', 'Diferencia', 'Acumulado 2026']
+    t1_data = []
+    for jur in JURS:
+        ant_v = vj(dant, jur, 'srp_pt')
+        act_v = vj(da,   jur, 'srp_pt')
+        acu_v = vj(dacu, jur, 'srp_pt')
+        dif_v = act_v - ant_v
+        t1_data.append([JL[jur], n(ant_v), n(act_v), f"{'+' if dif_v>=0 else ''}{n(dif_v)}", n(acu_v)])
+    ant_e=v(dant,'srp_pt'); act_e=v(da,'srp_pt'); acu_e=v(dacu,'srp_pt')
+    t1_tot = ['Total Estatal', n(ant_e), n(act_e), f"{'+' if act_e-ant_e>=0 else ''}{n(act_e-ant_e)}", n(acu_e)]
+    clear_and_fill_table(tables[1], t1_headers, t1_data, t1_tot)
 
-prom_texto = (
-    "Con base en los 51 dias transcurridos desde el inicio de la campana (19 de febrero de 2026) "
-    "y las 297,251 dosis aplicadas a nivel sectorial al 10 de abril de 2026, "
-    "se estiman los siguientes promedios diarios:"
-)
-body(doc, prom_texto)
+# Tabla 2 (idx 2): Primera Dosis SRP por Grupo de Edad
+if len(tables) > 2:
+    grp_headers = ['Jurisdicción','6-11m','1 año','2-5a','6a','7-9a','10-12a','13-19a','20-29a','30-39a','40-49a','P.Salud','P.Educ','Jorn.','Total']
+    grp_keys = ['srp_6_11','srp_1a','srp_2_5','srp_6a','srp_7_9','srp_10_12','srp_13_19','srp_20_29','srp_30_39','srp_40_49','srp_salud','srp_educ','srp_jorn','srp_pt']
+    t2_data = []
+    for jur in JURS:
+        row = [JL[jur]] + [n(vj(da, jur, k)) for k in grp_keys]
+        t2_data.append(row)
+    t2_tot = ['Total Estatal'] + [n(v(da, k)) for k in grp_keys]
+    clear_and_fill_table(tables[2], grp_headers, t2_data, t2_tot)
 
-# Tabla promedios
-table2 = doc.add_table(rows=1, cols=3)
-table2.style = 'Table Grid'
-table2.alignment = WD_TABLE_ALIGNMENT.CENTER
-hdr2 = table2.rows[0].cells
-for i, txt in enumerate(["INDICADOR", "VALOR TOTAL", "POR BRIGADA (60 activas)"]):
-    hdr2[i].text = txt
-    hdr2[i].paragraphs[0].runs[0].bold = True
-    hdr2[i].paragraphs[0].runs[0].font.size = Pt(9)
-    set_cell_bg(hdr2[i], '1A237E')
-    hdr2[i].paragraphs[0].runs[0].font.color.rgb = RGBColor.from_string('FFFFFF')
-    hdr2[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
+# Tabla 3 (idx 3): Segunda Dosis SRP 18m comparativo
+if len(tables) > 3:
+    t3_headers = ['Jurisdicción', 'Sem. Ant.\n(11-17 abr)', 'Sem. Act.\n(18-24 abr)', 'Diferencia', 'Acumulado 2026']
+    t3_data = []
+    for jur in JURS:
+        ant_v = vj(dant, jur, 'srp_18m')
+        act_v = vj(da,   jur, 'srp_18m')
+        acu_v = vj(dacu, jur, 'srp_18m')
+        dif_v = act_v - ant_v
+        t3_data.append([JL[jur], n(ant_v), n(act_v), f"{'+' if dif_v>=0 else ''}{n(dif_v)}", n(acu_v)])
+    ant_e=v(dant,'srp_18m'); act_e=v(da,'srp_18m'); acu_e=v(dacu,'srp_18m')
+    t3_tot = ['Total Estatal', n(ant_e), n(act_e), f"{'+' if act_e-ant_e>=0 else ''}{n(act_e-ant_e)}", n(acu_e)]
+    clear_and_fill_table(tables[3], t3_headers, t3_data, t3_tot)
 
-prom_data = [
-    ("Dosis aplicadas acumuladas (Sem 1-8)",    "297,251",     "—"),
-    ("Dias transcurridos",                       "51",          "—"),
-    ("Promedio real de dosis/dia",               "5,829 dosis", "97 dosis/brigada/dia"),
-    ("Dosis faltantes para meta",               "225,357",     "—"),
-    ("Dias restantes",                           "20",          "—"),
-    ("Promedio requerido de dosis/dia",          "11,268 dosis","188 dosis/brigada/dia"),
-    ("Promedio meta programada (10 sem/70 dias)","7,466 dosis", "124 dosis/brigada/dia"),
-]
+# Tabla 4 (idx 4): SR comparativo
+if len(tables) > 4:
+    t4_headers = ['Jurisdicción', 'SR 1a Ant.', 'SR 1a Act.', 'Dif. 1a', 'SR 2a Ant.', 'SR 2a Act.', 'Dif. 2a', 'Acum. SR Total']
+    t4_data = []
+    for jur in JURS:
+        sr1a = vj(dant,jur,'sr_pt'); sr1b = vj(da,jur,'sr_pt')
+        sr2a = vj(dant,jur,'sr_st'); sr2b = vj(da,jur,'sr_st')
+        acu  = vj(dacu,jur,'sr_pt') + vj(dacu,jur,'sr_st')
+        t4_data.append([JL[jur], n(sr1a), n(sr1b), f"{'+' if sr1b-sr1a>=0 else ''}{n(sr1b-sr1a)}",
+                         n(sr2a), n(sr2b), f"{'+' if sr2b-sr2a>=0 else ''}{n(sr2b-sr2a)}", n(acu)])
+    sr1_tot_a=v(dant,'sr_pt'); sr1_tot_b=v(da,'sr_pt')
+    sr2_tot_a=v(dant,'sr_st'); sr2_tot_b=v(da,'sr_st')
+    acu_tot = v(dacu,'sr_pt') + v(dacu,'sr_st')
+    t4_tot = ['Total Estatal', n(sr1_tot_a), n(sr1_tot_b),
+              f"{'+' if sr1_tot_b-sr1_tot_a>=0 else ''}{n(sr1_tot_b-sr1_tot_a)}",
+              n(sr2_tot_a), n(sr2_tot_b),
+              f"{'+' if sr2_tot_b-sr2_tot_a>=0 else ''}{n(sr2_tot_b-sr2_tot_a)}", n(acu_tot)]
+    clear_and_fill_table(tables[4], t4_headers, t4_data, t4_tot)
 
-alt = False
-for rd in prom_data:
-    row = table2.add_row().cells
-    bg = 'E8EAF6' if not alt else 'FFFFFF'
-    alt = not alt
-    for i, val in enumerate(rd):
-        row[i].text = val
-        row[i].paragraphs[0].runs[0].font.size = Pt(9)
-        row[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        if i == 0:
-            row[i].paragraphs[0].runs[0].bold = True
-            set_cell_bg(row[i], bg)
-set_cell_borders(table2)
-
-doc.add_paragraph()
-
-nota = (
-    "El ritmo actual de 40,799 dosis/semana sectorial (equivalente a 5,829 dosis/dia) "
-    "es inferior al ritmo requerido de 52,261 dosis/semana (7,466 dosis/dia). "
-    "Para alcanzar la meta total de 522,608 dosis en los 20 dias restantes, "
-    "se requiere incrementar el promedio diario a 11,268 dosis, "
-    "lo que implica que cada una de las 60 brigadas activas debe aplicar "
-    "un minimo de 188 dosis por dia."
-)
-body(doc, nota)
-
-# ══════════════════════════════════════════════════════════════
-#  4. AVANCE POR INSTITUCION
-# ══════════════════════════════════════════════════════════════
-heading(doc, "4. AVANCE POR INSTITUCION")
-
-inst_intro = (
-    "A continuacion se presenta el avance por институcion participante en la campana sectorial, "
-    "con corte al 10 de abril de 2026 (Semana 8 de 10):"
-)
-inst_intro = (
-    "A continuacion se presenta el avance por institucion participante en la campana sectorial, "
-    "con corte al 10 de abril de 2026 (Semana 8 de 10):"
-)
-body(doc, inst_intro)
-
-# Tabla institucional
-table3 = doc.add_table(rows=1, cols=6)
-table3.style = 'Table Grid'
-table3.alignment = WD_TABLE_ALIGNMENT.CENTER
-hdr3 = table3.rows[0].cells
-for i, txt in enumerate(["INSTITUCION","META 10 SEM","META ACUM SEM 1-8","APLICADAS","AVANCE vs META ACUM","RITMO ACTUAL/SEM"]):
-    hdr3[i].text = txt
-    hdr3[i].paragraphs[0].runs[0].bold = True
-    hdr3[i].paragraphs[0].runs[0].font.size = Pt(8)
-    set_cell_bg(hdr3[i], '1A237E')
-    hdr3[i].paragraphs[0].runs[0].font.color.rgb = RGBColor.from_string('FFFFFF')
-    hdr3[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-inst_data = [
-    ("SSA (Jurisdicciones)", "170,247", "147,500", "53,183",  "36.1%",  "7,300"),
-    ("IMSS",                 "276,504", "242,663", "213,901", "88.1%",  "29,359"),
-    ("ISSSTE",               "75,857",  "67,312",  "30,061",  "44.7%",  "4,126"),
-    ("SECTORIAL TOTAL",      "522,608", "457,475", "297,251", "65.0%",  "40,799"),
-]
-
-alt = False
-for rd in inst_data:
-    row  = table3.add_row().cells
-    bold = rd[0].startswith("SECT")
-    bg   = '1A237E' if bold else ('E8EAF6' if not alt else 'FFFFFF')
-    alt  = not alt
-    for i, val in enumerate(rd):
-        row[i].text = val
-        r = row[i].paragraphs[0].runs[0]
-        r.font.size = Pt(8)
-        r.bold = bold
-        row[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        if bold:
-            r.font.color.rgb = RGBColor.from_string('FFFFFF')
-            set_cell_bg(row[i], '283593')
-        elif i == 0:
-            set_cell_bg(row[i], bg)
-set_cell_borders(table3)
-
-doc.add_paragraph()
-
-# ── SSA dashboard
-body(doc, "Figura 4. Tablero SSA – Semana 8 de 10.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image5.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 5. Progreso semanal SSA.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image6.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 6. Desglose semanal detallado – SSA.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image7.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 7. Tablero IMSS – Semana 8 de 10.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image9.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 8. Progreso semanal IMSS.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image10.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 9. Desglose semanal detallado – IMSS.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image11.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 10. Tablero ISSSTE – Semana 8 de 10.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image13.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 11. Progreso semanal ISSSTE.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image14.png', width_cm=15)
-doc.add_paragraph()
-
-body(doc, "Figura 12. Desglose semanal detallado – ISSSTE.", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image15.png', width_cm=15)
-doc.add_paragraph()
-
-# ══════════════════════════════════════════════════════════════
-#  5. DOSIS POR GRUPO DE EDAD
-# ══════════════════════════════════════════════════════════════
-heading(doc, "5. DISTRIBUCION DE DOSIS POR GRUPO DE EDAD")
-
-edad_texto = (
-    "La distribucion de dosis aplicadas por grupo de edad muestra que el grupo de 2 a 12 anos "
-    "concentra el mayor volumen de aplicacion tanto en primera como en segunda dosis SRP, "
-    "seguido por el grupo de 20 a 39 anos. Los grupos de 6 a 11 meses y 18 meses presentan "
-    "coberturas importantes en el marco de la estrategia de rescate de susceptibles."
-)
-body(doc, edad_texto)
-
-body(doc, "Figura 13. Dosis aplicadas por grupo de edad – primera y segunda dosis SRP (acumulado campana).", bold=True, size=9)
-add_image(doc, r'C:\Users\aicil\.gemini\antigravity\scratch\docx_images\word\media\image4.png', width_cm=14)
-doc.add_paragraph()
-
-# ══════════════════════════════════════════════════════════════
-#  6. EXISTENCIAS DE VACUNA CONTRA SARAMPION
-# ══════════════════════════════════════════════════════════════
-heading(doc, "6. EXISTENCIAS DE VACUNA CONTRA SARAMPION")
-
-exist_intro = (
-    "A continuacion se presentan las existencias de biológico SRP y SR disponibles "
-    "en el nivel estatal y por jurisdiccion sanitaria, con corte al 10 de abril de 2026. "
-    "El total estatal disponible asciende a 108,783 dosis entre ambos biologicos."
-)
-body(doc, exist_intro)
-
-# Tabla existencias
-table4 = doc.add_table(rows=1, cols=4)
-table4.style = 'Table Grid'
-table4.alignment = WD_TABLE_ALIGNMENT.CENTER
-hdr4 = table4.rows[0].cells
-for i, txt in enumerate(["LUGAR", "VACUNA SRP", "VACUNA SR", "TOTAL"]):
-    hdr4[i].text = txt
-    hdr4[i].paragraphs[0].runs[0].bold = True
-    hdr4[i].paragraphs[0].runs[0].font.size = Pt(9)
-    set_cell_bg(hdr4[i], '1A237E')
-    hdr4[i].paragraphs[0].runs[0].font.color.rgb = RGBColor.from_string('FFFFFF')
-    hdr4[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-exist_data = [
-    ("Estatal",                    "58,300",  "19,750", "78,050"),
-    ("Jurisdiccion Sanitaria No. 1","209",    "16,590", "16,799"),
-    ("Jurisdiccion Sanitaria No. 2","479",    "6,660",  "7,139"),
-    ("Jurisdiccion Sanitaria No. 3","914",    "2,910",  "3,824"),
-    ("Jurisdiccion Sanitaria No. 4","741",    "2,230",  "2,971"),
-    ("TOTAL",                       "60,643", "48,140", "108,783"),
-]
-
-alt = False
-for rd in exist_data:
-    row  = table4.add_row().cells
-    bold = rd[0] == "TOTAL"
-    bg   = 'E3F2FD' if not alt else 'FFFFFF'
-    alt  = not alt
-    for i, val in enumerate(rd):
-        row[i].text = val
-        r = row[i].paragraphs[0].runs[0]
-        r.font.size = Pt(9)
-        r.bold = bold
-        row[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        if bold:
-            r.font.color.rgb = RGBColor.from_string('FFFFFF')
-            set_cell_bg(row[i], '1565C0')
-        elif i == 0:
-            set_cell_bg(row[i], bg)
-set_cell_borders(table4)
-
-doc.add_paragraph()
-
-exist_analisis = (
-    "Las existencias en el nivel estatal representan la mayor concentracion de biologico disponible "
-    "(78,050 dosis), lo que permite la redistribucion oportuna a jurisdicciones de acuerdo con "
-    "ritmo de aplicacion y dias restantes de campana. Las dosis totales disponibles (108,783) "
-    "son suficientes para cubrir el deficit de 225,357 dosis si se complementa con la cadena "
-    "de suministro federal. Se requiere gestion inmediata de reabasto para las jurisdicciones "
-    "con menores existencias (JS No. 1: 16,799 dosis; JS No. 4: 2,971 dosis), "
-    "priorizando la continuidad operativa de las 60 brigadas activas."
-)
-body(doc, exist_analisis)
-
-# ══════════════════════════════════════════════════════════════
-#  7. BRIGADAS ACTIVAS Y CAPACIDAD OPERATIVA
-# ══════════════════════════════════════════════════════════════
-heading(doc, "7. BRIGADAS ACTIVAS Y CAPACIDAD OPERATIVA")
-
-brigadas_texto = (
-    "Al corte del 10 de abril de 2026, se encuentran en operacion 60 brigadas activas "
-    "distribuidas en el territorio estatal. Con base en el ritmo actual de apliacion "
-    "(5,829 dosis/dia a nivel sectorial), cada brigada aplica en promedio 97 dosis por dia. "
-    "Para alcanzar la meta estatal en los 20 dias restantes, el ritmo por brigada debe "
-    "incrementarse a 188 dosis/brigada/dia, lo que requiere intensificar las actividades "
-    "de barrido, casa a casa y concentracion en puntos de alta affluencia poblacional."
-)
-body(doc, brigadas_texto)
-
-# tabla brigadas/capacidad
-table5 = doc.add_table(rows=1, cols=3)
-table5.style = 'Table Grid'
-table5.alignment = WD_TABLE_ALIGNMENT.CENTER
-hdr5 = table5.rows[0].cells
-for i, txt in enumerate(["INDICADOR OPERATIVO", "SITUACION ACTUAL", "REQUERIDO PARA META"]):
-    hdr5[i].text = txt
-    hdr5[i].paragraphs[0].runs[0].bold = True
-    hdr5[i].paragraphs[0].runs[0].font.size = Pt(9)
-    set_cell_bg(hdr5[i], '1A237E')
-    hdr5[i].paragraphs[0].runs[0].font.color.rgb = RGBColor.from_string('FFFFFF')
-    hdr5[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-op_data = [
-    ("Brigadas activas",              "60 brigadas",           "60 brigadas"),
-    ("Dias restantes de campana",    "20 dias",               "20 dias"),
-    ("Dosis faltantes",              "225,357",               "225,357"),
-    ("Ritmo diario sectorial",       "5,829 dosis/dia",       "11,268 dosis/dia"),
-    ("Promedio por brigada/dia",     "97 dosis",              "188 dosis"),
-    ("Ritmo semanal requerido",      "40,799 dos/sem (actual)","52,261 dos/sem"),
-]
-
-alt = False
-for rd in op_data:
-    row = table5.add_row().cells
-    bg  = 'E8EAF6' if not alt else 'FFFFFF'
-    alt = not alt
-    for i, val in enumerate(rd):
-        row[i].text = val
-        row[i].paragraphs[0].runs[0].font.size = Pt(9)
-        row[i].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        if i == 0:
-            row[i].paragraphs[0].runs[0].bold = True
-            set_cell_bg(row[i], bg)
-set_cell_borders(table5)
-
-doc.add_paragraph()
-
-# ══════════════════════════════════════════════════════════════
-#  8. CONCLUSIONES Y LINEAS DE ACCION
-# ══════════════════════════════════════════════════════════════
-heading(doc, "8. CONCLUSIONES Y LINEAS DE ACCION")
-
-conclusiones = [
-    ("Brecha de cobertura critica:", 
-     "La campaña sectorial acumula 297,251 dosis (65.0% de la meta semanas 1-8). "
-     "Con 20 dias restantes se requiere casi duplicar el ritmo diario actual."),
-    ("SSA con mayor deficit:",
-     "La SSA presenta el avance mas bajo (36.1%), con 53,183 dosis aplicadas de meta "
-     "acumulada de 147,500. Es prioritario reforzar las acciones operativas de las "
-     "jurisdicciones sanitarias."),
-    ("IMSS lidera el avance:",
-     "Con 88.1% de meta acumulada (213,901 dosis de 242,663), el IMSS mantiene el "
-     "ritmo mas alto y es la institucion con mejor desempeno en la campana."),
-    ("Existencias suficientes a nivel estatal:",
-     "El total disponible de 108,783 dosis (SRP + SR) permite la continuidad de la "
-     "campana si se gestiona una redistribucion oportuna desde el nivel estatal."),
-    ("Intensificacion operativa urgente:",
-     "Las 60 brigadas activas deben incrementar su rendimiento de 97 a 188 dosis/dia. "
-     "Se recomienda activar estrategias de barrido intensivo, jornadas sabatinas y "
-     "acciones intersectoriales para cerrar la brecha en las semanas 9 y 10."),
-]
-
-for titulo, texto in conclusiones:
-    p = doc.add_paragraph(style='List Bullet')
-    run_t = p.add_run(titulo + " ")
-    run_t.bold = True
-    run_t.font.size = Pt(10)
-    run_c = p.add_run(texto)
-    run_c.font.size = Pt(10)
-    p.paragraph_format.space_after = Pt(4)
-
-doc.add_paragraph()
-
-# ── Firma
-p = doc.add_paragraph()
-p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-run = p.add_run("Durango, Dgo., a 10 de abril de 2026")
-run.font.size = Pt(9)
-run.italic    = True
-
-# ══════════════════════════════════════════════════════════════
-#  Guardar
-# ══════════════════════════════════════════════════════════════
-out = r'C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\CAMPAÑA SARAMPIÓN 10 SEMANAS\Informe_Ejecutivo_Sarampion_10-04-2026.docx'
-doc.save(out)
-print(f"Guardado en: {out}")
+# ============================================================
+# 7. GUARDAR DOCUMENTO FINAL
+# ============================================================
+OUTPUT = r'C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\CONASABI\EVIDENCIAS CONASABI_24ABRIL2026\DSP_Vacunación_CONASABIAc2_24abril2026_ACTUALIZADO.docx'
+doc.save(OUTPUT)
+print(f"✅ Documento guardado en:\n{OUTPUT}")
+print(f"\nRESUMEN DE DATOS CLAVE - CORTE 24 ABRIL 2026")
+print(f"  Dosis cero SRP (6-11m) semana actual: {n(v(da,'srp_6_11'))}")
+print(f"  Dosis cero SRP (6-11m) acumulado:     {n(v(dacu,'srp_6_11'))}")
+print(f"  SRP 1a dosis semana actual:            {n(v(da,'srp_pt'))}")
+print(f"  SRP 1a dosis acumulado:                {n(v(dacu,'srp_pt'))}")
+print(f"  SRP 2a dosis (18m) semana actual:      {n(v(da,'srp_18m'))}")
+print(f"  SRP 2a dosis (18m) acumulado:          {n(v(dacu,'srp_18m'))}")
+print(f"  SR 1a dosis semana actual:             {n(v(da,'sr_pt'))}")
+print(f"  SR 1a dosis acumulado:                 {n(v(dacu,'sr_pt'))}")
+print(f"  SR 2a dosis semana actual:             {n(v(da,'sr_st'))}")
+print(f"  SR 2a dosis acumulado:                 {n(v(dacu,'sr_st'))}")
+print(f"  GRAN TOTAL ACUMULADO:                  {n(v(dacu,'srp_pt')+v(dacu,'srp_st')+v(dacu,'sr_pt')+v(dacu,'sr_st'))}")
