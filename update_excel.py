@@ -1,58 +1,90 @@
-import openpyxl
-from openpyxl.styles import Font, Alignment
+import pandas as pd
+import numpy as np
+import unicodedata
 
-target_file = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\FORMATOS\FORMATOS CENSIA\BLOQUEO VACUNAL\Formato_Concentrado_Vacunacion_Sarampion_ACTUALIZADO.xlsx"
+# Files
+user_excel = r"C:\Users\aicil\.gemini\antigravity\scratch\temp_file.xlsx"
+inegi_csv = r"C:\Users\aicil\.gemini\antigravity\scratch\iter_durango\iter_10_cpv2020\conjunto_de_datos\conjunto_de_datos_iter_10CSV20.csv"
+output_excel = r"C:\Users\aicil\.gemini\antigravity\scratch\Formato_Concentrado_Mezquital_2026_Updated.xlsx"
 
-def update_sheet(sheet):
-    # Find a safe starting column
-    # We'll just look for the first column that has nothing in rows 2-10
-    start_col = 1
-    for c in range(sheet.max_column, 200): # Check up to 200 columns
-        is_empty = True
-        for r in range(1, 15):
-            if sheet.cell(row=r, column=c).value is not None:
-                is_empty = False
+def normalize(s):
+    if not isinstance(s, str): return ""
+    s = s.upper().strip()
+    s = ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+    return s
+
+# Load INEGI data
+print("Loading INEGI data...")
+inegi_df = pd.read_csv(inegi_csv, dtype={'MUN': str, 'LOC': str})
+# Filter for Mezquital (MUN 014)
+mez_inegi = inegi_df[inegi_df['MUN'] == '014'].copy()
+mez_inegi['NORM_LOC'] = mez_inegi['NOM_LOC'].apply(normalize)
+mez_inegi = mez_inegi[mez_inegi['LOC'] != '0000']
+
+inegi_map = {}
+for idx, row in mez_inegi.iterrows():
+    inegi_map[row['NORM_LOC']] = {
+        'pob': row['POBTOT'],
+        'lat': row['LATITUD'],
+        'lon': row['LONGITUD']
+    }
+
+# Zip Code Data
+zip_map = {
+    "AGUA CALIENTE": "34994", "AGUACATES": "34983", "AGUACATES(ANGOSTURA)": "34983",
+    "AMOLES": "34973", "ARMADILLO": "34985", "ARMADILLOS": "34985",
+    "ARROYO HONDO": "34973", "BAJIO Y CENTRO": "34985", "BAJIO": "34985",
+    "BERENJENAS": "34973", "BOTIJAS": "34973", "BUENAVISTA": "34973",
+    "CARBONERAS": "34973", "CEBOLLAS": "34986", "CEBOLLAS DE MILPILLAS": "34986",
+    "CERRO BLANCO": "34973", "CERRO BOLILLO": "34973", "CERRO DE LAS PALOMAS": "34983",
+    "CIHUACORA": "34970", "COLOMOS": "34970", "CUMBRES": "34973",
+    "ENRAMADAS": "34973", "GUACAMAYA": "34973", "GUYAVITOS": "34973",
+    "HUAZAMOTITA": "34994", "LA ESCONDIDA": "34973", "LA GUAJOLOTA": "34970",
+    "LAS AGUILILLAS": "34973", "LAS JOYAS": "34977", "LOS ARQUITOS": "34996",
+    "LOS BANCOS": "34973", "MESA DEL LLANO": "34970", "PINO PARADO": "34986",
+    "POTREROS": "34973", "SAN MANUEL": "34973", "STA MA. DE OCOTAN": "34985",
+    "SANTA MARIA DE OCOTAN": "34985", "TEPALCATE": "34973", "TOMATES": "34973",
+    "TRES LAGUNAS": "34996", "ZAPOTES": "34973"
+}
+
+# Load User Excel
+print("Loading User Excel...")
+df_user = pd.read_excel(user_excel, sheet_name="Concentrado", header=None)
+df_user = df_user.astype(object)
+
+# Ensure enough columns
+max_col = 82
+for c in range(df_user.shape[1], max_col + 1):
+    df_user[c] = None
+
+print("Updating rows...")
+df_user.at[2, 82] = "Poblacion Total (INEGI 2020)"
+df_user.at[0, 0] = "FUENTE: INEGI (Censo 2020 - ITER) y SEPOMEX (Correos de México)"
+
+for i in range(3, len(df_user)):
+    loc_raw = df_user.iloc[i, 4]
+    if pd.isna(loc_raw): continue
+    loc_norm = normalize(str(loc_raw))
+    data = inegi_map.get(loc_norm)
+    if not data:
+        for key in inegi_map:
+            if loc_norm in key or key in loc_norm:
+                data = inegi_map[key]
                 break
-        if is_empty:
-            # Also check if it's merged
-            is_merged = False
-            for merged_range in sheet.merged_cells.ranges:
-                if c >= merged_range.min_col and c <= merged_range.max_col:
-                    is_merged = True
-                    break
-            if not is_merged:
-                start_col = c
+    if data:
+        df_user.at[i, 8] = data['lat']
+        df_user.at[i, 9] = data['lon']
+        df_user.at[i, 82] = data['pob']
+    z = zip_map.get(loc_norm)
+    if not z:
+        for key in zip_map:
+            if loc_norm in key or key in loc_norm:
+                z = zip_map[key]
                 break
-    
-    print(f"Adding columns starting at index {start_col}")
-    
-    new_rubros = [
-        "TIPO DE LOCALIDAD", "URBANA", "SEMIURBANA", "RURAL",
-        "POBLACI\u00d3N ESPECIAL", "PERSONAL DE SALUD", "DOCENTE",
-        "EDADES ADICIONALES", "20 A 29 A\u00d1OS", "30 A 49 A\u00d1OS", ">= 50 A\u00d1OS",
-        "T\u00c1CTICA", "BLOQUEO < 72H", "BARRIDO DOC", "BRIGADA"
-    ]
-    
-    bold_font = Font(bold=True)
-    center_align = Alignment(horizontal='center', vertical='center', wrap_text=True)
-    
-    for i, name in enumerate(new_rubros):
-        target_col = start_col + i
-        cell = sheet.cell(row=2, column=target_col)
-        cell.value = name
-        cell.font = bold_font
-        cell.alignment = center_align
+    if z:
+        df_user.at[i, 7] = z
 
-try:
-    wb = openpyxl.load_workbook(target_file)
-    for sname in ["Formato bloqueo barrido", "Concentrado"]:
-        if sname in wb.sheetnames:
-            print(f"Updating {sname}...")
-            update_sheet(wb[sname])
-
-    wb.save(target_file)
-    print("Updated successfully.")
-except Exception as e:
-    import traceback
-    print(f"Error: {e}")
-    traceback.print_exc()
+print(f"Saving updated file to {output_excel} with sheet name 'Concentrado'...")
+with pd.ExcelWriter(output_excel) as writer:
+    df_user.to_excel(writer, sheet_name="Concentrado", index=False, header=False)
+print("Done!")

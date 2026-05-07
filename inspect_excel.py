@@ -1,18 +1,32 @@
 import pandas as pd
+import sys
 
-file1 = r"c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\ESCUELAS\VPH25-26_TOP100PTES.xlsx"
-file2 = r"c:\Users\aicil\OneDrive\Escritorio\PVU\VPH\CAMPAÑA VPH 2025\ESCUELAS\CRONOGRAMA_INTEGRADO_VPH_2025_12abril2026.xlsx"
+file_path = r"C:\Users\aicil\.gemini\antigravity\scratch\temp_file.xlsx"
 
-print("Columns in TOP100PTES:")
 try:
-    df1 = pd.read_excel(file1)
-    print(df1.columns.tolist())
+    # Read the excel file
+    xls = pd.ExcelFile(file_path)
+    print(f"Sheets found: {xls.sheet_names}")
+    
+    for sheet_name in xls.sheet_names:
+        print(f"\n--- Sheet: {sheet_name} ---")
+        df = pd.read_excel(file_path, sheet_name=sheet_name)
+        print(f"Columns: {df.columns.tolist()[:10]}...")
+        print("First 5 rows:")
+        print(df.head(5))
+        
+        # Look for locality column
+        locality_col = None
+        for col in df.columns:
+            if any(term in str(col).upper() for term in ['LOCALIDAD', 'COMUNIDAD', 'NOMBRE']):
+                locality_col = col
+                break
+        
+        if locality_col:
+            print(f"Potential locality column: {locality_col}")
+        
 except Exception as e:
-    print("Error reading file1:", e)
+    print(f"Error: {e}")
 
-print("\nColumns in CRONOGRAMA_INTEGRADO:")
-try:
-    df2 = pd.read_excel(file2)
-    print(df2.columns.tolist())
 except Exception as e:
-    print("Error reading file2:", e)
+    print(f"Error: {e}")
