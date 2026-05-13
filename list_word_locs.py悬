@@ -1,0 +1,15 @@
+import docx
+
+doc_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\DSP_Informe_Semanal_Sarampión_Mezquital_07mayo2026.docx"
+
+try:
+    doc = docx.Document(doc_path)
+    table = doc.tables[0]
+    locs = []
+    for j, row in enumerate(table.rows):
+        if j > 0: # Skip header
+            loc_name = row.cells[0].text.strip().upper()
+            locs.append(loc_name)
+    print("Localities in Word doc:", locs)
+except Exception as e:
+    print(f"Error reading docx: {e}")

@@ -1,0 +1,59 @@
+import docx
+from docx.shared import Inches
+import sys
+
+# Change default encoding for print to utf-8 if possible
+sys.stdout.reconfigure(encoding='utf-8')
+
+doc_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\DSP_Informe_Semanal_Sarampión_Mezquital_07mayo2026.docx"
+output_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\DSP_Informe_Semanal_Sarampión_Mezquital_07mayo2026_INPI.docx"
+
+inpi_pops = {'AGUA VERDE': 167, 'AGUA FRIA': 171, 'YERBANIZ': 219, 'TACHICHILPA': 405, 'SAN PEDRO DE XICORAS': 501, 'XICORAS': 501}
+
+try:
+    doc = docx.Document(doc_path)
+    table = doc.tables[0]
+    
+    # Try adding columns
+    table.add_column(Inches(0.8))
+    table.add_column(Inches(0.8))
+    
+    table.cell(0, 12).text = "Población (INPI)"
+    table.cell(0, 13).text = "Cobertura (INPI)"
+    
+    for row in table.rows[1:]:
+        loc_name = row.cells[0].text.strip().upper()
+        if loc_name == 'TOTAL GLOBAL':
+            row.cells[12].text = "S/D"
+            row.cells[13].text = "S/D"
+            continue
+            
+        inpi_pop = None
+        for key in inpi_pops:
+            if key in loc_name:
+                inpi_pop = inpi_pops[key]
+                break
+                
+        if inpi_pop is not None:
+            row.cells[12].text = str(inpi_pop)
+            try:
+                # 9 is the Total Dosis index
+                doses = int(row.cells[9].text.strip().replace(',',''))
+                cov = min(1.0, doses / inpi_pop)
+                row.cells[13].text = f"{cov*100:.2f}%"
+            except:
+                row.cells[13].text = "S/D"
+        else:
+            row.cells[12].text = "S/D"
+            row.cells[13].text = "S/D"
+            
+    for i in [12, 13]:
+        for p in table.cell(0, i).paragraphs:
+            for r in p.runs:
+                r.bold = True
+                
+    doc.save(output_path)
+    print("Success")
+
+except Exception as e:
+    print(f"Error: {e}")

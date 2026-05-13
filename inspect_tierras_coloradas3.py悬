@@ -1,0 +1,27 @@
+import pandas as pd
+import traceback
+
+new_concentrado = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\BLOQUEOS VACUNALES\BLOQUEOS VACUNALES 2026\MEZQUITAL JS1 08MAY2026\Formato_Concentrado_Tierras Coloradas Pueblo Nvo Durango Crecencio Salvador Enriquez.xlsx"
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    print("\n--- New Concentrado ---")
+    df_new = pd.read_excel(new_concentrado, sheet_name="Concentrado", header=None)
+    for i in range(5):
+        try:
+            print(f"Row {i}:", [str(x) for x in df_new.iloc[i].tolist() if str(x) != 'nan'])
+        except Exception:
+            pass
+
+    print("\n--- INEGI Excel ---")
+    df_inegi = pd.read_excel(inegi_excel, header=None)
+    print(df_inegi.head(5).to_string())
+    
+    print("\nSearching for Tierras Coloradas in INEGI...")
+    for col in df_inegi.columns:
+        if df_inegi[col].astype(str).str.contains("TIERRAS COLORADAS", case=False).any():
+            print(f"Found in column {col}")
+            print(df_inegi[df_inegi[col].astype(str).str.contains("TIERRAS COLORADAS", case=False)])
+
+except Exception as e:
+    traceback.print_exc()

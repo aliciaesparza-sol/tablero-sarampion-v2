@@ -1,0 +1,17 @@
+import pandas as pd
+
+enriched_excel = r"C:\Users\aicil\.gemini\antigravity\scratch\Formato_Concentrado_Mezquital_2026_Updated.xlsx"
+inpi_pops = ['AGUA VERDE', 'AGUA FRIA', 'YERBANIZ', 'TACHICHILPA', 'SAN PEDRO DE XICORAS', 'SAN PEDRO DE XOCORAS']
+
+try:
+    df_pop = pd.read_excel(enriched_excel, sheet_name="Concentrado", header=None)
+    for loc in inpi_pops:
+        match = df_pop[df_pop[4].astype(str).str.contains(loc, case=False, na=False)]
+        if not match.empty:
+            print(f"Found {loc} in Concentrado!")
+            for _, row in match.iterrows():
+                print(row[[4, 61, 82]].tolist()) # Loc, Total Doses, INEGI Pop
+        else:
+            print(f"Not found in Concentrado: {loc}")
+except Exception as e:
+    print(f"Error: {e}")

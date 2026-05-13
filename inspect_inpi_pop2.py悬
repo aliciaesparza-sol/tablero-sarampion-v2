@@ -1,0 +1,21 @@
+import pandas as pd
+
+inpi_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    df = pd.read_excel(inpi_path, sheet_name=0) # Read the first sheet
+    # Print the columns to understand the structure
+    print("Columns:", df.columns.tolist())
+    
+    # Try to find the totals row or columns.
+    # Usually, if it's age groups on the rows, localities might be columns.
+    # From the snippet:
+    # 0 EDAD  \
+    # 1 POBLACIN TOTAL
+    # Columns appear to be localities!
+    
+    print("\n--- Transposed View of first 5 rows ---")
+    print(df.head(5).transpose().to_string())
+    
+except Exception as e:
+    print(f"Error reading file: {e}")

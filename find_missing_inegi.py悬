@@ -1,0 +1,36 @@
+import pandas as pd
+
+target_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad__Mezquital_07mayo2026.xlsx"
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    df_main = pd.read_excel(target_excel)
+    locs_main = [str(x).upper() for x in df_main['Localidad'] if str(x) != 'nan' and str(x).upper() != 'TOTAL GLOBAL']
+    locs_main.append('TIERRAS COLORADAS') # Added manually
+
+    df_inegi = pd.read_excel(inegi_excel, sheet_name='Hoja1', header=1)
+    inegi_pop_dict = {}
+    for idx, row in df_inegi.iterrows():
+        loc = str(row.iloc[0]).strip().upper()
+        pop = pd.to_numeric(row.iloc[1], errors='coerce')
+        if loc != 'NAN' and not pd.isna(pop):
+            inegi_pop_dict[loc] = pop
+
+    missing = []
+    for loc in locs_main:
+        found = False
+        if loc in inegi_pop_dict:
+            found = True
+        else:
+            for k, v in inegi_pop_dict.items():
+                if k in loc or loc in k:
+                    found = True
+                    break
+        if not found:
+            missing.append(loc)
+            
+    print("Missing from INEGI:", missing)
+
+except Exception as e:
+    import traceback
+    traceback.print_exc()

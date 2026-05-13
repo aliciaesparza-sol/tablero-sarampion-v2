@@ -186,3 +186,44 @@ Traceback (most recent call last):
     return codecs.charmap_encode(input,self.errors,encoding_table)[0]
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 UnicodeEncodeError: 'charmap' codec can't encode character '\x8f' in position 5: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 17, in <module>
+    import pandas as pd
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\__init__.py", line 56, in <module>
+    import pandas.core.config_init  # pyright: ignore[reportUnusedImport] # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\config_init.py", line 31, in <module>
+    from pandas.errors import Pandas4Warning
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\errors\__init__.py", line 12, in <module>
+    from pandas._libs.tslibs import (
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\__init__.py", line 18, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+  File "pandas/_libs/hashtable.pyx", line 1, in init pandas._libs.hashtable
+  File "pandas/_libs/missing.pyx", line 1, in init pandas._libs.missing
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\_libs\tslibs\__init__.py", line 41, in <module>
+    from pandas._libs.tslibs.conversion import localize_pydatetime
+  File "pandas/_libs/tslibs/conversion.pyx", line 1, in init pandas._libs.tslibs.conversion
+  File "pandas/_libs/tslibs/offsets.pyx", line 1, in init pandas._libs.tslibs.offsets
+  File "pandas/_libs/tslibs/timestamps.pyx", line 1, in init pandas._libs.tslibs.timestamps
+  File "pandas/_libs/tslibs/timedeltas.pyx", line 1, in init pandas._libs.tslibs.timedeltas
+  File "pandas/_libs/tslibs/timezones.pyx", line 5, in init pandas._libs.tslibs.timezones
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\zoneinfo\__init__.py", line 14, in <module>
+    from _zoneinfo import ZoneInfo
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\weakref.py", line 104, in __init__
+    def __init__(self, other=(), /, **kw):
+
+KeyboardInterrupt
+^C📖 Leyendo población CONAPO 2026...
+   ✓ 27 municipios cargados
+📖 Leyendo cubos Ene-May 2025...
+   ✓ Cubos cargados correctamente
+📖 Leyendo CSV nominal: SRP-SR-2025_02-04-2026 10-40-30.csv...
+   ✓ 5029 registros de Durango
+Traceback (most recent call last):
+  File "C:\Users\aicil\.gemini\antigravity\scratch\actualizar_y_publicar.py", line 245, in <module>
+    print("⚙�\x8f  Calculando coberturas...")
+  File "C:\Users\aicil\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x8f' in position 5: character maps to <undefined>

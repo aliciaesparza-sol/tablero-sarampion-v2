@@ -1,0 +1,20 @@
+import pandas as pd
+
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    xl = pd.ExcelFile(inegi_excel)
+    print("Sheets in INEGI file:", xl.sheet_names)
+    
+    # Check if there is a population sheet
+    for sheet in xl.sheet_names:
+        df = pd.read_excel(inegi_excel, sheet_name=sheet, header=None)
+        print(f"--- {sheet} ---")
+        for i in range(5):
+            try:
+                print([str(x) for x in df.iloc[i].tolist() if str(x) != 'nan'])
+            except:
+                pass
+
+except Exception as e:
+    print(f"Error: {e}")

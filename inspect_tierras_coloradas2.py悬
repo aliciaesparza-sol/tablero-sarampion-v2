@@ -1,0 +1,18 @@
+import pandas as pd
+
+new_concentrado = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\BLOQUEOS VACUNALES\BLOQUEOS VACUNALES 2026\MEZQUITAL JS1 08MAY2026\Formato_Concentrado_Tierras Coloradas Pueblo Nvo Durango Crecencio Salvador Enriquez.xlsx"
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    print("\n--- New Concentrado ---")
+    df_new = pd.read_excel(new_concentrado, sheet_name="Concentrado", header=None)
+    for i in range(10):
+        print(f"Row {i}:", [str(x) for x in df_new.iloc[i, 0:15].tolist() if str(x) != 'nan'])
+        
+    print("\n--- INEGI Excel ---")
+    df_inegi = pd.read_excel(inegi_excel)
+    print("Head of INEGI Excel:")
+    print(df_inegi.head(10).to_string())
+
+except Exception as e:
+    print(f"Error: {e}")

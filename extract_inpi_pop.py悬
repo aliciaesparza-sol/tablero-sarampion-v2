@@ -1,0 +1,44 @@
+import pandas as pd
+import numpy as np
+
+inpi_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    df = pd.read_excel(inpi_path, header=None)
+    
+    # We need to find the row with locality names.
+    # From the snippet, row 2 seems to have the locality names in alternate columns.
+    
+    loc_row = df.iloc[2].tolist()
+    sex_row = df.iloc[3].tolist()
+    
+    localities_pop = {}
+    
+    current_loc = None
+    
+    for col_idx in range(len(loc_row)):
+        val = str(loc_row[col_idx]).strip()
+        if val != 'nan' and val != '':
+            current_loc = val.upper()
+        
+        if current_loc:
+            # Let's sum the whole column (excluding the first 4 header rows)
+            col_data = pd.to_numeric(df.iloc[4:, col_idx], errors='coerce').fillna(0)
+            pop_sum = col_data.sum()
+            
+            if current_loc not in localities_pop:
+                localities_pop[current_loc] = 0
+            localities_pop[current_loc] += pop_sum
+
+    print("INPI Populations extracted:")
+    for loc, pop in localities_pop.items():
+        if pop > 0:
+            print(f"{loc}: {pop}")
+            
+    # Also save it to a JSON for later use
+    import json
+    with open("inpi_pops.json", "w") as f:
+        json.dump(localities_pop, f)
+
+except Exception as e:
+    print(f"Error reading file: {e}")

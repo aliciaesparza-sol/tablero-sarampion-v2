@@ -1,0 +1,52 @@
+	💉 AVANCE DE VACUNACIÓN VPH — CORTE AL 05 DE MAYO 2026													
+	Fuente: Sistema nominal VPH · Dosis aplicadas confirmadas · Corte al 05 de mayo 2026													
+														
+	Dosis Aplicadas
+(Nominal)	Meta Estatal
+Sectorial	Cobertura
+Estatal	Dosis
+Pendientes	Rechazos
+(Negativa padres)	Cob.
+Sectorial								
+	24816	36,858	67.3%	12042	76	SSA: 71.8%								
+														
+	DESGLOSE POR INSTITUCIÓN / JURISDICCIÓN													
+	Institución /
+Jurisdicción	Meta SSA
+(16,860)	Meta
+Propia	Dosis
+Aplicadas	Alumnos
+Estimados	Dosis
+Faltantes	Cobertura	Semáforo	Total de Esc. Asignadas	Escuelas visitadas	Escuelas sin visita			
+	SSA — Total (Jur. 1–4)	16860	16860	12110	15769	4750	0.7182680901542111	🟡 EN PROCESO	1428	816	612			
+	   Jur. 1 (Durango)	16860	8936	4529	6586	4407	0.5068263205013429	🟡 EN PROCESO	766	443	323			
+	   Jur. 2 (Gómez Palacio)	16860	5564	5397	6985	167	0.9699856218547808	🟢 EXCELENTE	337	225	112			
+	   Jur. 3 (Sgo. Papasquiaro)	16860	1686	1537	1494	149	0.9116251482799526	🟢 EN META	252	117	135			
+	   Jur. 4 (Rodeo)	16860	674	647	704	27	0.9599406528189911	🟢 EXCELENTE	73	39	34			
+	IMSS	N/A	15139	7572	10886	7567	0.5001651364026686	🟡 EN PROCESO	297	476	0			
+	IMSS Bienestar	N/A	7020	3404	4931	3616	0.4849002849002849	🔴 CRÍTICO	641	319	322			
+	ISSSTE	N/A	3340	1706	3599	1634	0.5107784431137724	🟡 EN PROCESO	100	93	7			
+	SEDENA	N/A	15	24	15	0	1.6	🟢 EXCELENTE	6	7	0			
+	TOTAL ESTATAL	—	36858	24816	39625	12042	0.6732866677519127	🟡 EN PROCESO	2324	1309	1015			
+														
+	⚠ Dosis=CSV 02/04/2026. Alumnos est. y padrón esc.=Reporte PDF (20-mar). Cob.SSA=dosis/16,860. Cob.Propia=dosis/meta individual. IMSS visitó 459 esc (incluye fuera de padrón SSA). 1,036 esc con cero dosis según PDF. 🔴<50% 🟡50–74% 🟢≥75% 🟢≥95%													
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														

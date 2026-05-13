@@ -1,0 +1,12 @@
+import pandas as pd
+import traceback
+
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    df_inegi = pd.read_excel(inegi_excel, header=None)
+    for i in range(10):
+        print(f"Row {i}:", [str(x) for x in df_inegi.iloc[i].tolist() if str(x) != 'nan'])
+
+except Exception as e:
+    traceback.print_exc()

@@ -1,0 +1,22 @@
+import pandas as pd
+
+inpi_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    df = pd.read_excel(inpi_path, header=None)
+    row3 = df.iloc[3].tolist()
+    
+    inpi_pops = {}
+    # Iterate through columns starting from index 2
+    for i in range(2, len(row3), 2):
+        loc_name = str(row3[i]).strip().upper()
+        if loc_name and loc_name != 'NAN':
+            # Sum columns i (Hombres) and i+1 (Mujeres), from row 5 onwards
+            col_h = pd.to_numeric(df.iloc[5:, i], errors='coerce').fillna(0).sum()
+            col_m = pd.to_numeric(df.iloc[5:, i+1], errors='coerce').fillna(0).sum()
+            inpi_pops[loc_name] = int(col_h + col_m)
+            
+    print("INPI Populations:", inpi_pops)
+    
+except Exception as e:
+    print(f"Error reading file: {e}")

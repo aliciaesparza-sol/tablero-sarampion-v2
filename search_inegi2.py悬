@@ -1,0 +1,18 @@
+import pandas as pd
+
+inegi_path = r"C:\Users\aicil\.gemini\antigravity\scratch\iter_durango\iter_10_cpv2020\conjunto_de_datos\conjunto_de_datos_iter_10CSV20.csv"
+
+try:
+    df = pd.read_csv(inegi_path, encoding='utf-8')
+    mez = df[df['MUN'] == 14]
+    
+    print("Searching INEGI again...")
+    for loc in ['YERBAN', 'FRIA', 'Xcoras', 'Xicoras']:
+        match = mez[mez['NOM_LOC'].str.contains(loc, case=False, na=False)]
+        if not match.empty:
+            for _, row in match.iterrows():
+                print(f"Found {loc}: {row['NOM_LOC']} - POBTOT: {row['POBTOT']}")
+        else:
+            pass # print(f"Not found in INEGI: {loc}")
+except Exception as e:
+    print(f"Error: {e}")

@@ -1,0 +1,43 @@
+import pandas as pd
+
+target_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad__Mezquital_07mayo2026.xlsx"
+new_concentrado = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\BLOQUEOS VACUNALES\BLOQUEOS VACUNALES 2026\MEZQUITAL JS1 08MAY2026\Formato_Concentrado_Tierras Coloradas Pueblo Nvo Durango Crecencio Salvador Enriquez.xlsx"
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+inpi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    print("--- Target Excel ---")
+    df_target = pd.read_excel(target_excel, sheet_name=0)
+    print(df_target.columns.tolist())
+    
+    print("\n--- New Concentrado ---")
+    df_new = pd.read_excel(new_concentrado, sheet_name="Concentrado", header=None)
+    # Print the locality and doses (row 4 onwards)
+    loc_col = 4
+    total_col = 61 # Assuming same format as before
+    print(f"Row 4, Locality: {df_new.iloc[4, loc_col]}, Total Doses: {df_new.iloc[4, total_col]}")
+    # Also check date
+    date_col = 12
+    print(f"Row 4, Date: {df_new.iloc[4, date_col]}")
+
+    print("\n--- INEGI Excel ---")
+    df_inegi = pd.read_excel(inegi_excel)
+    print(df_inegi.columns.tolist())
+    # Try to find Tierras Coloradas
+    print("Looking for Tierras Coloradas in INEGI...")
+    for col in df_inegi.columns:
+        if df_inegi[col].astype(str).str.contains("TIERRAS COLORADAS", case=False).any():
+            print(f"Found in column {col}")
+            print(df_inegi[df_inegi[col].astype(str).str.contains("TIERRAS COLORADAS", case=False)])
+
+    print("\n--- INPI Excel ---")
+    xl = pd.ExcelFile(inpi_excel)
+    for sheet in xl.sheet_names:
+        df_inpi = pd.read_excel(inpi_excel, sheet_name=sheet, header=None)
+        # Just dump the first 10 rows to see if Tierras Coloradas is here
+        print(f"Sheet: {sheet}")
+        for i in range(10):
+            print([str(x) for x in df_inpi.iloc[i].tolist() if str(x) != 'nan'])
+
+except Exception as e:
+    print(f"Error: {e}")

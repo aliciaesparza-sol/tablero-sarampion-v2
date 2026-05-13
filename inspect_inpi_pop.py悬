@@ -1,0 +1,11 @@
+import pandas as pd
+
+inpi_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    df = pd.read_excel(inpi_path)
+    print("Columns:", df.columns.tolist())
+    print("\nFirst 10 rows:")
+    print(df.head(10).to_string())
+except Exception as e:
+    print(f"Error reading file: {e}")

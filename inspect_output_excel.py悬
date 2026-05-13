@@ -1,0 +1,11 @@
+import pandas as pd
+
+target_excel = r"C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad_Ordenado_Mezquital_09mayo2026.xlsx"
+
+try:
+    df = pd.read_excel(target_excel)
+    print("Columns:", df.columns.tolist())
+    # Print the population and coverage columns for the first 5 rows
+    print(df[['Localidad', 'POBLACION (INEGI)', 'COBERTURA (INEGI) (%)', 'POBLACION (INPI)', 'COBERTURA (INPI) (%)']].head(10).to_string())
+except Exception as e:
+    print(f"Error: {e}")

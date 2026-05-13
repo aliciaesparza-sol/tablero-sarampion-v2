@@ -1,0 +1,16 @@
+import pandas as pd
+
+new_concentrado = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\BLOQUEOS VACUNALES\BLOQUEOS VACUNALES 2026\MEZQUITAL JS1 08MAY2026\Formato_Concentrado_Tierras Coloradas Pueblo Nvo Durango Crecencio Salvador Enriquez.xlsx"
+
+try:
+    df_new = pd.read_excel(new_concentrado, sheet_name="Concentrado", header=None)
+    row2 = df_new.iloc[2].tolist()
+    row4 = df_new.iloc[4].tolist()
+    
+    print("Columns with non-null values in Row 4:")
+    for i, val in enumerate(row4):
+        if str(val) != 'nan' and str(val) != '0' and str(val) != '0.0':
+            print(f"Col {i}: {row2[i]} -> {val}")
+
+except Exception as e:
+    print(f"Error: {e}")

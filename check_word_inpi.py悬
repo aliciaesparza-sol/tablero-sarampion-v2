@@ -1,0 +1,19 @@
+import docx
+
+doc_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\DSP_Informe_Semanal_Sarampión_Mezquital_07mayo2026.docx"
+inpi_locs = ['AGUA VERDE', 'AGUA FRIA', 'YERBANIZ', 'TACHICHILPA', 'XICORAS', 'XOCORAS']
+
+try:
+    doc = docx.Document(doc_path)
+    table = doc.tables[0]
+    found = False
+    for row in table.rows:
+        loc_name = row.cells[0].text.strip().upper()
+        for i_loc in inpi_locs:
+            if i_loc in loc_name:
+                print(f"Found {loc_name} in Word doc!")
+                found = True
+    if not found:
+        print("None of the INPI localities were found in the Word document's first table.")
+except Exception as e:
+    print(f"Error reading docx: {e}")

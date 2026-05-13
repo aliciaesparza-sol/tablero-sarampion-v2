@@ -1,0 +1,181 @@
+import pandas as pd
+import numpy as np
+
+target_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad__Mezquital_07mayo2026.xlsx"
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+inpi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION APROXIMADA DE ALGUNAS LOCALIDADES DE MEZQUITAL.xlsx"
+
+try:
+    # 1. Read existing target report
+    # We drop the global row to recalculate it later
+    df_main = pd.read_excel(target_excel, sheet_name=0)
+    if 'TOTAL GLOBAL' in df_main['Localidad'].values:
+        df_main = df_main[df_main['Localidad'] != 'TOTAL GLOBAL']
+
+    # Normalize existing columns
+    # Currently it has: Localidad, Fecha(s) de Atencion, [Ages], TOTAL, POBLACION (INEGI), COBERTURA (%)
+    
+    # 2. Add Tierras Coloradas
+    # From previous inspection:
+    tc_row = {
+        'Localidad': 'TIERRAS COLORADAS',
+        'Fecha(s) de Atención': '29/04/2026' # Might need to match exact column name
+    }
+    # Match the exact column names for age groups from df_main
+    age_cols = df_main.columns[2:9].tolist()
+    tc_ages = [1, 15, 42, 19, 27, 54, 42]
+    for col, val in zip(age_cols, tc_ages):
+        tc_row[col] = val
+    tc_row['TOTAL'] = sum(tc_ages)
+    
+    # Check actual column name for 'Fecha(s) de Atención'
+    date_col_name = df_main.columns[1]
+    if 'Fecha' in date_col_name:
+        tc_row[date_col_name] = '29/04/2026'
+        if 'Fecha(s) de Atención' in tc_row and date_col_name != 'Fecha(s) de Atención':
+            del tc_row['Fecha(s) de Atención']
+
+    # Append
+    df_main = pd.concat([df_main, pd.DataFrame([tc_row])], ignore_index=True)
+
+    # 3. Read INEGI populations
+    # The INEGI file has headers on row 1 (0-indexed)
+    df_inegi = pd.read_excel(inegi_excel, header=1)
+    inegi_pop_dict = {}
+    for idx, row in df_inegi.iterrows():
+        loc = str(row.iloc[0]).strip().upper()
+        pop = pd.to_numeric(row.iloc[1], errors='coerce')
+        if loc != 'NAN' and not pd.isna(pop):
+            # Clean up the name e.g. "Agua Caliente" -> "AGUA CALIENTE"
+            inegi_pop_dict[loc] = pop
+
+    # Add hardcoded manual overrides that were in the previous script just in case they aren't in this new INEGI file
+    manual_pop = {"LAS JOYAS": 462, "STA MA. DE OCOTAN": 795, "STA. MA. DE OCOTAN": 795, "BAJÍO Y CENTRO": 255, "CARBONERAS": 226, "SAN MANUEL": 41}
+    for k, v in manual_pop.items():
+        if k not in inegi_pop_dict:
+            inegi_pop_dict[k] = v
+
+    # 4. Read INPI populations
+    df_inpi = pd.read_excel(inpi_excel, header=None)
+    row3 = df_inpi.iloc[3].tolist()
+    inpi_pop_dict = {}
+    for i in range(2, len(row3), 2):
+        loc_name = str(row3[i]).strip().upper()
+        if loc_name and loc_name != 'NAN':
+            col_h = pd.to_numeric(df_inpi.iloc[5:, i], errors='coerce').fillna(0).sum()
+            col_m = pd.to_numeric(df_inpi.iloc[5:, i+1], errors='coerce').fillna(0).sum()
+            inpi_pop_dict[loc_name] = int(col_h + col_m)
+            
+    # Add variant
+    if 'SAN PEDRO DE XICORAS' in inpi_pop_dict:
+        inpi_pop_dict['XICORAS'] = inpi_pop_dict['SAN PEDRO DE XICORAS']
+
+    # 5. Map populations and calculate coverages
+    inegi_pops = []
+    inpi_pops = []
+    inegi_covs = []
+    inpi_covs = []
+
+    for loc in df_main['Localidad']:
+        loc_upper = loc.upper()
+        
+        # INEGI match
+        i_pop = inegi_pop_dict.get(loc_upper, 0)
+        # Try substring match if exactly 0
+        if i_pop == 0:
+            for k, v in inegi_pop_dict.items():
+                if k in loc_upper or loc_upper in k:
+                    i_pop = v
+                    break
+                    
+        # INPI match
+        in_pop = inpi_pop_dict.get(loc_upper, 0)
+        if in_pop == 0:
+            for k, v in inpi_pop_dict.items():
+                if k in loc_upper or loc_upper in k:
+                    in_pop = v
+                    break
+
+        inegi_pops.append(i_pop)
+        inpi_pops.append(in_pop)
+
+    # Assign columns
+    df_main['POBLACION (INEGI)'] = inegi_pops
+    df_main['POBLACION (INPI)'] = inpi_pops
+
+    # Calculate coverages
+    df_main['COBERTURA (INEGI) (%)'] = df_main.apply(lambda row: min(1.0, row['TOTAL'] / row['POBLACION (INEGI)']) if row['POBLACION (INEGI)'] > 0 else 0, axis=1)
+    df_main['COBERTURA (INPI) (%)'] = df_main.apply(lambda row: min(1.0, row['TOTAL'] / row['POBLACION (INPI)']) if row['POBLACION (INPI)'] > 0 else 0, axis=1)
+
+    # Drop old Cobertura column if it exists
+    if 'COBERTURA (%)' in df_main.columns:
+        df_main = df_main.drop(columns=['COBERTURA (%)'])
+
+    # Sort
+    df_main = df_main.sort_values(by='TOTAL', ascending=False)
+
+    # 6. Global Total
+    sums = df_main.iloc[:, 2:9].sum().tolist()
+    total_doses = df_main['TOTAL'].sum()
+    
+    # The municipality total populations
+    abs_inegi_pop = 53894 # Standard Mezquital pop we used before
+    # For INPI, maybe there is no global Mezquital pop, just sum the ones we have? Or we just leave it blank for global.
+    # Actually, let's just sum the INPI pops we matched. Or leave 0.
+    # The user asked to compare. Let's just put the global INEGI pop and NA for INPI global pop.
+    
+    total_row = {
+        'Localidad': 'TOTAL GLOBAL',
+        date_col_name: '',
+        'TOTAL': total_doses,
+        'POBLACION (INEGI)': abs_inegi_pop,
+        'POBLACION (INPI)': 'N/A',
+        'COBERTURA (INEGI) (%)': min(1.0, total_doses / abs_inegi_pop),
+        'COBERTURA (INPI) (%)': 0
+    }
+    for col, val in zip(age_cols, sums):
+        total_row[col] = val
+        
+    df_main = pd.concat([df_main, pd.DataFrame([total_row])], ignore_index=True)
+
+    # Reorder columns to be nice
+    cols = ['Localidad', date_col_name] + age_cols + ['TOTAL', 'POBLACION (INEGI)', 'COBERTURA (INEGI) (%)', 'POBLACION (INPI)', 'COBERTURA (INPI) (%)']
+    df_main = df_main[cols]
+
+    # Save to Excel
+    output_excel = r"C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad_Actualizado_INPI_Mezquital_08mayo2026.xlsx"
+    with pd.ExcelWriter(output_excel, engine='xlsxwriter') as writer:
+        df_main.to_excel(writer, index=False, sheet_name='Desglose')
+        
+        workbook = writer.book
+        worksheet = writer.sheets['Desglose']
+        header_f = workbook.add_format({'bold': True, 'bg_color': '#D7E4BC', 'border': 1, 'text_wrap': True, 'valign': 'top'})
+        percent_f = workbook.add_format({'num_format': '0.00%', 'border': 1})
+        normal_f = workbook.add_format({'border': 1})
+        na_f = workbook.add_format({'border': 1, 'align': 'center'})
+        
+        for c, v in enumerate(df_main.columns):
+            worksheet.write(0, c, v, header_f)
+            worksheet.set_column(c, c, 15)
+            
+            for r in range(1, len(df_main) + 1):
+                val = df_main.iloc[r-1, c]
+                if pd.isna(val):
+                    val = ""
+                    
+                if 'COBERTURA' in v:
+                    if val == 'N/A' or val == 0:
+                        worksheet.write(r, c, "S/D", na_f)
+                    else:
+                        worksheet.write(r, c, val, percent_f)
+                else:
+                    if val == 'N/A':
+                        worksheet.write(r, c, "N/A", na_f)
+                    else:
+                        worksheet.write(r, c, val, normal_f)
+
+    print(f"Excel saved: {output_excel}")
+
+except Exception as e:
+    import traceback
+    traceback.print_exc()

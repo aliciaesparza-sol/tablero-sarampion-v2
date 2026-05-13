@@ -1,0 +1,18 @@
+import docx
+import pandas as pd
+
+doc_path = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\DSP_Informe_Semanal_Sarampión_Mezquital_07mayo2026.docx"
+
+try:
+    doc = docx.Document(doc_path)
+    for i, table in enumerate(doc.tables):
+        print(f"\n--- Table {i} ---")
+        for j, row in enumerate(table.rows):
+            row_data = [cell.text.strip() for cell in row.cells]
+            print(f"Row {j}: {row_data}")
+            if j > 5: # Just print first 5 rows to get the structure
+                print("...")
+                break
+                
+except Exception as e:
+    print(f"Error reading docx: {e}")

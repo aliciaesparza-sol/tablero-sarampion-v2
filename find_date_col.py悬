@@ -1,0 +1,19 @@
+import pandas as pd
+
+temp_excel = r"C:\Users\aicil\.gemini\antigravity\scratch\orig_temp.xlsx"
+
+try:
+    df = pd.read_excel(temp_excel, sheet_name="Concentrado", header=None)
+    # Row 2 headers
+    headers = df.iloc[2].tolist()
+    print("First 10 columns headers:")
+    for i in range(10):
+        print(f"Col {i}: {headers[i]}")
+        
+    # Check data for first few rows
+    print("\nData for first 5 rows (cols 0-10):")
+    for i in range(4, 9):
+        print(df.iloc[i, 0:10].tolist())
+
+except Exception as e:
+    print(f"Error: {e}")

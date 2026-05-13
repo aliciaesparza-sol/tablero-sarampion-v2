@@ -1,0 +1,19 @@
+import pandas as pd
+
+excel_path = r"C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\INFORMES\Dosis_por_Localidad_y_Edad_Proporcional_Mezquital_2026.xlsx"
+inpi_pops = {'AGUA VERDE': 167, 'AGUA FRIA': 171, 'YERBANIZ': 219, 'TACHICHILPA': 405, 'SAN PEDRO DE XICORAS': 501, 'SAN PEDRO DE XOCORAS': 501} # Adding variant
+
+try:
+    df = pd.read_excel(excel_path, sheet_name='Desglose')
+    
+    print("Finding localities in existing report...")
+    for loc in inpi_pops.keys():
+        match = df[df['Localidad'].str.contains(loc, case=False, na=False)]
+        if not match.empty:
+            for _, row in match.iterrows():
+                print(f"Found: {row['Localidad']} - Doses: {row['TOTAL']} - INEGI Pop: {row['POBLACION (INEGI)']} - INPI Pop: {inpi_pops[loc]}")
+        else:
+            print(f"Not found: {loc}")
+            
+except Exception as e:
+    print(f"Error: {e}")

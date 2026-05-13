@@ -1,0 +1,202 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-language" content="es" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Consulta de Códigos Postales</title>
+    <meta content="Códigos Postales, Código Postal, Codigo, Consulta, Descarga, Actualización, Correos de México"
+        name="keywords">
+    <meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+    <meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+    <meta content="JavaScript" name="vs_defaultClientScript">
+    <meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
+    <link href='https://framework-gb.cdn.gob.mx/applications/cms/favicon.png' rel='shortcut icon'>
+    <link rel="stylesheet" type="text/css" href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" />
+</head>
+<body ms_positioning="GridLayout">
+    <form name="Form1" method="post" action="descarga.aspx?tipo=excel&amp;estado=10" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTUyODk5NjQzD2QWAgIBD2QWAgIBD2QWDAIDDxAPFgYeDURhdGFUZXh0RmllbGQFA0Vkbx4ORGF0YVZhbHVlRmllbGQFBUlkRWRvHgtfIURhdGFCb3VuZGdkEBUhIy0tLS0tLS0tLS0gVCAgbyAgZCAgbyAgcyAtLS0tLS0tLS0tDkFndWFzY2FsaWVudGVzD0JhamEgQ2FsaWZvcm5pYRNCYWphIENhbGlmb3JuaWEgU3VyCENhbXBlY2hlFENvYWh1aWxhIGRlIFphcmFnb3phBkNvbGltYQdDaGlhcGFzCUNoaWh1YWh1YRFDaXVkYWQgZGUgTcOpeGljbwdEdXJhbmdvCkd1YW5hanVhdG8IR3VlcnJlcm8HSGlkYWxnbwdKYWxpc2NvB03DqXhpY28UTWljaG9hY8OhbiBkZSBPY2FtcG8HTW9yZWxvcwdOYXlhcml0C051ZXZvIExlw7NuBk9heGFjYQZQdWVibGEKUXVlcsOpdGFybwxRdWludGFuYSBSb28QU2FuIEx1aXMgUG90b3PDrQdTaW5hbG9hBlNvbm9yYQdUYWJhc2NvClRhbWF1bGlwYXMIVGxheGNhbGEfVmVyYWNydXogZGUgSWduYWNpbyBkZSBsYSBMbGF2ZQhZdWNhdMOhbglaYWNhdGVjYXMVIQIwMAIwMQIwMgIwMwIwNAIwNQIwNgIwNwIwOAIwOQIxMAIxMQIxMgIxMwIxNAIxNQIxNgIxNwIxOAIxOQIyMAIyMQIyMgIyMwIyNAIyNQIyNgIyNwIyOAIyOQIzMAIzMQIzMhQrAyFnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2cWAWZkAgcPEA8WBh8ABQlNdW5pY2lwaW8fAQULSWRNdW5pY2lwaW8fAmdkEBUBIy0tLS0tLS0tLS0gVCAgbyAgZCAgbyAgcyAtLS0tLS0tLS0tFQEDMDAwFCsDAWdkZAIVDzwrAAsAZAIXDzwrAAsAZAIfDw8WAh4EVGV4dAUVVG90YWwgZGUgUmVnaXN0cm9zOiAwZGQCIw8PFgIfAwU2w5psdGltYSBBY3R1YWxpemFjacOzbiBkZSBJbmZvcm1hY2nDs246IE1heW8gMyBkZSAyMDI2ZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFB2J0bkZpbmQFB2J0blNhdmWE2+JfITY0+jrLwHLd4kkuycshIQ==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F65E4BF1" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWJwLgor2NDAKor+/uBQKor+PuBQKor+fuBQKor9vuBQKor9/uBQKor9PuBQKor9fuBQKor8vuBQKor4/tBQKor4PtBQK3r+/uBQK3r+PuBQK3r+fuBQK3r9vuBQK3r9/uBQK3r9PuBQK3r9fuBQK3r8vuBQK3r4/tBQK3r4PtBQK2r+/uBQK2r+PuBQK2r+fuBQK2r9vuBQK2r9/uBQK2r9PuBQK2r9fuBQK2r8vuBQK2r4/tBQK2r4PtBQK1r+/uBQK1r+PuBQK1r+fuBQKezciABgKVotGbCgL5zb65CwKY+871AQKct7iSDF8Sx9SLQCujhyIhkeZ+FOWByrRG" />
+        <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+                        <span class="sr-only">Interruptor de Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">SERVICIO POSTAL MEXICANO</a>
+                </div>
+                <div class="collapse navbar-collapse" id="subenlaces">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://www.gob.mx/correosdemexico">Sitio Principal</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios en línea<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="https://www.correosdemexico.gob.mx/SSLServicios/SeguimientoEnvio/Seguimiento.aspx">Seguimiento de Envíos</a></li>
+                                <li><a href="https://www.correosdemexico.gob.mx/SSLServicios/abcCP/actCPcons.aspx">Descarga CP_CONS y Códigos Postales</a></li>
+                                <li><a href="https://www.correosdemexico.gob.mx/SSLServicios/consultaCP/bofpostal.aspx">Consulta de Oficinas Postales</a></li>
+                                <li><a href="https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/CodigoPostal_Exportar.aspx">Descarga de Códigos Postales</a></li>
+                                <li><a href="https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/Descarga.aspx">Consulta de Códigos Postales</a></li>
+                                <li><a href="https://www.correosdemexico.gob.mx/datosabiertos/gobmx/gobmx_TarPortal.html">Cotiza tu envío</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-8">
+                    <div class="vertical-buffer">
+                        <br />
+                        <h4 id="Registra">Consulta de Códigos Postales</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr class="red" />
+                    </div>
+                </div>
+            </div>
+            <div id="PGeneral">
+	
+                <table class="small" id="tbGrids" cellspacing="1" cellpadding="3" width="605" border="0" defaultbutton="btnFind">
+                    <tr>
+                        <td valign="bottom" align="left" width="100" height="13">
+                            <span id="lblEdo" class="lbl" style="display:inline-block;">Estado:</span></td>
+                        <td valign="bottom" align="left" width="363" height="13">
+                            <select name="DdlEstado" id="DdlEstado" tabindex="1" class="cbo">
+		<option selected="selected" value="00">---------- T  o  d  o  s ----------</option>
+		<option value="01">Aguascalientes</option>
+		<option value="02">Baja California</option>
+		<option value="03">Baja California Sur</option>
+		<option value="04">Campeche</option>
+		<option value="05">Coahuila de Zaragoza</option>
+		<option value="06">Colima</option>
+		<option value="07">Chiapas</option>
+		<option value="08">Chihuahua</option>
+		<option value="09">Ciudad de M&#233;xico</option>
+		<option value="10">Durango</option>
+		<option value="11">Guanajuato</option>
+		<option value="12">Guerrero</option>
+		<option value="13">Hidalgo</option>
+		<option value="14">Jalisco</option>
+		<option value="15">M&#233;xico</option>
+		<option value="16">Michoac&#225;n de Ocampo</option>
+		<option value="17">Morelos</option>
+		<option value="18">Nayarit</option>
+		<option value="19">Nuevo Le&#243;n</option>
+		<option value="20">Oaxaca</option>
+		<option value="21">Puebla</option>
+		<option value="22">Quer&#233;taro</option>
+		<option value="23">Quintana Roo</option>
+		<option value="24">San Luis Potos&#237;</option>
+		<option value="25">Sinaloa</option>
+		<option value="26">Sonora</option>
+		<option value="27">Tabasco</option>
+		<option value="28">Tamaulipas</option>
+		<option value="29">Tlaxcala</option>
+		<option value="30">Veracruz de Ignacio de la Llave</option>
+		<option value="31">Yucat&#225;n</option>
+		<option value="32">Zacatecas</option>
+
+	</select></td>
+                        <td valign="bottom" align="left" width="100" height="13"></td>
+                    </tr>
+                    <tr>
+                        <td valign="bottom" align="left" width="100" height="15px">
+                            <span id="lblMun" class="lbl" style="display:inline-block;">Municipio:</span></td>
+                        <td valign="bottom" align="left" width="363" colspan="1" height="2" rowspan="1">
+                            <select name="DdlMuni" id="DdlMuni" tabindex="2" class="cbo">
+		<option selected="selected" value="000">---------- T  o  d  o  s ----------</option>
+
+	</select></td>
+                        <td><img src="Img/Blanco.jpg" /></td>
+
+                    </tr>
+                    <tr>
+                        <td valign="bottom" align="left" width="100" height="15px">
+                            Colonia:</td>
+                        <td valign="bottom" align="left" width="363" height="1">
+                            <input name="txtAsentami" type="text" maxlength="35" id="txtAsentami" tabindex="3" title="Ingrese el nombre del asentamiento o colonia que desea buscar" class="txt" /></td>
+                        <td valign="bottom" align="left" width="100" height="15px">
+                            <input type="image" name="btnFind" id="btnFind" tabindex="5" title="De clic para Buscar Códigos Postales" class="btn btn-primary btn-xs" src="Img/buscar.jpg" alt="Buscar" border="0" /></td>
+
+                    </tr>
+                    <tr>
+                        <td valign="bottom" align="left" width="100" height="15px">
+                            <span id="lblcp" class="lbl">Código Postal</span></td>
+                        <td valign="bottom" align="left" width="363" height="15">
+                            <input name="txtcp" type="text" maxlength="5" id="txtcp" tabindex="4" title="Ingrese el Código Postal que desea validar" class="txt" /></td>
+                        <td valign="bottom" align="left" width="100" height="15px"><a href="Descarga.aspx">
+                            <img id="Image1" title="De clic para Limpiar" class="btn btn-default btn-xs" src="Img/limpiar.jpg" alt="Limpiar" border="0" /></a>
+                        </td>
+
+                    </tr>
+                </table>
+                <br />
+                <table class="small" id="tbResult" bordercolor="#330033" cellspacing="1" cellpadding="3" width="1024"
+                    border="2">
+                    <tr>
+                        <td class="backrosa" valign="bottom" align="left" height="3">
+                            <span id="lblRCP" class="lblback">Códigos Postales</span></td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="left">
+                            <div style="border-right: #cccccc 1px solid; border-top: #cccccc 1px solid; overflow: auto; border-left: #cccccc 1px solid; width: 1020px; border-bottom: #cccccc 1px solid; height: 360px; text-align: left"
+                                ms_positioning="FlowLayout">
+                                
+                                
+                                <p>
+                                    
+                                    
+                                </p>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="backrosa" valign="bottom" align="left">
+                            <span id="lblTot" class="lblback">Total de Registros: 0</span></td>
+                    </tr>
+                </table>
+                <table class="small" id="tbSave" cellspacing="1" cellpadding="3" width="1024" border="0">
+                    <tr>
+                        <td valign="bottom" align="left">
+                            <input type="image" name="btnSave" id="btnSave" tabindex="8" title="De clic para Guardar consulta" src="img/descargar.jpg" border="0" /></td>
+                        <td valign="bottom" align="right" width="450px">
+                            <span id="lblfec" class="lbl">Última Actualización de Información: Mayo 3 de 2026</span></td>
+                    </tr>
+                </table>
+                <table class="small" id="tbNota" cellspacing="1" cellpadding="3" width="1024" border="0">
+                    <tr>
+                        <td valign="top" align="left" width="20px">
+                            <span id="lblNota" class="title1">Nota:</span></td>
+                        <td valign="bottom" align="left" width="550px">
+                            <span id="lblNota1" class="nota">El Catálogo Nacional de Códigos Postales, es elaborado por el Servicio Postal Mexicano y se proporciona en forma gratuita, no estando permitida su comercialización, total o parcial.</span></td>
+                    </tr>
+                    <tr>
+                        <td></td><td></td>
+                    </tr>
+                </table>
+            
+</div>
+            <div class="row">
+               <div class="col-md-12"><hr class="red"/></div>
+            </div>
+            
+        </div>
+    </form>
+    <script src="https://framework-gb.cdn.gob.mx/qa/gobmx.js"></script>
+</body>
+</html>

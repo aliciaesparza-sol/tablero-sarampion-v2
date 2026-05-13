@@ -1,0 +1,17 @@
+import pandas as pd
+
+inegi_excel = r"c:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\mezquital\POBLACION\POBLACION_MEZQUITAL_INEGI.xlsx"
+
+try:
+    df_inegi = pd.read_excel(inegi_excel, header=1)
+    inegi_dict = {}
+    for idx, row in df_inegi.iterrows():
+        loc = str(row.iloc[0]).strip().upper()
+        pop = pd.to_numeric(row.iloc[1], errors='coerce')
+        if loc != 'NAN' and not pd.isna(pop):
+            inegi_dict[loc] = pop
+    
+    print("Localities found in INEGI Excel:", list(inegi_dict.keys())[:20]) # Print first 20
+
+except Exception as e:
+    print(f"Error: {e}")
