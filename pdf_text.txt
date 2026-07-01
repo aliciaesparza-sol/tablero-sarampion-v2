@@ -1,7 +1,479 @@
- 
- Francisco de P. Miranda 157 piso 1, Colonia Lomas de Plateros, Demarcación Territorial Álvaro Obregón, C.P. 01480 Ciudad de México   Ciudad de México, a 6 de abril de 2026.                                                        Oficio: CENSIA- CIR- 56 -2026 Asunto: Metas para la Semana de Vacunación  en las Américas  Secretarias y Secretarios de Salud P r e s e n t e s   Por medio del presente, se informa que se desarrollará la Semana Nacional de Vacunación 2026, del 25 de abril al 2 de mayo, como una jornada intensiva cuyo objetivo es fortalecer las acciones del Programa de Vacunación Universal en todo el país, mediante la promoción de la aplicación gratuita y universal de vacunas en todas las unidades de salud del país, con especial énfasis en los grupos vulnerables que enfrentan barreras de acceso a los servicios de salud, tales como poblaciones periféricas urbanas, comunidades rurales, zonas fronterizas y pueblos indígenas.  En el marco de esta estrategia, se establece como meta la aplicación de 2,400,000 dosis de vacunas, a fin de incrementar las coberturas de vacunación, o bien, iniciar y/o completar los esquemas conforme a la línea de vida y proteger a la población objetivo. Durante este periodo, deberán administrar todas las vacunas disponibles, priorizando la aplicación de BCG, hexavalente acelular, SRP, SR, DTP, Tdpa, rotavirus, neumococo, hepatitis A y B, y VSR.  En este sentido, se remiten las metas calculadas con base en el 4% de la meta anual, con el propósito de que sean ratificadas o, en su caso, rectificadas. De requerirse ajustes, se deberá incluir la justificación correspondiente que sustente los cambios propuestos. Así mismo, se solicita capturar la información de los campos: número de guarderías y escuelas primarias a atender (población cautiva); número de puestos de vacunación destinados para actividades 
-
- 
- Francisco de P. Miranda 157 piso 1, Colonia Lomas de Plateros, Demarcación Territorial Álvaro Obregón, C.P. 01480 Ciudad de México   extramuros (lugares concurrentes); y número de vacunadores asignados para las actividades de vacunación.   Para tal efecto, se solicita que la información sea remitida a los correos electrónicos samantha.gaertner@salud.gob.mx, martha.ramiro@salud.gob.mx , gabriel.uribe@salud.gob.mx  y carolina.leriche@salud.gob.mx, a más tardar el jueves 9 de abril del año en curso, en caso de no contar con la rectificación en dicha fecha, se dará por entendido que la información ha sido ratificada.  Sin otro particular, reciban un cordial saludo.   A T E N T A M E N T E DRA. SAMANTHA GAERTNER BARNAD  DIRECTORA GENERAL DEL CENTRO NACIONAL PARA LA SALUD DE LA INFANCIA Y LA ADOLESCENCIA  Elaboró y Revisó   Mtra. Carolina Leriche Ramírez Subdirectora de área adscrita a la Dirección General      c.c. p Dr. Ramiro López Elizalde. - Subsecretario de Políticas de Salud y Bienestar Poblacional. - Para su superior conocimiento. - SAC. Directoras y Directores de los Servicios de Salud de las Entidades Federativos u Homólogos.- Presentes. Dra. Martha Soledad Ramiro Mendoza. - Directora del Programa de Atención a la Salud de la Infancia y la Adolescencia. - Conocimiento. Dr. José Misael Hernández Carrillo. - Titular de la Coordinación de Epidemiología Servicios de Salud del IMSS-BIENESTAR. - Presente. Dr. Jan Jacobo Gutiérrez Sereno. - Jefe de la División de Prevención y Protección Específica, Servicios de Salud IMSS-BIENESTAR. - Presente. Responsables del Programa de Vacunación Universal.- Presentes.   SGB/clr     Clasificación 7  Anexo 1. Metas de la Semana Nacional de Vacunación 2026.   
-
-
+SECRETARÍA DE SALUD
+DIRECCIÓN DE SALUD PÚBLICA
+REPORTE DE SEGUIMIENTO DE VACUNACIÓN SARAMPIÓN
+CORTE AL 28 DE JUNIO DE 2026
+1. Dosis aplicadas por biológico y esquema (Global)
+Biológico
+1a Dosis
+2a Dosis
+Total
+SRP
+122,236
+171,436
+293,672
+SR
+189,386
+190,627
+380,013
+Gran Total
+311,622
+362,063
+673,685
+2. Dosis aplicadas por biológico y esquema (Del 25 de
+junio de 2026 16:07 a 26 de junio de 2026 16:07)
+Biológico
+1a Dosis
+2a Dosis
+Total
+SRP
+45
+46
+91
+SR
+98
+182
+280
+Gran Total
+143
+228
+371
+3. Dosis aplicadas por institución (Global)
+Institución
+SRP 1a
+SRP 2a
+Total
+SRP
+SR 1a
+SR 2a
+Total
+SR
+Total
+SSD
+56,913
+83,496
+140,409
+66,702
+41,246
+107,948
+248,357
+IMSS
+52,897
+68,688
+121,585
+52,654
+121,374
+174,028
+295,613
+IMSS
+Bienestar
+7,967
+13,637
+21,604
+30,634
+27,428
+58,062
+79,666
+ISSSTE
+4,371
+5,354
+9,725
+39,367
+579
+39,946
+49,671
+SEDENA
+88
+261
+349
+29
+0
+29
+378
+Total
+122,236
+171,436
+293,672
+189,386
+190,627
+380,013
+673,685
+4. Dosis aplicadas por institución (Del 25 de junio de
+2026 16:07 a 26 de junio de 2026 16:07)
+Institución
+SRP 1a
+SRP 2a
+Total SRP
+SR 1a
+SR 2a
+Total SR
+Total
+SSD
+29
+46
+75
+68
+68
+136
+211
+IMSS
+0
+0
+0
+0
+0
+0
+0
+IMSS Bienestar
+16
+0
+16
+30
+114
+144
+160
+ISSSTE
+0
+0
+0
+0
+0
+0
+0
+SEDENA
+0
+0
+0
+0
+0
+0
+0
+Total
+45
+46
+91
+98
+182
+280
+371
+5. Gráfica de dosis aplicadas por institución (Últimas 24
+horas)
+6. Desglose SSD por Jurisdicción Sanitaria (Global)
+Jurisdicción
+SRP
+1a
+SRP
+2a
+T. SRP
+SR 1a
+SR 2a
+T. SR
+Total
+Durango
+26,948
+43,450
+70,398
+27,193
+32,366
+59,559
+129,957
+Gómez Palacio
+24,473
+25,490
+49,963
+28,115
+3,870
+31,985
+81,948
+Santiago
+Papasquiaro
+4,585
+10,107
+14,692
+9,989
+2,048
+12,037
+26,729
+Rodeo
+907
+4,449
+5,356
+1,405
+2,962
+4,367
+9,723
+Total SSD
+56,913
+83,496
+140,409
+66,702
+41,246
+107,948
+248,357
+7. Desglose SSD por Jurisdicción Sanitaria (Del 25 de
+junio de 2026 16:07 a 26 de junio de 2026 16:07)
+Jurisdicción
+SRP 1a
+SRP 2a
+T. SRP
+SR 1a
+SR 2a
+T. SR
+Total
+Durango
+29
+46
+75
+68
+68
+136
+211
+Gómez Palacio
+0
+0
+0
+0
+0
+0
+0
+Santiago Papasquiaro
+0
+0
+0
+0
+0
+0
+0
+Rodeo
+0
+0
+0
+0
+0
+0
+0
+Total SSD
+29
+46
+75
+68
+68
+136
+211
+8. Desglose por grupo de edad (Global)
+Vacuna SRP
+Grupo de Edad
+1a Dosis
+2a Dosis
+6 a 11 meses
+11,478
+—
+1 año
+29,364
+—
+18 meses
+—
+21,731
+2 a 5 años
+11,657
+18,282
+6 años
+7,232
+28,008
+7 a 9 años
+6,004
+16,799
+10 a 12 años
+4,751
+10,701
+13 a 19 años
+4,764
+9,137
+10 a 19 años
+7,455
+9,385
+20 a 29 años
+13,463
+20,614
+30 a 39 años
+12,426
+19,540
+40 a 49 años
+9,469
+13,173
+Personal de salud
+3,177
+1,766
+Personal educativo
+646
+1,216
+Jornaleros agrícolas
+350
+1,084
+Total
+122,236
+171,436
+Vacuna SR
+Grupo de Edad
+1a Dosis
+2a Dosis
+6 a 11 meses
+5,157
+—
+1 año
+3,149
+—
+18 meses
+—
+2,381
+2 a 5 años
+5,027
+5,611
+6 años
+4,874
+5,524
+7 a 9 años
+6,485
+9,048
+10 a 12 años
+18,645
+15,922
+13 a 19 años
+21,558
+24,984
+10 a 19 años
+15,228
+6,793
+20 a 29 años
+35,078
+37,935
+30 a 39 años
+31,599
+39,112
+40 a 49 años
+30,358
+29,290
+Personal de salud
+6,780
+6,162
+Personal educativo
+3,294
+5,396
+Jornaleros agrícolas
+2,154
+2,469
+Total
+189,386
+190,627
+9. Desglose por grupo de edad (Del 25 de junio de 2026
+16:07 a 26 de junio de 2026 16:07)
+Vacuna SRP
+Grupo de Edad
+1a Dosis
+2a Dosis
+6 a 11 meses
+12
+—
+1 año
+25
+—
+18 meses
+—
+26
+2 a 5 años
+4
+4
+6 años
+1
+10
+7 a 9 años
+0
+4
+10 a 12 años
+2
+1
+13 a 19 años
+0
+0
+10 a 19 años
+0
+0
+20 a 29 años
+1
+1
+30 a 39 años
+0
+0
+40 a 49 años
+0
+0
+Personal de salud
+0
+0
+Personal educativo
+0
+0
+Jornaleros agrícolas
+0
+0
+Total
+45
+46
+Vacuna SR
+Grupo de Edad
+1a Dosis
+2a Dosis
+6 a 11 meses
+5
+—
+1 año
+1
+—
+18 meses
+—
+0
+2 a 5 años
+6
+0
+6 años
+1
+0
+7 a 9 años
+3
+5
+10 a 12 años
+4
+7
+13 a 19 años
+6
+3
+10 a 19 años
+0
+0
+20 a 29 años
+23
+22
+30 a 39 años
+17
+19
+40 a 49 años
+27
+11
+Personal de salud
+5
+0
+Personal educativo
+0
+0
+Jornaleros agrícolas
+0
+115
+Total
+98
+182
+*Fuente: SISTEMAS DE INFORMACIÓN CENTRO NACIONAL DE SALUD PARA LA INFANCIA Y LA
+ADOLESCENCIA (CENSIA). https://siscensia.salud.gob.mx/*
+Fecha y hora de consulta: 28/06/2026 08:00:00
+Fecha y hora del reporte: 28/06/2026 08:00:00
+Fecha y hora del último registro: 26/06/2026 16:07:23
+Periodo de reporte diario: 25/06/2026 16:07:23-26/06/2026 16:07:23 
+CSC/AASM/SRS 

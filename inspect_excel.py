@@ -1,11 +1,11 @@
 import pandas as pd
-from pathlib import Path
-import sys
 
-sys.stdout.reconfigure(encoding='utf-8')
-file_path = Path("temp.xlsx")
+excel_path = r"C:/Users/aicil/OneDrive/Escritorio/PVU/ANEXOS DGO/VACUNACIÓN ANEXOS FINAL.xlsx"
+
 try:
-    xl = pd.ExcelFile(file_path)
-    print("All sheets:", xl.sheet_names)
+    df = pd.read_excel(excel_path)
+    print('Column names:', list(df.columns))
+    print('First 5 rows:')
+    print(df.head())
 except Exception as e:
-    print(f"Error: {e}")
+    print('Error reading Excel file:', e)

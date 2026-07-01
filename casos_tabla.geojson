@@ -1,0 +1,480 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6052,
+          24.0322
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "nombre": "LFL",
+        "sexo": "Femenino",
+        "edad": 26,
+        "umf": "44",
+        "domicilio": "Encinos 305, Col. Cipres",
+        "colonia": "Col. Cipres",
+        "municipio": "Durango",
+        "cp": "34220",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "19/05/2026",
+        "folio": "72874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6548,
+          23.9961
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "nombre": "JPO",
+        "sexo": "Masculino",
+        "edad": 29,
+        "umf": "49",
+        "domicilio": "C.Simon Bolivar 123, Col. Asentamientos Humanos",
+        "colonia": "Col. Asentamientos Humanos",
+        "municipio": "Durango",
+        "cp": "34170",
+        "institucion": "ISSSTE",
+        "fecha_sintomas": "17/05/2026",
+        "fecha_atencion": "20/05/2026",
+        "folio": "72973"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.619,
+          24.0152
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "nombre": "ARR",
+        "sexo": "Masculino",
+        "edad": 41,
+        "umf": "HGZ 1",
+        "domicilio": "C. Principal s/n, Col. El Presidio",
+        "colonia": "Col. El Presidio",
+        "municipio": "Durango",
+        "cp": "34166",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "73145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6465,
+          24.0177
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "nombre": "GER",
+        "sexo": "Masculino",
+        "edad": 32,
+        "umf": "44",
+        "domicilio": "C. Morelos 206, Col. Jose Ma.Morelos",
+        "colonia": "Col. Jose Ma.Morelos",
+        "municipio": "Durango",
+        "cp": "34160",
+        "institucion": "SSA",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "73098"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6547,
+          24.022
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "nombre": "ARGV",
+        "sexo": "Masculino",
+        "edad": 34,
+        "umf": "44",
+        "domicilio": "C. Angeles Mena 114,Col. Legisladores",
+        "colonia": "Col. Legisladores",
+        "municipio": "Durango",
+        "cp": "34046",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "17/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "73093"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6291,
+          24.0535
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "nombre": "UNL",
+        "sexo": "Masculino",
+        "edad": 24,
+        "umf": "44",
+        "domicilio": "Conocido en el Carmen y Anexos",
+        "colonia": "El Carmen y Anexos",
+        "municipio": "Durango",
+        "cp": "34105",
+        "institucion": "IMSS COPLAMAR",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "73095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.595,
+          24.0841
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "nombre": "FSG",
+        "sexo": "Femenino",
+        "edad": 27,
+        "umf": "49",
+        "domicilio": "Conocido, Col. Rio Dorado",
+        "colonia": "Col. Rio Dorado",
+        "municipio": "Durango",
+        "cp": "34117",
+        "institucion": "SSA",
+        "fecha_sintomas": "16/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "73117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6473,
+          24.052
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "nombre": "CHG",
+        "sexo": "Femenino",
+        "edad": 29,
+        "umf": "49",
+        "domicilio": "C. 12 de Octubre 506, Col. Constitución",
+        "colonia": "Col. Constitución",
+        "municipio": "Durango",
+        "cp": "34218",
+        "institucion": "SSA",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "21/05/2026",
+        "folio": "75083"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.63,
+          24.0435
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "nombre": "AEGR",
+        "sexo": "Femenino",
+        "edad": 34,
+        "umf": "1",
+        "domicilio": "C. México 408, Col. Lazaro Cardenas",
+        "colonia": "Col. Lazaro Cardenas",
+        "municipio": "Durango",
+        "cp": "34260",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "20/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6432,
+          23.9995
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "nombre": "MCGR",
+        "sexo": "Femenino",
+        "edad": 29,
+        "umf": "44",
+        "domicilio": "Francisco Villa 407, Col. Arturo Gamiz",
+        "colonia": "Col. Arturo Gamiz",
+        "municipio": "Durango",
+        "cp": "34180",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "18/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6644,
+          24.0577
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "nombre": "MJGC",
+        "sexo": "Femenino",
+        "edad": 32,
+        "umf": "44",
+        "domicilio": "Contadores 449, Col. 16 de Septiembre",
+        "colonia": "Col. 16 de Septiembre",
+        "municipio": "Durango",
+        "cp": "34100",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "20/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.64,
+          24.0345
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "nombre": "YCE",
+        "sexo": "Femenino",
+        "edad": 33,
+        "umf": "44",
+        "domicilio": "Santa Catarina 148, Col. San Jose",
+        "colonia": "Col. San Jose",
+        "municipio": "Durango",
+        "cp": "34105",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "21/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6025,
+          24.015
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "nombre": "MMF",
+        "sexo": "Masculino",
+        "edad": 27,
+        "umf": "44",
+        "domicilio": "Hacienda Suchil 223, Frac. San Gabriel",
+        "colonia": "Frac. San Gabriel",
+        "municipio": "Durango",
+        "cp": "34167",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "20/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73183"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6853,
+          24.0197
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "nombre": "DCLS",
+        "sexo": "Femenino",
+        "edad": 25,
+        "umf": "IMSS",
+        "domicilio": "Panama 303, Col. Francisco Zarco, CP. 34210",
+        "colonia": "Col. Francisco Zarco",
+        "municipio": "Durango",
+        "cp": "34210",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "21/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73193"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7042,
+          24.0381
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "nombre": "ECS",
+        "sexo": "Masculino",
+        "edad": 24,
+        "umf": "IMSS",
+        "domicilio": "Geranio 417, Col. La Virgen, CP 34049",
+        "colonia": "Col. La Virgen",
+        "municipio": "Durango",
+        "cp": "34049",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "22/05/2026",
+        "fecha_atencion": "22/05/2026",
+        "folio": "73256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6698,
+          24.0494
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "nombre": "COCG",
+        "sexo": "Masculino",
+        "edad": 24,
+        "umf": "44",
+        "domicilio": "Luis Angel Tejada Espino 223, Col. Morga, CP. 34019",
+        "colonia": "Col. Morga",
+        "municipio": "Durango",
+        "cp": "34019",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "24/05/2026",
+        "fecha_atencion": "24/05/2026",
+        "folio": "S/F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6989,
+          24.0507
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "nombre": "APPV",
+        "sexo": "Femenino",
+        "edad": 31,
+        "umf": "44",
+        "domicilio": "Leo 601, Col. Valentín Gómez Farías, CP 34010",
+        "colonia": "Col. Valentín Gómez Farías",
+        "municipio": "Durango",
+        "cp": "34010",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "23/05/2026",
+        "fecha_atencion": "25/05/2026",
+        "folio": "73322"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6055,
+          24.0174
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "nombre": "ALQA",
+        "sexo": "Femenino",
+        "edad": 35,
+        "umf": "IMSS",
+        "domicilio": "Neftali Montes 104, Fracc. Locutores CP. 34167",
+        "colonia": "Fracc. Locutores",
+        "municipio": "Durango",
+        "cp": "34167",
+        "institucion": "ISSSTE",
+        "fecha_sintomas": "23/05/2026",
+        "fecha_atencion": "26/05/2026",
+        "folio": "73391"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6931,
+          24.0041
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "nombre": "RARV",
+        "sexo": "Masculino",
+        "edad": 27,
+        "umf": "IMSS",
+        "domicilio": "Francisco Favela 116, Col. Miguel de la Madrid",
+        "colonia": "Col. Miguel de la Madrid",
+        "municipio": "Durango",
+        "cp": "34210",
+        "institucion": "IMSS Ordinario",
+        "fecha_sintomas": "21/05/2026",
+        "fecha_atencion": "26/05/2026",
+        "folio": "73395"
+      }
+    }
+  ]
+}

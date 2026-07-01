@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3553b2c12f5ffcb86df4859eb9012ba3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="position: fixed; 
+            bottom: 30px; right: 30px; width: 250px; height: 160px; 
+            border: 2px solid #ccc; z-index: 9999; font-size: 12px;
+            background-color: white; opacity: 0.95; padding: 12px; 
+            border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif;">
+    <b style="font-size: 13px; display: block; margin-bottom: 8px; color: #333; border-bottom: 1px solid #eee; padding-bottom: 4px;">
+        Zonas de Casos por Institución
+    </b>
+    <div style="display: flex; align-items: center; margin-bottom: 6px;">
+        <span style="display: inline-block; width: 16px; height: 16px; background-color: #006341; border-radius: 50%; margin-right: 8px; opacity: 0.7;"></span>
+        <span>IMSS Ordinario / IMSS</span>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom: 6px;">
+        <span style="display: inline-block; width: 16px; height: 16px; background-color: #2d8a4e; border-radius: 50%; margin-right: 8px; opacity: 0.7;"></span>
+        <span>IMSS COPLAMAR</span>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom: 6px;">
+        <span style="display: inline-block; width: 16px; height: 16px; background-color: #9f2241; border-radius: 50%; margin-right: 8px; opacity: 0.7;"></span>
+        <span>ISSSTE</span>
+    </div>
+    <div style="display: flex; align-items: center; margin-bottom: 6px;">
+        <span style="display: inline-block; width: 16px; height: 16px; background-color: #071e54; border-radius: 50%; margin-right: 8px; opacity: 0.7;"></span>
+        <span>SSA</span>
+    </div>
+</div>
+    
+            <div class="folium-map" id="map_3553b2c12f5ffcb86df4859eb9012ba3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3553b2c12f5ffcb86df4859eb9012ba3 = L.map(
+                "map_3553b2c12f5ffcb86df4859eb9012ba3",
+                {
+                    center: [24.025, -104.65],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85d1feb235b7874f1b9819f26ecb8c8c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_85d1feb235b7874f1b9819f26ecb8c8c.addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var circle_039b642da2403953bcad866e17fdbfe9 = L.circle(
+                [24.0322, -104.6052],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_039b642da2403953bcad866e17fdbfe9.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Cipres
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8a2f3bde31f4354a080d00fc3dd63972 = L.marker(
+                [24.0322, -104.6052],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_beb63fb5cfc507d3239e67e2d71fdbb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77e81a4bd7f2a6259677bbce6707185a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1fecb05532c4296bf49726f40c007f52 = $(`<div id="html_1fecb05532c4296bf49726f40c007f52" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #1 (LFL)</h4>         <b>Domicilio:</b> Encinos 305, Col. Cipres<br>         <b>Colonia:</b> Col. Cipres<br>         <b>Código Postal:</b> 34220<br>         <b>Edad:</b> 26 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 19/05/2026<br>         <b>Folio:</b> 72874     </div>     </div>`)[0];
+                popup_77e81a4bd7f2a6259677bbce6707185a.setContent(html_1fecb05532c4296bf49726f40c007f52);
+            
+        
+
+        marker_8a2f3bde31f4354a080d00fc3dd63972.bindPopup(popup_77e81a4bd7f2a6259677bbce6707185a)
+        ;
+
+        
+    
+    
+            marker_8a2f3bde31f4354a080d00fc3dd63972.bindTooltip(
+                `<div>
+                     Caso 1: Col. Col. Cipres (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a2f3bde31f4354a080d00fc3dd63972.setIcon(icon_beb63fb5cfc507d3239e67e2d71fdbb4);
+            
+    
+            var circle_6f62b5cc9957d1fd28784dc9683a0257 = L.circle(
+                [23.9961, -104.6548],
+                {"bubblingMouseEvents": true, "color": "#9f2241", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f2241", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_6f62b5cc9957d1fd28784dc9683a0257.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Asentamientos Humanos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_66da2ccb23aeb434d8dd82547a42c018 = L.marker(
+                [23.9961, -104.6548],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_db0082ab8dd39b2fff767047261535b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e25cd3747ae8fda9658b61331ce97fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_905e4757f88d328e8314fa79f2f93194 = $(`<div id="html_905e4757f88d328e8314fa79f2f93194" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #9f2241; border-bottom: 2px solid #9f2241; padding-bottom: 5px;">Caso #2 (JPO)</h4>         <b>Domicilio:</b> C.Simon Bolivar 123, Col. Asentamientos Humanos<br>         <b>Colonia:</b> Col. Asentamientos Humanos<br>         <b>Código Postal:</b> 34170<br>         <b>Edad:</b> 29 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> ISSSTE (UMF 49)<br>         <b>F. Síntomas:</b> 17/05/2026<br>         <b>F. Atención:</b> 20/05/2026<br>         <b>Folio:</b> 72973     </div>     </div>`)[0];
+                popup_7e25cd3747ae8fda9658b61331ce97fe.setContent(html_905e4757f88d328e8314fa79f2f93194);
+            
+        
+
+        marker_66da2ccb23aeb434d8dd82547a42c018.bindPopup(popup_7e25cd3747ae8fda9658b61331ce97fe)
+        ;
+
+        
+    
+    
+            marker_66da2ccb23aeb434d8dd82547a42c018.bindTooltip(
+                `<div>
+                     Caso 2: Col. Col. Asentamientos Humanos (ISSSTE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_66da2ccb23aeb434d8dd82547a42c018.setIcon(icon_db0082ab8dd39b2fff767047261535b8);
+            
+    
+            var circle_ca97703346af8da3f5aa0ac1ea991838 = L.circle(
+                [24.0152, -104.619],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_ca97703346af8da3f5aa0ac1ea991838.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. El Presidio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a04758884e238711c94cd6272068ccf = L.marker(
+                [24.0152, -104.619],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_30c5572d6c28ad0a739ddd6adfc1c956 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55e205789bb8822622d6ea9c5410d13a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f18a6cd31312fce255666468bc43610 = $(`<div id="html_1f18a6cd31312fce255666468bc43610" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #3 (ARR)</h4>         <b>Domicilio:</b> C. Principal s/n, Col. El Presidio<br>         <b>Colonia:</b> Col. El Presidio<br>         <b>Código Postal:</b> 34166<br>         <b>Edad:</b> 41 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF HGZ 1)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 73145     </div>     </div>`)[0];
+                popup_55e205789bb8822622d6ea9c5410d13a.setContent(html_1f18a6cd31312fce255666468bc43610);
+            
+        
+
+        marker_7a04758884e238711c94cd6272068ccf.bindPopup(popup_55e205789bb8822622d6ea9c5410d13a)
+        ;
+
+        
+    
+    
+            marker_7a04758884e238711c94cd6272068ccf.bindTooltip(
+                `<div>
+                     Caso 3: Col. Col. El Presidio (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a04758884e238711c94cd6272068ccf.setIcon(icon_30c5572d6c28ad0a739ddd6adfc1c956);
+            
+    
+            var circle_fb915cf0ee7873a1309e92a465c9c86c = L.circle(
+                [24.0177, -104.6465],
+                {"bubblingMouseEvents": true, "color": "#071e54", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#071e54", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_fb915cf0ee7873a1309e92a465c9c86c.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Jose Ma.Morelos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_576a58e7ed0ffff426270aa48f05f09f = L.marker(
+                [24.0177, -104.6465],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_5a2bc70bdb340bf560dd792c15e86a20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b49488b7f76ab084004fc295ea5fbd6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0d4440ad3b53685caca71cdcc8b5a011 = $(`<div id="html_0d4440ad3b53685caca71cdcc8b5a011" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #071e54; border-bottom: 2px solid #071e54; padding-bottom: 5px;">Caso #4 (GER)</h4>         <b>Domicilio:</b> C. Morelos 206, Col. Jose Ma.Morelos<br>         <b>Colonia:</b> Col. Jose Ma.Morelos<br>         <b>Código Postal:</b> 34160<br>         <b>Edad:</b> 32 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> SSA (UMF 44)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 73098     </div>     </div>`)[0];
+                popup_8b49488b7f76ab084004fc295ea5fbd6.setContent(html_0d4440ad3b53685caca71cdcc8b5a011);
+            
+        
+
+        marker_576a58e7ed0ffff426270aa48f05f09f.bindPopup(popup_8b49488b7f76ab084004fc295ea5fbd6)
+        ;
+
+        
+    
+    
+            marker_576a58e7ed0ffff426270aa48f05f09f.bindTooltip(
+                `<div>
+                     Caso 4: Col. Col. Jose Ma.Morelos (SSA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_576a58e7ed0ffff426270aa48f05f09f.setIcon(icon_5a2bc70bdb340bf560dd792c15e86a20);
+            
+    
+            var circle_40f077739a1df715f5cc514b7aae31c8 = L.circle(
+                [24.022, -104.6547],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_40f077739a1df715f5cc514b7aae31c8.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Legisladores
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f168b95cd36a13ae832967b96877426f = L.marker(
+                [24.022, -104.6547],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_90a01024c6f74c1344d7e333e8872d3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9820a5bd9c480fd1e1b28aec65ad51a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3dff15f77a4a7d986628578de604da25 = $(`<div id="html_3dff15f77a4a7d986628578de604da25" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #5 (ARGV)</h4>         <b>Domicilio:</b> C. Angeles Mena 114,Col. Legisladores<br>         <b>Colonia:</b> Col. Legisladores<br>         <b>Código Postal:</b> 34046<br>         <b>Edad:</b> 34 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 17/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 73093     </div>     </div>`)[0];
+                popup_d9820a5bd9c480fd1e1b28aec65ad51a.setContent(html_3dff15f77a4a7d986628578de604da25);
+            
+        
+
+        marker_f168b95cd36a13ae832967b96877426f.bindPopup(popup_d9820a5bd9c480fd1e1b28aec65ad51a)
+        ;
+
+        
+    
+    
+            marker_f168b95cd36a13ae832967b96877426f.bindTooltip(
+                `<div>
+                     Caso 5: Col. Col. Legisladores (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f168b95cd36a13ae832967b96877426f.setIcon(icon_90a01024c6f74c1344d7e333e8872d3a);
+            
+    
+            var circle_b7989bd63bbd57db1aea3c6188251756 = L.circle(
+                [24.0535, -104.6291],
+                {"bubblingMouseEvents": true, "color": "#2d8a4e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2d8a4e", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_b7989bd63bbd57db1aea3c6188251756.bindTooltip(
+                `<div>
+                     Área de Influencia: El Carmen y Anexos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cd838475466a381a07044c748f8f6c8 = L.marker(
+                [24.0535, -104.6291],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_1c7e662d9bc7efb396814ed4533b7a08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5624235545e8dadab6253af00e22a1db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0314b403edac4bac5720b17409c302c1 = $(`<div id="html_0314b403edac4bac5720b17409c302c1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #2d8a4e; border-bottom: 2px solid #2d8a4e; padding-bottom: 5px;">Caso #6 (UNL)</h4>         <b>Domicilio:</b> Conocido en el Carmen y Anexos<br>         <b>Colonia:</b> El Carmen y Anexos<br>         <b>Código Postal:</b> 34105<br>         <b>Edad:</b> 24 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS COPLAMAR (UMF 44)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 73095     </div>     </div>`)[0];
+                popup_5624235545e8dadab6253af00e22a1db.setContent(html_0314b403edac4bac5720b17409c302c1);
+            
+        
+
+        marker_0cd838475466a381a07044c748f8f6c8.bindPopup(popup_5624235545e8dadab6253af00e22a1db)
+        ;
+
+        
+    
+    
+            marker_0cd838475466a381a07044c748f8f6c8.bindTooltip(
+                `<div>
+                     Caso 6: Col. El Carmen y Anexos (IMSS COPLAMAR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cd838475466a381a07044c748f8f6c8.setIcon(icon_1c7e662d9bc7efb396814ed4533b7a08);
+            
+    
+            var circle_189760f6797ed71eb60ff9680c03c4f3 = L.circle(
+                [24.0841, -104.595],
+                {"bubblingMouseEvents": true, "color": "#071e54", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#071e54", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_189760f6797ed71eb60ff9680c03c4f3.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Rio Dorado
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c77b53a0499b117f986cc578abf0e297 = L.marker(
+                [24.0841, -104.595],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_e72f9a4cf218c41cf31879f6c0ec07f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6230c0902701013a5268985debf04ac7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_645a1618ac372181089c227a84e6e3e8 = $(`<div id="html_645a1618ac372181089c227a84e6e3e8" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #071e54; border-bottom: 2px solid #071e54; padding-bottom: 5px;">Caso #7 (FSG)</h4>         <b>Domicilio:</b> Conocido, Col. Rio Dorado<br>         <b>Colonia:</b> Col. Rio Dorado<br>         <b>Código Postal:</b> 34117<br>         <b>Edad:</b> 27 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> SSA (UMF 49)<br>         <b>F. Síntomas:</b> 16/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 73117     </div>     </div>`)[0];
+                popup_6230c0902701013a5268985debf04ac7.setContent(html_645a1618ac372181089c227a84e6e3e8);
+            
+        
+
+        marker_c77b53a0499b117f986cc578abf0e297.bindPopup(popup_6230c0902701013a5268985debf04ac7)
+        ;
+
+        
+    
+    
+            marker_c77b53a0499b117f986cc578abf0e297.bindTooltip(
+                `<div>
+                     Caso 7: Col. Col. Rio Dorado (SSA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c77b53a0499b117f986cc578abf0e297.setIcon(icon_e72f9a4cf218c41cf31879f6c0ec07f0);
+            
+    
+            var circle_db8a47156c1d8505e8399923c7bb1fac = L.circle(
+                [24.052, -104.6473],
+                {"bubblingMouseEvents": true, "color": "#071e54", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#071e54", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_db8a47156c1d8505e8399923c7bb1fac.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Constitución
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e344ab23ec00936dc1112952a1c12670 = L.marker(
+                [24.052, -104.6473],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_5d35baefdfa8a6b94ef5b67a5c3721c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3043bddf351cfffea79bf42427c821b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9bdeebf5e6695f92ff04f3a5cc03a526 = $(`<div id="html_9bdeebf5e6695f92ff04f3a5cc03a526" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #071e54; border-bottom: 2px solid #071e54; padding-bottom: 5px;">Caso #8 (CHG)</h4>         <b>Domicilio:</b> C. 12 de Octubre 506, Col. Constitución<br>         <b>Colonia:</b> Col. Constitución<br>         <b>Código Postal:</b> 34218<br>         <b>Edad:</b> 29 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> SSA (UMF 49)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 21/05/2026<br>         <b>Folio:</b> 75083     </div>     </div>`)[0];
+                popup_3043bddf351cfffea79bf42427c821b8.setContent(html_9bdeebf5e6695f92ff04f3a5cc03a526);
+            
+        
+
+        marker_e344ab23ec00936dc1112952a1c12670.bindPopup(popup_3043bddf351cfffea79bf42427c821b8)
+        ;
+
+        
+    
+    
+            marker_e344ab23ec00936dc1112952a1c12670.bindTooltip(
+                `<div>
+                     Caso 8: Col. Col. Constitución (SSA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e344ab23ec00936dc1112952a1c12670.setIcon(icon_5d35baefdfa8a6b94ef5b67a5c3721c6);
+            
+    
+            var circle_8711fb1b1bd8858bb9661249652d137c = L.circle(
+                [24.0435, -104.63],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_8711fb1b1bd8858bb9661249652d137c.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Lazaro Cardenas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_505aa004e92fd9c3b4a56fdb80c0bec3 = L.marker(
+                [24.0435, -104.63],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_fa6b64989b27001c7b5e5b90d274c73b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2f648acd97741b84057146d6befa870 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f068abd47b65a6da61b397c6e15185be = $(`<div id="html_f068abd47b65a6da61b397c6e15185be" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #9 (AEGR)</h4>         <b>Domicilio:</b> C. México 408, Col. Lazaro Cardenas<br>         <b>Colonia:</b> Col. Lazaro Cardenas<br>         <b>Código Postal:</b> 34260<br>         <b>Edad:</b> 34 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 1)<br>         <b>F. Síntomas:</b> 20/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73185     </div>     </div>`)[0];
+                popup_c2f648acd97741b84057146d6befa870.setContent(html_f068abd47b65a6da61b397c6e15185be);
+            
+        
+
+        marker_505aa004e92fd9c3b4a56fdb80c0bec3.bindPopup(popup_c2f648acd97741b84057146d6befa870)
+        ;
+
+        
+    
+    
+            marker_505aa004e92fd9c3b4a56fdb80c0bec3.bindTooltip(
+                `<div>
+                     Caso 9: Col. Col. Lazaro Cardenas (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_505aa004e92fd9c3b4a56fdb80c0bec3.setIcon(icon_fa6b64989b27001c7b5e5b90d274c73b);
+            
+    
+            var circle_3c09d6cb00f7ff01b34c570bfa0f19dc = L.circle(
+                [23.9995, -104.6432],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_3c09d6cb00f7ff01b34c570bfa0f19dc.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Arturo Gamiz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_798495b677e45224e6ccda4431801697 = L.marker(
+                [23.9995, -104.6432],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_fa053e00cdae976035e640e0e7c69eeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0911b4d8ac4e112fea314173e3c4377 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86d4946bfe43e8f6f8e62f542d64630a = $(`<div id="html_86d4946bfe43e8f6f8e62f542d64630a" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #10 (MCGR)</h4>         <b>Domicilio:</b> Francisco Villa 407, Col. Arturo Gamiz<br>         <b>Colonia:</b> Col. Arturo Gamiz<br>         <b>Código Postal:</b> 34180<br>         <b>Edad:</b> 29 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 18/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73163     </div>     </div>`)[0];
+                popup_a0911b4d8ac4e112fea314173e3c4377.setContent(html_86d4946bfe43e8f6f8e62f542d64630a);
+            
+        
+
+        marker_798495b677e45224e6ccda4431801697.bindPopup(popup_a0911b4d8ac4e112fea314173e3c4377)
+        ;
+
+        
+    
+    
+            marker_798495b677e45224e6ccda4431801697.bindTooltip(
+                `<div>
+                     Caso 10: Col. Col. Arturo Gamiz (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_798495b677e45224e6ccda4431801697.setIcon(icon_fa053e00cdae976035e640e0e7c69eeb);
+            
+    
+            var circle_c2df4b8b970121731448e2714aecd9d9 = L.circle(
+                [24.0577, -104.6644],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_c2df4b8b970121731448e2714aecd9d9.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. 16 de Septiembre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_400642e0c4ebe8258887da7203e5254a = L.marker(
+                [24.0577, -104.6644],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_640f24607b68f569b06e4f069484d938 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab6f5d8d3c8822ea10fc3597ca1c85f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21958d2310b01192d8f8c5ceb4a24a4e = $(`<div id="html_21958d2310b01192d8f8c5ceb4a24a4e" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #11 (MJGC)</h4>         <b>Domicilio:</b> Contadores 449, Col. 16 de Septiembre<br>         <b>Colonia:</b> Col. 16 de Septiembre<br>         <b>Código Postal:</b> 34100<br>         <b>Edad:</b> 32 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 20/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73165     </div>     </div>`)[0];
+                popup_ab6f5d8d3c8822ea10fc3597ca1c85f7.setContent(html_21958d2310b01192d8f8c5ceb4a24a4e);
+            
+        
+
+        marker_400642e0c4ebe8258887da7203e5254a.bindPopup(popup_ab6f5d8d3c8822ea10fc3597ca1c85f7)
+        ;
+
+        
+    
+    
+            marker_400642e0c4ebe8258887da7203e5254a.bindTooltip(
+                `<div>
+                     Caso 11: Col. Col. 16 de Septiembre (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_400642e0c4ebe8258887da7203e5254a.setIcon(icon_640f24607b68f569b06e4f069484d938);
+            
+    
+            var circle_4d0afa4e357d8e17e1c7834c0c3e078b = L.circle(
+                [24.0345, -104.64],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_4d0afa4e357d8e17e1c7834c0c3e078b.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. San Jose
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96f705eb1e418b90ba48bf478d370646 = L.marker(
+                [24.0345, -104.64],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_e5678f7d80b8b4ba8bd7fa02b9f590a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_526cf4657ad681c6d9a7442f25aca750 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b96c4f3012415c77c1fd4492bdc9b376 = $(`<div id="html_b96c4f3012415c77c1fd4492bdc9b376" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #12 (YCE)</h4>         <b>Domicilio:</b> Santa Catarina 148, Col. San Jose<br>         <b>Colonia:</b> Col. San Jose<br>         <b>Código Postal:</b> 34105<br>         <b>Edad:</b> 33 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 21/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73210     </div>     </div>`)[0];
+                popup_526cf4657ad681c6d9a7442f25aca750.setContent(html_b96c4f3012415c77c1fd4492bdc9b376);
+            
+        
+
+        marker_96f705eb1e418b90ba48bf478d370646.bindPopup(popup_526cf4657ad681c6d9a7442f25aca750)
+        ;
+
+        
+    
+    
+            marker_96f705eb1e418b90ba48bf478d370646.bindTooltip(
+                `<div>
+                     Caso 12: Col. Col. San Jose (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_96f705eb1e418b90ba48bf478d370646.setIcon(icon_e5678f7d80b8b4ba8bd7fa02b9f590a1);
+            
+    
+            var circle_fee8583fc4b14f8bfa07ce83603f76c2 = L.circle(
+                [24.015, -104.6025],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_fee8583fc4b14f8bfa07ce83603f76c2.bindTooltip(
+                `<div>
+                     Área de Influencia: Frac. San Gabriel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2f727cd811ad4f7023dbd515f6733b3a = L.marker(
+                [24.015, -104.6025],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_f5c4c0f095748f5e432c7a44f94852cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42f980743ce594f057c34bdb6283a684 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb5c47b119979ebe1bf78077e1ee07f6 = $(`<div id="html_cb5c47b119979ebe1bf78077e1ee07f6" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #13 (MMF)</h4>         <b>Domicilio:</b> Hacienda Suchil 223, Frac. San Gabriel<br>         <b>Colonia:</b> Frac. San Gabriel<br>         <b>Código Postal:</b> 34167<br>         <b>Edad:</b> 27 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 20/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73183     </div>     </div>`)[0];
+                popup_42f980743ce594f057c34bdb6283a684.setContent(html_cb5c47b119979ebe1bf78077e1ee07f6);
+            
+        
+
+        marker_2f727cd811ad4f7023dbd515f6733b3a.bindPopup(popup_42f980743ce594f057c34bdb6283a684)
+        ;
+
+        
+    
+    
+            marker_2f727cd811ad4f7023dbd515f6733b3a.bindTooltip(
+                `<div>
+                     Caso 13: Col. Frac. San Gabriel (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f727cd811ad4f7023dbd515f6733b3a.setIcon(icon_f5c4c0f095748f5e432c7a44f94852cd);
+            
+    
+            var circle_b7c0af78abb7f7775c903f5ee0d2d3de = L.circle(
+                [24.0197, -104.6853],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_b7c0af78abb7f7775c903f5ee0d2d3de.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Francisco Zarco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71e7c2d609d5698c6e568b6f338d9eb2 = L.marker(
+                [24.0197, -104.6853],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_79805dd4142d2b33b80c26b8bb98985a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc9bfa7091c14886467b320908468c95 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1e8a6b7b990bcf416e1159e154c3139 = $(`<div id="html_c1e8a6b7b990bcf416e1159e154c3139" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #14 (DCLS)</h4>         <b>Domicilio:</b> Panama 303, Col. Francisco Zarco, CP. 34210<br>         <b>Colonia:</b> Col. Francisco Zarco<br>         <b>Código Postal:</b> 34210<br>         <b>Edad:</b> 25 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF IMSS)<br>         <b>F. Síntomas:</b> 21/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73193     </div>     </div>`)[0];
+                popup_fc9bfa7091c14886467b320908468c95.setContent(html_c1e8a6b7b990bcf416e1159e154c3139);
+            
+        
+
+        marker_71e7c2d609d5698c6e568b6f338d9eb2.bindPopup(popup_fc9bfa7091c14886467b320908468c95)
+        ;
+
+        
+    
+    
+            marker_71e7c2d609d5698c6e568b6f338d9eb2.bindTooltip(
+                `<div>
+                     Caso 14: Col. Col. Francisco Zarco (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71e7c2d609d5698c6e568b6f338d9eb2.setIcon(icon_79805dd4142d2b33b80c26b8bb98985a);
+            
+    
+            var circle_7511c718f873685d851aed44e3103628 = L.circle(
+                [24.0381, -104.7042],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_7511c718f873685d851aed44e3103628.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. La Virgen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e17422df84b6b7e6959223af339a705 = L.marker(
+                [24.0381, -104.7042],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_12a7868caaa3b7fbe83bf3de764e1860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0019ccce3271e9b91d061e5116e98a96 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ae4a68ec619c15b0e29967aee06f055d = $(`<div id="html_ae4a68ec619c15b0e29967aee06f055d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #15 (ECS)</h4>         <b>Domicilio:</b> Geranio 417, Col. La Virgen, CP 34049<br>         <b>Colonia:</b> Col. La Virgen<br>         <b>Código Postal:</b> 34049<br>         <b>Edad:</b> 24 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF IMSS)<br>         <b>F. Síntomas:</b> 22/05/2026<br>         <b>F. Atención:</b> 22/05/2026<br>         <b>Folio:</b> 73256     </div>     </div>`)[0];
+                popup_0019ccce3271e9b91d061e5116e98a96.setContent(html_ae4a68ec619c15b0e29967aee06f055d);
+            
+        
+
+        marker_3e17422df84b6b7e6959223af339a705.bindPopup(popup_0019ccce3271e9b91d061e5116e98a96)
+        ;
+
+        
+    
+    
+            marker_3e17422df84b6b7e6959223af339a705.bindTooltip(
+                `<div>
+                     Caso 15: Col. Col. La Virgen (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e17422df84b6b7e6959223af339a705.setIcon(icon_12a7868caaa3b7fbe83bf3de764e1860);
+            
+    
+            var circle_563431ce0bb398927378dd85f78d5bed = L.circle(
+                [24.0494, -104.6698],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_563431ce0bb398927378dd85f78d5bed.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Morga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3290f9d2503d2cd01a83869ac463bfb = L.marker(
+                [24.0494, -104.6698],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_0771e28751afb3390f5968d0f6890479 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca26fe9ee8870260f14e7907b0b9b365 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2126d8073caaeb4574f28fb5742caca = $(`<div id="html_b2126d8073caaeb4574f28fb5742caca" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #16 (COCG)</h4>         <b>Domicilio:</b> Luis Angel Tejada Espino 223, Col. Morga, CP. 34019<br>         <b>Colonia:</b> Col. Morga<br>         <b>Código Postal:</b> 34019<br>         <b>Edad:</b> 24 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 24/05/2026<br>         <b>F. Atención:</b> 24/05/2026<br>         <b>Folio:</b> S/F     </div>     </div>`)[0];
+                popup_ca26fe9ee8870260f14e7907b0b9b365.setContent(html_b2126d8073caaeb4574f28fb5742caca);
+            
+        
+
+        marker_a3290f9d2503d2cd01a83869ac463bfb.bindPopup(popup_ca26fe9ee8870260f14e7907b0b9b365)
+        ;
+
+        
+    
+    
+            marker_a3290f9d2503d2cd01a83869ac463bfb.bindTooltip(
+                `<div>
+                     Caso 16: Col. Col. Morga (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a3290f9d2503d2cd01a83869ac463bfb.setIcon(icon_0771e28751afb3390f5968d0f6890479);
+            
+    
+            var circle_9d98a87ff75e5818768e1c76cfb858fd = L.circle(
+                [24.0507, -104.6989],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_9d98a87ff75e5818768e1c76cfb858fd.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Valentín Gómez Farías
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0566376aa4915bb98d7ae9b32ebd5058 = L.marker(
+                [24.0507, -104.6989],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_b6a3b591a4f5b72bd3f670918a9528d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c0ce9eee121d89ff76b770dcf88c5f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0156e4ab1a053822c138ce155352d5ad = $(`<div id="html_0156e4ab1a053822c138ce155352d5ad" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #17 (APPV)</h4>         <b>Domicilio:</b> Leo 601, Col. Valentín Gómez Farías, CP 34010<br>         <b>Colonia:</b> Col. Valentín Gómez Farías<br>         <b>Código Postal:</b> 34010<br>         <b>Edad:</b> 31 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> IMSS Ordinario (UMF 44)<br>         <b>F. Síntomas:</b> 23/05/2026<br>         <b>F. Atención:</b> 25/05/2026<br>         <b>Folio:</b> 73322     </div>     </div>`)[0];
+                popup_8c0ce9eee121d89ff76b770dcf88c5f1.setContent(html_0156e4ab1a053822c138ce155352d5ad);
+            
+        
+
+        marker_0566376aa4915bb98d7ae9b32ebd5058.bindPopup(popup_8c0ce9eee121d89ff76b770dcf88c5f1)
+        ;
+
+        
+    
+    
+            marker_0566376aa4915bb98d7ae9b32ebd5058.bindTooltip(
+                `<div>
+                     Caso 17: Col. Col. Valentín Gómez Farías (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0566376aa4915bb98d7ae9b32ebd5058.setIcon(icon_b6a3b591a4f5b72bd3f670918a9528d6);
+            
+    
+            var circle_37fbb8f044d873fa13289532777638bd = L.circle(
+                [24.0174, -104.6055],
+                {"bubblingMouseEvents": true, "color": "#9f2241", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9f2241", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_37fbb8f044d873fa13289532777638bd.bindTooltip(
+                `<div>
+                     Área de Influencia: Fracc. Locutores
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2dfc8143962fc941cbd9c4bd20eda78f = L.marker(
+                [24.0174, -104.6055],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_09915826488678cdc41cbf279d742735 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33702b7c12f298e679e6073ab850c68c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_badff739cf7ae36b75367f988305d252 = $(`<div id="html_badff739cf7ae36b75367f988305d252" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #9f2241; border-bottom: 2px solid #9f2241; padding-bottom: 5px;">Caso #18 (ALQA)</h4>         <b>Domicilio:</b> Neftali Montes 104, Fracc. Locutores CP. 34167<br>         <b>Colonia:</b> Fracc. Locutores<br>         <b>Código Postal:</b> 34167<br>         <b>Edad:</b> 35 años | <b>Sexo:</b> Femenino<br>         <b>Institución:</b> ISSSTE (UMF IMSS)<br>         <b>F. Síntomas:</b> 23/05/2026<br>         <b>F. Atención:</b> 26/05/2026<br>         <b>Folio:</b> 73391     </div>     </div>`)[0];
+                popup_33702b7c12f298e679e6073ab850c68c.setContent(html_badff739cf7ae36b75367f988305d252);
+            
+        
+
+        marker_2dfc8143962fc941cbd9c4bd20eda78f.bindPopup(popup_33702b7c12f298e679e6073ab850c68c)
+        ;
+
+        
+    
+    
+            marker_2dfc8143962fc941cbd9c4bd20eda78f.bindTooltip(
+                `<div>
+                     Caso 18: Col. Fracc. Locutores (ISSSTE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2dfc8143962fc941cbd9c4bd20eda78f.setIcon(icon_09915826488678cdc41cbf279d742735);
+            
+    
+            var circle_9cd614e379483d77c0427172579b08d3 = L.circle(
+                [24.0041, -104.6931],
+                {"bubblingMouseEvents": true, "color": "#006341", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#006341", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 1.5}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            circle_9cd614e379483d77c0427172579b08d3.bindTooltip(
+                `<div>
+                     Área de Influencia: Col. Miguel de la Madrid
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_04ab770a2946d0e79e094b2c7b1c192e = L.marker(
+                [24.0041, -104.6931],
+                {
+}
+            ).addTo(map_3553b2c12f5ffcb86df4859eb9012ba3);
+        
+    
+            var icon_b41e42dd8ae5f51f5f62f4b504c333ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-circle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d243ebc3a714d3dd49a9841131141253 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf242b8900c3c9631feb87f599e075c1 = $(`<div id="html_cf242b8900c3c9631feb87f599e075c1" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; font-size: 12px; width: 250px;">         <h4 style="margin: 0 0 5px 0; color: #006341; border-bottom: 2px solid #006341; padding-bottom: 5px;">Caso #19 (RARV)</h4>         <b>Domicilio:</b> Francisco Favela 116, Col. Miguel de la Madrid<br>         <b>Colonia:</b> Col. Miguel de la Madrid<br>         <b>Código Postal:</b> 34210<br>         <b>Edad:</b> 27 años | <b>Sexo:</b> Masculino<br>         <b>Institución:</b> IMSS Ordinario (UMF IMSS)<br>         <b>F. Síntomas:</b> 21/05/2026<br>         <b>F. Atención:</b> 26/05/2026<br>         <b>Folio:</b> 73395     </div>     </div>`)[0];
+                popup_d243ebc3a714d3dd49a9841131141253.setContent(html_cf242b8900c3c9631feb87f599e075c1);
+            
+        
+
+        marker_04ab770a2946d0e79e094b2c7b1c192e.bindPopup(popup_d243ebc3a714d3dd49a9841131141253)
+        ;
+
+        
+    
+    
+            marker_04ab770a2946d0e79e094b2c7b1c192e.bindTooltip(
+                `<div>
+                     Caso 19: Col. Col. Miguel de la Madrid (IMSS Ordinario)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_04ab770a2946d0e79e094b2c7b1c192e.setIcon(icon_b41e42dd8ae5f51f5f62f4b504c333ef);
+            
+</script>
+</html>

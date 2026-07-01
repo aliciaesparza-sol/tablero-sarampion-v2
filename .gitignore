@@ -1,0 +1,66 @@
+# Credenciales y configuración local
+config_correo.json
+
+# Archivos temporales e imágenes generadas
+*_tmp.png
+_grafica_diaria_tmp.png
+
+# Descargas de datos y reportes generados (Excel, Word, Zip)
+*.csv
+*.xlsx
+*.docx
+*.zip
+*.pdf
+
+# Archivos de logs e historial
+log_*.txt
+*.log
+out.txt
+resultado*.txt
+revision.txt
+congruencia_dump.txt
+cobertura_dump.txt
+analysis_output.txt
+columns_output.txt
+datos_output.txt
+docx_content.txt
+extracted_*.txt
+extraction_output.txt
+ficha_text.txt
+file_list.txt
+find_slide_output.txt
+logic_output.txt
+pae_text.txt
+pptx_content.txt
+pptx_text.txt
+presentation_text.txt
+reconcile_output.txt
+report_content.txt
+structure_info.txt
+tablas_orig.txt
+tablas_output.txt
+template_text.txt
+titles.txt
+ui_elements.txt
+my_test_out.txt
+
+# Carpetas de datos locales o extraídos
+georef/
+mapas_jornaleros/
+pptx_extract/
+measles_preview/
+measles_presentation/
+measles_final_v*/
+sarampion-mezquital-2026/
+vph_analysis/
+vaccine_data_organization/
+vacunacion-durango-2026/
+deploy_tmp/
+ficha_extracted/
+triptico_renal*/
+Jurisdiccion3Photos/
+ESTRATEGIA-SARAMPI-N-2026-main/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
