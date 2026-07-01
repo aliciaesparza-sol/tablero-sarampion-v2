@@ -71,18 +71,18 @@ SIN_1A_DOSIS_SRP = ('SRP 18 MESES',)
 SIN_2A_DOSIS_SR  = ('SR 6 A 11 MESES', 'SR 1 ANIO')
 SIN_1A_DOSIS_SR  = ('SR 18 MESES',)
 
-# ═══ PALETA DE COLORES MEJORADA ═══════════════════════════════════
-# Primario: azul slate profundo  |  Secundario: teal vibrante
-C_PRIMARY   = '1A5276'   # Encabezados de tabla, títulos
-C_SECONDARY = '1F8EA4'   # Sub-títulos, subtablas
-C_ALT1      = 'D5EEF5'   # Fila par
-C_ALT2      = 'FFFFFF'   # Fila impar
-C_TOTAL     = 'A9D4E4'   # Fila de totales
-C_SUBTITLE  = 'E8F6F9'   # Fondo sub-encabezados de vacuna
+# ═══ PALETA DE COLORES ORIGINALES (GUINDA / BURGUNDY) ════════════
+# Conserva los colores originales del informe ministerial
+C_PRIMARY   = '7B2D41'   # Encabezados de tabla, títulos (Guinda)
+C_SECONDARY = 'B55A6F'   # Sub-títulos, subtablas (Rosa/Plum)
+C_ALT1      = 'F9ECEF'   # Fila par (Rosa muy claro)
+C_ALT2      = 'FFFFFF'   # Fila impar (Blanco)
+C_TOTAL     = 'E8D0D5'   # Fila de totales (Plum claro)
+C_SUBTITLE  = 'F4DFE3'   # Fondo sub-encabezados de vacuna (Rosa suave)
 
 from docx.shared import RGBColor
-HDR_COLOR = RGBColor(26,  82, 118)   # #1A5276
-SUB_COLOR = RGBColor(31, 142, 164)   # #1F8EA4
+HDR_COLOR = RGBColor(123, 45,  65)   # #7B2D41 (Guinda principal)
+SUB_COLOR = RGBColor(181, 90, 111)   # #B55A6F (Rosa secundario)
 BLK_COLOR = RGBColor( 0,   0,   0)
 WHT_COLOR = RGBColor(255, 255, 255)
 GRY_COLOR = RGBColor( 90,  90,  90)
@@ -269,42 +269,42 @@ def generar_grafica(d_diario, periodo_label):
     width = 0.38
 
     fig, ax = plt.subplots(figsize=(9, 4.2), dpi=150)
-    fig.patch.set_facecolor('#F8FBFD')
-    ax.set_facecolor('#F8FBFD')
+    fig.patch.set_facecolor('#FFFFFF')
+    ax.set_facecolor('#FFFFFF')
 
     bars1 = ax.bar(x - width/2, srp_tot, width, label='SRP',
-                   color='#1A5276', zorder=3, edgecolor='white', linewidth=0.5)
+                   color='#7B2D41', zorder=3, edgecolor='white', linewidth=0.5)
     bars2 = ax.bar(x + width/2, sr_tot,  width, label='SR',
-                   color='#1F8EA4', zorder=3, edgecolor='white', linewidth=0.5)
+                   color='#B55A6F', zorder=3, edgecolor='white', linewidth=0.5)
 
     ax.set_title(
         f'5. Dosis aplicadas por institución — Últimas 24 horas',
-        fontsize=10, fontweight='bold', color='#1A5276', pad=10
+        fontsize=10, fontweight='bold', color='#7B2D41', pad=10
     )
     ax.set_xticks(x)
     ax.set_xticklabels(labels, fontsize=9, color='#2C3E50')
     ax.set_ylabel('Dosis aplicadas', fontsize=9, color='#2C3E50')
-    ax.yaxis.grid(True, linestyle='--', alpha=0.5, color='#AED6F1', zorder=0)
+    ax.yaxis.grid(True, linestyle='--', alpha=0.5, color='#E5D5D8', zorder=0)
     ax.set_axisbelow(True)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_color('#AED6F1')
-    ax.spines['bottom'].set_color('#AED6F1')
+    ax.spines['left'].set_color('#E5D5D8')
+    ax.spines['bottom'].set_color('#E5D5D8')
     ax.tick_params(colors='#2C3E50')
-    legend = ax.legend(fontsize=9, framealpha=0.8, edgecolor='#AED6F1')
+    legend = ax.legend(fontsize=9, framealpha=0.8, edgecolor='#E5D5D8')
 
     for bar in bars1:
         h = bar.get_height()
         if h > 0:
             ax.text(bar.get_x() + bar.get_width() / 2, h + max(srp_tot + sr_tot) * 0.02,
                     str(int(h)), ha='center', va='bottom', fontsize=8,
-                    color='#1A5276', fontweight='bold')
+                    color='#7B2D41', fontweight='bold')
     for bar in bars2:
         h = bar.get_height()
         if h > 0:
             ax.text(bar.get_x() + bar.get_width() / 2, h + max(srp_tot + sr_tot) * 0.02,
                     str(int(h)), ha='center', va='bottom', fontsize=8,
-                    color='#1F8EA4', fontweight='bold')
+                    color='#B55A6F', fontweight='bold')
 
     # Fuente pequeña debajo
     fig.text(0.5, -0.01, periodo_label, ha='center', fontsize=7.5,
@@ -312,7 +312,7 @@ def generar_grafica(d_diario, periodo_label):
 
     plt.tight_layout(pad=1.2)
     ruta = os.path.join(BASE_DIR, "_grafica_diaria_tmp.png")
-    plt.savefig(ruta, dpi=150, bbox_inches='tight', facecolor='#F8FBFD')
+    plt.savefig(ruta, dpi=150, bbox_inches='tight', facecolor='#FFFFFF')
     plt.close()
     return ruta
 
@@ -676,7 +676,7 @@ def generar_informe_word(datos):
 # ══════════════════════════════════════════════════════════════════
 # PASO 4: ENVIAR POR CORREO
 # ══════════════════════════════════════════════════════════════════
-def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None):
+def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None, test_email=None):
     log.section('📧', 'PASO 4: Enviando informe por correo...')
     import smtplib
     from email.mime.multipart import MIMEMultipart
@@ -696,7 +696,12 @@ def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None):
     use_tls     = cfg.get("use_tls", True)
     sender      = cfg.get("sender_email", "")
     password    = cfg.get("sender_password", "")
-    recipients  = cfg.get("recipient_emails", [])
+    
+    if test_email:
+        recipients = [test_email]
+        log.info(f"Modo de prueba activado: enviando ÚNICAMENTE a {test_email}")
+    else:
+        recipients  = cfg.get("recipient_emails", [])
 
     subject = f"Reporte Vacunación Sarampión — Corte al {fecha_corte_str} | Durango"
     
@@ -781,6 +786,11 @@ def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None):
 # MAIN
 # ══════════════════════════════════════════════════════════════════
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Genera y envía el reporte diario de sarampión.")
+    parser.add_argument("--test-email", type=str, help="Envía una prueba únicamente a este correo electrónico.")
+    args = parser.parse_args()
+
     sep = '=' * 60
     for line in [sep,
                  "  INFORME DIARIO AUTOMATIZADO — SARAMPIÓN DURANGO 2026",
@@ -791,10 +801,24 @@ if __name__ == "__main__":
     csv_path              = descargar_csv_censia()
     datos                 = cargar_y_procesar_csv(csv_path)
     ruta_doc, fecha_corte = generar_informe_word(datos)
-    enviar_informe(ruta_doc, fecha_corte, csv_path)
+    
+    # Convertir a PDF
+    log.section('📄', 'PASO 3.5: Convirtiendo informe a PDF...')
+    ruta_pdf = ruta_doc.replace(".docx", ".pdf")
+    try:
+        from docx2pdf import convert
+        convert(ruta_doc, ruta_pdf)
+        log.ok(f"Informe PDF generado: {ruta_pdf}")
+        ruta_adjunto = ruta_pdf
+    except Exception as e:
+        log.err(f"No se pudo convertir a PDF: {e}")
+        log.info("Se enviará el archivo DOCX en su lugar.")
+        ruta_adjunto = ruta_doc
+
+    enviar_informe(ruta_adjunto, fecha_corte, csv_path, test_email=args.test_email)
 
     for line in ["", sep,
                  f"  ✅ PROCESO COMPLETADO — {datetime.now().strftime('%H:%M:%S')}",
-                 f"  📄 Informe: {ruta_doc}",
+                 f"  📄 Informe: {ruta_adjunto}",
                  sep]:
         log.raw(line)
