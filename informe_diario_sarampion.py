@@ -15,6 +15,7 @@ import pandas as pd
 from io import StringIO
 from datetime import datetime, date, timedelta
 import locale
+import time
 
 # ═══ CONFIGURACIÓN ═══════════════════════════════════════════════
 BASE_DIR        = os.path.dirname(os.path.abspath(__file__))
@@ -71,19 +72,18 @@ SIN_1A_DOSIS_SRP = ('SRP 18 MESES',)
 SIN_2A_DOSIS_SR  = ('SR 6 A 11 MESES', 'SR 1 ANIO')
 SIN_1A_DOSIS_SR  = ('SR 18 MESES',)
 
-# ═══ PALETA DE COLORES ORIGINALES (GUINDA / BURGUNDY) ════════════
-# Conserva los colores originales del informe ministerial
-C_PRIMARY   = '7B2D41'   # Encabezados de tabla, títulos (Guinda)
-C_SECONDARY = 'B55A6F'   # Sub-títulos, subtablas (Rosa/Plum)
-C_ALT1      = 'F9ECEF'   # Fila par (Rosa muy claro)
+# ═══ PALETA DE COLORES (AZUL MARINO Y BLANCO) ═══════════════════
+C_PRIMARY   = '1B3A6B'   # Encabezados de tabla, títulos (Azul marino)
+C_SECONDARY = '2E6DA4'   # Sub-títulos, subtablas (Azul medio)
+C_ALT1      = 'D6E4F0'   # Fila par (Azul muy claro)
 C_ALT2      = 'FFFFFF'   # Fila impar (Blanco)
-C_TOTAL     = 'E8D0D5'   # Fila de totales (Plum claro)
-C_SUBTITLE  = 'F4DFE3'   # Fondo sub-encabezados de vacuna (Rosa suave)
+C_TOTAL     = 'A9CCE3'   # Fila de totales (Azul claro)
+C_SUBTITLE  = 'EBF5FB'   # Fondo sub-encabezados de vacuna (Azul pálido)
 
 from docx.shared import RGBColor
-HDR_COLOR = RGBColor(123, 45,  65)   # #7B2D41 (Guinda principal)
-SUB_COLOR = RGBColor(181, 90, 111)   # #B55A6F (Rosa secundario)
-BLK_COLOR = RGBColor( 0,   0,   0)
+HDR_COLOR = RGBColor( 27,  58, 107)   # #1B3A6B (Azul marino principal)
+SUB_COLOR = RGBColor( 46, 109, 164)   # #2E6DA4 (Azul secundario)
+BLK_COLOR = RGBColor(  0,   0,   0)
 WHT_COLOR = RGBColor(255, 255, 255)
 GRY_COLOR = RGBColor( 90,  90,  90)
 
@@ -273,38 +273,38 @@ def generar_grafica(d_diario, periodo_label):
     ax.set_facecolor('#FFFFFF')
 
     bars1 = ax.bar(x - width/2, srp_tot, width, label='SRP',
-                   color='#7B2D41', zorder=3, edgecolor='white', linewidth=0.5)
+                   color='#1B3A6B', zorder=3, edgecolor='white', linewidth=0.5)
     bars2 = ax.bar(x + width/2, sr_tot,  width, label='SR',
-                   color='#B55A6F', zorder=3, edgecolor='white', linewidth=0.5)
+                   color='#2E6DA4', zorder=3, edgecolor='white', linewidth=0.5)
 
     ax.set_title(
         f'5. Dosis aplicadas por institución — Últimas 24 horas',
-        fontsize=10, fontweight='bold', color='#7B2D41', pad=10
+        fontsize=10, fontweight='bold', color='#1B3A6B', pad=10
     )
     ax.set_xticks(x)
-    ax.set_xticklabels(labels, fontsize=9, color='#2C3E50')
-    ax.set_ylabel('Dosis aplicadas', fontsize=9, color='#2C3E50')
-    ax.yaxis.grid(True, linestyle='--', alpha=0.5, color='#E5D5D8', zorder=0)
+    ax.set_xticklabels(labels, fontsize=9, color='#1B3A6B')
+    ax.set_ylabel('Dosis aplicadas', fontsize=9, color='#1B3A6B')
+    ax.yaxis.grid(True, linestyle='--', alpha=0.5, color='#D6E4F0', zorder=0)
     ax.set_axisbelow(True)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_color('#E5D5D8')
-    ax.spines['bottom'].set_color('#E5D5D8')
-    ax.tick_params(colors='#2C3E50')
-    legend = ax.legend(fontsize=9, framealpha=0.8, edgecolor='#E5D5D8')
+    ax.spines['left'].set_color('#D6E4F0')
+    ax.spines['bottom'].set_color('#D6E4F0')
+    ax.tick_params(colors='#1B3A6B')
+    legend = ax.legend(fontsize=9, framealpha=0.8, edgecolor='#D6E4F0')
 
     for bar in bars1:
         h = bar.get_height()
         if h > 0:
             ax.text(bar.get_x() + bar.get_width() / 2, h + max(srp_tot + sr_tot) * 0.02,
                     str(int(h)), ha='center', va='bottom', fontsize=8,
-                    color='#7B2D41', fontweight='bold')
+                    color='#1B3A6B', fontweight='bold')
     for bar in bars2:
         h = bar.get_height()
         if h > 0:
             ax.text(bar.get_x() + bar.get_width() / 2, h + max(srp_tot + sr_tot) * 0.02,
                     str(int(h)), ha='center', va='bottom', fontsize=8,
-                    color='#B55A6F', fontweight='bold')
+                    color='#2E6DA4', fontweight='bold')
 
     # Fuente pequeña debajo
     fig.text(0.5, -0.01, periodo_label, ha='center', fontsize=7.5,
@@ -347,30 +347,29 @@ def generar_informe_word(datos):
         except Exception:
             pass
 
-    if pd.notna(fecha_max):
-        fecha_corte_str     = fecha_max.strftime("%d DE %B DE %Y").upper()
-        fecha_hora_consulta = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        fecha_hora_reporte  = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        fecha_hora_ultimo   = fecha_max.strftime("%d/%m/%Y %H:%M:%S")
-        periodo_diario      = ""
-        periodo_encabezado  = ""
-        if fecha_inicio is not None:
-            periodo_diario     = (fecha_inicio.strftime("%d/%m/%Y %H:%M:%S") +
-                                  "-" + fecha_max.strftime("%d/%m/%Y %H:%M:%S"))
-            periodo_encabezado = (fecha_inicio.strftime("%d de %B de %Y %H:%M") +
-                                  " a " + fecha_max.strftime("%d de %B de %Y %H:%M"))
-    else:
-        fecha_corte_str     = date.today().strftime("%d/%m/%Y")
-        fecha_hora_consulta = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        fecha_hora_reporte  = fecha_hora_consulta
-        fecha_hora_ultimo   = ""
-        periodo_diario      = ""
-        periodo_encabezado  = ""
+    # Usar la fecha actual como corte (hoy)
+    fecha_corte_str = date.today().strftime("%d DE %B DE %Y").upper()
+    fecha_hora_consulta = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    fecha_hora_reporte = fecha_hora_consulta
+    fecha_hora_ultimo = ""
+    periodo_diario = ""
+    periodo_encabezado = ""
+    if fecha_inicio is not None:
+        periodo_diario = f"{fecha_inicio.strftime('%d/%m/%Y %H:%M:%S')}-{date.today().strftime('%d/%m/%Y %H:%M:%S')}"
+        periodo_encabezado = f"{fecha_inicio.strftime('%d de %B de %Y %H:%M')} a {date.today().strftime('%d de %B de %Y %H:%M')}"
 
     # ── Abrir plantilla (preserva header membretado) ──
     doc = Document(PLANTILLA_DOCX)
     for p in doc.paragraphs:
         p.clear()
+
+    # ── Ajustar márgenes para que el contenido no invada el logo del membrete ──
+    from docx.shared import Cm
+    for section in doc.sections:
+        section.top_margin    = Cm(4.5)   # espacio suficiente bajo el logo
+        section.bottom_margin = Cm(2.5)
+        section.left_margin   = Cm(3.0)
+        section.right_margin  = Cm(3.0)
 
     # ══ HELPERS XML ══
     def set_keep_with_next(paragraph):
@@ -764,22 +763,29 @@ def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None, test_email=None
         msg.attach(part_csv)
         log.raw(f"   📎 Adjunto: {os.path.basename(csv_path)}")
 
-    try:
-        if use_tls:
-            server = smtplib.SMTP(smtp_server, smtp_port, timeout=30)
-            server.ehlo(); server.starttls(); server.ehlo()
-        else:
-            server = smtplib.SMTP_SSL(smtp_server, smtp_port, timeout=30)
-        server.login(sender, password)
-        server.sendmail(sender, recipients, msg.as_string())
-        server.quit()
-        log.ok(f"Correo enviado a: {', '.join(recipients)}")
-    except Exception as e:
-        log.err(f"Error al enviar correo: {e}")
-        if '535' in str(e) or 'BadCredentials' in str(e):
-            log.info("Para Gmail se requiere 'Contraseña de aplicación'.")
-            log.info("Ve a: https://myaccount.google.com/apppasswords")
-        log.info(f"Informe Word generado correctamente: {ruta_informe}")
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        try:
+            if use_tls:
+                server = smtplib.SMTP(smtp_server, smtp_port, timeout=60)
+                server.ehlo()
+                server.starttls()
+                server.ehlo()
+            else:
+                server = smtplib.SMTP_SSL(smtp_server, smtp_port, timeout=60)
+            server.login(sender, password)
+            server.sendmail(sender, recipients, msg.as_string())
+            server.quit()
+            log.ok(f"Correo enviado a: {', '.join(recipients)} (intento {attempt})")
+            break
+        except Exception as e:
+            log.err(f"Error al enviar correo (intento {attempt}): {e}")
+            if attempt < max_retries:
+                log.info("Esperando 5 segundos antes de reintentar...")
+                time.sleep(5)
+            else:
+                log.err("Todos los intentos fallaron. Abortando.")
+                raise
 
 
 # ══════════════════════════════════════════════════════════════════
