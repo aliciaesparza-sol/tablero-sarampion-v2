@@ -821,6 +821,18 @@ if __name__ == "__main__":
         log.info("Se enviará el archivo DOCX en su lugar.")
         ruta_adjunto = ruta_doc
 
+    # Actualizar report_path en config_correo.json
+    try:
+        if os.path.exists(CONFIG_PATH):
+            with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+                cfg_data = json.load(f)
+            cfg_data["report_path"] = ruta_adjunto
+            with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+                json.dump(cfg_data, f, indent=2, ensure_ascii=False)
+            log.ok("Ruta del informe actualizada en config_correo.json")
+    except Exception as ex:
+        log.warn(f"No se pudo actualizar report_path en config_correo.json: {ex}")
+
     enviar_informe(ruta_adjunto, fecha_corte, csv_path, test_email=args.test_email)
 
     for line in ["", sep,

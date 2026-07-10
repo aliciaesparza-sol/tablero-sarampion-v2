@@ -3,18 +3,22 @@ setlocal
 cd /d "C:\Users\aicil\.gemini\antigravity-ide\scratch"
 
 echo ============================================================
-echo  INFORME DIARIO AUTOMATIZADO - SARAMPION DURANGO
+echo  ENVIANDO INFORME DIARIO A TODOS LOS CONTACTOS (GRUPO)
 echo  Fecha: %date%   Hora: %time%
 echo ============================================================
+echo.
 
-python informe_diario_sarampion.py --test-email alicia.esparza@ssdurango.gob.mx >> "log_informe_diario.txt" 2>&1
+python enviar_correo.py
 
 IF %ERRORLEVEL% NEQ 0 (
-    echo [ERROR] El proceso falló. Revisa log_informe_diario.txt
+    echo.
+    echo [ERROR] No se pudo enviar el correo a los contactos.
+    pause
     exit /b 1
 )
 
 echo.
 echo ============================================================
-echo  Proceso completado exitosamente a las %time%
+echo  Envio completado exitosamente.
 echo ============================================================
+pause

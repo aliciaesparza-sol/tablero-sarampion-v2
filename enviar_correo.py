@@ -75,6 +75,24 @@ def enviar_correo():
             print(f"[ADVERTENCIA] El archivo del informe no existe en la ruta configurada: {report_path}")
             print("El correo se enviará únicamente con el texto del mensaje.")
 
+    # Adjuntar CSV de CeNSIA si existe en el mismo directorio
+    csv_path = os.path.join(BASE_DIR, "censia_descarga_hoy.csv")
+    if os.path.exists(csv_path):
+        filename_csv = os.path.basename(csv_path)
+        print(f"📎 Adjuntando archivo: {filename_csv} desde {csv_path}")
+        try:
+            with open(csv_path, "rb") as attachment_csv:
+                part_csv = MIMEBase("application", "octet-stream")
+                part_csv.set_payload(attachment_csv.read())
+            encoders.encode_base64(part_csv)
+            part_csv.add_header(
+                "Content-Disposition",
+                f"attachment; filename= {filename_csv}"
+            )
+            msg.attach(part_csv)
+        except Exception as e:
+            print(f"[ADVERTENCIA] No se pudo leer o adjuntar el archivo CSV: {e}")
+
     # Conectar al servidor y enviar
     try:
         if use_tls:

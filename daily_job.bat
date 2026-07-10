@@ -1,6 +1,6 @@
 @echo off
 setlocal
-cd /d "C:\Users\aicil\.gemini\antigravity\scratch"
+cd /d "C:\Users\aicil\.gemini\antigravity-ide\scratch"
 
 echo ===================================================
 echo  ACTUALIZACION DIARIA - TABLERO SARAMPION
