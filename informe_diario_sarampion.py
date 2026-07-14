@@ -161,6 +161,7 @@ def descargar_csv_censia():
         log.warn(f"No se pudo descargar de CeNSIA: {e}")
         log.raw('   Buscando CSV más reciente disponible...')
         candidates = (
+            glob.glob(r"C:\SRP\SRP-SR-*.csv") +
             glob.glob(r"C:\Users\aicil\Downloads\SRP-SR-*.csv") +
             glob.glob(os.path.join(BASE_DIR, "SRP-SR-*.csv")) +
             glob.glob(os.path.join(BASE_DIR, "censia_descarga_hoy.csv"))
