@@ -4,8 +4,11 @@ $action = New-ScheduledTaskAction -Execute "C:\Users\aicil\.gemini\antigravity-i
 # Se ejecuta diariamente a las 07:00 AM.
 $trigger = New-ScheduledTaskTrigger -Daily -At 07:00
 
-# Registra la tarea en el programador de Windows (forzando actualización si ya existe)
-Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "Envio_Informe_Diario_Vacunacion" -Description "Genera el informe diario y lo envia automáticamente por correo electrónico." -Force
+# Crear configuración que permite ejecutar en batería
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 
-Write-Host "✅ Tarea programada 'Envio_Informe_Diario_Vacunacion' registrada exitosamente."
+# Registra la tarea en el programador de Windows (forzando actualización si ya existe)
+Register-ScheduledTask -Action $action -Trigger $trigger -Settings $settings -TaskName "Envio_Informe_Diario_Vacunacion" -Description "Genera el informe diario y lo envia automáticamente por correo electrónico." -Force
+
+Write-Host "✅ Tarea programada 'Envio_Informe_Diario_Vacunacion' registrada exitosamente con soporte de batería."
 Write-Host "Se ejecutará todos los días a las 07:00 AM."
