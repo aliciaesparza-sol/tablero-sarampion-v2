@@ -124,41 +124,70 @@ log = Logger(LOG_PATH)
 def descargar_csv_censia():
     log.section('📥', 'PASO 1: Descargando CSV de CeNSIA...')
     output_csv = os.path.join(BASE_DIR, "censia_descarga_hoy.csv")
-    try:
-        from playwright.sync_api import sync_playwright
+    
+    from playwright.sync_api import sync_playwright
+    
+    def attempt_once():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             context = browser.new_context(accept_downloads=True)
             page    = context.new_page()
-            log.raw('   Navegando a CeNSIA...')
-            page.goto(CENSIA_URL, wait_until="domcontentloaded", timeout=30000)
+            
+            page.goto(CENSIA_URL, wait_until="domcontentloaded", timeout=45000)
             try:
-                page.fill("input[name='user']", CENSIA_USER, timeout=10000)
+                page.fill("input[name='user']", CENSIA_USER, timeout=15000)
                 page.fill("input[name='pass']", CENSIA_PASS)
                 page.click("button[type='submit']")
                 page.wait_for_load_state("domcontentloaded", timeout=15000)
-                log.ok("Sesión iniciada.")
             except Exception:
                 pass
+                
             page.goto(
                 "https://siscensia.salud.gob.mx/sarampion_2025/ssa/reporte.php",
-                wait_until="domcontentloaded", timeout=30000)
-            log.raw('   Descargando archivo CSV...')
+                wait_until="domcontentloaded", timeout=45000)
+                
+            page.wait_for_selector("button#descarga_todos, a#descarga_todos", timeout=15000)
+            
             with page.expect_download(timeout=180000) as dl:
+                clicked = False
                 for sel in ["button#descarga_todos", "a#descarga_todos",
                             "button:has-text('Descargar')", "a:has-text('CSV')"]:
                     try:
-                        page.click(sel, timeout=5000)
-                        break
+                        el = page.query_selector(sel)
+                        if el:
+                            el.click()
+                            clicked = True
+                            break
                     except Exception:
                         continue
+                if not clicked:
+                    raise Exception("Could not find or click download button")
+                    
             dl.value.save_as(output_csv)
             browser.close()
+            return True
+
+    max_retries = 3
+    success = False
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            log.raw(f'   Navegando e iniciando sesión (Intento {attempt}/{max_retries})...')
+            if attempt_once():
+                success = True
+                break
+        except Exception as e:
+            last_err = e
+            log.warn(f"Intento {attempt} falló: {e}")
+            if attempt < max_retries:
+                time.sleep(5)
+                
+    if success:
         size = os.path.getsize(output_csv)
         log.ok(f"CSV descargado: {size // 1024} KB → {output_csv}")
         return output_csv
-    except Exception as e:
-        log.warn(f"No se pudo descargar de CeNSIA: {e}")
+    else:
+        log.warn(f"No se pudo descargar de CeNSIA después de {max_retries} intentos: {last_err}")
         log.raw('   Buscando CSV más reciente disponible...')
         candidates = (
             glob.glob(r"C:\SRP\SRP-SR-*.csv") +
