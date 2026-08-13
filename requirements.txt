@@ -1,0 +1,8 @@
+pandas==3.0.0
+playwright==1.58.0
+python-docx==1.2.0
+matplotlib==3.10.8
+requests==2.32.5
+# docx2pdf solo funciona en Windows con Microsoft Word instalado
+# En Linux/GitHub Actions se usa LibreOffice (instalado en el workflow)
+docx2pdf==0.1.8

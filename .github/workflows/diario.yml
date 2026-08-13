@@ -1,0 +1,90 @@
+name: Reporte Diario SRMPN
+
+# Corre automáticamente todos los días a las 6:45 AM hora de Durango (CST = UTC-6)
+# 6:45 CST = 12:45 UTC
+on:
+  schedule:
+    - cron: '45 12 * * *'
+  workflow_dispatch:   # También puedes correrlo manualmente desde la web de GitHub
+
+jobs:
+  generar-reporte:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Descargar el código del repositorio ──────────────────────────
+      - name: Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      # ── 2. Configurar Python 3.12 ───────────────────────────────────────
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      # ── 3. Instalar librerías del sistema ───────────────────────────────
+      #    Pango/Cairo  → matplotlib (gráficas)
+      #    LibreOffice  → convertir DOCX a PDF sin Microsoft Word
+      - name: Instalar librerías del sistema
+        run: |
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -q
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+            libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0 \
+            libpangocairo-1.0-0 libcairo2 libgdk-pixbuf2.0-0 \
+            shared-mime-info \
+            libreoffice-writer \
+            libreoffice-java-common
+
+      # ── 4. Cache del navegador Playwright (Chromium) ────────────────────
+      - name: Cache de Playwright (Chromium)
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-chromium-${{ hashFiles('requirements.txt') }}
+
+      # ── 5. Instalar librerías Python ────────────────────────────────────
+      - name: Instalar librerías Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── 6. Instalar Chromium (solo si no está en caché) ─────────────────
+      - name: Instalar Chromium (Playwright)
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: playwright install chromium --with-deps
+
+      - name: Instalar dependencias de sistema de Playwright (si hay caché)
+        if: steps.playwright-cache.outputs.cache-hit == 'true'
+        run: playwright install-deps chromium
+
+      # ── 7. Crear carpeta de salida ──────────────────────────────────────
+      - name: Preparar carpeta de salida
+        run: mkdir -p salida
+
+      # ── 8. Ejecutar el script completo ──────────────────────────────────
+      #    Las credenciales vienen de los Secrets del repositorio
+      - name: Generar y enviar reporte diario
+        env:
+          CENSIA_USER:         ${{ secrets.CENSIA_USER }}
+          CENSIA_PASS:         ${{ secrets.CENSIA_PASS }}
+          GMAIL_USER:          ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO:             ${{ secrets.MAIL_TO }}
+        run: |
+          python informe_diario_sarampion.py
+
+      # ── 9. Guardar los archivos generados como artefacto (90 días) ──────
+      - name: Guardar artefactos generados
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reporte_diario_${{ github.run_number }}
+          retention-days: 90
+          path: |
+            salida/*.pdf
+            salida/*.docx
+            censia_descarga_hoy.csv
+            _grafica_diaria_tmp.png
+            log_informe_diario.txt

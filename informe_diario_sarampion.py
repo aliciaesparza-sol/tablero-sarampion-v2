@@ -20,12 +20,24 @@ import time
 # ═══ CONFIGURACIÓN ═══════════════════════════════════════════════
 BASE_DIR        = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH     = os.path.join(BASE_DIR, "config_correo.json")
-CARPETA_INFORME = r"C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\INFORME AUTOMATIZADO SARAMPION"
-PLANTILLA_DOCX  = r"C:\Users\aicil\OneDrive\Escritorio\hoja MEMBRETADA GIGANTE2026_carta.docx"
+
+# En GitHub Actions usamos la carpeta 'salida/' relativa al repo.
+# En Windows local seguimos usando OneDrive si existe, sino 'salida/' local.
+_CARPETA_LOCAL  = r"C:\Users\aicil\OneDrive\Escritorio\PVU\SARAMPIÓN\INFORME AUTOMATIZADO SARAMPION"
+_CARPETA_CI     = os.path.join(BASE_DIR, "salida")
+CARPETA_INFORME = _CARPETA_LOCAL if os.path.isdir(os.path.dirname(_CARPETA_LOCAL)) else _CARPETA_CI
+
+# Plantilla membretada: busca en el repositorio, luego en OneDrive local.
+_PLANTILLA_LOCAL = r"C:\Users\aicil\OneDrive\Escritorio\hoja MEMBRETADA GIGANTE2026_carta.docx"
+_PLANTILLA_REPO  = os.path.join(BASE_DIR, "assets", "plantilla_membretada.docx")
+PLANTILLA_DOCX  = _PLANTILLA_REPO if os.path.exists(_PLANTILLA_REPO) else (
+                   _PLANTILLA_LOCAL if os.path.exists(_PLANTILLA_LOCAL) else None)
+
 LOG_PATH        = os.path.join(BASE_DIR, "log_informe_diario.txt")
 CENSIA_URL      = "https://siscensia.salud.gob.mx/sarampion_2025/"
-CENSIA_USER     = "E_DGO_ADMIN"
-CENSIA_PASS     = "QWERTY"
+# Credenciales: primero variables de entorno (GitHub Secrets), luego valores locales
+CENSIA_USER     = os.environ.get("CENSIA_USER", "E_DGO_ADMIN")
+CENSIA_PASS     = os.environ.get("CENSIA_PASS", "QWERTY")
 FIRMA           = "CSC/KLAR/AJEA"
 
 JURS = ['DURANGO', 'GOMEZ PALACIO', 'SANTIAGO PAPASQUIARO', 'RODEO']
@@ -388,13 +400,18 @@ def generar_informe_word(datos):
         periodo_diario = f"{fecha_inicio.strftime('%d/%m/%Y %H:%M:%S')}-{date.today().strftime('%d/%m/%Y %H:%M:%S')}"
         periodo_encabezado = f"{fecha_inicio.strftime('%d de %B de %Y %H:%M')} a {date.today().strftime('%d de %B de %Y %H:%M')}"
 
-    # ── Abrir plantilla (preserva header membretado) ──
-    doc = Document(PLANTILLA_DOCX)
-    for p in doc.paragraphs:
-        p.clear()
+    # ── Abrir plantilla (preserva header membretado) o crear documento nuevo ──
+    from docx.shared import Cm
+    if PLANTILLA_DOCX and os.path.exists(PLANTILLA_DOCX):
+        doc = Document(PLANTILLA_DOCX)
+        for p in doc.paragraphs:
+            p.clear()
+        log.ok(f"Usando plantilla membretada: {os.path.basename(PLANTILLA_DOCX)}")
+    else:
+        doc = Document()
+        log.warn("Plantilla membretada no encontrada. Generando documento sin membrete.")
 
     # ── Ajustar márgenes para que el contenido no invada el logo del membrete ──
-    from docx.shared import Cm
     for section in doc.sections:
         section.top_margin    = Cm(4.5)   # espacio suficiente bajo el logo
         section.bottom_margin = Cm(2.5)
@@ -717,20 +734,29 @@ def enviar_informe(ruta_informe, fecha_corte_str, csv_path=None, test_email=None
         log.warn("No se encontró config_correo.json. No se enviará correo.")
         return
 
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        cfg = json.load(f)
+    # Credenciales: variables de entorno tienen prioridad (GitHub Actions)
+    # Si no hay config_correo.json (CI), se usan solo env vars
+    cfg = {}
+    if os.path.exists(CONFIG_PATH):
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
 
     smtp_server = cfg.get("smtp_server", "smtp.gmail.com")
-    smtp_port   = cfg.get("smtp_port", 587)
-    use_tls     = cfg.get("use_tls", True)
-    sender      = cfg.get("sender_email", "")
-    password    = cfg.get("sender_password", "")
+    smtp_port   = int(cfg.get("smtp_port", 465))
+    use_tls     = cfg.get("use_tls", False)  # False = SSL directo (puerto 465)
+    sender      = os.environ.get("GMAIL_USER") or cfg.get("sender_email", "")
+    password    = os.environ.get("GMAIL_APP_PASSWORD") or cfg.get("sender_password", "")
     
     if test_email:
         recipients = [test_email]
         log.info(f"Modo de prueba activado: enviando ÚNICAMENTE a {test_email}")
     else:
-        recipients  = cfg.get("recipient_emails", [])
+        # MAIL_TO env var: lista separada por comas (para GitHub Actions)
+        mail_to_env = os.environ.get("MAIL_TO", "")
+        if mail_to_env:
+            recipients = [m.strip() for m in mail_to_env.split(",") if m.strip()]
+        else:
+            recipients = cfg.get("recipient_emails", [])
 
     subject = f"Reporte Vacunación Sarampión — Corte al {fecha_corte_str} | Durango"
     
@@ -841,15 +867,44 @@ if __name__ == "__main__":
     # Convertir a PDF
     log.section('📄', 'PASO 3.5: Convirtiendo informe a PDF...')
     ruta_pdf = ruta_doc.replace(".docx", ".pdf")
-    try:
-        from docx2pdf import convert
-        convert(ruta_doc, ruta_pdf)
-        log.ok(f"Informe PDF generado: {ruta_pdf}")
-        ruta_adjunto = ruta_pdf
-    except Exception as e:
-        log.err(f"No se pudo convertir a PDF: {e}")
-        log.info("Se enviará el archivo DOCX en su lugar.")
-        ruta_adjunto = ruta_doc
+    convertido = False
+
+    # Intentar primero con LibreOffice (funciona en Linux/GitHub Actions y Windows)
+    import subprocess, shutil
+    libreoffice_cmds = ["libreoffice", "soffice",
+                        r"C:\Program Files\LibreOffice\program\soffice.exe"]
+    for cmd in libreoffice_cmds:
+        if shutil.which(cmd) or os.path.exists(cmd):
+            try:
+                out_dir = os.path.dirname(ruta_doc)
+                result = subprocess.run(
+                    [cmd, "--headless", "--convert-to", "pdf",
+                     "--outdir", out_dir, ruta_doc],
+                    capture_output=True, text=True, timeout=120
+                )
+                if result.returncode == 0 and os.path.exists(ruta_pdf):
+                    log.ok(f"Informe PDF generado (LibreOffice): {ruta_pdf}")
+                    ruta_adjunto = ruta_pdf
+                    convertido = True
+                    break
+                else:
+                    log.warn(f"LibreOffice retornó código {result.returncode}: {result.stderr[:200]}")
+            except Exception as e:
+                log.warn(f"LibreOffice falló: {e}")
+            break
+
+    # Fallback: docx2pdf (solo Windows con Word instalado)
+    if not convertido:
+        try:
+            from docx2pdf import convert
+            convert(ruta_doc, ruta_pdf)
+            log.ok(f"Informe PDF generado (docx2pdf): {ruta_pdf}")
+            ruta_adjunto = ruta_pdf
+            convertido = True
+        except Exception as e:
+            log.err(f"No se pudo convertir a PDF: {e}")
+            log.info("Se enviará el archivo DOCX en su lugar.")
+            ruta_adjunto = ruta_doc
 
     # Actualizar report_path en config_correo.json
     try:
